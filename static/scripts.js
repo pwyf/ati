@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 
     // Grow Bar Relatively
-    var sum = $(this).data('index');
+    var sum = $(this).data('raw');
     $(this).children('.component').each(function(i, element) {
       var rawNum = $(this).data('raw');
       var percent = (rawNum / sum) * 100 + '%';
@@ -36,7 +36,7 @@ $(document).ready(function() {
   function showLabel(bar) {
     $('.name-container').hide();
     if($(bar).children('.name-container').length < 1) {
-      $(bar).append('<div class="name-container"><span class="number">' + $(bar).data('index') + '%</span><span class="name-label">' + $(bar).data('country') + '</span></div>');
+      $(bar).append('<div class="name-container"><span class="number">' + $(bar).data('rounded') + '%</span><span class="name-label">' + $(bar).data('country') + '</span></div>');
     }
     $(bar).children('.name-container').show();
   }

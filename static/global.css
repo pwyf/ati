@@ -91,7 +91,7 @@ body {
 }
 
 .bar.active .component::after {
-  content: "Component A";
+  content: attr(data-label);
   position: absolute;
   right: -95px;
   background: white;
@@ -99,32 +99,12 @@ body {
   font-size: 13px;
   color: black;
   padding: 2.5px 10px;
-  width: 65px;
+  width: 90px;
   z-index: 100;
   opacity: 0;
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.2);
   animation: fadeIn 1s forwards;
   animation-delay: .4s;
-}
-
-.bar.active .component-0:after {
-  content: "Component A";
-}
-
-.bar.active .component-1:after {
-  content: "Component B";
-}
-
-.bar.active .component-2:after {
-  content: "Component C";
-}
-
-.bar.active .component-3:after {
-  content: "Component D";
-}
-
-.bar.active .component-4:after {
-  content: "Component E";
 }
 
 @keyframes fadeIn {
@@ -167,16 +147,6 @@ body {
   font-family: 'Roboto Mono';
   font-size: 1vw;
 }
-
-// .country-label {
-//   font-family: 'Karla';
-//   padding: 10px;
-//   background: #222;
-//   color: white;
-//   display: inline-block;
-//   margin-top: 10px;
-//   display: none;
-// }
 
 .bar.active {
   z-index: 100;
