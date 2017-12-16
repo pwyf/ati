@@ -22,7 +22,7 @@ with open(join('..', '_data', 'source-results.csv')) as f:
     results = [x for x in r]
 
 orgs = {x['organisation_name']: {
-    'name': x['organisation_name'],
+    'name': x['organisation_name'].replace('U.S.,', 'US,'),
     'score': 0.,
     'by_component': OrderedDict(),
 } for x in results}
