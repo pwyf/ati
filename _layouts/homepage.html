@@ -1,55 +1,46 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Aid Transparency Index</title>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="static/global.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700" rel="stylesheet">
-    <script src="static/scripts.js"></script>
-  </head>
-  <body>
-    <div class="group">
-      <div class="categories" style="display: none;">
-        <div class="category" id="very-good" style="width: 46.875px;">
-          <span>Very Good</span>
-        </div>
-        <div class="category" id="good" style="width: 450.938px;">
-          <span>Good</span>
-        </div>
-        <div class="category" id="fair" style="width: 585.625px;">
-          <span>Fair</span>
-        </div>
-        <div class="category" id="poor" style="width: 127.688px;">
-          <span>Poor</span>
-        </div>
-        <div class="category" id="very-poor" style="display: none;">
-          <span>Very Poor</span>
-        </div>
-      </div>
-      <div class="graph">
-        {% for org in site.data.results %}
-        <div class="bar
-        {% if org['score'] >= 80 %}
-        very-good
-        {% elsif org['score'] >= 60 %}
-        good
-        {% elsif org['score'] >= 40 %}
-        fair
-        {% elsif org['score'] >= 20 %}
-        poor
-        {% else %}
-        very-poor
-        {% endif %}
-        " data-country="{{ org['name'] }}" data-raw="{{ org['score'] }}" data-rounded="{{ org['score'] | to_integer }}">
-          {% for component in org['by_component'] %}
-          <div class="component component-{{ forloop.index0 }}" data-label="{{ component[0] }}" data-raw="{{ component[1] }}" style="height: {{ component[1] }}%;"></div>
-          {% endfor %}
-          <span class="label">{{ org['name'] }}</span>
-        </div>
-        {% endfor %}
-      </div>
+---
+layout: base
+---
+
+<button id="reset">reset</button>
+<div class="group">
+  <div class="categories" style="display: none;">
+    <div class="category" id="very-good" style="width: 46.875px;">
+      <span>Very Good</span>
     </div>
-    <button id="reset">reset</button>
-  </body>
-</html>
+    <div class="category" id="good" style="width: 450.938px;">
+      <span>Good</span>
+    </div>
+    <div class="category" id="fair" style="width: 585.625px;">
+      <span>Fair</span>
+    </div>
+    <div class="category" id="poor" style="width: 127.688px;">
+      <span>Poor</span>
+    </div>
+    <div class="category" id="very-poor" style="display: none;">
+      <span>Very Poor</span>
+    </div>
+  </div>
+  <div class="graph">
+    {% for org in site.data.results %}
+    <div class="bar
+    {% if org[1].score >= 80 %}
+    very-good
+    {% elsif org[1].score >= 60 %}
+    good
+    {% elsif org[1].score >= 40 %}
+    fair
+    {% elsif org[1].score >= 20 %}
+    poor
+    {% else %}
+    very-poor
+    {% endif %}
+    " data-country="{{ org[1].name }}" data-raw="{{ org[1].score }}" data-rounded="{{ org[1].score | to_integer }}">
+      {% for component in org[1].by_component %}
+      <div class="component component-{{ forloop.index0 }}" data-label="{{ component[0] }}" data-raw="{{ component[1] }}" style="height: {{ component[1] }}%;"></div>
+      {% endfor %}
+      <span class="label">{{ org[1].name }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</div>

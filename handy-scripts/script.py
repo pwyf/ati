@@ -4,6 +4,10 @@ import json
 from os.path import join
 
 
+def slugify(name):
+    return name.replace(' ', '-').replace(',', '').replace('.', '').lower()
+
+
 # this mapping is totally arbitrary, and just for
 # demonstration purposes
 mapping = {
@@ -21,14 +25,15 @@ with open(join('..', '_data', 'source-results.csv')) as f:
     r = csv.DictReader(f)
     results = [x for x in r]
 
-orgs = {x['organisation_name']: {
+orgs = {slugify(x['organisation_name']): {
     'name': x['organisation_name'].replace('U.S.,', 'US,'),
+    'slug': slugify(x['organisation_name']),
     'score': 0.,
     'by_component': OrderedDict(),
 } for x in results}
 
 for x in results:
-    org = x['organisation_name']
+    org = slugify(x['organisation_name'])
     sc = float(x['indicator_total_weighted_points'])
     orgs[org]['score'] += sc
     cat = mapping.get(x['indicator_category_subcategory'].lower())
@@ -36,7 +41,19 @@ for x in results:
         orgs[org]['by_component'][cat] = 0.
     orgs[org]['by_component'][cat] += sc
 
-orgs = sorted(orgs.values(), key=lambda x: x['score'], reverse=True)
+orgs = OrderedDict(
+    sorted(orgs.items(), key=lambda x: x[1]['score'], reverse=True))
 
 with open(join('..', '_data', 'results.json'), 'w') as f:
     json.dump(orgs, f)
+
+tmpl = '''---
+layout: agency
+permalink: {slug}/index.html
+slug: {slug}
+---
+'''
+for org in orgs.values():
+    txt = tmpl.format(slug=org['slug'])
+    with open(join('..', 'agencies', org['slug'] + '.md'), 'w') as f:
+        f.write(txt)

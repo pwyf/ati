@@ -1,0 +1,8 @@
+---
+layout: base
+---
+
+{% assign agency = site.data.results[page.slug] %}
+
+<h1>{{ agency.name }}</h1>
+<h2>Score: {{ agency.score | to_integer }}%</h2>
