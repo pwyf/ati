@@ -22,24 +22,25 @@ layout: base
     </div>
   </div>
   <div class="graph">
-    {% for org in site.data.results %}
+    {% for org_tuple in site.data.results %}
+    {% assign org = org_tuple[1] %}
     <div class="bar
-    {% if org[1].score >= 80 %}
+    {% if org.score >= 80 %}
     very-good
-    {% elsif org[1].score >= 60 %}
+    {% elsif org.score >= 60 %}
     good
-    {% elsif org[1].score >= 40 %}
+    {% elsif org.score >= 40 %}
     fair
-    {% elsif org[1].score >= 20 %}
+    {% elsif org.score >= 20 %}
     poor
     {% else %}
     very-poor
     {% endif %}
-    " data-country="{{ org[1].name }}" data-raw="{{ org[1].score }}" data-rounded="{{ org[1].score | to_integer }}">
-      {% for component in org[1].by_component %}
+    " data-country="{{ org.name }}" data-raw="{{ org.score }}" data-rounded="{{ org.score | to_integer }}">
+      {% for component in org.by_component %}
       <div class="component component-{{ forloop.index0 }}" data-label="{{ component[0] }}" data-raw="{{ component[1] }}" style="height: {{ component[1] }}%;"></div>
       {% endfor %}
-      <span class="label">{{ org[1].name }}</span>
+      <span class="label">{{ org.name }}</span>
     </div>
     {% endfor %}
   </div>
@@ -58,12 +59,13 @@ layout: base
       {% endif %}
     {% endfor %}
   </tr>
-  {% for org in site.data.results %}
+  {% for org_tuple in site.data.results %}
+  {% assign org = org_tuple[1] %}
   <tr>
     <td>{{ forloop.index }}</td>
-    <td><a href="{{ org[1].slug }}/">{{ org[1].name }}</a></td>
-    <td>{{ org[1].score | to_integer }}%</td>
-    {% for component in org[1].by_component %}
+    <td><a href="{{ org.slug }}/">{{ org.name }}</a></td>
+    <td>{{ org.score | to_integer }}%</td>
+    {% for component in org.by_component %}
     <td>{{ component[1] | to_integer }}%</td>
     {% endfor %}
   </tr>
