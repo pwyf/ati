@@ -47,6 +47,7 @@ layout: base
 
 <table style="margin-top:13vw">
   <tr>
+    <th>Rank</th>
     <th>Name</th>
     <th>Score</th>
     {% assign current_indicator = '' %}
@@ -59,6 +60,7 @@ layout: base
   </tr>
   {% for org in site.data.results %}
   <tr>
+    <td>{{ forloop.index }}</td>
     <td><a href="{{ org[1].slug }}/">{{ org[1].name }}</a></td>
     <td>{{ org[1].score | to_integer }}%</td>
     {% for component in org[1].by_component %}
