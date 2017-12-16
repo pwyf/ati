@@ -67,7 +67,7 @@ $(document).ready(function() {
     var category = $(this).attr('id');
     $(('.' + category)).show().css('opacity', '1');
     $('.bar').not('.' + category).hide();
-    $('.label').css('left', '40%');
+    // $('.label').css('left', '40%');
 
   });
 
@@ -83,7 +83,7 @@ $(document).ready(function() {
 
   function reset() {
     $('.name-container').hide();
-    $('.label').css('left', '40%');
+    // $('.label').css('left', '40%');
     $('.category').css('opacity', '1');
     $('.bar').show();
     $('.component').each(function() {
