@@ -65,7 +65,7 @@ layout: base
   {% assign org = org_tuple[1] %}
   <tr>
     <td>{{ forloop.index }}</td>
-    <td><a href="{{ org.slug }}/">{{ org.name }}</a></td>
+    <td><a href="{{ site.github.url }}/{{ org.slug }}/">{{ org.name }}</a></td>
     <td>{{ org.score | to_integer }}%</td>
     {% for component in org.by_component %}
     <td>{{ component[1] | to_integer }}%</td>
