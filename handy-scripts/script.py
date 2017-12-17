@@ -47,22 +47,14 @@ orgs = OrderedDict(
 with open(join('..', '_data', 'results.json'), 'w') as f:
     json.dump(orgs, f)
 
-tmpl = '''---
-layout: agency
-permalink: {slug}/index.html
-slug: {slug}
----
-'''
+with open('agency-template.md') as f:
+    agency_tmpl = f.read()
 
-curve_tmpl = '''---
-layout: curve
-permalink: {slug}/curve.svg
-rank: {rank}
-score: {score}
----
-'''
+with open('curve-template.md') as f:
+    curve_tmpl = f.read()
+
 for idx, org in enumerate(orgs.values()):
-    txt = tmpl.format(slug=org['slug'])
+    txt = agency_tmpl.format(slug=org['slug'])
     with open(join('..', 'agencies', org['slug'] + '.md'), 'w') as f:
         f.write(txt)
     txt = curve_tmpl.format(slug=org['slug'], rank=(idx+1), score=org['score'])
