@@ -53,7 +53,18 @@ permalink: {slug}/index.html
 slug: {slug}
 ---
 '''
-for org in orgs.values():
+
+curve_tmpl = '''---
+layout: curve
+permalink: {slug}/curve.svg
+rank: {rank}
+score: {score}
+---
+'''
+for idx, org in enumerate(orgs.values()):
     txt = tmpl.format(slug=org['slug'])
     with open(join('..', 'agencies', org['slug'] + '.md'), 'w') as f:
+        f.write(txt)
+    txt = curve_tmpl.format(slug=org['slug'], rank=(idx+1), score=org['score'])
+    with open(join('..', 'curves', org['slug'] + '.svg'), 'w') as f:
         f.write(txt)
