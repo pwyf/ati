@@ -1,16 +1,15 @@
 $(document).ready(function() {
 
   $('.bar').click(function() {
-
     $('.component').each(function() {
       $(this).height($(this).data('raw') + '%');
     });
 
     // Width Change
-    $('.bar').css({'flex-grow' : '1'}).removeClass('active');
-    $('.component').css({'opacity' : 0.3});
-    $(this).children('.component').css({'opacity' : 1});
-    $(this).css({'opacity' : 1, 'flex-grow' : '3'}).addClass('active');
+    $('.bar').css({'flex-grow': '1'}).removeClass('active');
+    $('.component').css({'opacity': 0.3});
+    $(this).children('.component').css({'opacity': 1});
+    $(this).css({'opacity': 1, 'flex-grow': '3'}).addClass('active');
 
 
     // Grow Bar Relatively
@@ -22,9 +21,7 @@ $(document).ready(function() {
     });
 
     // Add Name
-
     showLabel($(this));
-
   });
 
   $('.bar').hover(function() {
@@ -56,9 +53,6 @@ $(document).ready(function() {
     else {
       $('#' + range).hide();
     }
-
-
-
   });
 
   $('.category').click(function() {
@@ -68,18 +62,17 @@ $(document).ready(function() {
     $(('.' + category)).show().css('opacity', '1');
     $('.bar').not('.' + category).hide();
     // $('.label').css('left', '40%');
-
   });
 
   $('#reset').click(function() {
     reset();
   });
 
-//   $(document).click(function(event) {
-//     if(!$(event.target).closest('.graph').length) {
-//       reset();
-//     }
-// });
+  // $(document).click(function(event) {
+  //   if(!$(event.target).closest('.graph').length) {
+  //     reset();
+  //   }
+  // });
 
   function reset() {
     $('.name-container').hide();
@@ -90,7 +83,7 @@ $(document).ready(function() {
       $(this).height($(this).data('raw') + '%');
     });
     $('.component').css({'opacity' : 1});
-    $('.bar').css({'opacity' : 1, 'flex-grow' : '1'}).removeClass('active');
+    $('.bar').css({'opacity': 1, 'flex-grow': '1'}).removeClass('active');
   }
 
 });
