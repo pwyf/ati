@@ -2,51 +2,53 @@
 layout: base
 ---
 
-<button id="reset">reset</button>
-<div class="group">
-  <div class="categories" style="display: none;">
-    <div class="category" id="very-good" style="width: 46.875px;">
-      <span>Very Good</span>
+<div class="container">
+  <button id="reset">reset</button>
+  <div class="group">
+    <div class="categories" style="display: none;">
+      <div class="category" id="very-good" style="width: 46.875px;">
+        <span>Very Good</span>
+      </div>
+      <div class="category" id="good" style="width: 450.938px;">
+        <span>Good</span>
+      </div>
+      <div class="category" id="fair" style="width: 585.625px;">
+        <span>Fair</span>
+      </div>
+      <div class="category" id="poor" style="width: 127.688px;">
+        <span>Poor</span>
+      </div>
+      <div class="category" id="very-poor" style="display: none;">
+        <span>Very Poor</span>
+      </div>
     </div>
-    <div class="category" id="good" style="width: 450.938px;">
-      <span>Good</span>
-    </div>
-    <div class="category" id="fair" style="width: 585.625px;">
-      <span>Fair</span>
-    </div>
-    <div class="category" id="poor" style="width: 127.688px;">
-      <span>Poor</span>
-    </div>
-    <div class="category" id="very-poor" style="display: none;">
-      <span>Very Poor</span>
-    </div>
-  </div>
-  <div class="graph">
-    {% for org_tuple in site.data.results %}
-    {% assign org = org_tuple[1] %}
-    <div class="bar
-    {% if org.score >= 80 %}
-    very-good
-    {% elsif org.score >= 60 %}
-    good
-    {% elsif org.score >= 40 %}
-    fair
-    {% elsif org.score >= 20 %}
-    poor
-    {% else %}
-    very-poor
-    {% endif %}
-    " data-country="{{ org.name }}" data-raw="{{ org.score }}" data-rounded="{{ org.score | to_integer }}">
-      {% for component in org.by_component %}
-      <div class="component component-{{ forloop.index0 }}" data-label="{{ component[0] }}" data-raw="{{ component[1] }}" style="height: {{ component[1] }}%;"></div>
+    <div class="graph">
+      {% for org_tuple in site.data.results %}
+      {% assign org = org_tuple[1] %}
+      <div class="bar
+      {% if org.score >= 80 %}
+      very-good
+      {% elsif org.score >= 60 %}
+      good
+      {% elsif org.score >= 40 %}
+      fair
+      {% elsif org.score >= 20 %}
+      poor
+      {% else %}
+      very-poor
+      {% endif %}
+      " data-country="{{ org.name }}" data-raw="{{ org.score }}" data-rounded="{{ org.score | to_integer }}">
+        {% for component in org.by_component %}
+        <div class="component component-{{ forloop.index0 }}" data-label="{{ component[0] }}" data-raw="{{ component[1] }}" style="height: {{ component[1] }}%;"></div>
+        {% endfor %}
+        <span class="label">{{ org.name }}</span>
+      </div>
       {% endfor %}
-      <span class="label">{{ org.name }}</span>
     </div>
-    {% endfor %}
   </div>
 </div>
 
-<table style="margin-top:13vw">
+<table>
   <tr>
     <th>Rank</th>
     <th>Name</th>
