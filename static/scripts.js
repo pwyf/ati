@@ -75,11 +75,11 @@ $(document).ready(function() {
     reset();
   });
 
-  $(document).click(function(event) {
-    if(!$(event.target).closest('.graph').length) {
-      reset();
-    }
-});
+//   $(document).click(function(event) {
+//     if(!$(event.target).closest('.graph').length) {
+//       reset();
+//     }
+// });
 
   function reset() {
     $('.name-container').hide();
