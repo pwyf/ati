@@ -1,0 +1,7 @@
+---
+layout: demo/agency
+permalink: demo/france-minefi/index.html
+slug: france-minefi
+---
+
+Donor profile for France, MINEFI goes here.
