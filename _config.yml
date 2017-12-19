@@ -1,1 +1,1 @@
-exclude: ["handy-scripts", "README.md"]
+exclude: ["gen", "README.md"]
