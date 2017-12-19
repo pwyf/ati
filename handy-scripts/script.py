@@ -46,6 +46,9 @@ for x in results:
 orgs = OrderedDict(
     sorted(orgs.items(), key=lambda x: x[1]['score'], reverse=True))
 
+for idx, org in enumerate(orgs.values()):
+    org['rank'] = idx + 1
+
 with open(join('..', '_data', 'results.json'), 'w') as f:
     json.dump(orgs, f)
 
@@ -64,10 +67,10 @@ curves_path = join(output_path, 'curves')
 if not exists(curves_path):
     makedirs(curves_path)
 
-for idx, org in enumerate(orgs.values()):
-    txt = agency_tmpl.format(slug=org['slug'])
+for org in orgs.values():
+    txt = agency_tmpl.format(**org)
     with open(join(agencies_path, org['slug'] + '.md'), 'w') as f:
         f.write(txt)
-    txt = curve_tmpl.format(slug=org['slug'], rank=(idx+1), score=org['score'])
+    txt = curve_tmpl.format(**org)
     with open(join(curves_path, org['slug'] + '.md'), 'w') as f:
         f.write(txt)
