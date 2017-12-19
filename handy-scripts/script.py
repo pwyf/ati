@@ -69,5 +69,5 @@ for idx, org in enumerate(orgs.values()):
     with open(join(agencies_path, org['slug'] + '.md'), 'w') as f:
         f.write(txt)
     txt = curve_tmpl.format(slug=org['slug'], rank=(idx+1), score=org['score'])
-    with open(join(curves_path, org['slug'] + '.svg'), 'w') as f:
+    with open(join(curves_path, org['slug'] + '.md'), 'w') as f:
         f.write(txt)
