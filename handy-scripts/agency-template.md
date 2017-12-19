@@ -1,6 +1,6 @@
 ---
 layout: agency
-permalink: {slug}/index.html
+permalink: 2016/{slug}/index.html
 slug: {slug}
 ---
 

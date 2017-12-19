@@ -58,14 +58,14 @@ with open('agency-template.md') as f:
 with open('curve-template.md') as f:
     curve_tmpl = f.read()
 
-output_path = join('..', 'source')
-shutil.rmtree(output_path)
+output_path = join('..', '2016')
 agencies_path = join(output_path, 'agencies')
-if not exists(agencies_path):
-    makedirs(agencies_path)
+shutil.rmtree(agencies_path, ignore_errors=True)
+makedirs(agencies_path)
+
 curves_path = join(output_path, 'curves')
-if not exists(curves_path):
-    makedirs(curves_path)
+shutil.rmtree(curves_path, ignore_errors=True)
+makedirs(curves_path)
 
 for org in orgs.values():
     txt = agency_tmpl.format(**org)

@@ -1,6 +1,6 @@
 ---
 layout: curve
-permalink: {slug}/curve.svg
+permalink: 2016/{slug}/curve.svg
 rank: {rank}
 score: {score}
 ---
