@@ -1,7 +1,9 @@
 from collections import OrderedDict
 import csv
 import json
-from os.path import join
+from os.path import exists, join
+from os import makedirs
+import shutil
 
 
 def slugify(name):
@@ -53,10 +55,19 @@ with open('agency-template.md') as f:
 with open('curve-template.md') as f:
     curve_tmpl = f.read()
 
+output_path = join('..', 'source')
+shutil.rmtree(output_path)
+agencies_path = join(output_path, 'agencies')
+if not exists(agencies_path):
+    makedirs(agencies_path)
+curves_path = join(output_path, 'curves')
+if not exists(curves_path):
+    makedirs(curves_path)
+
 for idx, org in enumerate(orgs.values()):
     txt = agency_tmpl.format(slug=org['slug'])
-    with open(join('..', 'source', 'agencies', org['slug'] + '.md'), 'w') as f:
+    with open(join(agencies_path, org['slug'] + '.md'), 'w') as f:
         f.write(txt)
     txt = curve_tmpl.format(slug=org['slug'], rank=(idx+1), score=org['score'])
-    with open(join('..', 'source', 'curves', org['slug'] + '.svg'), 'w') as f:
+    with open(join(curves_path, org['slug'] + '.svg'), 'w') as f:
         f.write(txt)
