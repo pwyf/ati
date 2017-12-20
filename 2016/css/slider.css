@@ -1,0 +1,72 @@
+.flexslider-container {position: relative;width: 582px; height: 364px; margin: 0 0 18px;}
+.flexslider {width: 582px; height: 364px; margin: 0; padding: 0; overflow: hidden; position: relative; border-bottom: 2px solid #757575;}
+.flexslider #feat_posts article {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider #feat_posts article {position: relative;}
+
+/* Direction Nav */
+.flex-direction-nav li a {width: 52px; height: 52px; margin: -13px 0 0; display: block; position: absolute; top: 50%; cursor: pointer; text-indent: -9999px;} /* set negative margin-top equal to half the height on the directional-nav for perfect vertical centering */
+.flex-direction-nav li a.next {background-position: -52px 0; right: -21px;}
+.flex-direction-nav li a.prev {background-position: 0 0; left: -21px;}
+
+/* Control Nav */
+#slider_pagination {
+	width: auto;
+	margin: 0 auto;
+	display: block;
+	font-size: 15px;
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+	background:#AAAAAA;
+}
+ol.flex-control-nav { display: block; height: 18px; margin: 0 auto; padding: 0 0 8px; text-align: center;} /* set negative margin-left equal to half the width on the control-nav for perfect centering */
+ol.flex-control-nav li {margin: 0 0 0 8px; padding: 0; display: inline-block; zoom: 1; *display: inline;}
+ol.flex-control-nav li a {width: 18px; height: 18px; display: block; background: #fff; cursor: pointer; text-indent: -9999px;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	-o-border-radius: 9px;
+	border-radius: 9px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+ol.flex-control-nav li a.active {background: #CA1219;}
+/*
+-------------------------------------------------Development Focus Block */
+#feat_posts {
+	background: transparent; /* Show a solid color for older browsers */
+	display: block;
+	width: 100%;
+	height: auto;
+	color: #fff;
+}
+#feat_posts figure {
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#feat_posts figure a {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+#feat_posts figure img {
+	z-index: 1;
+	display: block;
+}
+#feat_posts h4 {
+	margin: 4px 0;
+	font-size: 17px;
+	line-height: 24px;
+    background-color: #AAAAAA;
+    padding: 5px 0 5px 10px;
+}
+#feat_posts h4 a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
