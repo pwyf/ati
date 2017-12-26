@@ -7,37 +7,10 @@ layout: 2016/base
     <div class="flexslider-container">
       <div class="flexslider">
         <section id="feat_posts" class="clearfix">
-          <article class="clearfix">
-            <div>
-              <figure>
-                <a href="{{ site.github.url }}/2016/index-2016/results/" title="Results"><img src="{{ site.github.url }}/2016/img/undp-TOPS2-582x330.png" /></a>
-              </figure>
-              <h4><a href="{{ site.github.url }}/2016/index-2016/results/" title="Results">Results</a></h4></div>
-          </article><article class="clearfix">
-            <div>
-              <figure>
-                <a href="{{ site.github.url }}/2016/index-2016/explore-the-data/" title="Explore the Data"><img src="{{ site.github.url }}/2016/img/Explore-the-Data-jpeg-582x330.jpg" /></a>
-              </figure>
-              <h4><a href="{{ site.github.url }}/2016/index-2016/explore-the-data/" title="Explore the Data">Explore the Data</a></h4></div>
-          </article><article class="clearfix">
-            <div>
-              <figure>
-                <a href="{{ site.github.url }}/2016/comparison-chart-2016/" title="Comparison Chart"><img src="{{ site.github.url }}/2016/img/Screen-Shot-2016-04-12-at-22.46.44-582x330.png" /></a>
-              </figure>
-              <h4><a href="{{ site.github.url }}/2016/comparison-chart-2016/" title="Comparison Chart">Comparison Chart</a></h4></div>
-          </article><article class="clearfix">
-            <div>
-              <figure>
-                <a href="{{ site.github.url }}/2016/open-data-a-journey-of-discovery-in-nepal/" title="Open Data: A Journey of Discovery in Nepal"><img src="{{ site.github.url }}/2016/img/2015_03_PWYF_Nepal_PosterFrame_001-582x330.jpg" /></a>
-              </figure>
-              <h4><a href="{{ site.github.url }}/2016/open-data-a-journey-of-discovery-in-nepal/" title="Open Data: A Journey of Discovery in Nepal">Open Data: A Journey of Discovery in Nepal</a></h4></div>
-          </article><article class="clearfix">
-            <div>
-              <figure>
-                <a href="{{ site.github.url }}/2016/live-2016-aid-transparency-index-launch/" title="LIVE: 2016 Aid Transparency Index launch"><img src="{{ site.github.url }}/2016/img/rupert-standing-582x330.jpg" /></a>
-              </figure>
-              <h4><a href="{{ site.github.url }}/2016/live-2016-aid-transparency-index-launch/" title="LIVE: 2016 Aid Transparency Index launch">LIVE: 2016 Aid Transparency Index launch</a></h4></div>
-          </article>
+          {% assign sliders = site['2016'] | where: "label", "slider" | sort: 'order' %}
+          {% for slider in sliders %}
+            {{ slider }}
+          {% endfor %}
         </section>
       </div>
       <div id="slider_pagination"></div>
