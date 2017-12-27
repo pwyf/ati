@@ -35,7 +35,7 @@ layout: 2016/base
     $(function() {
       var currentTallest = 0,
         currentRowStart = 0,
-        rowDivs = new Array(),
+        rowDivs = [],
         $el, topPosition = 0;
       $('.largeheader').each(function() {
         $el = $(this);
@@ -58,7 +58,7 @@ layout: 2016/base
       });
       var currentTallestQ = 0,
         currentRowStartQ = 0,
-        rowDivsQ = new Array(),
+        rowDivsQ = [],
         $elQ, topPositionQ = 0;
       $('.smallheader').each(function() {
         $elQ = $(this);
