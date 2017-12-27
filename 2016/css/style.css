@@ -150,7 +150,7 @@ h4.why-this-matters-cat{
   width: 100%;
     font-size:27px !important;
 }
-.single h2.entry-title {
+h2.entry-title.single {
     font-size:32px;
     margin-bottom:0px;
     position: absolute;
