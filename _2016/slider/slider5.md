@@ -3,7 +3,7 @@ label: slider
 layout: 2016/slider
 order: 5
 
-permalink: /2016/live-2016-aid-transparency-index-launch/
+link: /2016/live-2016-aid-transparency-index-launch/
 image: /2016/img/rupert-standing-582x330.jpg
 title: "LIVE: 2016 Aid Transparency Index launch"
 ---
