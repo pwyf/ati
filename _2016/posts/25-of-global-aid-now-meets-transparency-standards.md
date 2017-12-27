@@ -1,8 +1,8 @@
 ---
 label: post
 layout: 2016/post
-order: 2
 
+order: 2
 permalink: /2016/25-of-global-aid-now-meets-transparency-standards/
 title: 25% of global aid now meets transparency standards
 ---

@@ -1,8 +1,8 @@
 ---
 label: post
 layout: 2016/post
-order: 5
 
+order: 5
 permalink: /2016/publish-what-you-fund-infographic/
 title: Publish What You Fund infographic
 ---

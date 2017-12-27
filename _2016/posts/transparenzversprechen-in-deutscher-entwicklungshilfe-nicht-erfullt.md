@@ -1,8 +1,8 @@
 ---
 label: post
 layout: 2016/post
-order: 6
 
+order: 6
 permalink: /2016/transparenzversprechen-in-deutscher-entwicklungshilfe-nicht-erfullt/
 title: Transparenzversprechen in deutscher Entwicklungshilfe nicht erfüllt
 ---

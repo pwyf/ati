@@ -1,8 +1,8 @@
 ---
 label: post
 layout: 2016/post
-order: 1
 
+order: 1
 permalink: /2016/live-2016-aid-transparency-index-launch/
 title: "LIVE: 2016 Aid Transparency Index launch"
 ---

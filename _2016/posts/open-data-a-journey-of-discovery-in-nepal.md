@@ -1,8 +1,8 @@
 ---
 label: post
 layout: 2016/post
-order: 7
 
+order: 7
 permalink: /2016/open-data-a-journey-of-discovery-in-nepal/
 title: "Open Data: A Journey of Discovery in Nepal"
 ---

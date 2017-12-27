@@ -1,8 +1,8 @@
 ---
 label: post
 layout: 2016/post
-order: 3
 
+order: 3
 permalink: /2016/international-donors-moving-toward-greater-transparency-in-aid-programs-but-slowly/
 title: International Donors Moving Toward Greater Transparency in Aid Programs, But Slowly
 ---

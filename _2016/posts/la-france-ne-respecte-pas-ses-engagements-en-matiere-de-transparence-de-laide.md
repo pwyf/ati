@@ -1,8 +1,8 @@
 ---
 label: post
 layout: 2016/post
-order: 4
 
+order: 4
 permalink: /2016/la-france-ne-respecte-pas-ses-engagements-en-matiere-de-transparence-de-laide/
 title: La France ne respecte pas ses engagements en matière de transparence de l’aide
 ---
