@@ -86,12 +86,4 @@ layout: 2016/base
 </section>
 
 {%- include 2016/right-sidebar.html %}
-
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		if ($('.entry-content').height() > $('#branding').height()) {
-			$('#branding').css('min-height', ($('.entry-content').height() + 10) + $('.entry-header').outerHeight() + 'px');
-		}
-		$('.entry-content').css('min-height', $('#branding').height() - ($('.entry-header').outerHeight() + 2) + 'px');
-	});
-</script>
+{%- include 2016/script.html %}
