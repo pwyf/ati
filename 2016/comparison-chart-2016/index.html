@@ -1,5 +1,11 @@
 ---
 layout: 2016/base
+categories: [
+	{name: 'Very Good', min: 80, class: 'vgood'},
+	{name: 'Good', min: 60, class: 'good'},
+	{name: 'Fair', min: 40, class: 'fair'},
+	{name: 'Poor', min: 20, class: 'poor'},
+	{name: 'Very Poor', min: 0, class: 'vpoor'}]
 ---
 
 <section class="span6 first">
@@ -239,66 +245,21 @@ layout: 2016/base
 						<div style="width: 188px;height:70px; font-size:60px; font-family: 'tradegothicbold', sans-serif; color: white; padding: 10px 10px 10px 10px; line-height: 60px;">2016</div>
 					</a>
 					<div>
-						<h4 style='padding: 5px 0 5px 10px; margin-top:10px; width:80%; color:#fff' class='vgood'>Very Good</h4>
-						<div class='vgoodh'>
-							<div style="padding-left:10px;">UNDP 93.3%</div>
-							<div style="padding-left:10px;">U.S., MCC 89.6%</div>
-							<div style="padding-left:10px;">UNICEF 89.5%</div>
-							<div style="padding-left:10px;">UK, DFID 88.3%</div>
-							<div style="padding-left:10px;">Global Fund 86.9%</div>
-							<div style="padding-left:10px;">World Bank, IDA 86.1%</div>
-							<div style="padding-left:10px;">IADB 85.6%</div>
-							<div style="padding-left:10px;">AsDB 84.9%</div>
-							<div style="padding-left:10px;">Sweden, MFA-Sida 80.7%</div>
-							<div style="padding-left:10px;">AfDB 80.2%</div>
-						</div>
-						<h4 style='padding: 5px 0 5px 10px; margin-top:10px; width:80%; color:#fff' class='good'>Good</h4>
-						<div class='goodh'>
-							<div style="padding-left:10px;">GAVI 78.0%</div>
-							<div style="padding-left:10px;">Canada 76.3%</div>
-							<div style="padding-left:10px;">EC, NEAR 74.1%</div>
-							<div style="padding-left:10px;">EC, ECHO 71.9%</div>
-							<div style="padding-left:10px;">EC, DEVCO 68.7%</div>
-							<div style="padding-left:10px;">Netherlands, MFA 66.6%</div>
-							<div style="padding-left:10px;">Denmark, MFA 64.7%</div>
-							<div style="padding-left:10px;">Germany, BMZ-GIZ 63.2%</div>
-						</div>
-						<h4 style='padding: 5px 0 5px 10px; margin-top:10px; width:80%; color:#fff' class='fair'>Fair</h4>
-						<div class='fairh'>
-							<div style="padding-left:10px;">U.S., USAID 59.1%</div>
-							<div style="padding-left:10px;">Germany, BMZ-KfW 59.0%</div>
-							<div style="padding-left:10px;">U.S., Treasury 58.1%</div>
-							<div style="padding-left:10px;">U.S., PEPFAR 57.6%</div>
-							<div style="padding-left:10px;">U.S., State 53.9%</div>
-							<div style="padding-left:10px;">EIB 53.5%</div>
-							<div style="padding-left:10px;">Australia 49.9%</div>
-							<div style="padding-left:10px;">EBRD 49.7%</div>
-							<div style="padding-left:10px;">Belgium, DGCD 47.7%</div>
-							<div style="padding-left:10px;">U.S., Defense 46.7%</div>
-							<div style="padding-left:10px;">Spain, MAEC 46.2%</div>
-							<div style="padding-left:10px;">Gates Foundation 46.0%</div>
-							<div style="padding-left:10px;">Switzerland, SDC 45.4%</div>
-							<div style="padding-left:10px;">France, AFD 45.2%</div>
-							<div style="padding-left:10px;">Japan, JICA 44.2%</div>
-							<div style="padding-left:10px;">Norway, MFA 41.9%</div>
-						</div>
-						<h4 style='padding: 5px 0 5px 10px; margin-top:10px; width:80%; color:#fff' class='poor'>Poor</h4>
-						<div class='poorh'>
-							<div style="padding-left:10px;">Finland, MFA 38.5%</div>
-							<div style="padding-left:10px;">France, MAEDI 38.0%</div>
-							<div style="padding-left:10px;">UN OCHA 37.0%</div>
-							<div style="padding-left:10px;">Ireland, IrishAid 37.0%</div>
-							<div style="padding-left:10px;">IMF 31.3%</div>
-							<div style="padding-left:10px;">World Bank, IFC 30.9%</div>
-							<div style="padding-left:10px;">Korea, KOICA 26.1%</div>
-						</div>
-						<h4 style='padding: 5px 0 5px 10px; margin-top:10px; width:80%; color:#fff' class='vpoor'>Very Poor</h4>
-						<div class='vpoorh'>
-							<div style="padding-left:10px;">Italy, MAE 16.0%</div>
-							<div style="padding-left:10px;">Japan, MOFA 14.3%</div>
-							<div style="padding-left:10px;">France, MINEFI 9.2%</div>
-							<div style="padding-left:10px;">China, MOFCOM 2.2%</div>
-							<div style="padding-left:10px;">UAE 0.0%</div>
+						{% assign cat_num = 0 %}
+						{% assign category = page.categories[cat_num] %}
+						<h4 style='padding: 5px 0 5px 10px; margin-top:10px; width:80%; color:#fff' class='{{ category['class'] }}'>{{ category['name'] }}</h4>
+						<div class='{{ category['class'] }}h'>
+
+						{% for org_tuple in site.data['2016'].results %}
+							{% if org_tuple[1]['score'] < category['min'] %}
+								</div>
+								{% assign cat_num = cat_num | plus: 1 %}
+								{% assign category = page.categories[cat_num] %}
+								<h4 style='padding: 5px 0 5px 10px; margin-top:10px; width:80%; color:#fff' class='{{ category['class'] }}'>{{ category['name'] }}</h4>
+								<div class='{{ category['class'] }}h'>
+							{% endif %}
+							<div style="padding-left:10px;">{{ org_tuple[1]['name'] }} {{ org_tuple[1]['score'] | round: 1 }}%</div>
+						{% endfor %}
 						</div>
 					</div>
 				</div>
