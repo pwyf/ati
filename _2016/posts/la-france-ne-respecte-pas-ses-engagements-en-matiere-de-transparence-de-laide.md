@@ -5,6 +5,7 @@ layout: 2016/post
 order: 4
 permalink: /2016/la-france-ne-respecte-pas-ses-engagements-en-matiere-de-transparence-de-laide/
 title: La France ne respecte pas ses engagements en matière de transparence de l’aide
+image: /2016/img/Flag_of_France.svg_-285x162.png
 ---
 
 Une nouvelle analyse de Publish What You Fund indique que les principaux organismes français chargés de l’administration et de l’exécution des projets d’aide au développement international sont globalement défaillants à respecter les engagements qu’ils ont pris en matière de transparence de l’aide, en 2016, l’année même où la France préside le Partenariat pour un gouvernement ouvert.
