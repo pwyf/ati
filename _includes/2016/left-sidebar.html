@@ -3,7 +3,7 @@
 	<nav id="site-navigation" class="navigation main-navigation" role="navigation">
 		<div class="menu-main-nav-container">
 			<ul id="menu-main-nav" class="nav-menu">
-				<li id="menu-item-1478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1478"><a href="{{ site.github.url }}/2016/index-2016/">Index</a>
+				<li id="menu-item-1478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-1478 {% if page.url contains '/2016/index-2016/' or page.url == '/2016/executive-summary/' %}current-menu-ancestor{% endif %}"><a href="{{ site.github.url }}/2016/index-2016/">Index</a>
 					<ul class="sub-menu">
 						<li id="menu-item-821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-821 {% if page.url == '/2016/index-2016/results/' %}current-menu-item{% endif %}"><a href="{{ site.github.url }}/2016/index-2016/results/">Results</a></li>
 						<li id="menu-item-2407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2407 {% if page.url == '/2016/executive-summary/' %}current-menu-item{% endif %}"><a href="{{ site.github.url }}/2016/executive-summary/">Executive Summary</a></li>
@@ -13,7 +13,7 @@
 				</li>
 				<li id="menu-item-820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-820 {% if page.url == '/2016/index-2016/explore-the-data/' %}current-menu-item{% endif %}"><a href="{{ site.github.url }}/2016/index-2016/explore-the-data/">Explore the Data</a></li>
 				<li id="menu-item-1471" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1471 {% if page.url == '/2016/comparison-chart-2016/' %}current-menu-item{% endif %}"><a href="{{ site.github.url }}/2016/comparison-chart-2016/">Comparison Chart</a></li>
-				<li id="menu-item-802" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-802"><a href="#">Multiple Agencies</a>
+				<li id="menu-item-802" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-802 {% if page.url contains '/2016/major-donor/' %}current-menu-ancestor{% endif %}"><a href="#">Multiple Agencies</a>
 					<ul class="sub-menu">
 						<li id="menu-item-799" class="menu-item menu-item-type-post_type menu-item-object-major-donor menu-item-799 {% if page.url == '/2016/major-donor/european-commission/' %}current-menu-item{% endif %}"><a href="{{ site.github.url }}/2016/major-donor/european-commission/">European Commission</a></li>
 						<li id="menu-item-798" class="menu-item menu-item-type-post_type menu-item-object-major-donor menu-item-798 {% if page.url == '/2016/major-donor/france/' %}current-menu-item{% endif %}"><a href="{{ site.github.url }}/2016/major-donor/france/">France</a></li>
@@ -24,8 +24,8 @@
 						<li id="menu-item-795" class="menu-item menu-item-type-post_type menu-item-object-major-donor menu-item-795 {% if page.url == '/2016/major-donor/world-bank/' %}current-menu-item{% endif %}"><a href="{{ site.github.url }}/2016/major-donor/world-bank/">World Bank</a></li>
 					</ul>
 				</li>
-				<li id="menu-item-959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-959"><a href="{{ site.github.url }}/2016/approach/">Approach</a>
-					<ul class="sub-menu">
+				<li id="menu-item-959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-959 {% if page.url contains '/2016/approach/' or page.url contains '/2016/resources/' %}current-menu-ancestor{% endif %}"><a href="{{ site.github.url }}/2016/approach/">Approach</a>
+					<ul class="sub-menu open">
 						<li id="menu-item-819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-819 {% if page.url == '/2016/approach/methodology/' %}current-menu-item{% endif %}"><a href="{{ site.github.url }}/2016/approach/methodology/">Methodology</a></li>
 						<li id="menu-item-818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-818 {% if page.url == '/2016/approach/indicators/' %}current-menu-item{% endif %}"><a href="{{ site.github.url }}/2016/approach/indicators/">Indicators</a></li>
 						<li id="menu-item-810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-810 {% if page.url == '/2016/resources/faqs/' %}current-menu-item{% endif %}"><a href="{{ site.github.url }}/2016/resources/faqs/">FAQs</a></li>
