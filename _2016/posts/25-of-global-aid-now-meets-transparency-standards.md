@@ -2,7 +2,10 @@
 label: post
 layout: 2016/post
 
+show_on_homepage: true
 order: 2
+size: large
+
 permalink: /2016/25-of-global-aid-now-meets-transparency-standards/
 title: 25% of global aid now meets transparency standards
 image: /2016/img/Index-jpeg1-285x162.png

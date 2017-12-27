@@ -2,7 +2,10 @@
 label: post
 layout: 2016/post
 
+show_on_homepage: true
 order: 7
+size: small
+
 permalink: /2016/open-data-a-journey-of-discovery-in-nepal/
 title: "Open Data: A Journey of Discovery in Nepal"
 image: /2016/img/2015_03_PWYF_Nepal_PosterFrame_001-186x108.jpg

@@ -2,7 +2,10 @@
 label: post
 layout: 2016/post
 
-order: 6
+show_on_homepage: true
+order: 5
+size: small
+
 permalink: /2016/transparenzversprechen-in-deutscher-entwicklungshilfe-nicht-erfullt/
 title: Transparenzversprechen in deutscher Entwicklungshilfe nicht erfüllt
 image: /2016/img/germnay-flag-186x108.png

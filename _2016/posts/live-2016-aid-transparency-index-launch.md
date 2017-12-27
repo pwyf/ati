@@ -2,7 +2,10 @@
 label: post
 layout: 2016/post
 
+show_on_homepage: true
 order: 1
+size: large
+
 permalink: /2016/live-2016-aid-transparency-index-launch/
 title: "LIVE: 2016 Aid Transparency Index launch"
 image: /2016/img/rupert-standing-285x162.jpg

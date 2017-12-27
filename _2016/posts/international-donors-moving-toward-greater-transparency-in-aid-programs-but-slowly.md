@@ -2,7 +2,10 @@
 label: post
 layout: 2016/post
 
+show_on_homepage: true
 order: 3
+size: large
+
 permalink: /2016/international-donors-moving-toward-greater-transparency-in-aid-programs-but-slowly/
 title: International Donors Moving Toward Greater Transparency in Aid Programs, But Slowly
 image: /2016/img/American_Flag-285x162.png
@@ -27,4 +30,3 @@ The report’s authors argue that this will limit the impact of aid, as informat
 “Clearly, from our analysis, the ‘data revolution’ still isn’t reaching the world’s poorest countries,” said Rupert Simons, CEO of Publish What You Fund. “The 2016 Aid Transparency Index shows that only 10 out of 46 of the world’s largest and most influential donors provided enough information to enable recipient governments to plan, or for citizens to hold their governments to account.”
 
 “Transparency is important for achieving the Sustainable Development Goals and development in general. It is encouraging that there has been a marked improvement in aid transparency – but more needs to be done in order to ensure that development is as effective as possible,” said Helen Clark, Administrator of the UNDP, which leads the Index.
-
