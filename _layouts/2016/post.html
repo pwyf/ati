@@ -4,9 +4,15 @@ layout: 2016/base
 
 <section class="span6 first">
   <article>
-    <header class="entry-header fixed-entry-header">
-      <h2 class="entry-title single">{{ page.title }}</h2>
-    </header>
+      {% if page.big_title == true %}
+      <header class="entry-header methodology-entry-header">
+        <h1 class="entry-title">{{ page.title }}</h1>
+      </header>
+      {% else %}
+      <header class="entry-header fixed-entry-header">
+        <h2 class="entry-title single">{{ page.title }}</h2>
+      </header>
+      {% endif %}
     <div class="entry-content general-entry-content">
       {{ content }}
     </div>
