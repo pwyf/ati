@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" role="img"  width="460" height="100">
   <path d="M 460,100 H 0 V 0 C
-    {% for d in site.data['2016'].results %}
+    {% for d in site.data.demo.results %}
       {{ forloop.index }}0 {{ 100 | minus:d[1].score }}
     {% endfor %}"
     fill="#CCC" />

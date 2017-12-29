@@ -23,7 +23,7 @@ layout: demo/base
       </div>
     </div>
     <div class="graph">
-      {% for org_tuple in site.data['2016'].results %}
+      {% for org_tuple in site.data.demo.results %}
       {% assign org = org_tuple[1] %}
       <div class="bar
       {% if org.score >= 80 %}
@@ -54,14 +54,14 @@ layout: demo/base
     <th>Name</th>
     <th>Score</th>
     {% assign current_indicator = '' %}
-    {% for indicator in site.data['2016'].indicators %}
+    {% for indicator in site.data.demo.indicators %}
       {% if indicator.indicator_subcategory_name != current_indicator %}
         <th>{{ indicator.indicator_subcategory_name }}</th>
         {% assign current_indicator = indicator.indicator_subcategory_name %}
       {% endif %}
     {% endfor %}
   </tr>
-  {% for org_tuple in site.data['2016'].results %}
+  {% for org_tuple in site.data.demo.results %}
   {% assign org = org_tuple[1] %}
   <tr>
     <td>{{ forloop.index }}</td>

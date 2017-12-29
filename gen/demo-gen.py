@@ -25,7 +25,7 @@ mapping = {
 
 rootpath = join(dirname(realpath(__file__)), '..')
 
-with open(join(rootpath, '_data', '2016', 'source-results.csv')) as f:
+with open(join(rootpath, '_data', 'demo', 'source-results.csv')) as f:
     r = csv.DictReader(f)
     results = [x for x in r]
 
@@ -51,7 +51,7 @@ orgs = OrderedDict(
 for idx, org in enumerate(orgs.values()):
     org['rank'] = idx + 1
 
-with open(join(rootpath, '_data', '2016', 'results.json'), 'w') as f:
+with open(join(rootpath, '_data', 'demo', 'results.json'), 'w') as f:
     json.dump(orgs, f)
 
 with open(join(rootpath, 'gen', 'demo', 'agency-template.md')) as f:
