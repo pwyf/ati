@@ -60,7 +60,7 @@ with open(join(rootpath, 'gen', 'demo', 'agency-template.md')) as f:
 with open(join(rootpath, 'gen', 'demo', 'curve-template.md')) as f:
     curve_tmpl = f.read()
 
-output_path = join(rootpath, 'source', 'demo')
+output_path = join(rootpath, 'demo')
 agencies_path = join(output_path, 'agencies')
 shutil.rmtree(agencies_path, ignore_errors=True)
 makedirs(agencies_path)
