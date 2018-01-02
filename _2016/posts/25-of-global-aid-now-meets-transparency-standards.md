@@ -1,5 +1,5 @@
 ---
-label: post
+category: post
 layout: 2016/post
 
 show_on_homepage: true

@@ -1,5 +1,5 @@
 ---
-label: slider
+category: slider
 layout: 2016/slider
 
 order: 5

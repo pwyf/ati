@@ -7,7 +7,7 @@ layout: 2016/base
     <div class="flexslider-container">
       <div class="flexslider">
         <section id="feat_posts" class="clearfix">
-          {% assign sliders = site['2016'] | where: "label", "slider" | sort: 'order' %}
+          {% assign sliders = site['2016'] | where: "category", "slider" | sort: 'order' %}
           {% for slider in sliders %}
             {{ slider }}
           {% endfor %}
@@ -15,7 +15,7 @@ layout: 2016/base
       </div>
       <div id="slider_pagination"></div>
     </div>
-    {% assign posts = site['2016'] | where: "label", "post" | where: "show_on_homepage", true | sort: 'order' %}
+    {% assign posts = site['2016'] | where: "category", "post" | where: "show_on_homepage", true | sort: 'order' %}
     {% for post in posts %}
       {%- if post.size == "small" -%}
         {%- include 2016/homepage-post-small.html -%}
