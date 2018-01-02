@@ -43,7 +43,7 @@ for x in results:
         cat = 'commitment'
     if cat not in org['by_component']:
         org['by_component'][cat] = 0.
-    org['by_component'][cat] += sc
+    org['by_component'][cat] += float(x['total_points'])
 
 orgs = OrderedDict(
     sorted(orgs.items(), key=lambda x: x[1]['score'], reverse=True))
