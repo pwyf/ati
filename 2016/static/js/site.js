@@ -186,4 +186,28 @@ jQuery(document).ready(function($){
 
     $("#page").css({'height':($("#main").height()+'px')});
 
+  $('.indicator-listing h6').click(function(e) {
+    var $this = $(this);
+    $this.toggleClass('open');
+    var target = $(this).next();
+
+    if(!target.hasClass('open')) {
+      target.slideDown('fast');
+      target.addClass('open');
+      $this.parent().prev().addClass('open');
+    } else {
+      target.removeClass('open');
+      target.slideUp('fast');
+      $this.parent().prev().removeClass('open');
+    }
+  });
+  $('.indicator-close').click(function(e) {
+    var target = $(this).parent();
+    var $link = $(this).parent().prev();
+    $link.toggleClass('open');
+    target.toggleClass('open');
+    target.slideUp('fast');
+    $(this).parent().parent().prev().removeClass('open');
+  });
+
 });
