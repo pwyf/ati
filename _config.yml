@@ -1,4 +1,4 @@
-exclude: ["gen", "README.md"]
+exclude: ["gen/", "README.md", "2016/README.md", "_2016/README.md", "demo/README.md"]
 collections:
   "2016":
     output: true
