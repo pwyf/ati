@@ -320,7 +320,7 @@ h5.title a {
     padding:20px 5px 10px 10px;
 
 }
-.home article.post h4, .category-why-this-matters article.post h4 a, .page-template-page-faq-php h3 a {
+.home article.post h4, .category-why-this-matters article.post h4 a, h3 a.faq-cat-link {
   text-decoration: none;
 }
 .page-template-page-faq-php h3 {
@@ -859,8 +859,7 @@ a.faq-cat-link.open {
   color: #CA1219;
 }
 .faq-listing {
-  padding-left: 170px;
-  width: 384px;
+  padding-left: 30px;
   display: none;
 }
 h3.summary-link a {
