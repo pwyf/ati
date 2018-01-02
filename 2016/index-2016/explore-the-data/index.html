@@ -23,10 +23,10 @@ layout: 2016/base
 
     );
     </script>
-    <script src="{{ site.github.url }}/2016/js/jquery-ui-1.10.3.custom.js"></script>
+    <script src="{{ site.github.url }}/2016/static/js/jquery-ui-1.10.3.custom.js"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="{{ site.github.url }}/2016/js/explore-data.js" type="text/javascript"></script>
-    <script src="{{ site.github.url }}/2016/js/jquery.popup.min.js" type="text/javascript"></script>
+    <script src="{{ site.github.url }}/2016/static/js/explore-data.js" type="text/javascript"></script>
+    <script src="{{ site.github.url }}/2016/static/js/jquery.popup.min.js" type="text/javascript"></script>
     <script type="text/javascript">
         /*<![CDATA[*/
 
@@ -34,22 +34,22 @@ layout: 2016/base
             $("#rankings-list").fadeToggle(600, "linear");
             $("body").on("click", "#dr_collapse", function() {
                 $("#rankings-list").fadeToggle(100, "linear");
-                $("#filler").html('<h2 style="width:280px;" class="rankings-header">Donor Rankings <img src="{{ site.github.url }}/2016/img/left_arrow.png" style="padding-left:40px; cursor:pointer;" id="dr_collapse2"></h2>');
+                $("#filler").html('<h2 style="width:280px;" class="rankings-header">Donor Rankings <img src="{{ site.github.url }}/2016/static/img/left_arrow.png" style="padding-left:40px; cursor:pointer;" id="dr_collapse2"></h2>');
             }
             );
             $("body").on("click", "#dr_collapse2", function() {
                 $("#rankings-list").fadeToggle(100, "linear");
-                $("#filler").html('<h2 style="width:280px;" class="rankings-header">Donor Rankings <img src="{{ site.github.url }}/2016/img/right_arrow.png" style="padding-left:40px; cursor:pointer;" id="dr_collapse"></h2>');
+                $("#filler").html('<h2 style="width:280px;" class="rankings-header">Donor Rankings <img src="{{ site.github.url }}/2016/static/img/right_arrow.png" style="padding-left:40px; cursor:pointer;" id="dr_collapse"></h2>');
             }
             );
             $("body").on("click", "#filter_collapse", function() {
                 $("#filterAll").fadeToggle(100, "linear");
-                $("#filler2").html('<h2 id="weighting-title" style="width:280px;">Weighting Tool <img src="{{ site.github.url }}/2016/img/left_arrow.png" style="padding-left:55px; cursor:pointer;" id="filter_collapse2"></h2>');
+                $("#filler2").html('<h2 id="weighting-title" style="width:280px;">Weighting Tool <img src="{{ site.github.url }}/2016/static/img/left_arrow.png" style="padding-left:55px; cursor:pointer;" id="filter_collapse2"></h2>');
             }
             );
             $("body").on("click", "#filter_collapse2", function() {
                 $("#filterAll").fadeToggle(100, "linear");
-                $("#filler2").html('<h2 id="weighting-title" style="width:280px;">Weighting Tool <img src="{{ site.github.url }}/2016/img/right_arrow.png" style="padding-left:55px; cursor:pointer;" id="filter_collapse"></h2>');
+                $("#filler2").html('<h2 id="weighting-title" style="width:280px;">Weighting Tool <img src="{{ site.github.url }}/2016/static/img/right_arrow.png" style="padding-left:55px; cursor:pointer;" id="filter_collapse"></h2>');
             }
             );
         }
@@ -60,8 +60,8 @@ layout: 2016/base
     </script>
 
     <div id="preloaded-images">
-        <img src="{{ site.github.url }}/2016/img/left_arrow.png" width="1" height="1" alt="Image 01" />
-        <img src="{{ site.github.url }}/2016/img/right_arrow.png" width="1" height="1" alt="Image 02" />
+        <img src="{{ site.github.url }}/2016/static/img/left_arrow.png" width="1" height="1" alt="Image 01" />
+        <img src="{{ site.github.url }}/2016/static/img/right_arrow.png" width="1" height="1" alt="Image 02" />
     </div>
     <article id="post-35" class="post-35 page type-page status-publish has-post-thumbnail hentry">
         <header class="entry-header explore-entry-header">
@@ -70,24 +70,24 @@ layout: 2016/base
             <h2 id="report"></h2>
         </div>
         <div class="entry-content">
-            <div id="graph" style="width: 483px; height: 873px; display: block; overflow: visible; position:relative; margin: 0px 0px 10px 0px; z-index: 0; background-image: url('{{ site.github.url }}/2016/img/graph_bg_explore.png'); background-position: 0px -13px; background-repeat:no-repeat; background-color: #AAAAAA; padding-right:0px"></div>
+            <div id="graph" style="width: 483px; height: 873px; display: block; overflow: visible; position:relative; margin: 0px 0px 10px 0px; z-index: 0; background-image: url('{{ site.github.url }}/2016/static/img/graph_bg_explore.png'); background-position: 0px -13px; background-repeat:no-repeat; background-color: #AAAAAA; padding-right:0px"></div>
         </div>
     </article>
 </section><aside id="rankings" class="span3" style="clear: right">
     <div id="filler">
-        <h2 class="rankings-header">Donor Rankings <img src="{{ site.github.url }}/2016/img/right_arrow.png" style="right:0; padding-left:40px; cursor:pointer" id="dr_collapse"></h2>
+        <h2 class="rankings-header">Donor Rankings <img src="{{ site.github.url }}/2016/static/img/right_arrow.png" style="right:0; padding-left:40px; cursor:pointer" id="dr_collapse"></h2>
     </div>
     <div id="rankings-list" style="height: 543px;">
         <div class="rankings-column first" style="margin-left:6px !important;"></div><div class="rankings-column second"></div><div class="rankings-column third"></div>
     </div>
     <div id="filler2">
-        <h2 id="weighting-title" style="max-width:280px !important;">Weighting Tool <img src="{{ site.github.url }}/2016/img/right_arrow.png" style="padding-left:55px; cursor:pointer;" id="filter_collapse"></h2></div>
+        <h2 id="weighting-title" style="max-width:280px !important;">Weighting Tool <img src="{{ site.github.url }}/2016/static/img/right_arrow.png" style="padding-left:55px; cursor:pointer;" id="filter_collapse"></h2></div>
 
     <div id="filterAll" class="filterAll">
         <p style="padding:5px; font-size: 14px; font-weight:normal ">
             Adjust the weighting of the three categories using the interactive slider.
         </p>
-        <div id="weighting-tool"><div class="weightingbtn apply">APPLY</div><div class="weightingbtn reset">RESET</div><div id="btnDownload" attr="image" class="weightingbtn download" ><a href="{{ site.github.url }}/2016/pdf/2016_Final_Dataset.csv" target="_blank">DOWNLOAD</a></div>
+        <div id="weighting-tool"><div class="weightingbtn apply">APPLY</div><div class="weightingbtn reset">RESET</div><div id="btnDownload" attr="image" class="weightingbtn download" ><a href="{{ site.github.url }}/2016/static/pdf/2016_Final_Dataset.csv" target="_blank">DOWNLOAD</a></div>
             <div id="weightingtool-wrapper">
                 <div id="commitment" class="weighting-category commitment parent d">
                     <div class="grid50 weightingToolA"><p>COMMITMENT <span class="percentage-reading">10%</span></p></div><div id="com" class="grid50"><div class="weighting-category fullheight last d"><p>Commitment <span>10%</span></p></div></div>

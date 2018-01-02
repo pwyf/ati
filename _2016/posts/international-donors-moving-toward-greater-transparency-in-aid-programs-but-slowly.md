@@ -8,7 +8,7 @@ size: large
 
 permalink: /2016/international-donors-moving-toward-greater-transparency-in-aid-programs-but-slowly/
 title: International Donors Moving Toward Greater Transparency in Aid Programs, But Slowly
-image: /2016/img/American_Flag-285x162.png
+image: /2016/static/img/American_Flag-285x162.png
 ---
 
 _**Following commitments, a quarter of global aid now meets transparency standards**_

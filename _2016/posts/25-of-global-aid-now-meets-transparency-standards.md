@@ -8,7 +8,7 @@ size: large
 
 permalink: /2016/25-of-global-aid-now-meets-transparency-standards/
 title: 25% of global aid now meets transparency standards
-image: /2016/img/Index-jpeg1-285x162.png
+image: /2016/static/img/Index-jpeg1-285x162.png
 ---
 
 LONDON – New analysis from Publish What You Fund indicates that 25% of global aid now meets transparency standards.

@@ -8,7 +8,7 @@ size: small
 
 permalink: /2016/transparenzversprechen-in-deutscher-entwicklungshilfe-nicht-erfullt/
 title: Transparenzversprechen in deutscher Entwicklungshilfe nicht erfüllt
-image: /2016/img/germnay-flag-186x108.png
+image: /2016/static/img/germnay-flag-186x108.png
 ---
 
 Wie aus einer neuen Analyse von Publish What You Fund hervorgeht, hat Deutschland seine Verpflichtungen zur Transparenz bei der Entwicklungshilfe nicht erfüllt.
