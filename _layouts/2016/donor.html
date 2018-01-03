@@ -14,8 +14,8 @@ layout: 2016/base
                 <h2 class="donor-title">{{ donor.name }}</h2></div>
         </div>
         <div class="span2 first rank rank-thumb" style=" min-height: 334px;">
-            <h3 class="ranking donor fair">Fair</h3>
-            <div class="donor-image"><img width="186" height="300" src="http://ati.publishwhatyoufund.org/wp-content/uploads/2013/10/26_F_EBRD.png" class="attachment-post-thumbnail wp-post-image" alt="26_F_EBRD" /></div>
+            <h3 class="ranking donor {{ donor.performance_group | downcase | replace:'very ', 'v' }}">{{ donor.performance_group }}</h3>
+            <div class="donor-image"><img width="186" height="300" src="{{ site.github.url }}/2016/static/img/{{ page.slug }}.png" class="attachment-post-thumbnail wp-post-image" alt="{{ page.slug }}" /></div>
         </div><div class="span3 donor-overview" style=" min-height: 328px;">
             <div class="span first" style="font-size: 15px;">
                 <h4>OVERVIEW</h4>
@@ -27,14 +27,15 @@ layout: 2016/base
         <div class="span2 donor-profile" style="max-width:170px; min-height: 322px;">
             <h4>DONOR PROFILE</h4>
             <p style="margin-top: 10px;">2016 Index Score:</p>
-            <h3 class="ranking donorprofile sfair rankBold">Fair</h3>
-            <div class="profiletxt sfair rankBold">49.7%</div>
+            <h3 class="ranking donorprofile s{{ donor.performance_group | downcase | replace:'very ', 'v' }} rankBold">{{ donor.performance_group }}</h3>
+            <div class="profiletxt s{{ donor.performance_group | downcase | replace:'very ', 'v' }}
+            rankBold">{{ donor.score | round:1 }}%</div>
             <p style="margin-top: 8px;">2014 Index Score:</p>
-            <h3 class="ranking donorprofile spoorAlt rankBold">Poor</h3>
-            <div class="profiletxt spoorAlt rankBold">24.5%</div>
+            <h3 class="ranking donorprofile spoor rankBold">Poor</h3>
+            <div class="profiletxt spoor rankBold">24.5%</div>
             <p style="margin-top: 8px;">2013 Index Score:</p>
-            <h3 class="ranking donorprofile spoorAlt rankBold">Poor</h3>
-            <div class="profiletxt spoorAlt rankBold">24.5%</div>
+            <h3 class="ranking donorprofile spoor rankBold">Poor</h3>
+            <div class="profiletxt spoor rankBold">24.5%</div>
             <br>
             <br>
             <p>First published to IATI:</p>
@@ -48,7 +49,7 @@ layout: 2016/base
             <h4 class="whtborderbtm" style="color: white">INDICATOR SCORING</h4>
             <div class="donorscoringheader1 span2 first whtborderbtm">
                 <h5 style="color: white">TOTAL</h5>
-                <h1 class="f">{{ donor.score | round:1 }}%</h1></div>
+                <h1 class="s{{ donor.performance_group | downcase | replace:'very ', 'v' }}">{{ donor.score | round:1 }}%</h1></div>
             <div id="commitment" class="donorscoringheader span2 whtborderbtm">
                 <h4 style="color: white">SECTION A</h4>
                 <h4>COMMITMENT TO <br>AID TRANSPARENCY:</h4>

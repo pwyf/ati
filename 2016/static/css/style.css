@@ -1154,9 +1154,6 @@ h3.ranking {
     color: #D7DB27 !important;
 }
 .spoor {
-    color: #EB7465 !important;
-}
-.spoorAlt {
     color: #FF6633 !important;
 }
 .svpoor {
@@ -1650,29 +1647,14 @@ h4.whtborderbtm {
   font-weight: bold;
 }
 
-.vg {
-  color: #008CFF;
-}
-.g {
-  color: #36E359;
-}
 .glossary-entry-group.g {
   color: #464646;
-}
-.f {
-  color: #D7DB27;
 }
 .glossary-entry-group.f {
   color: #464646;
 }
-.p {
-  color: #EB7465;
-}
 .glossary-entry-group.p {
   color: #464646;
-}
-.vp{
-  color: #E34172;
 }
 .donor-indicator-group {
   display: none;
