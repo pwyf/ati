@@ -9,11 +9,11 @@ layout: 2016/base
     <article>
         <div class="row donorheader">
             <div class="span2 rank-title" style="width: 186px;">
-                <h1 class="rank-title">{{ donor.rank }}.</h1></div>
-            <div class="span6" style="background-color: #AAAAAA; max-width:572px;">
-                <h2 class="donor-title">{{ donor.name }}</h2></div>
-        </div>
-        <div class="span2 first rank rank-thumb" style=" min-height: 334px;">
+                <h1 class="rank-title">{{ donor.rank }}.</h1>
+            </div><div class="span6" style="background-color: #AAAAAA; max-width:572px;">
+                <h2 class="donor-title">{{ donor.name }}</h2>
+            </div>
+        </div><div class="span2 first rank rank-thumb" style=" min-height: 334px;">
             <h3 class="ranking donor {{ donor.performance_group | downcase | replace:'very ', 'v' }}">{{ donor.performance_group }}</h3>
             <div class="donor-image"><img width="186" height="300" src="{{ site.github.url }}/2016/static/img/{{ page.slug }}.png" class="attachment-post-thumbnail wp-post-image" alt="{{ page.slug }}" /></div>
         </div><div class="span3 donor-overview" style=" min-height: 328px;">
@@ -25,8 +25,7 @@ layout: 2016/base
                 {{ content }}
                 </div>
             </div>
-        </div>
-        <div class="span2 donor-profile" style="max-width:170px; min-height: 322px;">
+        </div><div class="span2 donor-profile" style="max-width:170px; min-height: 322px;">
             <h4>DONOR PROFILE</h4>
             <p style="margin-top: 10px;">2016 Index Score:</p>
             <h3 class="ranking donorprofile s{{ donor.performance_group | downcase | replace:'very ', 'v' }} rankBold">{{ donor.performance_group }}</h3>
@@ -46,13 +45,12 @@ layout: 2016/base
             <br>
             <p class="donor-links"> <a href="{{ site.github.url }}/2016/static/pdf/{{ page.slug }}.pdf" target="_blank">Download profile as PDF</a>
                 <br> <a href="{{ site.github.url }}/2016/comparison-chart-2016/" target="_blank">View donor progress over time</a></p>
-        </div>
-        <div class="span8">
+        </div><div class="span8">
             <h4 class="whtborderbtm" style="color: white">INDICATOR SCORING</h4>
             <div class="donorscoringheader1 span2 first whtborderbtm">
                 <h5 style="color: white">TOTAL</h5>
-                <h1 class="s{{ donor.performance_group | downcase | replace:'very ', 'v' }}">{{ donor.score | round:1 }}%</h1></div>
-            <div id="commitment" class="donorscoringheader span2 whtborderbtm">
+                <h1 class="s{{ donor.performance_group | downcase | replace:'very ', 'v' }}">{{ donor.score | round:1 }}%</h1>
+            </div><div id="commitment" class="donorscoringheader span2 whtborderbtm">
                 <h4 style="color: white">SECTION A</h4>
                 <h4>COMMITMENT TO <br>AID TRANSPARENCY:</h4>
                 <h2>---/10</h2> <span></span>
@@ -63,11 +61,11 @@ layout: 2016/base
             </div><div id="activity" class="donorscoringheader span2 whtborderbtm">
                 <h4 style="color: white">SECTION C</h4>
                 <h4>PUBLICATION <br>ACTIVITY LEVEL:</h4>
-                <h2>---/65</h2> <span></span></div>
-            <div class="span8 first donor-indicator-group commitment">
+                <h2>---/65</h2> <span></span>
+            </div><div class="span8 first donor-indicator-group commitment">
                 <div class="span2 first subcat">
-                    <h4 id="commitment" class="open">Commitment</h4></div>
-                <div class="span2 indicatorlist">
+                    <h4 id="commitment" class="open">Commitment</h4>
+                </div><div class="span2 indicatorlist">
                     <div class="commitment">
                         <h4 style="vertical-align: middle; max-height: 100%; line-height: 26px;" id="foia">1. FOIA</h4>
                         <script type="text/javascript">
@@ -121,8 +119,7 @@ layout: 2016/base
                             }); /*]]>*/
                         </script>
                     </div>
-                </div>
-                <div class="span4 indicatorsubdetail">
+                </div><div class="span4 indicatorsubdetail">
                     <div class="indicatordetails foia" style="display: none;">
                         <h6>Publication Status</h6>
                         <h6>Source</h6>
@@ -134,59 +131,53 @@ layout: 2016/base
                             <h3>1. FOIA</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div>
-                                <div class="col2">Publish What You Fund completed an assessment of the quality of disclosure policies based on the overarching approach taken in the<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">Global Right to Information Rating.</span></div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div><div class="col2">Publish What You Fund completed an assessment of the quality of disclosure policies based on the overarching approach taken in the<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">Global Right to Information Rating.</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div>
-                                <div class="col2">Disclosure Policy is based on the EBRD's Public Information Policy most recently reviewed by the Board of Directors in May 2014.<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">The PIP sets out how the EBRD discloses information and consults with its stakeholders so as to promote better awareness and understanding of its strategies, policies and operations. At the same time, the PIP establishes clear lines of demarcation to distinguish information which is made publicly available (either on a routine basis or upon request) from information which may not be disclosed on the grounds of being confidential. This is to ensure that mutual trust is maintained between the Bank, its business clients, shareholders, employees and other stakeholders. </span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div><div class="col2">Disclosure Policy is based on the EBRD's Public Information Policy most recently reviewed by the Board of Directors in May 2014.<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">The PIP sets out how the EBRD discloses information and consults with its stakeholders so as to promote better awareness and understanding of its strategies, policies and operations. At the same time, the PIP establishes clear lines of demarcation to distinguish information which is made publicly available (either on a routine basis or upon request) from information which may not be disclosed on the grounds of being confidential. This is to ensure that mutual trust is maintained between the Bank, its business clients, shareholders, employees and other stakeholders. </span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div>
-                                <div class="col2">The scoring system is a cumulative measure of 3 key indicators: 1/presumption of disclosure, 2/limitations, third party information and internal deliberations,<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">and 3/ independent appeals process. The EBRD scores for presumption of disclosure. </span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div><div class="col2">The scoring system is a cumulative measure of 3 key indicators: 1/presumption of disclosure, 2/limitations, third party information and internal deliberations,<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">and 3/ independent appeals process. The EBRD scores for presumption of disclosure. </span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div>
-                                <div class="col2">The scoring system is a cumulative measure of 3 key indicators: 1/presumption of disclosure, 2/limitations, third party information and internal deliberations,<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">and 3/ independent appeals process. The EBRD scores for presumption of disclosure.</span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div><div class="col2">The scoring system is a cumulative measure of 3 key indicators: 1/presumption of disclosure, 2/limitations, third party information and internal deliberations,<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">and 3/ independent appeals process. The EBRD scores for presumption of disclosure.</span></div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails implementation-schedules" style="display: none;">
+                    </div><div class="indicatordetails implementation-schedules" style="display: none;">
                         <h6>Publication Status</h6>
                         <h6>Source</h6>
                         <p style="word-break: break-all"><a href="http://2016tracker.publishwhatyoufund.org/plan/organisations/">http://2016tracker.publishwhatyoufund.org/plan/organisations/</a></p>
@@ -197,59 +188,53 @@ layout: 2016/base
                             <h3>2. Implementation schedules</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://2016tracker.publishwhatyoufund.org/plan/organisations/</div>
-                                <div class="col2">Based on total score received on Publish What You Fund's analysis of Common Standard/IATI implementation schedules</div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://2016tracker.publishwhatyoufund.org/plan/organisations/</div><div class="col2">Based on total score received on Publish What You Fund's analysis of Common Standard/IATI implementation schedules</div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://2016tracker.publishwhatyoufund.org/plan/organisations/</div>
-                                <div class="col2">A revised implementation schedule has been published on the EBRD website reflecting updates as at October 2015.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://2016tracker.publishwhatyoufund.org/plan/organisations/</div><div class="col2">A revised implementation schedule has been published on the EBRD website reflecting updates as at October 2015.</div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://2016tracker.publishwhatyoufund.org/plan/organisations/</div>
-                                <div class="col2">The revised implementation schedule has been taken into account.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://2016tracker.publishwhatyoufund.org/plan/organisations/</div><div class="col2">The revised implementation schedule has been taken into account.</div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://2016tracker.publishwhatyoufund.org/plan/organisations/</div>
-                                <div class="col2">The revised implementation schedule has been taken into account.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://2016tracker.publishwhatyoufund.org/plan/organisations/</div><div class="col2">The revised implementation schedule has been taken into account.</div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails accessibility" style="display: none;">
+                    </div><div class="indicatordetails accessibility" style="display: none;">
                         <h6>Publication Status</h6>
                         <h6>Source</h6>
                         <p style="word-break: break-all"><a href="http://www.ebrd.com/where-we-are/turkey/data.html">http://www.ebrd.com/where-we-are/turkey/data.html</a></p>
@@ -260,67 +245,61 @@ layout: 2016/base
                             <h3>3. Accessibility</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://www.ebrd.com/where-we-are/turkey/data.html</div>
-                                <div class="col2">Portals are scored using three criteria: 1) the portal allows free, bulk export of data; 2) it contains detailed disaggregated data;<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">3) the data is published under an open licence. Each of these carry 1/3rd of the total points of 100. Scores for detailed, disaggregated data.</span></div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://www.ebrd.com/where-we-are/turkey/data.html</div><div class="col2">Portals are scored using three criteria: 1) the portal allows free, bulk export of data; 2) it contains detailed disaggregated data;<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">3) the data is published under an open licence. Each of these carry 1/3rd of the total points of 100. Scores for detailed, disaggregated data.</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://www.ebrd.com/where-we-are/turkey/data.html</div>
-                                <div class="col2">A downloadable, machine -readable, listing of EBRD investments to date is available on http://www.ebrd.com/work-with-us/capital-markets/investor-information.html. Additionally, links to EBRD IATI data<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">are available under http://www.ebrd.com/ebrd-transparency-and-accountability.html </span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://www.ebrd.com/where-we-are/turkey/data.html</div><div class="col2">A downloadable, machine -readable, listing of EBRD investments to date is available on http://www.ebrd.com/work-with-us/capital-markets/investor-information.html. Additionally, links to EBRD IATI data<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">are available under http://www.ebrd.com/ebrd-transparency-and-accountability.html </span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://www.ebrd.com/where-we-are/turkey/data.html</div>
-                                <div class="col2">Portals are scored using three criteria: 1) the portal allows free, bulk export of data; 2) it contains detailed disaggregated data;<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">3) the data is published under an open licence. Each of these carry 1/3rd of the total points of 100. Scores for detailed, disaggregated data. Raw IATI files are not accepted for this indicator as the underlying principle behind this indicator is to assess what organisations are doing to promote access and use of their aid information. Information published to the IATI Registry is taken into account for the publication indicators.</span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://www.ebrd.com/where-we-are/turkey/data.html</div><div class="col2">Portals are scored using three criteria: 1) the portal allows free, bulk export of data; 2) it contains detailed disaggregated data;<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">3) the data is published under an open licence. Each of these carry 1/3rd of the total points of 100. Scores for detailed, disaggregated data. Raw IATI files are not accepted for this indicator as the underlying principle behind this indicator is to assess what organisations are doing to promote access and use of their aid information. Information published to the IATI Registry is taken into account for the publication indicators.</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://www.ebrd.com/where-we-are/turkey/data.html</div>
-                                <div class="col2">Portals are scored using three criteria: 1) the portal allows free, bulk export of data; 2) it contains detailed disaggregated data;<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">3) the data is published under an open licence. Each of these carry 1/3rd of the total points of 100. Scores for detailed, disaggregated data.</span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://www.ebrd.com/where-we-are/turkey/data.html</div><div class="col2">Portals are scored using three criteria: 1) the portal allows free, bulk export of data; 2) it contains detailed disaggregated data;<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">3) the data is published under an open licence. Each of these carry 1/3rd of the total points of 100. Scores for detailed, disaggregated data.</span></div>
                             </div>
                             <hr />
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="span8 first donor-indicator-group organisation">
+            </div><div class="span8 first donor-indicator-group organisation">
                 <div class="span2 first subcat">
                     <h4 id="planning" class="open">Planning</h4>
                     <h4 id="Planning">Planning</h4>
                     <h4 id="Financial">Financial</h4>
-                    <h4 id="financial">Financial</h4></div>
-                <div class="span2 indicatorlist">
+                    <h4 id="financial">Financial</h4>
+                </div><div class="span2 indicatorlist">
                     <div class="planning">
                         <h4 style="vertical-align: middle; max-height: 100%; line-height: 26px;" id="organisation-strategy">4. Organisation Strategy</h4>
                         <script type="text/javascript">
@@ -390,8 +369,7 @@ layout: 2016/base
                                 });
                             }); /*]]>*/
                         </script>
-                    </div>
-                    <div class="Planning" style="display: none;">
+                    </div><div class="Planning" style="display: none;">
                         <h4 style="vertical-align: middle; max-height: 100%; line-height: 26px;" id="country-strategy">8. Country Strategy</h4>
                         <script type="text/javascript">
                             /*<![CDATA[*/
@@ -409,8 +387,7 @@ layout: 2016/base
                                 });
                             }); /*]]>*/
                         </script>
-                    </div>
-                    <div class="Financial" style="display: none;">
+                    </div><div class="Financial" style="display: none;">
                         <h4 style="vertical-align: middle; max-height: 100%; line-height: 26px;" id="total-budget">9. Total Budget</h4>
                         <script type="text/javascript">
                             /*<![CDATA[*/
@@ -445,8 +422,7 @@ layout: 2016/base
                                 });
                             }); /*]]>*/
                         </script>
-                    </div>
-                    <div class="financial" style="display: none;">
+                    </div><div class="financial" style="display: none;">
                         <h4 style="vertical-align: middle; max-height: 100%; line-height: 26px;" id="audit">11. Audit</h4>
                         <script type="text/javascript">
                             /*<![CDATA[*/
@@ -465,23 +441,20 @@ layout: 2016/base
                             }); /*]]>*/
                         </script>
                     </div>
-                </div>
-                <div class="span4 indicatorsubdetail">
+                </div><div class="span4 indicatorsubdetail">
                     <div class="indicatordetails organisation-strategy" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails annual-report" style="display: none;">
+                    </div><div class="indicatordetails annual-report" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails allocation-policy" style="display: none;">
+                    </div><div class="indicatordetails allocation-policy" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Always</p>
                         <p>Format: Document</p>
@@ -494,66 +467,52 @@ layout: 2016/base
                             <h3>6. Allocation policy</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/project-finance/funding-process.html%20</div>
-                                <div class="col2">The funding process is published.</div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/project-finance/funding-process.html%20</div><div class="col2">The funding process is published.</div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/project-finance/funding-process.html%20</div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/project-finance/funding-process.html%20</div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2">The funding process is published.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2">The funding process is published.</div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails procurement-policy" style="display: none;">
+                    </div><div class="indicatordetails procurement-policy" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails country-strategy" style="display: none;">
+                    </div><div class="indicatordetails country-strategy" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Always</p>
                         <p>Format: Document</p>
@@ -566,59 +525,46 @@ layout: 2016/base
                             <h3>8. Country strategy</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/downloads/country/strategy/turkey.pdf http://www.ebrd.com/downloads/country/strategy/uzbekistan.pdf</div>
-                                <div class="col2">Country strategies and sectoral strategies are published. A country strategy for Turkey is published.Though the Uzbekistan (the second largest recipient) CSP<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">was published in 2005 and could be considered out of date.</span></div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/downloads/country/strategy/turkey.pdf http://www.ebrd.com/downloads/country/strategy/uzbekistan.pdf</div><div class="col2">Country strategies and sectoral strategies are published. A country strategy for Turkey is published.Though the Uzbekistan (the second largest recipient) CSP<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">was published in 2005 and could be considered out of date.</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/downloads/country/strategy/turkey.pdf http://www.ebrd.com/downloads/country/strategy/uzbekistan.pdf</div>
-                                <div class="col2">Country strategies and sectoral strategies are published. A country strategy for Turkey is published.Though the Uzbekistan (the second largest recipient) CSP<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">was published in 2005 and could be considered out of date.</span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/downloads/country/strategy/turkey.pdf http://www.ebrd.com/downloads/country/strategy/uzbekistan.pdf</div><div class="col2">Country strategies and sectoral strategies are published. A country strategy for Turkey is published.Though the Uzbekistan (the second largest recipient) CSP<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">was published in 2005 and could be considered out of date.</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2">Country strategies and sectoral strategies are published. A country strategy for Turkey is published.Though the Uzbekistan (the second largest recipient) CSP<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">was published in 2005 and could be considered out of date.</span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2">Country strategies and sectoral strategies are published. A country strategy for Turkey is published.Though the Uzbekistan (the second largest recipient) CSP<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">was published in 2005 and could be considered out of date.</span></div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails total-budget" style="display: none;">
+                    </div><div class="indicatordetails total-budget" style="display: none;">
                         <h6>Publication Status</h6>
                         <h6>Source</h6>
                         <p>No data available.</p>
@@ -629,59 +575,51 @@ layout: 2016/base
                             <h3>9. Total budget</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col2">www.ebrd.com/dfi-ifi.xls</div>
-                                <div class="col2">This information could not be found. In the case where total organisation budget is not published projected or indicative figures are<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">accepted for this indicator. </span></div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Not published</div><div class="col2">www.ebrd.com/dfi-ifi.xls</div><div class="col2">This information could not be found. In the case where total organisation budget is not published projected or indicative figures are<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">accepted for this indicator. </span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2">http://www.ebrd.com/what-we-do/strategies-and-policies/business-plan-and-budget.html</div>
-                                <div class="col2">Annual business plan and budget is published on the EBRD website (http://www.ebrd.com/what-we-do/strategies-and-policies/business-plan-and-budget.html). This includes the budgeted activity for the year. This<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">figure is also included in the published IATI organisation file.</span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">http://www.ebrd.com/what-we-do/strategies-and-policies/business-plan-and-budget.html</div><div class="col2">Annual business plan and budget is published on the EBRD website (http://www.ebrd.com/what-we-do/strategies-and-policies/business-plan-and-budget.html). This includes the budgeted activity for the year. This<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">figure is also included in the published IATI organisation file.</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col2">www.ebrd.com/dfi-ifi.xls</div>
-                                <div class="col2">This information could not be found. The total organisation budget is the total amount that the organisation will be allocated by<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">the government or its funders per year for the next three years</span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Not published</div><div class="col2">www.ebrd.com/dfi-ifi.xls</div><div class="col2">This information could not be found. The total organisation budget is the total amount that the organisation will be allocated by<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">the government or its funders per year for the next three years</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col2"></div>
-                                <div class="col2">This information could not be found. The total organisation budget is the total amount that the organisation will be allocated by<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">the government or its funders per year for the next three years.</span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Not published</div><div class="col2">
+                                </div><div class="col2">This information could not be found. The total organisation budget is the total amount that the organisation will be allocated by<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">the government or its funders per year for the next three years.</span></div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails disaggregated-budgets" style="display: none;">
+                    </div><div class="indicatordetails disaggregated-budgets" style="display: none;">
                         <h6>Publication Status</h6>
                         <h6>Source</h6>
                         <p>No data available.</p>
@@ -692,59 +630,54 @@ layout: 2016/base
                             <h3>10. Disaggregated budgets</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col2"></div>
-                                <div class="col2">No forward data could be found. Thematic budgets are accepted for organisations that do not prioritise their work by countries. Projected<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">figures disaggregated along thematic and sectoral priorities, at a near similar level of detail to total organisation budgets are accepted.</span></div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Not published</div><div class="col2">
+                                </div><div class="col2">No forward data could be found. Thematic budgets are accepted for organisations that do not prioritise their work by countries. Projected<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">figures disaggregated along thematic and sectoral priorities, at a near similar level of detail to total organisation budgets are accepted.</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2">The demand driven business model of the EBRD does not allow for disaggregated budget and forward looking financial flows.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2">The demand driven business model of the EBRD does not allow for disaggregated budget and forward looking financial flows.</div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Not published</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col2"></div>
-                                <div class="col2">No forward data could be found. Thematic budgets are accepted for organisations that do not prioritise their work by countries. Projected<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">figures disaggregated along thematic and sectoral priorities, at a near similar level of detail to total organisation budgets are accepted.</span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Not published</div><div class="col2">
+                                </div><div class="col2">No forward data could be found. Thematic budgets are accepted for organisations that do not prioritise their work by countries. Projected<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">figures disaggregated along thematic and sectoral priorities, at a near similar level of detail to total organisation budgets are accepted.</span></div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails audit" style="display: none;">
+                    </div><div class="indicatordetails audit" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
@@ -752,15 +685,14 @@ layout: 2016/base
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="span8 first donor-indicator-group activity">
+            </div><div class="span8 first donor-indicator-group activity">
                 <div class="span2 first subcat">
                     <h4 id="basic" class="open">Basic</h4>
                     <h4 id="classifications">Classifications</h4>
                     <h4 id="related-documents">Related Documents</h4>
                     <h4 id="financial">Financial</h4>
-                    <h4 id="performance">Performance</h4></div>
-                <div class="span2 indicatorlist">
+                    <h4 id="performance">Performance</h4>
+                </div><div class="span2 indicatorlist">
                     <div class="basic">
                         <h4 style="vertical-align: middle; max-height: 100%; line-height: 26px;" id="implementer">12. Implementer</h4>
                         <script type="text/javascript">
@@ -898,8 +830,7 @@ layout: 2016/base
                                 });
                             }); /*]]>*/
                         </script>
-                    </div>
-                    <div class="classifications" style="display: none;">
+                    </div><div class="classifications" style="display: none;">
                         <h4 style="vertical-align: middle; max-height: 100%; line-height: 26px;" id="collaboration-type">20. Collaboration Type</h4>
                         <script type="text/javascript">
                             /*<![CDATA[*/
@@ -1019,8 +950,7 @@ layout: 2016/base
                                 });
                             }); /*]]>*/
                         </script>
-                    </div>
-                    <div class="related-documents" style="display: none;">
+                    </div><div class="related-documents" style="display: none;">
                         <h4 style="vertical-align: middle; max-height: 100%; line-height: 26px;" id="mou">27. MoU</h4>
                         <script type="text/javascript">
                             /*<![CDATA[*/
@@ -1123,8 +1053,7 @@ layout: 2016/base
                                 });
                             }); /*]]>*/
                         </script>
-                    </div>
-                    <div class="financial" style="display: none;">
+                    </div><div class="financial" style="display: none;">
                         <h4 style="vertical-align: middle; max-height: 100%; line-height: 26px;" id="budget">33. Budget</h4>
                         <script type="text/javascript">
                             /*<![CDATA[*/
@@ -1193,8 +1122,7 @@ layout: 2016/base
                                 });
                             }); /*]]>*/
                         </script>
-                    </div>
-                    <div class="performance" style="display: none;">
+                    </div><div class="performance" style="display: none;">
                         <h4 style="vertical-align: middle; max-height: 100%; line-height: 26px;" id="results">37. Results</h4>
                         <script type="text/javascript">
                             /*<![CDATA[*/
@@ -1247,100 +1175,86 @@ layout: 2016/base
                             }); /*]]>*/
                         </script>
                     </div>
-                </div>
-                <div class="span4 indicatorsubdetail">
+                </div><div class="span4 indicatorsubdetail">
                     <div class="indicatordetails implementer" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails unique-id" style="display: none;">
+                    </div><div class="indicatordetails unique-id" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails title" style="display: none;">
+                    </div><div class="indicatordetails title" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails description" style="display: none;">
+                    </div><div class="indicatordetails description" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails planned-dates" style="display: none;">
+                    </div><div class="indicatordetails planned-dates" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 50%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails actual-dates" style="display: none;">
+                    </div><div class="indicatordetails actual-dates" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails current-status" style="display: none;">
+                    </div><div class="indicatordetails current-status" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails contact-details" style="display: none;">
+                    </div><div class="indicatordetails contact-details" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails collaboration-type" style="display: none;">
+                    </div><div class="indicatordetails collaboration-type" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails flow-type" style="display: none;">
+                    </div><div class="indicatordetails flow-type" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails aid-type" style="display: none;">
+                    </div><div class="indicatordetails aid-type" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails finance-type" style="display: none;">
+                    </div><div class="indicatordetails finance-type" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails sector" style="display: none;">
+                    </div><div class="indicatordetails sector" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails sub-national-location" style="display: none;">
+                    </div><div class="indicatordetails sub-national-location" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Sometimes</p>
                         <p>Format: Website</p>
@@ -1353,66 +1267,55 @@ layout: 2016/base
                             <h3>25. Sub-national location</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Website</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/projects/psd/aksa-environmental-health-and-safety.html http://www.ebrd.com/work-with-us/projects/psd/befesa-silvermet-steel-dust-recycling.html http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand"></span></div>
-                                <div class="col2">Specific city or provincial locations are published in most examples surveyd (links 1 & 2). However, this information is not always published (link 3).</div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Website</div><div class="col2">http://www.ebrd.com/work-with-us/projects/psd/aksa-environmental-health-and-safety.html http://www.ebrd.com/work-with-us/projects/psd/befesa-silvermet-steel-dust-recycling.html http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand"></span>
+                                </div><div class="col2">Specific city or provincial locations are published in most examples surveyd (links 1 & 2). However, this information is not always published (link 3).</div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Website</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Website</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Website</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/projects/psd/aksa-environmental-health-and-safety.html http://www.ebrd.com/work-with-us/projects/psd/befesa-silvermet-steel-dust-recycling.html http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand"></span></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Website</div><div class="col2">http://www.ebrd.com/work-with-us/projects/psd/aksa-environmental-health-and-safety.html http://www.ebrd.com/work-with-us/projects/psd/befesa-silvermet-steel-dust-recycling.html http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand"></span>
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Website</div>
-                                <div class="col2"></div>
-                                <div class="col2">This information is not always published.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Website</div><div class="col2">
+                                </div><div class="col2">This information is not always published.</div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails tied-aid-status" style="display: none;">
+                    </div><div class="indicatordetails tied-aid-status" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails mou" style="display: none;">
+                    </div><div class="indicatordetails mou" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Not Published</p>
                         <h6>Source</h6>
@@ -1424,59 +1327,46 @@ layout: 2016/base
                             <h3>27. MoU</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2">No statement could be found on the website or on the strategy documents itself indicating that the strategy is jointly developed<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">with the recipient country.</span></div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2">No statement could be found on the website or on the strategy documents itself indicating that the strategy is jointly developed<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">with the recipient country.</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Iati</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Iati</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Iati</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Iati</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Iati</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Iati</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">None</div>
-                                <div class="col2">This indicator could be found on IATI but failed sampling. It cannot be found elsewhere.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">Document</div><div class="col2">None</div><div class="col2">This indicator could be found on IATI but failed sampling. It cannot be found elsewhere.</div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails evaluations" style="display: none;">
+                    </div><div class="indicatordetails evaluations" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Sometimes</p>
                         <p>Format: Document</p>
@@ -1489,59 +1379,45 @@ layout: 2016/base
                             <h3>28. Evaluations</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/what-we-do/evaluation-reports.html http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div>
-                                <div class="col2">The new PIP from May 2014 notes that ''The Evaluation Department (EvD) provides public access to its reports except insofar as<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">needed to protect commercial confidentiality concerns'' (page 11). However, as stated in the link alongside only summaries of evaluations are published in some cases.</span></div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/what-we-do/evaluation-reports.html http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div><div class="col2">The new PIP from May 2014 notes that ''The Evaluation Department (EvD) provides public access to its reports except insofar as<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">needed to protect commercial confidentiality concerns'' (page 11). However, as stated in the link alongside only summaries of evaluations are published in some cases.</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/what-we-do/evaluation-reports.html http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/what-we-do/evaluation-reports.html http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/what-we-do/evaluation-reports.html http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div>
-                                <div class="col2">As stated in the link alongside only summaries of evaluations are published in some cases.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/what-we-do/evaluation-reports.html http://www.ebrd.com/downloads/policies/pip/pipe.pdf</div><div class="col2">As stated in the link alongside only summaries of evaluations are published in some cases.</div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails objectives" style="display: none;">
+                    </div><div class="indicatordetails objectives" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Always</p>
                         <p>Format: Document</p>
@@ -1554,59 +1430,47 @@ layout: 2016/base
                             <h3>29. Objectives</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html</div>
-                                <div class="col2">Published in project summary documents.</div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html</div><div class="col2">Published in project summary documents.</div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2">Although PSD do not consistently include Objectives either as a separate section of the PSD or as Project Description and Objectives<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">- sometimes they are just explained under Project Description, see: http://www.ebrd.com/work-with-us/projects/psd/naftogaz-gas-purchase-facility.html or http://www.ebrd.com/work-with-us/projects/psd/mcs-cocacola-extension-.html</span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2">Although PSD do not consistently include Objectives either as a separate section of the PSD or as Project Description and Objectives<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">- sometimes they are just explained under Project Description, see: http://www.ebrd.com/work-with-us/projects/psd/naftogaz-gas-purchase-facility.html or http://www.ebrd.com/work-with-us/projects/psd/mcs-cocacola-extension-.html</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html http://www.ebrd.com/work-with-us/projects/psd/naftogaz-gas-purchase-facility.html http://www.ebrd.com/work-with-us/projects/psd/mcs-cocacola-extension-.html<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand"></span></div>
-                                <div class="col2">This indicator could be found on IATI but failed sampling. Published in project summary documents.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html http://www.ebrd.com/work-with-us/projects/psd/naftogaz-gas-purchase-facility.html http://www.ebrd.com/work-with-us/projects/psd/mcs-cocacola-extension-.html<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand"></span>
+                                </div><div class="col2">This indicator could be found on IATI but failed sampling. Published in project summary documents.</div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails budget-docs" style="display: none;">
+                    </div><div class="indicatordetails budget-docs" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Not Published</p>
                         <h6>Source</h6>
@@ -1618,59 +1482,46 @@ layout: 2016/base
                             <h3>30. Budget Docs</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html</div>
-                                <div class="col2">Aggregate budgetary information is published on the project page. However, only activity budgets which are broken down line by line can<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">be accepted for this indicator. For organisations where budget documents might be considered commercially sensitive, documents with redactions of the commercially sensitive pieces of information are accepted but the specific reasons for the redactions need to be explicitly stated in detail and must clarify why the information is commercially sensitive and would cause material and direct harm if published.</span></div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html</div><div class="col2">Aggregate budgetary information is published on the project page. However, only activity budgets which are broken down line by line can<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">be accepted for this indicator. For organisations where budget documents might be considered commercially sensitive, documents with redactions of the commercially sensitive pieces of information are accepted but the specific reasons for the redactions need to be explicitly stated in detail and must clarify why the information is commercially sensitive and would cause material and direct harm if published.</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html</div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html</div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2">Aggregate budgetary information is published on the project page. However, only activity budgets which are broken down line by line can<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">be accepted for this indicator. For organisations where budget documents might be considered commercially sensitive, documents with redactions of the commercially sensitive pieces of information are accepted but the specific reasons for the redactions need to be explicitly stated in detail and must clarify why the information is commercially sensitive and would cause material and direct harm if published.</span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2">Aggregate budgetary information is published on the project page. However, only activity budgets which are broken down line by line can<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">be accepted for this indicator. For organisations where budget documents might be considered commercially sensitive, documents with redactions of the commercially sensitive pieces of information are accepted but the specific reasons for the redactions need to be explicitly stated in detail and must clarify why the information is commercially sensitive and would cause material and direct harm if published.</span></div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails contracts" style="display: none;">
+                    </div><div class="indicatordetails contracts" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Sometimes</p>
                         <p>Format: Document</p>
@@ -1683,59 +1534,45 @@ layout: 2016/base
                             <h3>31. Contracts</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/procurement/project-procurement/contract-awards-notification.html</div>
-                                <div class="col2">Contract awards notifications published.</div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/procurement/project-procurement/contract-awards-notification.html</div><div class="col2">Contract awards notifications published.</div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2">The EBRD does not publish contracts with its clients or project loan agreements. The published contract awards notifications are a for<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">a very limited number of contracts for procurement for EBRD financed or administered projects. </span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2">The EBRD does not publish contracts with its clients or project loan agreements. The published contract awards notifications are a for<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">a very limited number of contracts for procurement for EBRD financed or administered projects. </span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/procurement/project-procurement/contract-awards-notification.html</div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/procurement/project-procurement/contract-awards-notification.html</div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/procurement/project-procurement/contract-awards-notification.html</div>
-                                <div class="col2">Contract awards notifications published but as noted by the independent reviewer not all contracts are made available.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/procurement/project-procurement/contract-awards-notification.html</div><div class="col2">Contract awards notifications published but as noted by the independent reviewer not all contracts are made available.</div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails tenders" style="display: none;">
+                    </div><div class="indicatordetails tenders" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Always</p>
                         <p>Format: Document</p>
@@ -1748,59 +1585,46 @@ layout: 2016/base
                             <h3>32. Tenders</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/procurement/notices.html?1=1&filterContract=Project%20goods,%20works%20and%20services</div>
-                                <div class="col2">Procurement notices are published regularly.</div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/procurement/notices.html?1=1&filterContract=Project%20goods,%20works%20and%20services</div><div class="col2">Procurement notices are published regularly.</div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/procurement/notices.html?1=1&filterContract=Project%20goods,%20works%20and%20services</div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/procurement/notices.html?1=1&filterContract=Project%20goods,%20works%20and%20services</div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2">Procurement notices are published regularly.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2">Procurement notices are published regularly.</div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails budget" style="display: none;">
+                    </div><div class="indicatordetails budget" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Always</p>
                         <p>Format: Website</p>
@@ -1813,73 +1637,58 @@ layout: 2016/base
                             <h3>33. Budget</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Website</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html http://www.ebrd.com/work-with-us/projects/psd/yda-bond-project.html</div>
-                                <div class="col2">Total estimated cost accepted as per the scoring guidelines.</div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Website</div><div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html http://www.ebrd.com/work-with-us/projects/psd/yda-bond-project.html</div><div class="col2">Total estimated cost accepted as per the scoring guidelines.</div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Website</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Website</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2">Total estimated cost of the projects is provided usually, but not always, see example: http://www.ebrd.com/work-with-us/projects/psd/renewables-portfolio.html<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand"></span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2">Total estimated cost of the projects is provided usually, but not always, see example: http://www.ebrd.com/work-with-us/projects/psd/renewables-portfolio.html<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand"></span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Website</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html http://www.ebrd.com/work-with-us/projects/psd/yda-bond-project.html</div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Website</div><div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html http://www.ebrd.com/work-with-us/projects/psd/yda-bond-project.html</div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Always</div>
-                                <div class="col1">Website</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html http://www.ebrd.com/work-with-us/projects/psd/yda-bond-project.html</div>
-                                <div class="col2">Total estimated cost could be found on all activities sampled. Evidence provided by the independent reviewer currently pending signing.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Always</div><div class="col1">Website</div><div class="col2">http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html http://www.ebrd.com/work-with-us/projects/psd/yda-bond-project.html</div><div class="col2">Total estimated cost could be found on all activities sampled. Evidence provided by the independent reviewer currently pending signing.</div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails commitments" style="display: none;">
+                    </div><div class="indicatordetails commitments" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails disbursements-and-expenditure" style="display: none;">
+                    </div><div class="indicatordetails disbursements-and-expenditure" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>IATI</p>
                         <p>Data quality: 100%</p>
                         <br />
                         </p>
-                    </div>
-                    <div class="indicatordetails budget-identifier" style="display: none;">
+                    </div><div class="indicatordetails budget-identifier" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Not Published</p>
                         <h6>Source</h6>
@@ -1891,59 +1700,53 @@ layout: 2016/base
                             <h3>36. Budget Identifier</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2">This indicator is retained for all organisations in the Index. The budget identifier helps to explain aid flows in the context<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">of the recipient government's own budget. It does not relate only to those flows that are direct to the government ('on budget'), but also to other flows which may relate to the government's own budget. In cases where the organisation is only providing private sector investment, budget classifications are still possible. Such activities could, for example, be classified as current expenditure under the microfinance and financial services function.</span></div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2">This indicator is retained for all organisations in the Index. The budget identifier helps to explain aid flows in the context<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">of the recipient government's own budget. It does not relate only to those flows that are direct to the government ('on budget'), but also to other flows which may relate to the government's own budget. In cases where the organisation is only providing private sector investment, budget classifications are still possible. Such activities could, for example, be classified as current expenditure under the microfinance and financial services function.</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2">This indicator is retained for all organisations in the Index. The budget identifier helps to explain aid flows in the context<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">of the recipient government's own budget. It does not relate only to those flows that are direct to the government ('on budget'), but also to other flows which may relate to the government's own budget. In cases where the organisation is only providing private sector investment, budget classifications are still possible. Such activities could, for example, be classified as current expenditure under the microfinance and financial services function.</span></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2">This indicator is retained for all organisations in the Index. The budget identifier helps to explain aid flows in the context<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">of the recipient government's own budget. It does not relate only to those flows that are direct to the government ('on budget'), but also to other flows which may relate to the government's own budget. In cases where the organisation is only providing private sector investment, budget classifications are still possible. Such activities could, for example, be classified as current expenditure under the microfinance and financial services function.</span></div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails results" style="display: none;">
+                    </div><div class="indicatordetails results" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Sometimes</p>
                         <p>Format: Pdf</p>
@@ -1956,59 +1759,47 @@ layout: 2016/base
                             <h3>37. Results</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Pdf</div>
-                                <div class="col2">http://www.ebrd.com/what-we-do/evaluation-overview.html http://www.ebrd.com/work-with-us/projects/psd/bursa-light-rail.html</div>
-                                <div class="col2">Some results information available in evaluation reports but results are not published consistently for each individual project.</div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Pdf</div><div class="col2">http://www.ebrd.com/what-we-do/evaluation-overview.html http://www.ebrd.com/work-with-us/projects/psd/bursa-light-rail.html</div><div class="col2">Some results information available in evaluation reports but results are not published consistently for each individual project.</div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Pdf</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Pdf</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1"></div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">
+                                </div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Pdf</div>
-                                <div class="col2">http://www.ebrd.com/what-we-do/evaluation-overview.html http://www.ebrd.com/work-with-us/projects/psd/bursa-light-rail.html</div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Pdf</div><div class="col2">http://www.ebrd.com/what-we-do/evaluation-overview.html http://www.ebrd.com/work-with-us/projects/psd/bursa-light-rail.html</div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Pdf</div>
-                                <div class="col2"></div>
-                                <div class="col2">Some results information available in evaluation reports but results are not published consistently for each individual project.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Pdf</div><div class="col2">
+                                </div><div class="col2">Some results information available in evaluation reports but results are not published consistently for each individual project.</div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails impact-appraisals" style="display: none;">
+                    </div><div class="indicatordetails impact-appraisals" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Sometimes</p>
                         <p>Format: Document</p>
@@ -2021,59 +1812,46 @@ layout: 2016/base
                             <h3>38. Impact Appraisals</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/projects/psd/befesa-silvermet-steel-dust-recycling.html http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html</div>
-                                <div class="col2">A brief impact appraisal is given on project summary pages but these do not contain sufficient detail to score always.</div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/projects/psd/befesa-silvermet-steel-dust-recycling.html http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html</div><div class="col2">A brief impact appraisal is given on project summary pages but these do not contain sufficient detail to score always.</div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Document</div>
-                                <div class="col2">http://www.ebrd.com/work-with-us/projects/psd/befesa-silvermet-steel-dust-recycling.html http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html</div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Document</div><div class="col2">http://www.ebrd.com/work-with-us/projects/psd/befesa-silvermet-steel-dust-recycling.html http://www.ebrd.com/work-with-us/projects/psd/vakifbank-dpr-.html</div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Sometimes</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2">A brief impact appraisal is given on project summary pages but these do not contain sufficient detail to score always.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Sometimes</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2">A brief impact appraisal is given on project summary pages but these do not contain sufficient detail to score always.</div>
                             </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="indicatordetails conditions" style="display: none;">
+                    </div><div class="indicatordetails conditions" style="display: none;">
                         <h6>Publication Status</h6>
                         <p>Not Published</p>
                         <h6>Source</h6>
@@ -2085,54 +1863,44 @@ layout: 2016/base
                             <h3>39. Conditions</h3>
                             <div class="row">
                                 <div class="col1 first">
-                                    <h4>Stage</h4></div>
-                                <div class="col1">
-                                    <h4>Status</h4></div>
-                                <div class="col1">
-                                    <h4>Format</h4></div>
-                                <div class="col2">
-                                    <h4>Source</h4></div>
-                                <div class="col2">
+                                    <h4>Stage</h4>
+                                </div><div class="col1">
+                                    <h4>Status</h4>
+                                </div><div class="col1">
+                                    <h4>Format</h4>
+                                </div><div class="col2">
+                                    <h4>Source</h4>
+                                </div><div class="col2">
                                     <h4>Comments</h4></div>
-                            </div>
-                            <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2">This information could not be found. For IFIs and DFIs, this includes loan repayment conditions or special terms and conditions. In<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">cases where the loan repayment terms are considered commercially sensitive, this information can be redacted. The reason for the redactions needs to be explicitly stated in detail and must clarify why the information is commercially sensitive and would cause material and direct harm if published.</span></div>
+                            </div><div class="row">
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2">This information could not be found. For IFIs and DFIs, this includes loan repayment conditions or special terms and conditions. In<span class="hide"></span> <a class="expandlink">Expand...</a><span class="expand">cases where the loan repayment terms are considered commercially sensitive, this information can be redacted. The reason for the redactions needs to be explicitly stated in detail and must clarify why the information is commercially sensitive and would cause material and direct harm if published.</span></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1"></div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">
+                                </div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2"></div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2"></div>
                             </div>
                             <hr />
                             <div class="row">
-                                <div class="col1 first stage"></div>
-                                <div class="col1">Not published</div>
-                                <div class="col1">Document</div>
-                                <div class="col2"></div>
-                                <div class="col2">This information could not be found.</div>
+                                <div class="col1 first stage">
+                                </div><div class="col1">Not published</div><div class="col1">Document</div><div class="col2">
+                                </div><div class="col2">This information could not be found.</div>
                             </div>
                             <hr />
                         </div>
@@ -2146,12 +1914,10 @@ layout: 2016/base
 <div class="clearfix"></div>
 <footer id="colophon" class="clearfix">
     <div class="footercol alignleft" style="color:#464646 !important;"> &copy; Publish What you Fund 2018.
-        <br> Company Registration No. 7676886 (England &amp; Wales)</div>
-    <div class="footercol alignright"> <a href="/contact" style="color:#464646 !important;">Contact Publish What You Fund</a>
+        <br> Company Registration No. 7676886 (England &amp; Wales)</div><div class="footercol alignright"> <a href="/contact" style="color:#464646 !important;">Contact Publish What You Fund</a>
         <br> Design by <a href="http://svidesign.com/" title="Web design by SVI Design" style="color:#464646">SVIDesign</a>
         <br>
-    </div>
-    <div class="footercol alignmiddle">
+    </div><div class="footercol alignmiddle">
         <a href="http://www.publishwhatyoufund.org/" title="Publish What You Fund" style="color:#464646"><img src="http://ati.publishwhatyoufund.org/wp-content/themes/ati/img/publish-what-you-fund-logo.png" width="131px" height="31px" /></a>
     </div>
     <p>Lisense Statement: This work is released under a Creative Commons Attribution 3.0 License, and can be freely copied, redistributed and reused, with appropriate citation of Publish What You Fund.</p>
@@ -2547,8 +2313,8 @@ layout: 2016/base
         <p>Humanitarian Implementation Plans (HIPs) and project plans are accepted for humanitarian agencies.</p>
         <p>The score for this indicator is graduated based on accessibility.</p>
         <h4>Weighting</h4>
-        <h2>4.33%</h2> <a class="pop_impact_appraisals_close">Close</a></div>
-    <div id="pop_conditions" class="popup_overlay hideme">
+        <h2>4.33%</h2> <a class="pop_impact_appraisals_close">Close</a>
+    </div><div id="pop_conditions" class="popup_overlay hideme">
         <h6>39. Conditions</h6>
         <div>
             <p>The terms and conditions of the activity may also be referred to as benchmarks, priors, or involve words such as “subject to&#8230;”. They are specific to an individual activity and explain what the recipient must do in order to be eligible for the funds to be released.</p>
