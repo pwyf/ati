@@ -2,6 +2,8 @@ from collections import OrderedDict
 import csv
 import json
 from os.path import dirname, join, realpath
+from os import makedirs
+import shutil
 
 
 shortnames = {
@@ -54,3 +56,16 @@ for idx, org in enumerate(orgs.values()):
 
 with open(join(rootpath, '_data', '2016', 'results.json'), 'w') as f:
     json.dump(orgs, f)
+
+with open(join(rootpath, 'gen', '2016', 'donor-template.md')) as f:
+    donor_tmpl = f.read()
+
+output_path = join(rootpath, '2016')
+donors_path = join(output_path, 'donor')
+shutil.rmtree(donors_path, ignore_errors=True)
+makedirs(donors_path)
+
+for slug, org in orgs.items():
+    txt = donor_tmpl.format(slug=slug, **org)
+    with open(join(donors_path, slug + '.md'), 'w') as f:
+        f.write(txt)
