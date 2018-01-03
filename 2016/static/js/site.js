@@ -60,6 +60,12 @@ jQuery(document).ready(function($){
     $(this).toggleClass('open');
   });
 
+  var dc_overview = $('.donor-content p:first');
+  var dc_overflow = dc_overview.nextAll();
+  dc_overflow.wrapAll('<div class="hiddendonorinfo" />');
+  dc_overflow.last().after('<p class="closedonormore"><a href="#">Close</a></p>');
+  dc_overview.after('<p class="donormorelink"> <a href="">Read More...</a></p>');
+
   $('.donormorelink').click(function(e) {
     e.preventDefault();
     $(this).animate({
