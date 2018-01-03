@@ -1,0 +1,143 @@
+---
+layout: 2016/base
+---
+
+<section class="span5" style="min-height:900px;">
+    <script type="text/javascript"> jQuery(document).ready(function($) {
+        resultsArray = {
+            {% for org_tuple in site.data['2016'].results %}
+                "{{ org_tuple[1]['name'] }}": {
+                    "url": "{{ site.github.url }}/2016/donor/{{ org_tuple[0] }}\/", "activity_classifications": "{{ org_tuple[1]['by_component']['activity_classifications'] }}", "activity_basic": "{{ org_tuple[1]['by_component']['activity_basic'] }}", "activity_financial": "{{ org_tuple[1]['by_component']['activity_financial'] }}", "activity_performance": "{{ org_tuple[1]['by_component']['activity_performance'] }}", "activity_related_documents": "{{ org_tuple[1]['by_component']['activity_related_documents'] }}", "organisation_planning": "{{ org_tuple[1]['by_component']['organisation_planning'] }}", "organisation_financial": "{{ org_tuple[1]['by_component']['organisation_financial'] }}", "commitment": "{{ org_tuple[1]['by_component']['commitment'] }}"
+                }{% if forloop.last == false %},{% endif %}
+            {% endfor %}
+        }
+        ;
+        orgsArray = [
+        {% for org_tuple in site.data['2016'].results %}
+            {
+                "org_code": "{{ org_tuple[1]['org_code'] }}", "donor_name": "{{ org_tuple[1]['name'] }}", "major_donor_category": "United Nations", "weighted_overall_result": "{{ org_tuple[1]['score'] | round: 1 }}", "performance_group": "{{ org_tuple[1]['performance_group'] }}", "rank": "{{ org_tuple[1]['rank'] }}"
+            }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+        ];
+    }
+
+    );
+    </script>
+    <script src="{{ site.github.url }}/2016/static/js/jquery-ui-1.10.3.custom.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="{{ site.github.url }}/2016/static/js/explore-data.js" type="text/javascript"></script>
+    <script src="{{ site.github.url }}/2016/static/js/jquery.popup.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        /*<![CDATA[*/
+
+        jQuery(document).ready(function($) {
+            $("#rankings-list").fadeToggle(600, "linear");
+            $("body").on("click", "#dr_collapse", function() {
+                $("#rankings-list").fadeToggle(100, "linear");
+                $("#filler").html('<h2 style="width:280px;" class="rankings-header">Donor Rankings <img src="{{ site.github.url }}/2016/static/img/left_arrow.png" style="padding-left:40px; cursor:pointer;" id="dr_collapse2"></h2>');
+            }
+            );
+            $("body").on("click", "#dr_collapse2", function() {
+                $("#rankings-list").fadeToggle(100, "linear");
+                $("#filler").html('<h2 style="width:280px;" class="rankings-header">Donor Rankings <img src="{{ site.github.url }}/2016/static/img/right_arrow.png" style="padding-left:40px; cursor:pointer;" id="dr_collapse"></h2>');
+            }
+            );
+            $("body").on("click", "#filter_collapse", function() {
+                $("#filterAll").fadeToggle(100, "linear");
+                $("#filler2").html('<h2 id="weighting-title" style="width:280px;">Weighting Tool <img src="{{ site.github.url }}/2016/static/img/left_arrow.png" style="padding-left:55px; cursor:pointer;" id="filter_collapse2"></h2>');
+            }
+            );
+            $("body").on("click", "#filter_collapse2", function() {
+                $("#filterAll").fadeToggle(100, "linear");
+                $("#filler2").html('<h2 id="weighting-title" style="width:280px;">Weighting Tool <img src="{{ site.github.url }}/2016/static/img/right_arrow.png" style="padding-left:55px; cursor:pointer;" id="filter_collapse"></h2>');
+            }
+            );
+        }
+
+        );
+        /*]]>*/
+
+    </script>
+
+    <div id="preloaded-images">
+        <img src="{{ site.github.url }}/2016/static/img/left_arrow.png" width="1" height="1" alt="Image 01" />
+        <img src="{{ site.github.url }}/2016/static/img/right_arrow.png" width="1" height="1" alt="Image 02" />
+    </div>
+    <article id="post-35" class="post-35 page type-page status-publish has-post-thumbnail hentry">
+        <header class="entry-header explore-entry-header">
+            <h1 class="entry-title">Explore the Data</h1></header>
+        <div class="report">
+            <h2 id="report"></h2>
+        </div>
+        <div class="entry-content">
+            <div id="graph" style="width: 483px; height: 873px; display: block; overflow: visible; position:relative; margin: 0px 0px 10px 0px; z-index: 0; background-image: url('{{ site.github.url }}/2016/static/img/graph_bg_explore.png'); background-position: 0px -13px; background-repeat:no-repeat; background-color: #AAAAAA; padding-right:0px"></div>
+        </div>
+    </article>
+</section><aside id="rankings" class="span3" style="clear: right">
+    <div id="filler">
+        <h2 class="rankings-header">Donor Rankings <img src="{{ site.github.url }}/2016/static/img/right_arrow.png" style="right:0; padding-left:40px; cursor:pointer" id="dr_collapse"></h2>
+    </div>
+    <div id="rankings-list" style="height: 543px;">
+        <div class="rankings-column first" style="margin-left:6px !important;"></div><div class="rankings-column second"></div><div class="rankings-column third"></div>
+    </div>
+    <div id="filler2">
+        <h2 id="weighting-title" style="max-width:280px !important;">Weighting Tool <img src="{{ site.github.url }}/2016/static/img/right_arrow.png" style="padding-left:55px; cursor:pointer;" id="filter_collapse"></h2></div>
+
+    <div id="filterAll" class="filterAll">
+        <p style="padding:5px; font-size: 14px; font-weight:normal ">
+            Adjust the weighting of the three categories using the interactive slider.
+        </p>
+        <div id="weighting-tool"><div class="weightingbtn apply">APPLY</div><div class="weightingbtn reset">RESET</div><div id="btnDownload" attr="image" class="weightingbtn download" ><a href="{{ site.github.url }}/2016/static/pdf/2016_Final_Dataset.csv" target="_blank">DOWNLOAD</a></div>
+            <div id="weightingtool-wrapper">
+                <div id="commitment" class="weighting-category commitment parent d">
+                    <div class="grid50 weightingToolA"><p>COMMITMENT <span class="percentage-reading">10%</span></p></div><div id="com" class="grid50"><div class="weighting-category fullheight last d"><p>Commitment <span>10%</span></p></div></div>
+                </div>
+                <div id="organisation" class="weighting-category organisation parent m">
+                    <div class="grid50 weightingToolB"><p>ORGANISATION <span class="percentage-reading">25%</span></p></div><div id="org" class="grid50"><div class="weighting-category fiftyheight planning m"><p>Planning <span>12.5%</span></p></div><div class="weighting-category fiftyheight financial last m"><p>Financial <span>12.5%</span></p></div></div>
+                </div>
+                <div id="activity" class="weighting-category activity parent l">
+                    <div class="grid50 weightingToolC"><p>ACTIVITY <span class="percentage-reading">65%</span></p></div><div id="act" class="grid50"><div id="basic" class="weighting-category twentyheight basic l"><p>Basic Activity <span>13%</span></p></div><div id="classifications" class="weighting-category twentyheight classifications l"><p>Classifications <span>13%</span></p></div><div id="related" class="weighting-category twentyheight related l"><p>Related Documents <span>13%</span></p></div><div id="financial" class="weighting-category twentyheight financial l"><p>Financial <span>13%</span></p></div><div id="performance" class="weighting-category twentyheight last performance l"><p>Performance <span>13%</span></p></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+
+<div id="inline" style="display: none;">
+    <h3>Explore the Data</h3>
+    <div>
+        <p>The 2016 Aid Transparency Index uses 39 indicators grouped into weighted categories, to assess how transparent donor organisations are about their aid activities. These categories cover overall commitment to aid transparency and publication of information at both organisation and activity level.</p>
+        <p>In our methodology, greater emphasis is put on the activity-level indicators, which account for 65%, as transparency can be complete and relevant to all stakeholders only if disaggregated at the development project level.</p>
+        <p>The Explore the Data tool allows you to change these weightings and see how putting even more emphasis on activity-level indicators, or commitments or at the organisation-level would affect each organisation’s overall score.</p>
+        <br>
+        <br>
+        <div id="forgetMe" style="width:20px; height:20px; background-color:#000; float:left;"></div>
+        <h4 style="margin-left:20px; float:left;">Please don't show me this again</h4>
+        <br>
+    </div>
+</div>
+<a class="default_popup ignore-hash" href="#inline"></a>
+<script type="text/javascript">
+    jQuery(document).ready(function($) {
+        $('#branding').height($('#rankings').height());
+        $('.highcharts-button').hide();
+    });
+</script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+        if($('.entry-content').height()>$('#branding').height())
+        {$('#branding').css('min-height',($('.entry-content').height()+208)+$('.entry-header').outerHeight()+'px');}
+        else
+        {$('#branding').css('min-height',($('.entry-content').height()+108)+$('.entry-header').outerHeight()+'px');}
+        $('.entry-content').css('min-height',$('#branding').height()-($('.entry-header').outerHeight()+54)+'px');
+
+        if (!localStorage.getItem("DontShowmaaaaaaf ")) {
+            $('.default_popup').popup().trigger('click');
+        }
+        $(document).on("click ", "#forgetMe ", function() {
+            localStorage.setItem("DontShowmaaaaaaf ", "true ");
+            $('.popup_close').trigger('click');
+        });
+    });
+</script>
