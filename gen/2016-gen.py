@@ -12,13 +12,13 @@ shortnames = {
 
 
 def performance_group(score):
-    if score > 80:
+    if score >= 80:
         return 'Very good'
-    elif score > 60:
+    elif score >= 60:
         return 'Good'
-    elif score > 40:
+    elif score >= 40:
         return 'Fair'
-    elif score > 20:
+    elif score >= 20:
         return 'Poor'
     return 'Very poor'
 
