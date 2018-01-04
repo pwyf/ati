@@ -1,7 +1,7 @@
 ---
-layout: 2016/donor
 permalink: 2016/donor/asdb/index.html
 slug: asdb
+short_name: AsDB
 ---
 
 Created to promote regional cooperation in the Asia region, the Asian Development Banks (AsDB) original mandate was the financing of infrastructure projects. It provides non-concessional loans, equity investments, loan guarantees and concessional loans through the Asian Development Fund to lower and middle-income governments and the private sector. It now also engages in projects more directly orientated towards social development and poverty alleviation.

@@ -1,7 +1,7 @@
 ---
-layout: 2016/donor
 permalink: 2016/donor/afdb/index.html
 slug: afdb
+short_name: AfDB
 ---
 
 Established to promote regional cooperation and unity across the Africa region, the African Development Bank (AfDB) provides non-concessional and concessional loans, equity investments, loan guarantees and grants to lower and middle-income governments and the private sector.
