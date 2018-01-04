@@ -1,5 +1,4 @@
 ---
-layout: 2016/donor
 permalink: 2016/donor/{slug}/index.html
 slug: {slug}
 ---
