@@ -11,7 +11,7 @@ layout: 2016/base
             <div class="span2 rank-title" style="width: 186px;">
                 <h1 class="rank-title">{{ donor.rank }}.</h1>
             </div><div class="span6" style="background-color: #AAAAAA; max-width:572px;">
-                <h2 class="donor-title">{{ page.short_name }}</h2>
+                <h2 class="donor-title">{{ page.full_name }}</h2>
             </div>
         </div><div class="span2 first rank rank-thumb" style=" min-height: 334px;">
             <h3 class="ranking donor {{ donor.performance_group | downcase | replace:'very ', 'v' }}">{{ donor.performance_group }}</h3>
