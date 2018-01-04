@@ -2,6 +2,7 @@
 permalink: 2016/donor/ebrd/index.html
 slug: ebrd
 short_name: EBRD
+full_name: European Bank for Reconstruction and Development
 ---
 
 The EBRD is a multilateral development bank, which aims to promote transition in the countries where it operates, namely in Central and Eastern Europe, Central Asia and the Southern and Eastern Mediterranean. The Bank is accountable to its shareholders, which include countries from both the region and the rest of the world, plus the EU and the EIB.
