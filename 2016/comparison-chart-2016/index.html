@@ -251,6 +251,8 @@ categories: [
 						<div class='{{ category['class'] }}h'>
 
 						{% for org_tuple in site.data['2016'].results %}
+							{% assign donor_profile = site.pages | where: 'slug', org_tuple[0] | where: 'layout', '2016/donor' | first %}
+
 							{% if org_tuple[1]['score'] < category['min'] %}
 								</div>
 								{% assign cat_num = cat_num | plus: 1 %}
@@ -258,7 +260,7 @@ categories: [
 								<h4 style='padding: 5px 0 5px 10px; margin-top:10px; width:80%; color:#fff' class='{{ category['class'] }}'>{{ category['name'] }}</h4>
 								<div class='{{ category['class'] }}h'>
 							{% endif %}
-							<div style="padding-left:10px;">{{ org_tuple[1]['name'] }} {{ org_tuple[1]['score'] | round: 1 }}%</div>
+							<div style="padding-left:10px;">{{ donor_profile.short_name }} {{ org_tuple[1]['score'] | round: 1 }}%</div>
 						{% endfor %}
 						</div>
 					</div>
