@@ -31,10 +31,14 @@ with open(join(rootpath, '_data', '2016', 'source-results.csv')) as f:
 
 orgs = {shortnames[x['organisation_name']]: {
     'org_code': x['organisation_code'],
-    'name': x['organisation_name'],
     'score': 0.,
     'by_component': OrderedDict(),
 } for x in results}
+
+page_info = [{
+    'name': x['organisation_name'],
+    'slug': shortnames[x['organisation_name']],
+} for x in results]
 
 for x in results:
     org = orgs[shortnames.get(x['organisation_name'])]
@@ -65,7 +69,7 @@ donors_path = join(output_path, 'donor')
 shutil.rmtree(donors_path, ignore_errors=True)
 makedirs(donors_path)
 
-for slug, org in orgs.items():
-    txt = donor_tmpl.format(slug=slug, **org)
-    with open(join(donors_path, slug + '.md'), 'w') as f:
+for page in page_info:
+    txt = donor_tmpl.format(**page)
+    with open(join(donors_path, page['slug'] + '.md'), 'w') as f:
         f.write(txt)
