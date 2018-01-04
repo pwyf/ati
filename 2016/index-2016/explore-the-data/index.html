@@ -2,24 +2,22 @@
 layout: 2016/base
 ---
 
-{% assign donor_profiles = site.pages | where: 'layout', '2016/donor' %}
-
 <section class="span5" style="min-height:900px;">
     <script type="text/javascript"> jQuery(document).ready(function($) {
         resultsArray = {
-            {% for donor_profile in donor_profiles %}
-                {% assign org = site.data['2016'].results[donor_profile.slug] %}
+            {% for org_tuple in site.data['2016'].results %}
+                {% assign donor_profile = site.pages | where: 'layout', '2016/donor' | where: 'slug', org_tuple[0] | first %}
                 "{{ donor_profile.short_name }}": {
-                    "url": "{{ site.github.url }}/2016/donor/{{ donor_profile.slug }}\/", "activity_classifications": "{{ org['by_component']['activity_classifications'] }}", "activity_basic": "{{ org['by_component']['activity_basic'] }}", "activity_financial": "{{ org['by_component']['activity_financial'] }}", "activity_performance": "{{ org['by_component']['activity_performance'] }}", "activity_related_documents": "{{ org['by_component']['activity_related_documents'] }}", "organisation_planning": "{{ org['by_component']['organisation_planning'] }}", "organisation_financial": "{{ org['by_component']['organisation_financial'] }}", "commitment": "{{ org['by_component']['commitment'] }}"
+                    "url": "{{ site.github.url }}/2016/donor/{{ donor_profile.slug }}\/", "activity_classifications": "{{ org_tuple[1]['by_component']['activity_classifications'] }}", "activity_basic": "{{ org_tuple[1]['by_component']['activity_basic'] }}", "activity_financial": "{{ org_tuple[1]['by_component']['activity_financial'] }}", "activity_performance": "{{ org_tuple[1]['by_component']['activity_performance'] }}", "activity_related_documents": "{{ org_tuple[1]['by_component']['activity_related_documents'] }}", "organisation_planning": "{{ org_tuple[1]['by_component']['organisation_planning'] }}", "organisation_financial": "{{ org_tuple[1]['by_component']['organisation_financial'] }}", "commitment": "{{ org_tuple[1]['by_component']['commitment'] }}"
                 }{% if forloop.last == false %},{% endif %}
             {% endfor %}
         }
         ;
         orgsArray = [
-        {% for donor_profile in donor_profiles %}
-            {% assign org = site.data['2016'].results[donor_profile.slug] %}
+        {% for org_tuple in site.data['2016'].results %}
+            {% assign donor_profile = site.pages | where: 'layout', '2016/donor' | where: 'slug', org_tuple[0] | first %}
             {
-                "org_code": "{{ org['org_code'] }}", "donor_name": "{{ donor_profile.short_name }}", "major_donor_category": "", "weighted_overall_result": "{{ org['score'] | round: 1 }}", "performance_group": "{{ org['performance_group'] }}", "rank": "{{ org['rank'] }}"
+                "org_code": "{{ org_tuple[1]['org_code'] }}", "donor_name": "{{ donor_profile.short_name }}", "major_donor_category": "", "weighted_overall_result": "{{ org_tuple[1]['score'] | round: 1 }}", "performance_group": "{{ org_tuple[1]['performance_group'] }}", "rank": "{{ org_tuple[1]['rank'] }}"
             }{% if forloop.last == false %},{% endif %}
         {% endfor %}
         ];
