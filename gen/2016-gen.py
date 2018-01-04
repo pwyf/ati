@@ -1,9 +1,8 @@
 from collections import OrderedDict
 import csv
 import json
-from os.path import dirname, join, realpath
+from os.path import dirname, exists, join, realpath
 from os import makedirs
-import shutil
 
 
 shortnames = {
@@ -66,10 +65,20 @@ with open(join(rootpath, 'gen', '2016', 'donor-template.md')) as f:
 
 output_path = join(rootpath, '2016')
 donors_path = join(output_path, 'donor')
-shutil.rmtree(donors_path, ignore_errors=True)
-makedirs(donors_path)
+if not exists(donors_path):
+    makedirs(donors_path)
 
 for page in page_info:
-    txt = donor_tmpl.format(**page)
-    with open(join(donors_path, page['slug'] + '.md'), 'w') as f:
+    filepath = join(donors_path, page['slug'] + '.md')
+    if exists(filepath):
+        # read in the file; strip out the frontmatter
+        with open(filepath) as f:
+            content = f.read()
+        content = content.split('\n---\n', 1)[1]
+        # strip the contents from the template
+        current_tmpl = donor_tmpl.split('\n---\n', 1)[0] + '\n---\n'
+        txt = current_tmpl.format(**page) + content
+    else:
+        txt = donor_tmpl.format(**page)
+    with open(filepath, 'w') as f:
         f.write(txt)
