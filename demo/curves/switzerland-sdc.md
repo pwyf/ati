@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/switzerland-sdc/curve.svg
 rank: 31
-score: 45.436666872
+score: 45.436666871999996
 ---
 
 This is the information needed to generate the curve for Switzerland, SDC. It’s

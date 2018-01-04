@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/us-state/curve.svg
 rank: 23
-score: 53.854149694
+score: 53.854149694000014
 ---
 
 This is the information needed to generate the curve for U.S., State. It’s

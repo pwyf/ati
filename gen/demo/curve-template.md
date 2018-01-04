@@ -1,5 +1,4 @@
 ---
-layout: demo/curve
 permalink: demo/{slug}/curve.svg
 rank: {rank}
 score: {score}

@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/afdb/curve.svg
 rank: 10
-score: 80.231969333
+score: 80.23196933300002
 ---
 
 This is the information needed to generate the curve for AfDB. It’s

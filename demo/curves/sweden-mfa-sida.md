@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/sweden-mfa-sida/curve.svg
 rank: 9
-score: 80.733426448
+score: 80.73342644799999
 ---
 
 This is the information needed to generate the curve for Sweden, MFA-Sida. It’s

@@ -1,5 +1,4 @@
 ---
-layout: demo/curve
 permalink: demo/us-defense/curve.svg
 rank: 28
 score: 46.740815675

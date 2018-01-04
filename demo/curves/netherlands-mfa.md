@@ -1,5 +1,4 @@
 ---
-layout: demo/curve
 permalink: demo/netherlands-mfa/curve.svg
 rank: 16
 score: 66.578054881

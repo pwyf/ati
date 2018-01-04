@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/eib/curve.svg
 rank: 24
-score: 53.52274261
+score: 53.522742609999995
 ---
 
 This is the information needed to generate the curve for EIB. It’s

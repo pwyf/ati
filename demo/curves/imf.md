@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/imf/curve.svg
 rank: 39
-score: 31.285913
+score: 31.285912999999994
 ---
 
 This is the information needed to generate the curve for IMF. It’s

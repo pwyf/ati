@@ -30,11 +30,14 @@ with open(join(rootpath, '_data', 'demo', 'source-results.csv')) as f:
     results = [x for x in r]
 
 orgs = {slugify(x['organisation_name']): {
-    'name': x['organisation_name'],
-    'slug': slugify(x['organisation_name']),
     'score': 0.,
     'by_component': OrderedDict(),
 } for x in results}
+
+page_info = [{
+    'name': x['organisation_name'],
+    'slug': slugify(x['organisation_name']),
+} for x in results]
 
 for x in results:
     org = slugify(x['organisation_name'])
@@ -69,10 +72,12 @@ curves_path = join(output_path, 'curves')
 shutil.rmtree(curves_path, ignore_errors=True)
 makedirs(curves_path)
 
-for org in orgs.values():
-    txt = agency_tmpl.format(**org)
-    with open(join(agencies_path, org['slug'] + '.md'), 'w') as f:
+for page in page_info:
+    slug = page['slug']
+    txt = agency_tmpl.format(**page)
+    with open(join(agencies_path, slug + '.md'), 'w') as f:
         f.write(txt)
-    txt = curve_tmpl.format(**org)
-    with open(join(curves_path, org['slug'] + '.md'), 'w') as f:
+    org = orgs[slug]
+    txt = curve_tmpl.format(**page, **org)
+    with open(join(curves_path, slug + '.md'), 'w') as f:
         f.write(txt)

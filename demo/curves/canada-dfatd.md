@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/canada-dfatd/curve.svg
 rank: 12
-score: 76.317095484
+score: 76.31709548399999
 ---
 
 This is the information needed to generate the curve for Canada, DFATD. It’s

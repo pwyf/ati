@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/gavi/curve.svg
 rank: 11
-score: 78.029555737
+score: 78.02955573700002
 ---
 
 This is the information needed to generate the curve for GAVI. It’s

@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/japan-mofa/curve.svg
 rank: 43
-score: 14.279264
+score: 14.279263999999998
 ---
 
 This is the information needed to generate the curve for Japan, MOFA. It’s

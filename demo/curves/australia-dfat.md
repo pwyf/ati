@@ -1,5 +1,4 @@
 ---
-layout: demo/curve
 permalink: demo/australia-dfat/curve.svg
 rank: 25
 score: 49.889044872

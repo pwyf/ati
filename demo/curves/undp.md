@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/undp/curve.svg
 rank: 1
-score: 93.257232499
+score: 93.25723249899998
 ---
 
 This is the information needed to generate the curve for UNDP. It’s

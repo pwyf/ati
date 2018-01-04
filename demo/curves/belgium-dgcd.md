@@ -1,5 +1,4 @@
 ---
-layout: demo/curve
 permalink: demo/belgium-dgcd/curve.svg
 rank: 27
 score: 47.720393346

@@ -1,5 +1,4 @@
 ---
-layout: demo/curve
 permalink: demo/china-mofcom/curve.svg
 rank: 45
 score: 2.219778

@@ -1,5 +1,4 @@
 ---
-layout: demo/curve
 permalink: demo/finland-mfa/curve.svg
 rank: 35
 score: 38.445816651

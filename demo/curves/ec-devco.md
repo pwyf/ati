@@ -1,5 +1,4 @@
 ---
-layout: demo/curve
 permalink: demo/ec-devco/curve.svg
 rank: 15
 score: 68.729356626

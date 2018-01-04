@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/germany-bmz-giz/curve.svg
 rank: 18
-score: 63.242695663
+score: 63.242695663000006
 ---
 
 This is the information needed to generate the curve for Germany, BMZ-GIZ. It’s

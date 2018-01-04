@@ -1,5 +1,4 @@
 ---
-layout: demo/curve
 permalink: demo/ec-echo/curve.svg
 rank: 14
 score: 71.866302191

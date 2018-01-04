@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/un-ocha/curve.svg
 rank: 37
-score: 37.029640754
+score: 37.029640754000006
 ---
 
 This is the information needed to generate the curve for UN OCHA. It’s

@@ -1,5 +1,4 @@
 ---
-layout: demo/curve
 permalink: demo/denmark-mfa/curve.svg
 rank: 17
 score: 64.663516638

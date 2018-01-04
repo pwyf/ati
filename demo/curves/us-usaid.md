@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/us-usaid/curve.svg
 rank: 19
-score: 59.14365409
+score: 59.143654090000005
 ---
 
 This is the information needed to generate the curve for U.S., USAID. It’s

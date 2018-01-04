@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/korea-koica/curve.svg
 rank: 41
-score: 26.097915
+score: 26.097914999999997
 ---
 
 This is the information needed to generate the curve for Korea, KOICA. It’s

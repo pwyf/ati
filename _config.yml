@@ -8,3 +8,13 @@ defaults:
       path: 2016/donor
     values:
       layout: 2016/donor
+
+  - scope:
+      path: demo/curves
+    values:
+      layout: demo/curve
+
+  - scope:
+      path: demo/agencies
+    values:
+      layout: demo/agency

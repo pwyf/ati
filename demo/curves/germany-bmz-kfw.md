@@ -1,8 +1,7 @@
 ---
-layout: demo/curve
 permalink: demo/germany-bmz-kfw/curve.svg
 rank: 20
-score: 58.993297801
+score: 58.993297801000004
 ---
 
 This is the information needed to generate the curve for Germany, BMZ-KFW. It’s
