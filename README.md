@@ -15,6 +15,11 @@ Static site build for the Aid Transparency Index.
  * [Raw data (exported from the tracker)](_data)
  * [Preprocessing scripts](gen)
 
+## Requirements
+
+ * Jekyll
+ * Python 3.5+? Something like that. A relatively new version, anyway.
+
 ## Setup
 
 1. Update `_data/demo/source-results.csv` with actual results (exported from the aid transparency tracker)
