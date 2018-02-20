@@ -30,7 +30,9 @@ with open(join(rootpath, '_data', 'demo', 'source-results.csv')) as f:
 
 orgs = {slugify(x['organisation_name']): {
     'score': 0.,
+    'name': x['organisation_name'],
     'by_component': OrderedDict(),
+    'by_indicator': OrderedDict(),
 } for x in results}
 
 page_info = [{
@@ -43,10 +45,12 @@ for x in results:
     sc = float(x['indicator_total_weighted_points'])
     orgs[org]['score'] += sc
     orgs[org]['performance_group'] = performance_group(orgs[org]['score'])
+    ind = x['indicator_name']
     cat = x['indicator_subcategory_name']
     if cat not in orgs[org]['by_component']:
         orgs[org]['by_component'][cat] = 0.
     orgs[org]['by_component'][cat] += sc
+    orgs[org]['by_indicator'][ind] = sc
 
 orgs = OrderedDict(
     sorted(orgs.items(), key=lambda x: x[1]['score'], reverse=True))
