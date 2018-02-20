@@ -78,6 +78,8 @@ for page in page_info:
     with open(join(agencies_path, slug + '.md'), 'w') as f:
         f.write(txt)
     org = orgs[slug]
-    txt = curve_tmpl.format(**page, **org)
+    curve_args = page.copy()
+    curve_args.update(org)
+    txt = curve_tmpl.format(**curve_args)
     with open(join(curves_path, slug + '.md'), 'w') as f:
         f.write(txt)

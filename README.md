@@ -18,7 +18,6 @@ Static site build for the Aid Transparency Index.
 ## Requirements
 
  * Jekyll
- * Python 3.5+? Something like that. A relatively new version, anyway.
 
 ## Setup
 
