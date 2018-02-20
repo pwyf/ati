@@ -6,6 +6,18 @@ from os import makedirs
 import shutil
 
 
+def performance_group(score):
+    if score >= 80:
+        return 'Very good'
+    elif score >= 60:
+        return 'Good'
+    elif score >= 40:
+        return 'Fair'
+    elif score >= 20:
+        return 'Poor'
+    return 'Very poor'
+
+
 def slugify(name):
     return name.replace(' ', '-').replace(',', '').replace('.', '').lower()
 
@@ -30,6 +42,7 @@ for x in results:
     org = slugify(x['organisation_name'])
     sc = float(x['indicator_total_weighted_points'])
     orgs[org]['score'] += sc
+    orgs[org]['performance_group'] = performance_group(orgs[org]['score'])
     cat = x['indicator_subcategory_name']
     if cat not in orgs[org]['by_component']:
         orgs[org]['by_component'][cat] = 0.
