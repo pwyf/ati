@@ -55,7 +55,7 @@ for idx, org in enumerate(orgs.values()):
     org['rank'] = idx + 1
 
 with open(join(rootpath, '_data', 'demo', 'results.json'), 'w') as f:
-    json.dump(orgs, f)
+    json.dump(orgs, f, indent=4)
 
 with open(join(rootpath, 'gen', 'demo', 'agency-template.md')) as f:
     agency_tmpl = f.read()
