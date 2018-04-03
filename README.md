@@ -4,7 +4,7 @@ Static site build for the Aid Transparency Index.
 
 ### Content that can be modified:
 
- * [Demo (2018) ATI site content](demo)
+ * [2018 ATI site content](2018)
 
 ### Development stuff (don’t mess with this!):
 
@@ -19,13 +19,13 @@ Static site build for the Aid Transparency Index.
 
 ## Setup
 
-1. Update `_data/demo/source-results.csv` with actual results (exported from the aid transparency tracker)
+1. Update `_data/2018/source-results.csv` with actual results (exported from the aid transparency tracker)
 
 2. Run the following:
 
    ```shell
    # generate templates and `results.json`
-   $ python gen/demo-gen.py
+   $ python gen/2018-gen.py
 
    # Generate static site / start webserver
    $ jekyll s

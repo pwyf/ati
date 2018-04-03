@@ -1,9 +1,0 @@
----
-permalink: demo/undp/curve.svg
-rank: 1
-score: 93.25723249899998
----
-
-This is the information needed to generate the curve for UNDP. It’s
-auto-generated, so please don’t change it unless you know what you’re
-doing!

@@ -1,0 +1,12 @@
+---
+layout: 2018/base
+---
+
+{% assign agency = site.data['2018'].results[page.slug] %}
+
+<h1>{{ page.short_name }}</h1>
+<h2>Score: {{ agency.score | to_integer }}%</h2>
+
+<img src="curve.svg" />
+
+{{ content }}

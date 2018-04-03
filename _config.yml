@@ -1,11 +1,11 @@
-exclude: ["gen/", "demo/TODO.md", "README.md", "demo/README.md"]
+exclude: ["gen/", "2018/TODO.md", "README.md", "2018/README.md"]
 defaults:
   - scope:
-      path: demo/curves
+      path: 2018/curves
     values:
-      layout: demo/curve
+      layout: 2018/curve
 
   - scope:
-      path: demo/agencies
+      path: 2018/agencies
     values:
-      layout: demo/agency
+      layout: 2018/agency
