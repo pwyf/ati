@@ -1,4 +1,3 @@
-gems: ["kramdown"]
 exclude: ["Gemfile", "Gemfile.lock", "vendor/", "Rakefile", "gen/", "2018/TODO.md", "README.md", "2018/README.md"]
 defaults:
   - scope:
