@@ -1,4 +1,5 @@
-exclude: ["gen/", "2018/TODO.md", "README.md", "2018/README.md"]
+gems: ["kramdown"]
+exclude: ["Gemfile", "Gemfile.lock", "vendor/", "Rakefile", "gen/", "2018/TODO.md", "README.md", "2018/README.md"]
 defaults:
   - scope:
       path: 2018/curves
