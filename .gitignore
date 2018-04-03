@@ -1,3 +1,5 @@
-/.ve
-/_site
+.bundle/
+vendor/
+.ve/
+_site/
 .jekyll-metadata
