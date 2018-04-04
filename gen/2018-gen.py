@@ -64,26 +64,13 @@ with open(join(rootpath, '_data', '2018', 'results.json'), 'w') as f:
 with open(join(rootpath, 'gen', '2018', 'agency-template.md')) as f:
     agency_tmpl = f.read()
 
-with open(join(rootpath, 'gen', '2018', 'curve-template.md')) as f:
-    curve_tmpl = f.read()
-
 output_path = join(rootpath, '2018')
 agencies_path = join(output_path, 'agencies')
 shutil.rmtree(agencies_path, ignore_errors=True)
 makedirs(agencies_path)
 
-curves_path = join(output_path, 'curves')
-shutil.rmtree(curves_path, ignore_errors=True)
-makedirs(curves_path)
-
 for page in page_info:
     slug = page['slug']
     txt = agency_tmpl.format(**page)
     with open(join(agencies_path, slug + '.md'), 'w') as f:
-        f.write(txt)
-    org = orgs[slug]
-    curve_args = page.copy()
-    curve_args.update(org)
-    txt = curve_tmpl.format(**curve_args)
-    with open(join(curves_path, slug + '.md'), 'w') as f:
         f.write(txt)
