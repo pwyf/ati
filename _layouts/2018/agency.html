@@ -6,21 +6,21 @@ layout: 2018/base
 
 <div class="margins-container single-container">
     <a href="{{ "2018/" | absolute_url }}" class="back-to-results">
-      <img src="{{ "2018/static/assets/left-arrow.svg" | absolute_url }}" alt="Back to results">
+      <img src="{{ "2018/static/assets/left-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Back to results">
       <span>Back to results</span>
     </a>
     <div class="single-content">
         <div class="left-column">
           <div class="graph-image">
-            <img src="{{ "2018/static/assets/graph-placeholder.png" | absolute_url }}" alt="">
+            <img src="{{ "2018/static/assets/graph-placeholder.png" | absolute_url }}?ver={{ site.github.build_revision }}" alt="">
           </div>
           <div class="buttons">
             <a href="#" class="download-report button flex-icon">
-              <img src="{{ "2018/static/assets/down-arrow.svg" | absolute_url }}" alt="Download Index">
+              <img src="{{ "2018/static/assets/down-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download Index">
               <span>Download Donor Profile</span>
             </a>
             <a href="#" class="download-report french button flex-icon">
-              <img src="{{ "2018/static/assets/down-arrow-black.svg" | absolute_url }}" alt="Download Index">
+              <img src="{{ "2018/static/assets/down-arrow-black.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download Index">
               <span>Telegerger en Francais</span>
             </a>
           </div>
@@ -778,4 +778,4 @@ layout: 2018/base
     </div>
 </div>
 
-<script src="{{ "2018/static/js/single.js" | absolute_url }}"></script>
+<script src="{{ "2018/static/js/single.js" | absolute_url }}?ver={{ site.github.build_revision }}"></script>
