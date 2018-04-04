@@ -33,8 +33,7 @@ results = sorted(results, key=lambda x: (x['id'], x['indicator_order']))
 orgs = {slugify(x['organisation_name']): {
     'score': 0.,
     'name': x['organisation_name'],
-    'by_component': OrderedDict(),
-    'by_indicator': OrderedDict(),
+    'components': OrderedDict(),
 } for x in results}
 
 page_info = [{
@@ -44,22 +43,48 @@ page_info = [{
 
 for x in results:
     org = slugify(x['organisation_name'])
-    sc = float(x['indicator_total_weighted_points'])
-    orgs[org]['score'] += sc
+    sc = float(x['total_points'])
+    weight = float(x['indicator_weight'])
+    weighted_sc = float(x['indicator_total_weighted_points'])
+    fmt = x['publication_format']
+    status = x['survey_publication_status']
+    cat = x['indicator_subcategory_name']
+    ind = x['indicator_name']
+
+    if x['survey_ordinal_value'] == '0.0':
+        # if there's an ordinal value of 0.0, there shouldn't be a format
+        fmt = 'not-applicable'
+    if status == 'not published':
+        # if status is not published, there shouldn't be a format
+        fmt = 'not-applicable'
+
+    orgs[org]['score'] += weighted_sc
     orgs[org]['performance_group'] = performance_group(orgs[org]['score'])
 
-    ind = x['indicator_name']
+    if cat not in orgs[org]['components']:
+        orgs[org]['components'][cat] = {
+            'score': 0.,
+            'weight': 0.,
+            'indicators': OrderedDict()
+        }
+    orgs[org]['components'][cat]['score'] += sc
+    orgs[org]['components'][cat]['weight'] += weight
+
     if ind.startswith('Project procurement'):
         ind = 'Project procurement'
 
-    if ind not in orgs[org]['by_indicator']:
-        orgs[org]['by_indicator'][ind] = 0.
-    orgs[org]['by_indicator'][ind] += sc
+    if ind not in orgs[org]['components'][cat]['indicators']:
+        orgs[org]['components'][cat]['indicators'][ind] = {
+            'score': 0.,
+            'weight': 0.,
+        }
+    orgs[org]['components'][cat]['indicators'][ind]['score'] += sc
+    orgs[org]['components'][cat]['indicators'][ind]['weight'] += weight
 
-    cat = x['indicator_subcategory_name']
-    if cat not in orgs[org]['by_component']:
-        orgs[org]['by_component'][cat] = 0.
-    orgs[org]['by_component'][cat] += sc
+    # NB this is incorrect for project procurement!
+    # it will always show the format and status for contracts
+    orgs[org]['components'][cat]['indicators'][ind]['format'] = fmt
+    orgs[org]['components'][cat]['indicators'][ind]['status'] = status
 
 orgs = OrderedDict(
     sorted(orgs.items(), key=lambda x: x[1]['score'], reverse=True))
@@ -68,8 +93,6 @@ for idx, org in enumerate(orgs.values()):
     org['rank'] = idx + 1
 
 with open(join(rootpath, '_data', '2018', 'results.json'), 'w') as f:
-    json.dump(orgs, f, indent=4)
-with open(join(rootpath, '2018', 'results.json'), 'w') as f:
     json.dump(orgs, f, indent=4)
 
 with open(join(rootpath, 'gen', '2018', 'agency-template.md')) as f:
