@@ -60,6 +60,8 @@ for idx, org in enumerate(orgs.values()):
 
 with open(join(rootpath, '_data', '2018', 'results.json'), 'w') as f:
     json.dump(orgs, f, indent=4)
+with open(join(rootpath, '2018', 'results.json'), 'w') as f:
+    json.dump(orgs, f, indent=4)
 
 with open(join(rootpath, 'gen', '2018', 'agency-template.md')) as f:
     agency_tmpl = f.read()
