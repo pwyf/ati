@@ -28,6 +28,8 @@ with open(join(rootpath, '_data', '2018', 'source-results.csv')) as f:
     r = csv.DictReader(f)
     results = [x for x in r]
 
+results = sorted(results, key=lambda x: (x['id'], x['indicator_order']))
+
 orgs = {slugify(x['organisation_name']): {
     'score': 0.,
     'name': x['organisation_name'],
