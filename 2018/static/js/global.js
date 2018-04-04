@@ -20,7 +20,7 @@ var agencies = (function() {
       $.ajax({
           'async': false,
           'global': false,
-          'url': domain + "/results.json",
+          'url': domain + "/old-results.json",
           'dataType': "json",
           'success': function (data) {
               agencies = data;
