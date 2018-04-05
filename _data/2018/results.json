@@ -4960,7 +4960,7 @@
         "rank": 20
     },
     "us-state": {
-        "score": 60.004482688751224,
+        "score": 58.254482688751224,
         "name": "US, State",
         "components": {
             "Organisational planning and commitments": {
@@ -5018,7 +5018,7 @@
                 }
             },
             "Project attributes": {
-                "score": 817.6483052134,
+                "score": 767.6483052134,
                 "weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
@@ -5064,10 +5064,10 @@
                         "status": ""
                     },
                     "Sub-national location": {
-                        "score": 50.0,
+                        "score": 0.0,
                         "weight": 0.035,
-                        "format": "machine-readable",
-                        "status": "always"
+                        "format": "not-applicable",
+                        "status": "not published"
                     },
                     "Title": {
                         "score": 68.3291921566,
@@ -5204,7 +5204,7 @@
                 }
             }
         },
-        "performance_group": "Good",
+        "performance_group": "Fair",
         "rank": 21
     },
     "germany-bmz-kfw": {
