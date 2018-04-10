@@ -144,7 +144,7 @@ layout: 2018/base
                             </div>
                         </td>
                         {% for component in org.components %}
-                        <td class="cell-performance cell-performance-{{ forloop.index }}">{{ component[1].weighted_score | round: 1 }}%</td>
+                        <td class="cell-performance cell-performance-{{ forloop.index }}">{{ component[1].weighted_score | round: 1 }}</td>
                         {% endfor %}
                         <td class="cell-5"><span class="cat">{{ org.performance_group }}</span></td>
                     </tr>
