@@ -14,22 +14,6 @@ function urlParam(name) {
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-// Parse JSON for use
-var agencies = (function() {
-      var agencies = null;
-      $.ajax({
-          'async': false,
-          'global': false,
-          'url': domain + "/old-results.json",
-          'dataType': "json",
-          'success': function (data) {
-              agencies = data;
-          }
-      });
-      return agencies;
-  })();
-
-
   // Wait for everything to load before removing grey fill
 
   var loaded = false;
