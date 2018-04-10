@@ -40,7 +40,7 @@ layout: 2018/base
                 <div class="graph">
                     {% for org_tuple in site.data['2018'].results %}
                     {% assign org = org_tuple[1] %}
-                    {% assign agency_profile = site.pages | where: 'layout', '2018/agency' | where: 'slug', org_tuple[0] | first %}
+                    {% assign agency_profile = site.pages | where: 'layout', '2018/single' | where: 'slug', org_tuple[0] | first %}
                     <div class="bar {{ org.performance_group | downcase | replace:" ","-" }}" data-agency="{{ agency_profile.short_name }}" data-index="{{ org.score | to_integer }}" data-slug="{{ agency_profile.slug }}">
                         {% for component in org.components %}
                         {% if component[1].weighted_score > 0 %}
@@ -134,7 +134,7 @@ layout: 2018/base
                 <tbody id="results-rows">
                     {% for org_tuple in site.data['2018'].results %}
                       {% assign org = org_tuple[1] %}
-                      {% assign agency_profile = site.pages | where: 'layout', '2018/agency' | where: 'slug', org_tuple[0] | first %}
+                      {% assign agency_profile = site.pages | where: 'layout', '2018/single' | where: 'slug', org_tuple[0] | first %}
                     <tr class="result-row row-{{ agency_profile.slug }} {{ org.performance_group | downcase | replace:" ","-" }}">
                         <td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
                         <td class="cell-1">{{ forloop.index }}</td>

@@ -8,7 +8,7 @@ defaults:
   - scope:
       path: 2018/agencies
     values:
-      layout: 2018/agency
+      layout: 2018/single
 
 sass:
   style: compressed
