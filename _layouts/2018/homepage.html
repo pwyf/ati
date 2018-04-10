@@ -121,12 +121,8 @@ layout: 2018/base
                         <th class="cell-1">Rank</th>
                         <th class="cell-2">Name</th>
                         <th class="cell-3 sorttable_nosort">Score</th>
-                        {%- assign current_indicator = '' -%}
-                        {% for indicator in site.data['2018'].indicators %}
-                          {% if indicator.indicator_subcategory_name != current_indicator %}
-                        <th class="cell-performance cell-performance-{{ forloop.index }}">{{ indicator.indicator_subcategory_name }}</th>
-                            {%- assign current_indicator = indicator.indicator_subcategory_name -%}
-                          {% endif %}
+                        {% for component in site.data['2018'].results.first[1].components %}
+                        <th class="cell-performance cell-performance-{{ forloop.index }}">{{ component[0] }} / {{ component[1].total_weight | times:100 | round }}</th>
                         {% endfor %}
                         <th class="cell-5 sorttable_nosort">Category</th>
                     </tr>
