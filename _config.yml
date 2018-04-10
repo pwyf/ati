@@ -9,3 +9,6 @@ defaults:
       path: 2018/agencies
     values:
       layout: 2018/agency
+
+sass:
+  style: compressed
