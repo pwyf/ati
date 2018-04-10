@@ -15,18 +15,33 @@ Static site build for the Aid Transparency Index.
 
 ## Requirements
 
- * Jekyll
+ * Python 2 or 3
+ * Ruby
 
-## Setup
+## Installation
 
-1. Update `_data/2018/source-results.csv` with actual results (exported from the aid transparency tracker)
-
-2. Run the following:
+1. Clone the repo:
 
    ```shell
-   # generate templates and `results.json`
-   $ python gen/2018-gen.py
+   git clone https://github.com/pwyf/aid-transparency-index.git
+   cd aid-transparency-index
+   ```
 
-   # Generate static site / start webserver
-   $ jekyll s
+2. Install Jekyll:
+
+   ```shell
+   gem install bundler
+   bundle
+   ```
+
+3. Update `_data/2018/source-results.csv` with actual results (exported from the aid transparency tracker)
+
+4. Run the following:
+
+   ```shell
+   $ # generate templates and `results.json`
+   $ python gen/2018-gen.py
+   $
+   $ # Build static site & start webserver
+   $ bundle exec jekyll serve
    ```
