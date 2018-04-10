@@ -49,6 +49,8 @@
     }
     .component::after {
       content: "";
+      display: block;
+      pointer-events: none;
       position: absolute;
       left: 0;
       white-space: nowrap;
