@@ -43,7 +43,9 @@ layout: 2018/base
                     {% assign agency_profile = site.pages | where: 'layout', '2018/agency' | where: 'slug', org_tuple[0] | first %}
                     <div class="bar {{ org.performance_group | downcase | replace:" ","-" }}" data-agency="{{ agency_profile.short_name }}" data-index="{{ org.score | to_integer }}" data-slug="{{ agency_profile.slug }}">
                         {% for component in org.components %}
+                        {% if component[1].weighted_score > 0 %}
                         <div class="component component-{{ forloop.index }}" data-label="{{ component[0] }}" data-raw="{{ component[1].weighted_score }}" style="height: {{ component[1].weighted_score }}%;"></div>
+                        {% endif %}
                         {% endfor %}
                         <span class="label">{{ agency_profile.short_name }}</span>
                     </div>
