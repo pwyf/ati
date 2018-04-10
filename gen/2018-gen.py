@@ -6,6 +6,15 @@ from os import makedirs
 import shutil
 
 
+cats = [
+    'Organisational planning and commitments',
+    'Finance and budgets',
+    'Project attributes',
+    'Joining-up development data',
+    'Performance',
+]
+
+
 def performance_group(score):
     if score >= 80:
         return 'Very good'
@@ -28,7 +37,7 @@ with open(join(rootpath, '_data', '2018', 'source-results.csv')) as f:
     r = csv.DictReader(f)
     results = [x for x in r]
 
-results = sorted(results, key=lambda x: (x['id'], x['indicator_order']))
+results = sorted(results, key=lambda x: (x['organisation_code'], x['indicator_order']))
 
 orgs = {slugify(x['organisation_name']): {
     'score': 0.,
