@@ -3,123 +3,162 @@ layout: 2018/base
 ---
 
 <div class="main-content">
-  <div class="margins-container">
-    <h1>The 2018 Aid Transparency Index</h1>
-    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+    <div class="margins-container">
+        <h1>The 2018 Aid Transparency Index</h1>
+        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas
+            eget quam.</p>
 
-    <div class="buttons">
-      <a href="#" class="button download index-download"><img src="{{ "2018/static/assets/down-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download Index">Download 2018 Index</a>
-      <a href="#" class="button download us-download"><img src="{{ "2018/static/assets/down-arrow-grey.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download US Brief">US BRIEF</a>
-      <a href="#" class="button download eu-download"><img src="{{ "2018/static/assets/down-arrow-grey.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download EU Brief">EU BRIEF</a>
-
-    </div>
-
-    <div class="graph-front">
-        <div class="group">
-    <div class="sectors">
-      <div class="sector" id="very-good">
-        <span>Very Good</span>
-      </div>
-      <div class="sector" id="good">
-        <span>Good</span>
-      </div>
-      <div class="sector" id="fair">
-        <span>Fair</span>
-      </div>
-      <div class="sector" id="poor">
-        <span>Poor</span>
-      </div>
-      <div class="sector" id="very-poor">
-        <span>Very Poor</span>
-      </div>
-    </div>
-    <div class="name-container"></div>
-    <div class="graph"></div>
-
-  </div>
-    </div>
-
-    <a href="{{ "2018/static/assets/results.jpg" | absolute_url }}?ver={{ site.github.build_revision }}" class="button grey download-img flex-icon">
-      <img src="{{ "2018/static/assets/image.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download as image">
-      <span>Download results as image</span>
-    </a>
-
-    <div class="results-table">
-      <div class="table-buttons">
-        <div class="scroll-margins-container">
-          <div class="compare">
-            <a id="compare" class="button grey flex-icon">
-              <img src="{{ "2018/static/assets/compare.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Compare Agencies">
-              <span>Compare Agencies</span>
-            </a>
-            <div class="float-right">
-              <a href="{{ "2018/static/assets/results.csv" | absolute_url }}?ver={{ site.github.build_revision }}" class="csv button grey flex-icon">
-                <img src="{{ "2018/static/assets/csv.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download CSV">
-                <span>CSV</span>
-              </a>
-              <a href="{{ "2018/static/assets/results.xls" | absolute_url }}?ver={{ site.github.build_revision }}" class="csv button grey flex-icon">
-                <img src="{{ "2018/static/assets/excel.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download XLS">
-                <span>XLS</span>
-              </a>
-              <!-- <span id="sort" class="button grey">Sort By</span> -->
-            </div>
-            <div class="appear">
-              <select id="compareSel" name="compare">
-                <option value="">Select comparison</option>
-                <option value="US">US Agencies</option>
-                <option value="UN">UN Agencies</option>
-                <option value="EU">EU Agencies</option>
-                <option value="DFI">DFIs</option>
-                <option value="custom">Custom</option>
-              </select>
-              <span class="button" id="done">Done</span>
-              <span class="button grey" id="cancel">Cancel</span>
-            </div>
-
-          </div>
-          <div class="scroll-headers">
-            <!-- <table>
-              <tr class="headers">
-                <th clas="checkbox">Compare</th>
-                <th>Rank</th>
-                <th>Name</th>
-                <th class="sorttable_nosort">Score</th>
-                <th>Organisational planning and commitments</th>
-                <th>Finance and budgets</th>
-                <th>Project attributes</th>
-                <th>Joining-up development data</th>
-                <th>Performance</th>
-                <th class="sorttable_nosort">Category</th>
-              </tr>
-            </table> -->
-          </div>
-
+        <div class="buttons">
+            <a href="#" class="button download index-download"><img src="{{ "2018/static/assets/down-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download Index">Download 2018 Index</a>
+            <a href="#" class="button download us-download"><img src="{{ "2018/static/assets/down-arrow-grey.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download US Brief">US BRIEF</a>
+            <a href="#" class="button download eu-download"><img src="{{ "2018/static/assets/down-arrow-grey.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download EU Brief">EU BRIEF</a>
         </div>
-      </div>
-      <table id="results" class="">
-  <thead>
-    <tr class="headers">
-      <div class="fixed-container">
-        <th class="cell-0">Compare</th>
-        <th class="cell-1">Rank</th>
-        <th class="cell-2">Name</th>
-        <th class="cell-3 sorttable_nosort">Score</th>
-        <th class="cell-performance cell-performance-4">Organisational planning and commitments / 15</th>
-        <th class="cell-performance cell-performance-5">Finance and budgets / 25</th>
-        <th class="cell-performance cell-performance-6">Project attributes / 20</th>
-        <th class="cell-performance cell-performance-7">Joining-up development data / 20</th>
-        <th class="cell-performance cell-performance-8">Performance / 20</th>
-        <th class="cell-5 sorttable_nosort">Category</th>
-      </div>
-    </tr>
-  </thead>
-    <tbody id="results-rows">
-    </tbody>
-</table>
+
+        <div class="graph-front">
+            <div class="group">
+                <div class="sectors">
+                    <div class="sector" id="very-good" style="width: 20%;">
+                        <span>Very Good</span>
+                    </div>
+                    <div class="sector" id="good" style="width: 20%;">
+                        <span>Good</span>
+                    </div>
+                    <div class="sector" id="fair" style="width: 20%;">
+                        <span>Fair</span>
+                    </div>
+                    <div class="sector" id="poor" style="width: 20%;">
+                        <span>Poor</span>
+                    </div>
+                    <div class="sector" id="very-poor" style="width: 20%;">
+                        <span>Very Poor</span>
+                    </div>
+                </div>
+
+                <div class="name-container">
+                </div>
+
+                <div class="graph">
+                    {% for org_tuple in site.data['2018'].results %}
+                    {% assign org = org_tuple[1] %}
+                    {% assign agency_profile = site.pages | where: 'layout', '2018/agency' | where: 'slug', org_tuple[0] | first %}
+                    <div class="bar {{ org.performance_group | downcase | replace:" ","-" }}" data-agency="{{ agency_profile.short_name }}" data-index="{{ org.score | to_integer }}" data-slug="{{ agency_profile.slug }}">
+                        {% for component in org.components %}
+                        <div class="component component-{{ forloop.index }}" data-label="{{ component[0] }}" data-raw="{{ component[1].weighted_score }}" style="height: {{ component[1].weighted_score }}%;"></div>
+                        {% endfor %}
+                        <span class="label">{{ agency_profile.short_name }}</span>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+
+        <a href="{{ "2018/static/assets/results.jpg" | absolute_url }}?ver={{ site.github.build_revision }}" class="button grey download-img flex-icon">
+            <img src="{{ "2018/static/assets/image.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download as image">
+            <span>Download results as image</span>
+        </a>
+
+        <div class="results-table">
+            <div class="table-buttons">
+                <div class="scroll-margins-container">
+                    <div class="compare">
+                        <a id="compare" class="button grey flex-icon">
+                            <img src="{{ "2018/static/assets/compare.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Compare Agencies">
+                            <span>Compare Agencies</span>
+                        </a>
+                        <div class="float-right">
+                            <a href="{{ "2018/static/assets/results.csv" | absolute_url }}?ver={{ site.github.build_revision }}" class="csv button grey flex-icon">
+                                <img src="{{ "2018/static/assets/csv.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download CSV">
+                                <span>CSV</span>
+                            </a>
+                            <a href="{{ "2018/static/assets/results.xls" | absolute_url }}?ver={{ site.github.build_revision }}" class="csv button grey flex-icon">
+                                <img src="{{ "2018/static/assets/excel.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download XLS">
+                                <span>XLS</span>
+                            </a>
+                            <!-- <span id="sort" class="button grey">Sort By</span> -->
+                        </div>
+                        <div class="appear">
+                            <select id="compareSel" name="compare">
+                                <option value="">Select comparison</option>
+                                <option value="US">US Agencies</option>
+                                <option value="UN">UN Agencies</option>
+                                <option value="EU">EU Agencies</option>
+                                <option value="DFI">DFIs</option>
+                                <option value="custom">Custom</option>
+                            </select>
+                            <span class="button" id="done">Done</span>
+                            <span class="button grey" id="cancel">Cancel</span>
+                        </div>
+
+                    </div>
+                    <div class="scroll-headers">
+                        <!-- <table>
+                          <tr class="headers">
+                            <th clas="checkbox">Compare</th>
+                            <th>Rank</th>
+                            <th>Name</th>
+                            <th class="sorttable_nosort">Score</th>
+                            <th>Organisational planning and commitments</th>
+                            <th>Finance and budgets</th>
+                            <th>Project attributes</th>
+                            <th>Joining-up development data</th>
+                            <th>Performance</th>
+                            <th class="sorttable_nosort">Category</th>
+                          </tr>
+                        </table> -->
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <table class="" id="results">
+                <thead>
+                    <tr class="headers">
+                        <th class="cell-0">Compare</th>
+                        <th class="cell-1">Rank</th>
+                        <th class="cell-2">Name</th>
+                        <th class="cell-3 sorttable_nosort">Score</th>
+                        {%- assign current_indicator = '' -%}
+                        {% for indicator in site.data['2018'].indicators %}
+                          {% if indicator.indicator_subcategory_name != current_indicator %}
+                        <th class="cell-performance cell-performance-{{ forloop.index }}">{{ indicator.indicator_subcategory_name }}</th>
+                            {%- assign current_indicator = indicator.indicator_subcategory_name -%}
+                          {% endif %}
+                        {% endfor %}
+                        <th class="cell-5 sorttable_nosort">Category</th>
+                    </tr>
+                </thead>
+                <tbody id="results-rows">
+                    {% for org_tuple in site.data['2018'].results %}
+                      {% assign org = org_tuple[1] %}
+                      {% assign agency_profile = site.pages | where: 'layout', '2018/agency' | where: 'slug', org_tuple[0] | first %}
+                    <tr class="result-row row-{{ agency_profile.slug }} {{ org.performance_group | downcase | replace:" ","-" }}">
+                        <td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+                        <td class="cell-1">{{ forloop.index }}</td>
+                        <td class="cell-2"><a href="/2018/{{ org_tuple[0] }}/">{{ agency_profile.short_name }}</a></td>
+                        <td class="cell-3">
+                            <div class="hori-bar {{ org.performance_group | downcase | replace:" ","-" }}">
+                                <span class="raw-score">{{ org.score | to_integer }} / 100</span>
+
+                                <div class="fill" style="width:{{ org.score | to_integer }}%">
+                                </div>
+                            </div>
+                        </td>
+                        {% for component in org.components %}
+                        <td class="cell-performance cell-performance-{{ forloop.index }}">{{ component[1].weighted_score | to_integer }}%</td>
+                        {% endfor %}
+                        <td class="cell-5"><span class="cat">{{ org.performance_group }}</span></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+
+                <tfoot>
+                </tfoot>
+            </table>
+        </div>
     </div>
-</div>
 </div>
 
 <script src="{{ "2018/static/js/sort.js" | absolute_url }}?ver={{ site.github.build_revision }}"></script>
-<script src="{{ "2018/static/js/front.js" | absolute_url }}?ver={{ site.github.build_revision }}"></script>
 <script src="{{ "2018/static/js/display.js" | absolute_url }}?ver={{ site.github.build_revision }}"></script>
