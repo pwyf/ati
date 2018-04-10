@@ -63,12 +63,12 @@ for x in results:
 
     if cat not in orgs[org]['components']:
         orgs[org]['components'][cat] = {
-            'score': 0.,
-            'weight': 0.,
+            'weighted_score': 0.,
+            'total_weight': 0.,
             'indicators': OrderedDict()
         }
-    orgs[org]['components'][cat]['score'] += sc
-    orgs[org]['components'][cat]['weight'] += weight
+    orgs[org]['components'][cat]['weighted_score'] += weighted_sc
+    orgs[org]['components'][cat]['total_weight'] += weight
 
     if ind.startswith('Project procurement'):
         ind = 'Project procurement'

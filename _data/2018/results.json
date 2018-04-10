@@ -4,8 +4,8 @@
         "name": "AsDB",
         "components": {
             "Organisational planning and commitments": {
-                "score": 766.66,
-                "weight": 0.15,
+                "weighted_score": 14.374875,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -58,8 +58,8 @@
                 }
             },
             "Project attributes": {
-                "score": 1000.0,
-                "weight": 0.20000000000000004,
+                "weighted_score": 20.0,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 100.0,
@@ -124,8 +124,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 700.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 19.999983,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -166,8 +166,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 693.2997177226,
-                "weight": 0.24999990000000002,
+                "weighted_score": 24.776647480761795,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 100.0,
@@ -214,8 +214,8 @@
                 }
             },
             "Performance": {
-                "score": 389.8382249824,
-                "weight": 0.2,
+                "weighted_score": 19.49191124912351,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 100.0,
@@ -252,8 +252,8 @@
         "name": "UNDP",
         "components": {
             "Organisational planning and commitments": {
-                "score": 765.6666225166,
-                "weight": 0.15,
+                "weighted_score": 14.35624917218543,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -306,8 +306,8 @@
                 }
             },
             "Project attributes": {
-                "score": 993.2841809353,
-                "weight": 0.20000000000000004,
+                "weighted_score": 19.826437195052964,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 100.0,
@@ -372,8 +372,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 649.511002445,
-                "weight": 0.19999983000000002,
+                "weighted_score": 19.168594629473215,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -414,8 +414,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 667.6664292927,
-                "weight": 0.24999990000000002,
+                "weighted_score": 23.92220538754245,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 100.0,
@@ -462,8 +462,8 @@
                 }
             },
             "Performance": {
-                "score": 364.1322659635,
-                "weight": 0.2,
+                "weighted_score": 18.206613298175817,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 96.2324961102,
@@ -500,8 +500,8 @@
         "name": "UK, DFID",
         "components": {
             "Organisational planning and commitments": {
-                "score": 779.1044776118999,
-                "weight": 0.15,
+                "weighted_score": 14.60820895522388,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -554,8 +554,8 @@
                 }
             },
             "Project attributes": {
-                "score": 924.5409571005,
-                "weight": 0.20000000000000004,
+                "weighted_score": 17.443290437448145,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 97.0102171071,
@@ -620,8 +620,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 617.0573232838,
-                "weight": 0.19999983000000002,
+                "weighted_score": 18.5334093531238,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -662,8 +662,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 637.2808965446,
-                "weight": 0.24999990000000002,
+                "weighted_score": 22.617064413270395,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 100.0,
@@ -710,8 +710,8 @@
                 }
             },
             "Performance": {
-                "score": 354.60885466800005,
-                "weight": 0.2,
+                "weighted_score": 17.730442733397503,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 92.1454545455,
@@ -748,8 +748,8 @@
         "name": "AfDB",
         "components": {
             "Organisational planning and commitments": {
-                "score": 731.4681481481,
-                "weight": 0.15,
+                "weighted_score": 13.715027777777777,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 66.66,
@@ -802,8 +802,8 @@
                 }
             },
             "Project attributes": {
-                "score": 987.9182213134,
-                "weight": 0.20000000000000004,
+                "weighted_score": 19.81965840361189,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 96.1782945736,
@@ -868,8 +868,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 603.8208540574001,
-                "weight": 0.19999983000000002,
+                "weighted_score": 17.602779577443204,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -910,8 +910,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 597.425031363,
-                "weight": 0.24999990000000002,
+                "weighted_score": 21.50366668682173,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 62.9479768786,
@@ -958,8 +958,8 @@
                 }
             },
             "Performance": {
-                "score": 315.70729148450005,
-                "weight": 0.2,
+                "weighted_score": 15.785364574226268,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 82.8903654485,
@@ -996,8 +996,8 @@
         "name": "US, MCC",
         "components": {
             "Organisational planning and commitments": {
-                "score": 716.66,
-                "weight": 0.15,
+                "weighted_score": 13.437375,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -1050,8 +1050,8 @@
                 }
             },
             "Project attributes": {
-                "score": 949.8378378378,
-                "weight": 0.20000000000000004,
+                "weighted_score": 18.998378378378376,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 95.0,
@@ -1116,8 +1116,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 620.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 18.624984,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 95.0,
@@ -1158,8 +1158,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 581.6314861994999,
-                "weight": 0.24999990000000002,
+                "weighted_score": 20.359899040936305,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 95.0,
@@ -1206,8 +1206,8 @@
                 }
             },
             "Performance": {
-                "score": 312.5,
-                "weight": 0.2,
+                "weighted_score": 15.625,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 95.0,
@@ -1244,8 +1244,8 @@
         "name": "World Bank, IDA",
         "components": {
             "Organisational planning and commitments": {
-                "score": 733.33,
-                "weight": 0.15,
+                "weighted_score": 13.7499375,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -1298,8 +1298,8 @@
                 }
             },
             "Project attributes": {
-                "score": 920.2961373390999,
-                "weight": 0.20000000000000004,
+                "weighted_score": 18.547006437768243,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 95.0,
@@ -1364,8 +1364,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 662.5858369099,
-                "weight": 0.19999983000000002,
+                "weighted_score": 18.91951182746781,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 95.0,
@@ -1406,8 +1406,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 517.8193590275,
-                "weight": 0.24999990000000002,
+                "weighted_score": 18.4953940158801,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -1454,8 +1454,8 @@
                 }
             },
             "Performance": {
-                "score": 327.73819742489997,
-                "weight": 0.2,
+                "weighted_score": 16.386909871244637,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 90.7124463519,
@@ -1492,8 +1492,8 @@
         "name": "IADB",
         "components": {
             "Organisational planning and commitments": {
-                "score": 633.3199999999999,
-                "weight": 0.15,
+                "weighted_score": 11.874749999999999,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 66.66,
@@ -1546,8 +1546,8 @@
                 }
             },
             "Project attributes": {
-                "score": 956.8791911366,
-                "weight": 0.20000000000000004,
+                "weighted_score": 18.59093595110167,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 97.8560123287,
@@ -1612,8 +1612,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 619.629425231,
-                "weight": 0.19999983000000002,
+                "weighted_score": 18.518054394831054,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -1654,8 +1654,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 518.5908719443,
-                "weight": 0.24999990000000002,
+                "weighted_score": 18.63785165024356,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -1702,8 +1702,8 @@
                 }
             },
             "Performance": {
-                "score": 317.1357615894,
-                "weight": 0.2,
+                "weighted_score": 15.8567880794702,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 96.0264900662,
@@ -1740,8 +1740,8 @@
         "name": "Canada, Global Affairs",
         "components": {
             "Organisational planning and commitments": {
-                "score": 680.2629411765,
-                "weight": 0.15,
+                "weighted_score": 12.754930147058824,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -1794,8 +1794,8 @@
                 }
             },
             "Project attributes": {
-                "score": 944.3631636482,
-                "weight": 0.20000000000000004,
+                "weighted_score": 18.736412385144916,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 97.6519337017,
@@ -1860,8 +1860,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 650.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 19.583316500000002,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -1902,8 +1902,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 490.4928452985,
-                "weight": 0.24999990000000002,
+                "weighted_score": 17.689625160188122,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 60.2925809822,
@@ -1950,8 +1950,8 @@
                 }
             },
             "Performance": {
-                "score": 199.0816326531,
-                "weight": 0.2,
+                "weighted_score": 9.954081632653061,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -1988,8 +1988,8 @@
         "name": "UNICEF",
         "components": {
             "Organisational planning and commitments": {
-                "score": 733.33,
-                "weight": 0.15,
+                "weighted_score": 13.7499375,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -2042,8 +2042,8 @@
                 }
             },
             "Project attributes": {
-                "score": 925.5102742785,
-                "weight": 0.20000000000000004,
+                "weighted_score": 17.5837183144634,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 100.0,
@@ -2108,8 +2108,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 575.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 17.49998399999999,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -2150,8 +2150,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 566.8319795646,
-                "weight": 0.24999990000000002,
+                "weighted_score": 20.56106042442358,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 100.0,
@@ -2198,8 +2198,8 @@
                 }
             },
             "Performance": {
-                "score": 175.0,
-                "weight": 0.2,
+                "weighted_score": 8.749999999999996,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -2236,8 +2236,8 @@
         "name": "EC, ECHO",
         "components": {
             "Organisational planning and commitments": {
-                "score": 750.0,
-                "weight": 0.15,
+                "weighted_score": 14.0625,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -2290,8 +2290,8 @@
                 }
             },
             "Project attributes": {
-                "score": 971.6878402904,
-                "weight": 0.20000000000000004,
+                "weighted_score": 19.08960980036298,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 100.0,
@@ -2356,8 +2356,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 524.9395039322001,
-                "weight": 0.19999983000000002,
+                "weighted_score": 17.081300966424685,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 99.9697519661,
@@ -2398,8 +2398,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 555.8823529412,
-                "weight": 0.24999990000000002,
+                "weighted_score": 19.828423235294117,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 100.0,
@@ -2446,8 +2446,8 @@
                 }
             },
             "Performance": {
-                "score": 150.0,
-                "weight": 0.2,
+                "weighted_score": 7.5,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 50.0,
@@ -2484,8 +2484,8 @@
         "name": "GAVI",
         "components": {
             "Organisational planning and commitments": {
-                "score": 566.66,
-                "weight": 0.15,
+                "weighted_score": 10.624875,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -2538,8 +2538,8 @@
                 }
             },
             "Project attributes": {
-                "score": 949.444980695,
-                "weight": 0.20000000000000004,
+                "weighted_score": 19.49444980694981,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 100.0,
@@ -2604,8 +2604,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 492.80888030890003,
-                "weight": 0.19999983000000002,
+                "weighted_score": 16.42694625,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -2646,8 +2646,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 624.095170679,
-                "weight": 0.24999990000000002,
+                "weighted_score": 22.35216085835286,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 100.0,
@@ -2694,8 +2694,8 @@
                 }
             },
             "Performance": {
-                "score": 127.3166023166,
-                "weight": 0.2,
+                "weighted_score": 6.365830115830115,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -2732,8 +2732,8 @@
         "name": "EC, NEAR",
         "components": {
             "Organisational planning and commitments": {
-                "score": 685.2941176470999,
-                "weight": 0.15,
+                "weighted_score": 12.849264705882353,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -2786,8 +2786,8 @@
                 }
             },
             "Project attributes": {
-                "score": 924.0876739822999,
-                "weight": 0.20000000000000004,
+                "weighted_score": 17.566732664067963,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 98.6426151277,
@@ -2852,8 +2852,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 491.2440947941,
-                "weight": 0.19999983000000002,
+                "weighted_score": 15.124788285000001,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 99.9878787879,
@@ -2894,8 +2894,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 593.7409386462,
-                "weight": 0.24999990000000002,
+                "weighted_score": 21.114884830175146,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 100.0,
@@ -2942,8 +2942,8 @@
                 }
             },
             "Performance": {
-                "score": 170.2847757453,
-                "weight": 0.2,
+                "weighted_score": 8.514238787265484,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 59.681460272,
@@ -2980,8 +2980,8 @@
         "name": "Global Fund",
         "components": {
             "Organisational planning and commitments": {
-                "score": 350.0,
-                "weight": 0.15,
+                "weighted_score": 6.5625,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -3034,8 +3034,8 @@
                 }
             },
             "Project attributes": {
-                "score": 860.6119791666999,
-                "weight": 0.20000000000000004,
+                "weighted_score": 16.106119791666668,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 100.0,
@@ -3100,8 +3100,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 649.7928685898,
-                "weight": 0.19999983000000002,
+                "weighted_score": 19.577497191666666,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -3142,8 +3142,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 627.8500176554,
-                "weight": 0.24999990000000002,
+                "weighted_score": 22.310268493511654,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 100.0,
@@ -3190,8 +3190,8 @@
                 }
             },
             "Performance": {
-                "score": 199.8046875,
-                "weight": 0.2,
+                "weighted_score": 9.990234375,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -3228,8 +3228,8 @@
         "name": "Sweden, Sida",
         "components": {
             "Organisational planning and commitments": {
-                "score": 600.0,
-                "weight": 0.15,
+                "weighted_score": 11.25,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -3282,8 +3282,8 @@
                 }
             },
             "Project attributes": {
-                "score": 891.5923033477001,
-                "weight": 0.20000000000000004,
+                "weighted_score": 17.55774543385538,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 91.9145277645,
@@ -3348,8 +3348,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 520.5867373988,
-                "weight": 0.19999983000000002,
+                "weighted_score": 16.93620889373772,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 96.8431663837,
@@ -3390,8 +3390,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 456.0623161682,
-                "weight": 0.24999990000000002,
+                "weighted_score": 16.28983914638319,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -3438,8 +3438,8 @@
                 }
             },
             "Performance": {
-                "score": 183.7342965866,
-                "weight": 0.2,
+                "weighted_score": 9.186714829330638,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 58.5927152318,
@@ -3476,8 +3476,8 @@
         "name": "Netherlands, MFA",
         "components": {
             "Organisational planning and commitments": {
-                "score": 691.9619753086,
-                "weight": 0.15,
+                "weighted_score": 12.974287037037035,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 66.66,
@@ -3530,8 +3530,8 @@
                 }
             },
             "Project attributes": {
-                "score": 899.1475374041,
-                "weight": 0.20000000000000004,
+                "weighted_score": 18.129259464950255,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 100.0,
@@ -3596,8 +3596,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 548.8826232247,
-                "weight": 0.19999983000000002,
+                "weighted_score": 17.046070644736844,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -3638,8 +3638,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 474.2989608122,
-                "weight": 0.24999990000000002,
+                "weighted_score": 17.089109303529895,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -3686,8 +3686,8 @@
                 }
             },
             "Performance": {
-                "score": 98.0954374215,
-                "weight": 0.2,
+                "weighted_score": 4.9047718710757655,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -3724,8 +3724,8 @@
         "name": "US, USAID",
         "components": {
             "Organisational planning and commitments": {
-                "score": 733.3199999999999,
-                "weight": 0.15,
+                "weighted_score": 13.749749999999999,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 66.66,
@@ -3778,8 +3778,8 @@
                 }
             },
             "Project attributes": {
-                "score": 901.4902050999001,
-                "weight": 0.20000000000000004,
+                "weighted_score": 17.40390164432986,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 95.0,
@@ -3844,8 +3844,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 575.4441294994,
-                "weight": 0.19999983000000002,
+                "weighted_score": 17.503685077680828,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 95.0,
@@ -3886,8 +3886,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 314.596104282,
-                "weight": 0.24999990000000002,
+                "weighted_score": 11.574342631587873,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -3934,8 +3934,8 @@
                 }
             },
             "Performance": {
-                "score": 171.07068871869998,
-                "weight": 0.2,
+                "weighted_score": 8.55353443593758,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 53.869480586,
@@ -3972,8 +3972,8 @@
         "name": "EC, DEVCO",
         "components": {
             "Organisational planning and commitments": {
-                "score": 732.0512820513,
-                "weight": 0.15,
+                "weighted_score": 13.725961538461538,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -4026,8 +4026,8 @@
                 }
             },
             "Project attributes": {
-                "score": 924.3628524431,
-                "weight": 0.20000000000000004,
+                "weighted_score": 17.562400482900593,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 99.1209640732,
@@ -4092,8 +4092,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 384.66194462330003,
-                "weight": 0.19999983000000002,
+                "weighted_score": 12.822051998712169,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 99.9484867997,
@@ -4134,8 +4134,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 536.9595942007,
-                "weight": 0.24999990000000002,
+                "weighted_score": 19.236786972138656,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 100.0,
@@ -4182,8 +4182,8 @@
                 }
             },
             "Performance": {
-                "score": 50.5377044906,
-                "weight": 0.2,
+                "weighted_score": 2.5268852245323603,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -4220,8 +4220,8 @@
         "name": "Belgium, DGD",
         "components": {
             "Organisational planning and commitments": {
-                "score": 416.65999999999997,
-                "weight": 0.15,
+                "weighted_score": 7.812374999999999,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 33.33,
@@ -4274,8 +4274,8 @@
                 }
             },
             "Project attributes": {
-                "score": 838.7965949188001,
-                "weight": 0.20000000000000004,
+                "weighted_score": 15.693333454023595,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 80.5035581683,
@@ -4340,8 +4340,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 548.9273927393,
-                "weight": 0.19999983000000002,
+                "weighted_score": 17.047562960396043,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 99.5874587459,
@@ -4382,8 +4382,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 421.8916403194,
-                "weight": 0.24999990000000002,
+                "weighted_score": 14.896380614261794,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -4430,8 +4430,8 @@
                 }
             },
             "Performance": {
-                "score": 159.3867663345,
-                "weight": 0.2,
+                "weighted_score": 7.969338316722039,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 64.9224806202,
@@ -4468,8 +4468,8 @@
         "name": "US, PEPFAR",
         "components": {
             "Organisational planning and commitments": {
-                "score": 659.7155555556,
-                "weight": 0.15,
+                "weighted_score": 12.369666666666665,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -4522,8 +4522,8 @@
                 }
             },
             "Project attributes": {
-                "score": 865.1506024096999,
-                "weight": 0.20000000000000004,
+                "weighted_score": 17.256927710843375,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 95.0,
@@ -4588,8 +4588,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 525.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 16.249984,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 95.0,
@@ -4630,8 +4630,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 492.9575245427,
-                "weight": 0.24999990000000002,
+                "weighted_score": 17.52373077505857,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 95.0,
@@ -4678,8 +4678,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -4716,8 +4716,8 @@
         "name": "Germany, BMZ-GIZ",
         "components": {
             "Organisational planning and commitments": {
-                "score": 533.3299999999999,
-                "weight": 0.15,
+                "weighted_score": 9.9999375,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -4770,8 +4770,8 @@
                 }
             },
             "Project attributes": {
-                "score": 898.5467015023,
-                "weight": 0.20000000000000004,
+                "weighted_score": 16.48301763553233,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 100.0,
@@ -4836,8 +4836,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 575.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 17.499983999999998,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -4878,8 +4878,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 459.031740785,
-                "weight": 0.24999990000000002,
+                "weighted_score": 16.91528466388405,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -4926,8 +4926,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -4964,8 +4964,8 @@
         "name": "US, State",
         "components": {
             "Organisational planning and commitments": {
-                "score": 666.66,
-                "weight": 0.15,
+                "weighted_score": 12.499875,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -5018,8 +5018,8 @@
                 }
             },
             "Project attributes": {
-                "score": 767.6483052134,
-                "weight": 0.20000000000000004,
+                "weighted_score": 14.790796349347278,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 86.1876658276,
@@ -5084,8 +5084,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 575.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 17.499984,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 95.0,
@@ -5126,8 +5126,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 371.3049769038,
-                "weight": 0.24999990000000002,
+                "weighted_score": 13.463827339403945,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 95.0,
@@ -5174,8 +5174,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -5212,8 +5212,8 @@
         "name": "Germany, BMZ-KFW",
         "components": {
             "Organisational planning and commitments": {
-                "score": 533.3299999999999,
-                "weight": 0.15,
+                "weighted_score": 9.9999375,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -5266,8 +5266,8 @@
                 }
             },
             "Project attributes": {
-                "score": 842.3061704848,
-                "weight": 0.20000000000000004,
+                "weighted_score": 15.414011931091858,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 100.0,
@@ -5332,8 +5332,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 475.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 15.8333175,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -5374,8 +5374,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 443.8894181154,
-                "weight": 0.24999990000000002,
+                "weighted_score": 16.433739140866873,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -5422,8 +5422,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -5460,8 +5460,8 @@
         "name": "EBRD",
         "components": {
             "Organisational planning and commitments": {
-                "score": 566.66,
-                "weight": 0.15,
+                "weighted_score": 10.624875,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 33.33,
@@ -5514,8 +5514,8 @@
                 }
             },
             "Project attributes": {
-                "score": 870.4741379311,
-                "weight": 0.20000000000000004,
+                "weighted_score": 16.204741379310345,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 100.0,
@@ -5580,8 +5580,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 450.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 13.7499865,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -5622,8 +5622,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 320.5635546589,
-                "weight": 0.24999990000000002,
+                "weighted_score": 11.518781136509538,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -5670,8 +5670,8 @@
                 }
             },
             "Performance": {
-                "score": 100.0,
-                "weight": 0.2,
+                "weighted_score": 5.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -5708,8 +5708,8 @@
         "name": "EIB",
         "components": {
             "Organisational planning and commitments": {
-                "score": 583.3199999999999,
-                "weight": 0.15,
+                "weighted_score": 10.937249999999999,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 66.66,
@@ -5762,8 +5762,8 @@
                 }
             },
             "Project attributes": {
-                "score": 825.382447665,
-                "weight": 0.20000000000000004,
+                "weighted_score": 15.128824476650564,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 99.4565217391,
@@ -5828,8 +5828,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 500.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 14.9999865,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -5870,8 +5870,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 309.75783475779997,
-                "weight": 0.24999990000000002,
+                "weighted_score": 11.019700833333333,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -5918,8 +5918,8 @@
                 }
             },
             "Performance": {
-                "score": 100.0,
-                "weight": 0.2,
+                "weighted_score": 5.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -5956,8 +5956,8 @@
         "name": "Finland, MFA",
         "components": {
             "Organisational planning and commitments": {
-                "score": 650.0,
-                "weight": 0.15,
+                "weighted_score": 12.1875,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -6010,8 +6010,8 @@
                 }
             },
             "Project attributes": {
-                "score": 695.1605134189,
-                "weight": 0.20000000000000004,
+                "weighted_score": 13.17695519253209,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 54.6338973162,
@@ -6076,8 +6076,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 409.3553092182,
-                "weight": 0.19999983000000002,
+                "weighted_score": 12.395164828763129,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 80.9101516919,
@@ -6118,8 +6118,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 449.51736352179995,
-                "weight": 0.24999990000000002,
+                "weighted_score": 16.38248713348437,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 58.7266143633,
@@ -6166,8 +6166,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -6204,8 +6204,8 @@
         "name": "World Bank, IFC",
         "components": {
             "Organisational planning and commitments": {
-                "score": 693.2729032258,
-                "weight": 0.15,
+                "weighted_score": 12.998866935483871,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -6258,8 +6258,8 @@
                 }
             },
             "Project attributes": {
-                "score": 847.5100603622,
-                "weight": 0.20000000000000004,
+                "weighted_score": 15.350100603621732,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 97.5100603622,
@@ -6324,8 +6324,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 399.2957746479,
-                "weight": 0.19999983000000002,
+                "weighted_score": 13.309845845070424,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -6366,8 +6366,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 160.00336016100002,
-                "weight": 0.24999990000000002,
+                "weighted_score": 5.426024079253523,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -6414,8 +6414,8 @@
                 }
             },
             "Performance": {
-                "score": 100.0,
-                "weight": 0.2,
+                "weighted_score": 5.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -6452,8 +6452,8 @@
         "name": "Switzerland, SDC",
         "components": {
             "Organisational planning and commitments": {
-                "score": 549.99,
-                "weight": 0.15,
+                "weighted_score": 10.312312499999999,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 33.33,
@@ -6506,8 +6506,8 @@
                 }
             },
             "Project attributes": {
-                "score": 706.2837869664,
-                "weight": 0.20000000000000004,
+                "weighted_score": 13.94461770379948,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 75.0,
@@ -6572,8 +6572,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 374.8315180395,
-                "weight": 0.19999983000000002,
+                "weighted_score": 12.494371440265487,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 75.0,
@@ -6614,8 +6614,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 306.0943587437,
-                "weight": 0.24999990000000002,
+                "weighted_score": 11.652063817121643,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -6662,8 +6662,8 @@
                 }
             },
             "Performance": {
-                "score": 50.0,
-                "weight": 0.2,
+                "weighted_score": 2.5,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -6700,8 +6700,8 @@
         "name": "Denmark, MFA",
         "components": {
             "Organisational planning and commitments": {
-                "score": 483.31999999999994,
-                "weight": 0.15,
+                "weighted_score": 9.062249999999999,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 66.66,
@@ -6754,8 +6754,8 @@
                 }
             },
             "Project attributes": {
-                "score": 704.9756590294,
-                "weight": 0.20000000000000004,
+                "weighted_score": 12.04820572180971,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 89.8608947616,
@@ -6820,8 +6820,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 449.2591373066,
-                "weight": 0.19999983000000002,
+                "weighted_score": 13.725291101580506,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -6862,8 +6862,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 403.3617127648,
-                "weight": 0.24999990000000002,
+                "weighted_score": 14.41759309110257,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -6910,8 +6910,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -6948,8 +6948,8 @@
         "name": "US, Defense",
         "components": {
             "Organisational planning and commitments": {
-                "score": 466.65999999999997,
-                "weight": 0.15,
+                "weighted_score": 8.749875,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -7002,8 +7002,8 @@
                 }
             },
             "Project attributes": {
-                "score": 821.8125,
-                "weight": 0.20000000000000004,
+                "weighted_score": 15.343125,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 95.0,
@@ -7068,8 +7068,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 525.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 17.0833175,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 95.0,
@@ -7110,8 +7110,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 232.0975609756,
-                "weight": 0.24999990000000002,
+                "weighted_score": 7.736577629268297,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 87.125,
@@ -7158,8 +7158,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -7196,8 +7196,8 @@
         "name": "Australia, DFAT",
         "components": {
             "Organisational planning and commitments": {
-                "score": 416.65999999999997,
-                "weight": 0.15,
+                "weighted_score": 7.812374999999999,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -7250,8 +7250,8 @@
                 }
             },
             "Project attributes": {
-                "score": 675.0,
-                "weight": 0.20000000000000004,
+                "weighted_score": 12.375,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 75.0,
@@ -7316,8 +7316,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 475.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 14.166654000000001,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 75.0,
@@ -7358,8 +7358,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 398.7115126474,
-                "weight": 0.24999990000000002,
+                "weighted_score": 14.289152964530714,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 75.0,
@@ -7406,8 +7406,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -7444,8 +7444,8 @@
         "name": "Gates Foundation",
         "components": {
             "Organisational planning and commitments": {
-                "score": 499.98999999999995,
-                "weight": 0.15,
+                "weighted_score": 9.374812499999999,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 66.66,
@@ -7498,8 +7498,8 @@
                 }
             },
             "Project attributes": {
-                "score": 675.0,
-                "weight": 0.20000000000000004,
+                "weighted_score": 12.375,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 75.0,
@@ -7564,8 +7564,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 350.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 10.4166565,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 75.0,
@@ -7606,8 +7606,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 362.91101055810003,
-                "weight": 0.24999990000000002,
+                "weighted_score": 12.652581588235295,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 75.0,
@@ -7654,8 +7654,8 @@
                 }
             },
             "Performance": {
-                "score": 50.0,
-                "weight": 0.2,
+                "weighted_score": 2.5,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -7692,8 +7692,8 @@
         "name": "France, AFD",
         "components": {
             "Organisational planning and commitments": {
-                "score": 374.2357575758,
-                "weight": 0.15,
+                "weighted_score": 7.016920454545454,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -7746,8 +7746,8 @@
                 }
             },
             "Project attributes": {
-                "score": 710.3085106383,
-                "weight": 0.20000000000000004,
+                "weighted_score": 16.040585106382977,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 0.0,
@@ -7812,8 +7812,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 380.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 12.666654000000001,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 95.0,
@@ -7854,8 +7854,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 179.5319148937,
-                "weight": 0.24999990000000002,
+                "weighted_score": 5.984391178723404,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -7902,8 +7902,8 @@
                 }
             },
             "Performance": {
-                "score": 95.0,
-                "weight": 0.2,
+                "weighted_score": 4.75,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -7940,8 +7940,8 @@
         "name": "France, MEAE",
         "components": {
             "Organisational planning and commitments": {
-                "score": 366.65999999999997,
-                "weight": 0.15,
+                "weighted_score": 6.874874999999999,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -7994,8 +7994,8 @@
                 }
             },
             "Project attributes": {
-                "score": 837.0781667453,
-                "weight": 0.20000000000000004,
+                "weighted_score": 18.2814959531684,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 50.213172903,
@@ -8060,8 +8060,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 400.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 13.33332,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 100.0,
@@ -8102,8 +8102,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 217.7694505495,
-                "weight": 0.24999990000000002,
+                "weighted_score": 7.444142573999998,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -8150,8 +8150,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -8188,8 +8188,8 @@
         "name": "Italy, AICS",
         "components": {
             "Organisational planning and commitments": {
-                "score": 249.98999999999998,
-                "weight": 0.15,
+                "weighted_score": 4.687312499999999,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 33.33,
@@ -8242,8 +8242,8 @@
                 }
             },
             "Project attributes": {
-                "score": 734.8139044943,
-                "weight": 0.20000000000000004,
+                "weighted_score": 13.956460674157306,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 0.0,
@@ -8308,8 +8308,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 416.8609550561,
-                "weight": 0.19999983000000002,
+                "weighted_score": 12.645352773174158,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 74.3328651685,
@@ -8350,8 +8350,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 289.63545335130004,
-                "weight": 0.24999990000000002,
+                "weighted_score": 10.210065457192272,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -8398,8 +8398,8 @@
                 }
             },
             "Performance": {
-                "score": 81.4502762431,
-                "weight": 0.2,
+                "weighted_score": 4.072513812154695,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -8436,8 +8436,8 @@
         "name": "Norway, MFA",
         "components": {
             "Organisational planning and commitments": {
-                "score": 366.65999999999997,
-                "weight": 0.15,
+                "weighted_score": 6.874874999999999,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 100.0,
@@ -8490,8 +8490,8 @@
                 }
             },
             "Project attributes": {
-                "score": 670.3144107551,
-                "weight": 0.20000000000000004,
+                "weighted_score": 13.828144107551488,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 72.5,
@@ -8556,8 +8556,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 379.2405606407,
-                "weight": 0.19999983000000002,
+                "weighted_score": 12.641339380005721,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 95.0,
@@ -8598,8 +8598,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 277.3420442411,
-                "weight": 0.24999990000000002,
+                "weighted_score": 9.985453711299773,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -8646,8 +8646,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -8684,8 +8684,8 @@
         "name": "Ireland, Irish Aid",
         "components": {
             "Organisational planning and commitments": {
-                "score": 654.6511627907,
-                "weight": 0.15,
+                "weighted_score": 12.274709302325581,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -8738,8 +8738,8 @@
                 }
             },
             "Project attributes": {
-                "score": 625.5036352620999,
-                "weight": 0.20000000000000004,
+                "weighted_score": 11.737844592547713,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 75.0,
@@ -8804,8 +8804,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 350.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 10.4166565,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 75.0,
@@ -8846,8 +8846,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 196.34999139549998,
-                "weight": 0.24999990000000002,
+                "weighted_score": 7.556328119640117,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -8894,8 +8894,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -8932,8 +8932,8 @@
         "name": "Japan, JICA",
         "components": {
             "Organisational planning and commitments": {
-                "score": 499.99,
-                "weight": 0.15,
+                "weighted_score": 9.374812499999999,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 33.33,
@@ -8986,8 +8986,8 @@
                 }
             },
             "Project attributes": {
-                "score": 628.2826023698,
-                "weight": 0.20000000000000004,
+                "weighted_score": 11.905959790290332,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 70.4924109162,
@@ -9052,8 +9052,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 430.9588128863,
-                "weight": 0.19999983000000002,
+                "weighted_score": 12.698615897585064,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 74.960421169,
@@ -9094,8 +9094,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 144.7567472483,
-                "weight": 0.24999990000000002,
+                "weighted_score": 4.825220083052722,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -9142,8 +9142,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -9180,8 +9180,8 @@
         "name": "Korea, KOICA",
         "components": {
             "Organisational planning and commitments": {
-                "score": 433.33,
-                "weight": 0.15,
+                "weighted_score": 8.1249375,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 33.33,
@@ -9234,8 +9234,8 @@
                 }
             },
             "Project attributes": {
-                "score": 566.6009820585,
-                "weight": 0.20000000000000004,
+                "weighted_score": 9.936759820585458,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 74.9409820585,
@@ -9300,8 +9300,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 325.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 9.166659000000001,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 75.0,
@@ -9342,8 +9342,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 199.9966666666,
-                "weight": 0.24999990000000002,
+                "weighted_score": 7.222108889,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 50.0,
@@ -9390,8 +9390,8 @@
                 }
             },
             "Performance": {
-                "score": 50.0,
-                "weight": 0.2,
+                "weighted_score": 2.5,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -9428,8 +9428,8 @@
         "name": "Spain, AECID",
         "components": {
             "Organisational planning and commitments": {
-                "score": 430.52138613859995,
-                "weight": 0.15,
+                "weighted_score": 8.07227599009901,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -9482,8 +9482,8 @@
                 }
             },
             "Project attributes": {
-                "score": 646.0641116357,
-                "weight": 0.20000000000000004,
+                "weighted_score": 13.391760713972623,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 0.0,
@@ -9548,8 +9548,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 286.0168067227,
-                "weight": 0.19999983000000002,
+                "weighted_score": 9.53388402352941,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 75.0,
@@ -9590,8 +9590,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 122.8907563025,
-                "weight": 0.24999990000000002,
+                "weighted_score": 4.096354447058824,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -9638,8 +9638,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -9676,8 +9676,8 @@
         "name": "UK, FCO",
         "components": {
             "Organisational planning and commitments": {
-                "score": 450.0,
-                "weight": 0.15,
+                "weighted_score": 8.4375,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -9730,8 +9730,8 @@
                 }
             },
             "Project attributes": {
-                "score": 630.0731960671001,
-                "weight": 0.20000000000000004,
+                "weighted_score": 11.321775895401776,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 65.6512605042,
@@ -9796,8 +9796,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 299.82946794,
-                "weight": 0.19999983000000002,
+                "weighted_score": 9.994305603683493,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 75.0,
@@ -9838,8 +9838,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 136.9154646392,
-                "weight": 0.24999990000000002,
+                "weighted_score": 4.563844257457425,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -9886,8 +9886,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -9924,8 +9924,8 @@
         "name": "UN OCHA",
         "components": {
             "Organisational planning and commitments": {
-                "score": 300.0,
-                "weight": 0.15,
+                "weighted_score": 5.625,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -9978,8 +9978,8 @@
                 }
             },
             "Project attributes": {
-                "score": 730.3245436105,
-                "weight": 0.20000000000000004,
+                "weighted_score": 14.803245436105477,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 100.0,
@@ -10044,8 +10044,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 86.7139959432,
-                "weight": 0.19999983000000002,
+                "weighted_score": 2.8904636409736306,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 86.7139959432,
@@ -10086,8 +10086,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 130.555,
-                "weight": 0.24999990000000002,
+                "weighted_score": 4.3981210185,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -10134,8 +10134,8 @@
                 }
             },
             "Performance": {
-                "score": 100.0,
-                "weight": 0.2,
+                "weighted_score": 5.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 50.0,
@@ -10172,8 +10172,8 @@
         "name": "New Zealand, MFAT",
         "components": {
             "Organisational planning and commitments": {
-                "score": 350.0,
-                "weight": 0.15,
+                "weighted_score": 6.5625,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -10226,8 +10226,8 @@
                 }
             },
             "Project attributes": {
-                "score": 599.5833333333001,
-                "weight": 0.20000000000000004,
+                "weighted_score": 9.745833333333334,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 75.0,
@@ -10292,8 +10292,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 338.3854166667,
-                "weight": 0.19999983000000002,
+                "weighted_score": 10.029504109375,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 63.3854166667,
@@ -10334,8 +10334,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 139.2194348659,
-                "weight": 0.24999990000000002,
+                "weighted_score": 4.733227262215517,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -10382,8 +10382,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -10420,8 +10420,8 @@
         "name": "Japan, MOFA",
         "components": {
             "Organisational planning and commitments": {
-                "score": 199.99,
-                "weight": 0.15,
+                "weighted_score": 3.7498125,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 33.33,
@@ -10474,8 +10474,8 @@
                 }
             },
             "Project attributes": {
-                "score": 66.66,
-                "weight": 0.20000000000000004,
+                "weighted_score": 0.6666,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 0.0,
@@ -10540,8 +10540,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 66.66,
-                "weight": 0.19999983000000002,
+                "weighted_score": 2.221997778,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 0.0,
@@ -10582,8 +10582,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 33.33,
-                "weight": 0.24999990000000002,
+                "weighted_score": 1.110998889,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -10630,8 +10630,8 @@
                 }
             },
             "Performance": {
-                "score": 50.0,
-                "weight": 0.2,
+                "weighted_score": 2.5,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -10668,8 +10668,8 @@
         "name": "UAE, MOFAIC",
         "components": {
             "Organisational planning and commitments": {
-                "score": 100.0,
-                "weight": 0.15,
+                "weighted_score": 1.875,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -10722,8 +10722,8 @@
                 }
             },
             "Project attributes": {
-                "score": 0.0,
-                "weight": 0.20000000000000004,
+                "weighted_score": 0.0,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 0.0,
@@ -10788,8 +10788,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 0.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 0.0,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 0.0,
@@ -10830,8 +10830,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 0.0,
-                "weight": 0.24999990000000002,
+                "weighted_score": 0.0,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -10878,8 +10878,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
@@ -10916,8 +10916,8 @@
         "name": "China, MOFCOM",
         "components": {
             "Organisational planning and commitments": {
-                "score": 66.66,
-                "weight": 0.15,
+                "weighted_score": 1.2498749999999998,
+                "total_weight": 0.15,
                 "indicators": {
                     "Accessibility": {
                         "score": 0.0,
@@ -10970,8 +10970,8 @@
                 }
             },
             "Project attributes": {
-                "score": 0.0,
-                "weight": 0.20000000000000004,
+                "weighted_score": 0.0,
+                "total_weight": 0.20000000000000004,
                 "indicators": {
                     "Actual dates": {
                         "score": 0.0,
@@ -11036,8 +11036,8 @@
                 }
             },
             "Joining-up development data": {
-                "score": 0.0,
-                "weight": 0.19999983000000002,
+                "weighted_score": 0.0,
+                "total_weight": 0.19999983000000002,
                 "indicators": {
                     "Aid type": {
                         "score": 0.0,
@@ -11078,8 +11078,8 @@
                 }
             },
             "Finance and budgets": {
-                "score": 0.0,
-                "weight": 0.24999990000000002,
+                "weighted_score": 0.0,
+                "total_weight": 0.24999990000000002,
                 "indicators": {
                     "Capital spend": {
                         "score": 0.0,
@@ -11126,8 +11126,8 @@
                 }
             },
             "Performance": {
-                "score": 0.0,
-                "weight": 0.2,
+                "weighted_score": 0.0,
+                "total_weight": 0.2,
                 "indicators": {
                     "Pre-project impact appraisals": {
                         "score": 0.0,
