@@ -27,7 +27,7 @@ Static site build for the Aid Transparency Index.
    cd aid-transparency-index
    ```
 
-2. Install Jekyll:
+2. Install ruby dependencies, including Jekyll:
 
    ```shell
    gem install bundler
