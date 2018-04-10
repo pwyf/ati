@@ -1,7 +1,7 @@
 ---
 permalink: 2018/ebrd/index.html
 slug: ebrd
-short_name: EBRD
+title: EBRD
 ---
 
 Donor profile for EBRD goes here.

@@ -1,7 +1,7 @@
 ---
 permalink: 2018/iadb/index.html
 slug: iadb
-short_name: IADB
+title: IADB
 ---
 
 Donor profile for IADB goes here.
