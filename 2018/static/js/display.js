@@ -36,6 +36,9 @@ $(document).ready(function() {
         case 'DFI' :
           compareAgencies(dfiAgencies);
           break;
+        case 'BILATERAL' :
+          compareAgencies(bilateralAgencies);
+          break;
       }
       $('#cancel').text('reset');
     });

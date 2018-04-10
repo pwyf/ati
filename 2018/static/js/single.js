@@ -12,94 +12,6 @@ $(document).ready(function() {
     }, 100);
   })
 
-  // Fill Deep Dive
-
-
-  var urlAgency = urlParam('agency');
-  if (!urlAgency) {
-    urlAgency = 'gates-foundation';
-  }
-  var agency = agencies[urlAgency];
-  var components = agency.by_component;
-  var indicators = agency.by_indicator;
-
-  // Set comparison
-
-    if (usAgencies.indexOf(urlAgency) > -1) {
-      $('.comparison-group').text('COMPARISON GROUP : ').append('<a href="' + domain + '/multi-agency?group=us">US Agencies</a>')
-    }
-    else if (euAgencies.indexOf(urlAgency) > -1) {
-      $('.comparison-group').text('COMPARISON GROUP : ').append('<a href="' + domain + '/multi-agency?group=eu">EU Agencies</a>')
-    }
-    else if (unAgencies.indexOf(urlAgency) > -1) {
-      $('.comparison-group').text('COMPARISON GROUP : ').append('<a href="' + domain + '/multi-agency?group=un">UN Agencies</a>')
-    }
-    else if (dfiAgencies.indexOf(urlAgency) > -1) {
-      $('.comparison-group').text('COMPARISON GROUP : ').append('<a href="' + domain + '/multi-agency?group=dfi">DFI Agencies</a>')
-    }
-
-  // Set change in performance
-  var performances = ['very good', 'good', 'fair', 'poor', 'very poor'];
-  var lastYear = $('.year span')[0];
-  lastYear = $(lastYear).text();
-  var performanceLowered = agency.performance_group.toLowerCase();
-
-  var lastIndex = performances.indexOf(lastYear.toLowerCase());
-  var thisIndex = performances.indexOf(performanceLowered);
-  var change;
-
-  if (lastIndex > thisIndex) {
-    change = 'increase';
-  }
-  else if (lastIndex < thisIndex) {
-    change = 'decrease';
-  }
-  else {
-    change = 'same';
-  }
-  // Set Summary Card Info
-  $('.summary-card .rank .score').addClass(change).addClass(performanceLowered.replace(' ', '-')).html(agency.performance_group);
-  $('.top-info .score .target').html(Math.round( agency.score * 10) / 10);
-  $('.top-info .position .target').html(agency.rank);
-
-  // Set Summary Card Side Scores
-  var count = 1;
-
-  sortedIndicators = [];
-
-
-  for (var k in indicators) {
-   if (indicators.hasOwnProperty(k)) {
-     var percent = (indicators[k] / 5) * 100;
-     sortedIndicators.push([k, Math.round( percent * 10) / 10]);
-   }
-  }
-
-  for (var i in components) {
-    var score = Math.round( components[i] * 10) / 10;
-    $('.component-' + count).find('.score').html(score + ' <span class="lighter">/ ' + componentTotals[count-1] + '</span>');
-    $('.component-' + count).find('.light').html(i);
-    var firstWord = [];
-    var words = i.split(" ");
-    firstWord.push(words[0]);
-    var id = firstWord[0].toLowerCase();
-
-    $('.tab-' + count).text(i).attr('id', 'target-' + id);
-    var tabContent = $('.tab-content.component-' + count);
-    tabContent.attr('id', id);
-    tabContent.find('.component-name').text(i);
-
-    var n = 0;
-    while (n < 8) {
-      for (var indicatorIndex in sortedIndicators) {
-        setComponents(tabContent, n, indicatorIndex, sortedIndicators);
-        n++;
-      }
-    }
-
-    count++;
-  }
-
   var tabs = $('.tab');
 
 
@@ -131,11 +43,6 @@ if ($(window).width() > 991) {
   })
   }
 
-// Set Meta
-$('meta[property="og:title"]').attr('content', 'The Index 2018 | ' + agency.name);
-$('meta[property="og:image"]').attr('content', $('.graph-image img').attr('src'));
-
-document.title = 'The Index 2018 | ' + agency.name;
 
 // Modal Trigger
 
@@ -157,14 +64,6 @@ if ($(window).width() < 991) {
 }
 
 })
-
-function setComponents(id, indicatorCount, indicatorIndex, sortedIndicators) {
-  var indicatorScore = $(id).find('.indicator-score-' + indicatorCount);
-  indicatorScore.find('.indicator-name').text(sortedIndicators[indicatorIndex][0]);
-  indicatorScore.find('.modal-trigger').attr('data-indicator', sortedIndicators[indicatorIndex][0]);
-  indicatorScore.find('.indicator-num').text('Score: ' + sortedIndicators[indicatorIndex][1] + '%');
-  indicatorScore.find('.bar-num').width(sortedIndicators[indicatorIndex][1] + '%');
-}
 
 function median(values) {
 

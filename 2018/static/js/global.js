@@ -53,6 +53,7 @@ var agencies = (function() {
   var euAgencies = ['belgium-dgcd', 'denmark-mfa', 'ebrd', 'ec-devco', 'ec-echo', 'ec-near', 'finland-mfa', 'france-afd', 'france-meae', 'ireland-irishaid', 'italy-mae', 'netherlands-mfa', 'spain-maec-aecid', 'sweden-mfa-sida', 'uk-dfid'];
   var dfiAgencies = ['afdb', 'asdb', 'ebrd','iadb', 'world-bank-ida', 'world-bank-ifc'];
   var unAgencies = ['unicef', 'undp', 'un-ocha'];
+  var bilateralAgencies = ['uk-dfid', 'uk-fco', 'sweden-mfa-sida', 'canada-dfatd', 'netherlands-mfa','us-usaid', 'us-mcc', 'us-state', 'us-pepfar', 'us-defense', 'germany-bmz-giz', 'germany-bmz-kfw', 'switzerland-sdc', 'australia-dfat', 'denmark-mfa','france-afd', 'france-meae', 'italy-mae', 'finland-mfa', 'belgium-dgcd', 'japan-jica', 'ireland-irishaid', 'spain-maec-aecid', 'norway-mfa', 'korea-koica', 'new-zealand-mfat', 'uae-ministry-of-foreign-affairs', 'china-mofcom'];
   var comparisonAgencies = {usAgencies, unAgencies, euAgencies, dfiAgencies};
 
 $(document).ready(function() {
