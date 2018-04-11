@@ -4,4 +4,14 @@ slug: belgium-dgd
 title: Belgium, DGD
 ---
 
-Donor profile for Belgium, DGD goes here.
+Overview for Belgium, DGD goes here.
+
+---
+
+Analysis for Belgium, DGD goes here.
+
+---
+
+Recommendations for Belgium, DGD goes here.
+
+---

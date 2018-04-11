@@ -4,4 +4,14 @@ slug: norway-mfa
 title: Norway, MFA
 ---
 
-Donor profile for Norway, MFA goes here.
+Overview for Norway, MFA goes here.
+
+---
+
+Analysis for Norway, MFA goes here.
+
+---
+
+Recommendations for Norway, MFA goes here.
+
+---

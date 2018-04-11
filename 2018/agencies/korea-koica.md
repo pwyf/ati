@@ -4,4 +4,14 @@ slug: korea-koica
 title: Korea, KOICA
 ---
 
-Donor profile for Korea, KOICA goes here.
+Overview for Korea, KOICA goes here.
+
+---
+
+Analysis for Korea, KOICA goes here.
+
+---
+
+Recommendations for Korea, KOICA goes here.
+
+---

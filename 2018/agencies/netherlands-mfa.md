@@ -4,4 +4,14 @@ slug: netherlands-mfa
 title: Netherlands, MFA
 ---
 
-Donor profile for Netherlands, MFA goes here.
+Overview for Netherlands, MFA goes here.
+
+---
+
+Analysis for Netherlands, MFA goes here.
+
+---
+
+Recommendations for Netherlands, MFA goes here.
+
+---

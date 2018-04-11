@@ -4,4 +4,14 @@ slug: spain-aecid
 title: Spain, AECID
 ---
 
-Donor profile for Spain, AECID goes here.
+Overview for Spain, AECID goes here.
+
+---
+
+Analysis for Spain, AECID goes here.
+
+---
+
+Recommendations for Spain, AECID goes here.
+
+---

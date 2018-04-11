@@ -4,4 +4,14 @@ slug: finland-mfa
 title: Finland, MFA
 ---
 
-Donor profile for Finland, MFA goes here.
+Overview for Finland, MFA goes here.
+
+---
+
+Analysis for Finland, MFA goes here.
+
+---
+
+Recommendations for Finland, MFA goes here.
+
+---

@@ -4,4 +4,14 @@ slug: france-afd
 title: France, AFD
 ---
 
-Donor profile for France, AFD goes here.
+Overview for France, AFD goes here.
+
+---
+
+Analysis for France, AFD goes here.
+
+---
+
+Recommendations for France, AFD goes here.
+
+---

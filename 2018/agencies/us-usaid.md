@@ -4,4 +4,14 @@ slug: us-usaid
 title: US, USAID
 ---
 
-Donor profile for US, USAID goes here.
+Overview for US, USAID goes here.
+
+---
+
+Analysis for US, USAID goes here.
+
+---
+
+Recommendations for US, USAID goes here.
+
+---

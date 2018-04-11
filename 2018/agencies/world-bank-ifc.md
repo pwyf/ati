@@ -4,4 +4,14 @@ slug: world-bank-ifc
 title: World Bank, IFC
 ---
 
-Donor profile for World Bank, IFC goes here.
+Overview for World Bank, IFC goes here.
+
+---
+
+Analysis for World Bank, IFC goes here.
+
+---
+
+Recommendations for World Bank, IFC goes here.
+
+---

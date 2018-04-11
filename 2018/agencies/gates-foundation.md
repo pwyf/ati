@@ -4,4 +4,14 @@ slug: gates-foundation
 title: Gates Foundation
 ---
 
-Donor profile for Gates Foundation goes here.
+Overview for Gates Foundation goes here.
+
+---
+
+Analysis for Gates Foundation goes here.
+
+---
+
+Recommendations for Gates Foundation goes here.
+
+---

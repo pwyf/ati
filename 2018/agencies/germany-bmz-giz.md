@@ -4,4 +4,14 @@ slug: germany-bmz-giz
 title: Germany, BMZ-GIZ
 ---
 
-Donor profile for Germany, BMZ-GIZ goes here.
+Overview for Germany, BMZ-GIZ goes here.
+
+---
+
+Analysis for Germany, BMZ-GIZ goes here.
+
+---
+
+Recommendations for Germany, BMZ-GIZ goes here.
+
+---

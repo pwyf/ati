@@ -4,4 +4,14 @@ slug: sweden-sida
 title: Sweden, Sida
 ---
 
-Donor profile for Sweden, Sida goes here.
+Overview for Sweden, Sida goes here.
+
+---
+
+Analysis for Sweden, Sida goes here.
+
+---
+
+Recommendations for Sweden, Sida goes here.
+
+---

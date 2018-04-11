@@ -4,4 +4,14 @@ slug: china-mofcom
 title: China, MOFCOM
 ---
 
-Donor profile for China, MOFCOM goes here.
+Overview for China, MOFCOM goes here.
+
+---
+
+Analysis for China, MOFCOM goes here.
+
+---
+
+Recommendations for China, MOFCOM goes here.
+
+---

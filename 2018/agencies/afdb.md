@@ -4,4 +4,14 @@ slug: afdb
 title: AfDB
 ---
 
-Donor profile for AfDB goes here.
+Overview for AfDB goes here.
+
+---
+
+Analysis for AfDB goes here.
+
+---
+
+Recommendations for AfDB goes here.
+
+---

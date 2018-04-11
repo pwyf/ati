@@ -4,4 +4,14 @@ slug: switzerland-sdc
 title: Switzerland, SDC
 ---
 
-Donor profile for Switzerland, SDC goes here.
+Overview for Switzerland, SDC goes here.
+
+---
+
+Analysis for Switzerland, SDC goes here.
+
+---
+
+Recommendations for Switzerland, SDC goes here.
+
+---

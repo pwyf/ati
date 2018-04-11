@@ -4,4 +4,14 @@ slug: uk-dfid
 title: UK, DFID
 ---
 
-Donor profile for UK, DFID goes here.
+Overview for UK, DFID goes here.
+
+---
+
+Analysis for UK, DFID goes here.
+
+---
+
+Recommendations for UK, DFID goes here.
+
+---

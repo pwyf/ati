@@ -4,4 +4,14 @@ slug: canada-global-affairs
 title: Canada, Global Affairs
 ---
 
-Donor profile for Canada, Global Affairs goes here.
+Overview for Canada, Global Affairs goes here.
+
+---
+
+Analysis for Canada, Global Affairs goes here.
+
+---
+
+Recommendations for Canada, Global Affairs goes here.
+
+---

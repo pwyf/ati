@@ -4,4 +4,14 @@ slug: germany-bmz-kfw
 title: Germany, BMZ-KFW
 ---
 
-Donor profile for Germany, BMZ-KFW goes here.
+Overview for Germany, BMZ-KFW goes here.
+
+---
+
+Analysis for Germany, BMZ-KFW goes here.
+
+---
+
+Recommendations for Germany, BMZ-KFW goes here.
+
+---

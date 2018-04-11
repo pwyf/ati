@@ -4,4 +4,14 @@ slug: {slug}
 title: {name}
 ---
 
-Donor profile for {name} goes here.
+Overview for {name} goes here.
+
+---
+
+Analysis for {name} goes here.
+
+---
+
+Recommendations for {name} goes here.
+
+---

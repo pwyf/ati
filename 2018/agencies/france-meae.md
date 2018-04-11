@@ -4,4 +4,14 @@ slug: france-meae
 title: France, MEAE
 ---
 
-Donor profile for France, MEAE goes here.
+Overview for France, MEAE goes here.
+
+---
+
+Analysis for France, MEAE goes here.
+
+---
+
+Recommendations for France, MEAE goes here.
+
+---

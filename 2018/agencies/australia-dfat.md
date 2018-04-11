@@ -4,4 +4,14 @@ slug: australia-dfat
 title: Australia, DFAT
 ---
 
-Donor profile for Australia, DFAT goes here.
+Overview for Australia, DFAT goes here.
+
+---
+
+Analysis for Australia, DFAT goes here.
+
+---
+
+Recommendations for Australia, DFAT goes here.
+
+---

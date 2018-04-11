@@ -4,4 +4,14 @@ slug: ireland-irish-aid
 title: Ireland, Irish Aid
 ---
 
-Donor profile for Ireland, Irish Aid goes here.
+Overview for Ireland, Irish Aid goes here.
+
+---
+
+Analysis for Ireland, Irish Aid goes here.
+
+---
+
+Recommendations for Ireland, Irish Aid goes here.
+
+---

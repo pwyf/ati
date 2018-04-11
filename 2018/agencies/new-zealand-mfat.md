@@ -4,4 +4,14 @@ slug: new-zealand-mfat
 title: New Zealand, MFAT
 ---
 
-Donor profile for New Zealand, MFAT goes here.
+Overview for New Zealand, MFAT goes here.
+
+---
+
+Analysis for New Zealand, MFAT goes here.
+
+---
+
+Recommendations for New Zealand, MFAT goes here.
+
+---
