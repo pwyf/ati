@@ -2496,7 +2496,7 @@
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -2986,13 +2986,13 @@
                     "Quality of FOI legislation": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -4280,7 +4280,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -4480,7 +4480,7 @@
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -5520,7 +5520,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -5768,7 +5768,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -5968,7 +5968,7 @@
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -6960,7 +6960,7 @@
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -7008,7 +7008,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -7044,7 +7044,7 @@
                     "Total organisation budget": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     }
                 }
@@ -7208,7 +7208,7 @@
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -7504,7 +7504,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -7752,7 +7752,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -7788,7 +7788,7 @@
                     "Total organisation budget": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     }
                 }
@@ -8248,7 +8248,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -8696,7 +8696,7 @@
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -8992,7 +8992,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -9028,7 +9028,7 @@
                     "Total organisation budget": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     }
                 }
@@ -9440,7 +9440,7 @@
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -9488,7 +9488,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -9524,7 +9524,7 @@
                     "Total organisation budget": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     }
                 }
@@ -9688,7 +9688,7 @@
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -9736,7 +9736,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -9772,7 +9772,7 @@
                     "Total organisation budget": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     }
                 }
@@ -9930,13 +9930,13 @@
                     "Quality of FOI legislation": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -9984,7 +9984,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -10184,7 +10184,7 @@
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -10480,7 +10480,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -10516,7 +10516,7 @@
                     "Total organisation budget": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     }
                 }
@@ -10674,13 +10674,13 @@
                     "Quality of FOI legislation": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -10728,7 +10728,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -10764,7 +10764,7 @@
                     "Total organisation budget": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     }
                 }
@@ -10928,7 +10928,7 @@
                     "Accessibility": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Organisation strategy": {
@@ -10976,7 +10976,7 @@
                     "Disaggregated budgets": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     },
                     "Project budget": {
@@ -11012,7 +11012,7 @@
                     "Total organisation budget": {
                         "score": 0.0,
                         "weight": 0.0416667,
-                        "format": "Not applicable",
+                        "format": "",
                         "status": ""
                     }
                 }

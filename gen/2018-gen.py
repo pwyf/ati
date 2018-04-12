@@ -70,10 +70,10 @@ for x in results:
 
     if x['survey_ordinal_value'] == '0.0':
         # if there's an ordinal value of 0.0, there shouldn't be a format
-        fmt = 'not-applicable'
-    if status == 'not published':
+        fmt = ''
+    if status == 'Not published':
         # if status is not published, there shouldn't be a format
-        fmt = 'not-applicable'
+        fmt = ''
 
     fmt = tidy_format(fmt)
 
