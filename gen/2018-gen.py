@@ -145,12 +145,11 @@ profile_data = [{
 with open(join(rootpath, 'gen', '2018', 'agency-template.md')) as f:
     agency_tmpl = f.read()
 
-output_path = join(rootpath, '2018')
-agencies_path = join(output_path, 'agencies')
+agencies_path = join(rootpath, '2018', 'agencies')
 shutil.rmtree(agencies_path, ignore_errors=True)
 makedirs(agencies_path)
 
 for profile in profile_data:
     txt = agency_tmpl.format(**profile)
     with open(join(agencies_path, profile['slug'] + '.md'), 'w') as f:
-        f.write(txt)
+        _ = f.write(txt)
