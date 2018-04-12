@@ -1,9 +1,12 @@
+from io import StringIO
 from collections import OrderedDict
 import csv
 import json
 from os.path import dirname, join, realpath
 from os import makedirs
 import shutil
+
+import requests
 
 
 cats = [
@@ -99,17 +102,19 @@ for idx, org in enumerate(orgs.values()):
 with open(join(rootpath, '_data', '2018', 'results.json'), 'w') as f:
     json.dump(orgs, f, indent=4)
 
-with open(join(rootpath, '_data', '2018', 'donor-profiles.csv')) as f:
-    r = csv.reader(f)
-    next(r)
-    profile_data = [{
-            'slug': slugify(x[0]),
-            'short_name': x[0],
-            'name': x[1],
-            'overview': x[2],
-            'analysis': x[3],
-            'recommendations': x[4],
-        } for x in r]
+donor_profiles_url = 'https://docs.google.com/spreadsheets/d/1LJR7yznASN0VJ4qhnkWFSltDFobN8X4N0mQBiNDOThg/gviz/tq?tqx=out:csv&sheet=Donor%20profiles'
+req = requests.get(donor_profiles_url)
+f = StringIO(req.text)
+r = csv.reader(f)
+next(r)
+profile_data = [{
+        'slug': slugify(x[0]),
+        'short_name': x[0],
+        'name': x[1],
+        'overview': x[2],
+        'analysis': x[3],
+        'recommendations': x[4],
+    } for x in r]
 
 with open(join(rootpath, 'gen', '2018', 'agency-template.md')) as f:
     agency_tmpl = f.read()
