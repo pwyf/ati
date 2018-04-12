@@ -4,9 +4,15 @@ slug: {slug}
 title: {name}
 short_name: {short_name}
 ---
+
 {overview}
+
 ---
+
 {analysis}
+
 ---
+
 {recommendations}
+
 ---
