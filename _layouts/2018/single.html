@@ -2,780 +2,1376 @@
 layout: 2018/base
 ---
 
-{% assign agency = site.data['2018'].results[page.slug] %}
+{% assign results = site.data['2018'].results[page.slug] %}
+{% assign sections = page.content | split: '---' %}
 
 <div class="margins-container single-container">
     <a href="{{ "2018/" | absolute_url }}" class="back-to-results">
       <img src="{{ "2018/static/assets/left-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Back to results">
       <span>Back to results</span>
     </a>
+
     <div class="single-content">
-        <div class="left-column">
-          <div class="graph-image">
-            <img src="{{ "2018/static/assets/graph-placeholder.png" | absolute_url }}?ver={{ site.github.build_revision }}" alt="">
-          </div>
-          <div class="buttons">
-            <a href="#" class="download-report button flex-icon">
-              <img src="{{ "2018/static/assets/down-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download Index">
-              <span>Download Donor Profile</span>
-            </a>
-            <a href="#" class="download-report french button flex-icon">
-              <img src="{{ "2018/static/assets/down-arrow-black.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download Index">
-              <span>Telegerger en Francais</span>
-            </a>
-          </div>
+        <div class="left-column" style="left: 90px; width: 446.641px;">
+            <div class="graph-image">
+              <img src="{{ "2018/static/assets/graph-placeholder.png" | absolute_url }}?ver={{ site.github.build_revision }}" alt="">
+            </div>
+
+
+            <div class="buttons">
+                <a class="download-report button flex-icon" href="#"><img src="{{ "2018/static/assets/down-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download Donor Profile">
+                <span>Download Donor Profile</span></a> <a class="download-report french button flex-icon" href="#"><img alt="Telegerger en Francais" src=
+                "{{ "2018/static/assets/down-arrow-black.svg" | absolute_url }}?ver={{ site.github.build_revision }}"> <span>Telegerger en Francais</span></a>
+            </div>
         </div>
+
+
         <div class="right-column">
             <h1 class="agency-name">{{ page.title }}</h1>
-
             <!-- If part of comparison group -->
-            <span class="comparison-group">
+            {% for group in page.groups %}
+            <span class="comparison-group">COMPARISON GROUP : <a href="multi-agency?group=un">UN Agencies</a></span>
+            {% endfor %}
 
-            </span>
+            <div class="mobile-fill">
+            </div>
 
-            <div class="mobile-fill"></div>
 
             <div class="overview single-group">
                 <span class="label">Overview</span>
+
                 <div class="overview-content">
-                  {{ content }}
+                    {{ sections[0] }}
                 </div>
             </div>
+
+
             <div class="summary single-group">
                 <div class="summary-card">
                     <div class="top-info">
-                        <div class="score"><span class="light">Score: </span><span class="target"></span></div>
-                        <div class="position"><span class="light">Position: </span><span class="target"></span> / 45</div>
+                        <div class="score">
+                            <span class="light">Score:</span> <span class="target">93.2</span>
+                        </div>
 
-                      <div class="rank">
-                          <span class="score">Good</span>
-                      </div>
-                      <div class="history">
-                        <div class="year">
-                          2016: <span class="very-good">Very Poor</span>
+
+                        <div class="position">
+                            <span class="light">Position:</span> <span class="target">2</span> / 45
                         </div>
-                        <div class="year">
-                          2015: <span class="good">Good</span>
+
+
+                        <div class="rank">
+                            <span class="score increase very-good">Very good</span>
                         </div>
-                        <div class="year">
-                          2014: <span class="fair">Fair</span>
+
+
+                        <div class="history">
+                            <div class="year">
+                                2016: <span class="very-good">Very Poor</span>
+                            </div>
+
+
+                            <div class="year">
+                                2015: <span class="good">Good</span>
+                            </div>
+
+
+                            <div class="year">
+                                2014: <span class="fair">Fair</span>
+                            </div>
                         </div>
-                      </div>
                     </div>
 
-                                        <div class="card-content">
-                      <div class="side-components">
-                                                  <div class="component component-1">
-                            <span class="light"></span>
-                            <span class="score"></span>
-                          </div>
-                                                                            <div class="component component-2">
-                            <span class="light"></span>
-                            <span class="score"></span>
-                          </div>
-                                                                            <div class="component component-3">
-                            <span class="light"></span>
-                            <span class="score"></span>
-                          </div>
-                                                                            <div class="component component-4">
-                            <span class="light"></span>
-                            <span class="score"></span>
-                          </div>
-                                                                            <div class="component component-5">
-                            <span class="light"></span>
-                            <span class="score"></span>
-                          </div>
-                                                                        </div>
-                      <div class="custom-content">
-                        <div class="analysis">
-                          <span class="label">Analysis</span>
-                          <div class="analysis-content">
-                            <strong>
-                              Achievements and progress
-                            </strong>
-                            <p>The Gates Foundation consolidated the progress made on its transparency efforts between 2013 and 2014 and remains in the ‘fair’ category with a score of 46%.</p>
-                            <strong>Challenges and room for improvement</strong>
-                            <p>The Gates Foundation marked no significant improvement since the 2014 Index.</p>
-                            <p>Budgetary information at the organisation level is not available at all.</p>
-                            <p>Eleven activity-level indicators are not published in the IATI Standard. Of these, sub-national locations and tenders are always available but in a different format.</p>
-                            <p>The nine other indicators, including important information such as evaluations, contracts, results and objectives are not available at all.</p>
-                            <p>The Gates Foundation publishes data to the IATI Registry less than quarterly.</p>
-                          </div>
+
+                    <div class="card-content">
+                        <div class="side-components">
+                            <div class="component component-1">
+                                <span class="light">Organisational planning and commitments</span> <span class="score">11.9 <span class="lighter">/ 15</span></span>
+                            </div>
+
+
+                            <div class="component component-2">
+                                <span class="light">Finance and budgets</span> <span class="score">22.5 <span class="lighter">/ 25</span></span>
+                            </div>
+
+
+                            <div class="component component-3">
+                                <span class="light">Project attributes</span> <span class="score">19.9 <span class="lighter">/ 20</span></span>
+                            </div>
+
+
+                            <div class="component component-4">
+                                <span class="light">Joining-up development data</span> <span class="score">19.8 <span class="lighter">/ 20</span></span>
+                            </div>
+
+
+                            <div class="component component-5">
+                                <span class="light">Performance</span> <span class="score">19 <span class="lighter">/ 20</span></span>
+                            </div>
                         </div>
-                        <div class="recommendations">
-                          <span class="label">Recommendations</span>
-                          <div class="recommendations-content">
-                            <p>The Gates Foundation publishes data to the IATI Registry less than quarterly.</p>
-                            <p>The Gates Foundation should publish a full organisation file to the IATI Registry which includes the organisation’s budgets.</p>
-                            <p>The Gates Foundation should improve the publication of information on its development activities to include in priority activity-related documents and performance data.</p>
-                          </div>
+
+
+                        <div class="custom-content">
+                            <div class="analysis">
+                                <span class="label">Analysis</span>
+
+                                <div class="analysis-content">
+                                  {{ sections[1] }}
+                                </div>
+                            </div>
+
+
+                            <div class="recommendations">
+                                <span class="label">Recommendations</span>
+
+                                <div class="recommendations-content">
+                                    {{ sections[2] }}
+                                </div>
+                            </div>
                         </div>
-                      </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="deep-dive">
-      <span class="label">Deep Dive</span>
-      <div class="tabbed-section">
-        <div class="tabs">
-                                <div class="tab tab-1 active"></div>
-                                  <div class="tab tab-2"></div>
-                                  <div class="tab tab-3"></div>
-                                  <div class="tab tab-4"></div>
-                                  <div class="tab tab-5"></div>
-                              </div>
 
-        <div class="tabbed-content">
-                            <div id="organisation" class="tab-content active component-1">
+
+    <div class="deep-dive">
+        <span class="label">Deep Dive</span>
+
+        <div class="tabbed-section">
+            <div class="tabs">
+                <div class="tab tab-1 active" id="target-organisational">
+                    Organisational planning and commitments
+                </div>
+
+
+                <div class="tab tab-2" id="target-finance">
+                    Finance and budgets
+                </div>
+
+
+                <div class="tab tab-3" id="target-project">
+                    Project attributes
+                </div>
+
+
+                <div class="tab tab-4" id="target-joining-up">
+                    Joining-up development data
+                </div>
+
+
+                <div class="tab tab-5" id="target-performance">
+                    Performance
+                </div>
+            </div>
+
+
+            <div class="tabbed-content">
+                <div class="tab-content active component-1" id="organisational">
                     <div class="component-info">
-                      <h2 class="component-name"></h2>
-                      <h3>Score: <span class="score"></span></h3>
-                      <span class="label">About Component</span>
-                      <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                        <h2 class="component-name">Organisational planning and commitments</h2>
+
+
+                        <h3>Score: <span class="score">11.9 <span class="lighter">/ 15</span></span></h3>
+                        <span class="label">About Component</span>
+
+                        <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                        sit amet risus. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit
+                        aliquet.</p>
                     </div>
+
+
                     <div class="indicator-scores">
-                                              <div class="indicator-score indicator-score-0">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+                        <div class="indicator-score indicator-score-0">
+                            <div class="top-group">
+                                <span class="indicator-name">Organisation strategy</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 37.6%</span> <span class="modal-trigger" data-indicator="Organisation strategy">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-1">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 37.6%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-2">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-1">
+                            <div class="top-group">
+                                <span class="indicator-name">Annual report</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 37.6%</span> <span class="modal-trigger" data-indicator="Annual report">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-3">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 37.6%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-4">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-2">
+                            <div class="top-group">
+                                <span class="indicator-name">Allocation policy</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 37.6%</span> <span class="modal-trigger" data-indicator="Allocation policy">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-5">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 37.6%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-6">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-3">
+                            <div class="top-group">
+                                <span class="indicator-name">Procurement policy</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 37.6%</span> <span class="modal-trigger" data-indicator="Procurement policy">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 37.6%;"></span>
+                            </div>
                         </div>
-                                                                  </div>
-                  </div>
-                                  <div id="finance" class="tab-content component-2">
+
+
+                        <div class="indicator-score indicator-score-4">
+                            <div class="top-group">
+                                <span class="indicator-name">Strategy (country/sector) or Memorandum of Understanding</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 37.6%</span> <span class="modal-trigger" data-indicator=
+                                    "Strategy (country/sector) or Memorandum of Understanding">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 37.6%;"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="indicator-score indicator-score-5">
+                            <div class="top-group">
+                                <span class="indicator-name">Audit</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 37.6%</span> <span class="modal-trigger" data-indicator="Audit">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 37.6%;"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="indicator-score indicator-score-6">
+                            <div class="top-group">
+                                <span class="indicator-name">Total organisation budget</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 83.4%</span> <span class="modal-trigger" data-indicator="Total organisation budget">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 83.4%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-content component-2" id="finance">
                     <div class="component-info">
-                      <h2 class="component-name"></h2>
-                      <h3>Score: <span class="score"></span></h3>
-                      <span class="label">About Component</span>
-                      <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                        <h2 class="component-name">Finance and budgets</h2>
+
+
+                        <h3>Score: <span class="score">22.5 <span class="lighter">/ 25</span></span></h3>
+                        <span class="label">About Component</span>
+
+                        <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                        sit amet risus. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit
+                        aliquet.</p>
                     </div>
+
+
                     <div class="indicator-scores">
-                                              <div class="indicator-score indicator-score-7">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+                        <div class="indicator-score indicator-score-7">
+                            <div class="top-group">
+                                <span class="indicator-name">Disaggregated budgets</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 61.5%</span> <span class="modal-trigger" data-indicator="Disaggregated budgets">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-8">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 61.5%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-9">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-8">
+                            <div class="top-group">
+                                <span class="indicator-name">Project budget document</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 63.5%</span> <span class="modal-trigger" data-indicator="Project budget document">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-10">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 63.5%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-11">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-9">
+                            <div class="top-group">
+                                <span class="indicator-name">Project budget</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 42.7%</span> <span class="modal-trigger" data-indicator="Project budget">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-12">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 42.7%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-13">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-10">
+                            <div class="top-group">
+                                <span class="indicator-name">Commitments</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 66.6%</span> <span class="modal-trigger" data-indicator="Commitments">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 66.6%;"></span>
+                            </div>
                         </div>
-                                                                  </div>
-                  </div>
-                                  <div id="attributes" class="tab-content component-3">
+
+
+                        <div class="indicator-score indicator-score-11">
+                            <div class="top-group">
+                                <span class="indicator-name">Disbursements and expenditures</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 66.6%</span> <span class="modal-trigger" data-indicator="Disbursements and expenditures">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 66.6%;"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="indicator-score indicator-score-12">
+                            <div class="top-group">
+                                <span class="indicator-name">Capital spend</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 66.6%</span> <span class="modal-trigger" data-indicator="Capital spend">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 66.6%;"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="indicator-score indicator-score-13">
+                            <div class="top-group">
+                                <span class="indicator-name">Title</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 19.8%</span> <span class="modal-trigger" data-indicator="Title">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 19.8%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-content component-3" id="project">
                     <div class="component-info">
-                      <h2 class="component-name"></h2>
-                      <h3>Score: <span class="score"></span></h3>
-                      <span class="label">About Component</span>
-                      <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                        <h2 class="component-name">Project attributes</h2>
+
+
+                        <h3>Score: <span class="score">19.9 <span class="lighter">/ 20</span></span></h3>
+                        <span class="label">About Component</span>
+
+                        <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                        sit amet risus. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit
+                        aliquet.</p>
                     </div>
+
+
                     <div class="indicator-scores">
-                                              <div class="indicator-score indicator-score-14">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+                        <div class="indicator-score indicator-score-14">
+                            <div class="top-group">
+                                <span class="indicator-name">Description</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 18.7%</span> <span class="modal-trigger" data-indicator="Description">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-15">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 18.7%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-16">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-15">
+                            <div class="top-group">
+                                <span class="indicator-name">Planned dates</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 20%</span> <span class="modal-trigger" data-indicator="Planned dates">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-17">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 20%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-18">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-16">
+                            <div class="top-group">
+                                <span class="indicator-name">Actual dates</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 20%</span> <span class="modal-trigger" data-indicator="Actual dates">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-19">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 20%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-20">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-17">
+                            <div class="top-group">
+                                <span class="indicator-name">Current status</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 20%</span> <span class="modal-trigger" data-indicator="Current status">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 20%;"></span>
+                            </div>
                         </div>
-                                                                  </div>
-                  </div>
-                                  <div id="joining" class="tab-content component-4">
+
+
+                        <div class="indicator-score indicator-score-18">
+                            <div class="top-group">
+                                <span class="indicator-name">Contact details</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 20%</span> <span class="modal-trigger" data-indicator="Contact details">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 20%;"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="indicator-score indicator-score-19">
+                            <div class="top-group">
+                                <span class="indicator-name">Implementer</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 70%</span> <span class="modal-trigger" data-indicator="Implementer">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 70%;"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="indicator-score indicator-score-20">
+                            <div class="top-group">
+                                <span class="indicator-name">Unique ID</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 70%</span> <span class="modal-trigger" data-indicator="Unique ID">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 70%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-content component-4" id="joining-up">
                     <div class="component-info">
-                      <h2 class="component-name"></h2>
-                      <h3>Score: <span class="score"></span></h3>
-                      <span class="label">About Component</span>
-                      <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                        <h2 class="component-name">Joining-up development data</h2>
+
+
+                        <h3>Score: <span class="score">19.8 <span class="lighter">/ 20</span></span></h3>
+                        <span class="label">About Component</span>
+
+                        <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                        sit amet risus. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit
+                        aliquet.</p>
                     </div>
+
+
                     <div class="indicator-scores">
-                                              <div class="indicator-score indicator-score-21">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+                        <div class="indicator-score indicator-score-21">
+                            <div class="top-group">
+                                <span class="indicator-name">Sectors</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 69.9%</span> <span class="modal-trigger" data-indicator="Sectors">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-22">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 69.9%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-23">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-22">
+                            <div class="top-group">
+                                <span class="indicator-name">Sub-national location</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 70%</span> <span class="modal-trigger" data-indicator="Sub-national location">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-24">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 70%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-25">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-23">
+                            <div class="top-group">
+                                <span class="indicator-name">Flow type</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 66.6%</span> <span class="modal-trigger" data-indicator="Flow type">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-26">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 66.6%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-27">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-24">
+                            <div class="top-group">
+                                <span class="indicator-name">Aid type</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 66.6%</span> <span class="modal-trigger" data-indicator="Aid type">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 66.6%;"></span>
+                            </div>
                         </div>
-                                                                  </div>
-                  </div>
-                                  <div id="performance" class="tab-content component-5">
+
+
+                        <div class="indicator-score indicator-score-25">
+                            <div class="top-group">
+                                <span class="indicator-name">Finance type</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 66.6%</span> <span class="modal-trigger" data-indicator="Finance type">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 66.6%;"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="indicator-score indicator-score-26">
+                            <div class="top-group">
+                                <span class="indicator-name">Tied aid status</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 66.6%</span> <span class="modal-trigger" data-indicator="Tied aid status">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 66.6%;"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="indicator-score indicator-score-27">
+                            <div class="top-group">
+                                <span class="indicator-name">Conditions</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 65.4%</span> <span class="modal-trigger" data-indicator="Conditions">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 65.4%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tab-content component-5" id="performance">
                     <div class="component-info">
-                      <h2 class="component-name"></h2>
-                      <h3>Score: <span class="score"></span></h3>
-                      <span class="label">About Component</span>
-                      <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                        <h2 class="component-name">Performance</h2>
+
+
+                        <h3>Score: <span class="score">19 <span class="lighter">/ 20</span></span></h3>
+                        <span class="label">About Component</span>
+
+                        <p>Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                        sit amet risus. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit
+                        aliquet.</p>
                     </div>
+
+
                     <div class="indicator-scores">
-                                              <div class="indicator-score indicator-score-28">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+                        <div class="indicator-score indicator-score-28">
+                            <div class="top-group">
+                                <span class="indicator-name">Project procurement - Contracts</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 48%</span> <span class="modal-trigger" data-indicator="Project procurement - Contracts">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-29">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 48%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-30">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-29">
+                            <div class="top-group">
+                                <span class="indicator-name">Objectives</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 100%</span> <span class="modal-trigger" data-indicator="Objectives">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-31">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 100%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-32">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-30">
+                            <div class="top-group">
+                                <span class="indicator-name">Pre-project impact appraisals</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 84.3%</span> <span class="modal-trigger" data-indicator="Pre-project impact appraisals">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
-                        </div>
-                                                                      <div class="indicator-score indicator-score-33">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 84.3%;"></span>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
                         </div>
-                                                                      <div class="indicator-score indicator-score-34">
-                          <div class="top-group">
-                            <span class="indicator-name"></span>
-                            <div class="group">
-                              <span class="indicator-num"></span>
-                              <span class="modal-trigger">?</span>
-                              <div class="indicator-modal-content">
-                                <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
-                                <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue.</p>
-                                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor.</p>
-                              </div>
+
+
+                        <div class="indicator-score indicator-score-31">
+                            <div class="top-group">
+                                <span class="indicator-name">Reviews and evaluations</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 98.1%</span> <span class="modal-trigger" data-indicator="Reviews and evaluations">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
                             </div>
-                          </div>
-                          <div class="bar">
-                            <span class="bar-num"></span>
-                          </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 98.1%;"></span>
+                            </div>
                         </div>
-                                                                  </div>
-                  </div>
+
+
+                        <div class="indicator-score indicator-score-32">
+                            <div class="top-group">
+                                <span class="indicator-name">Results</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 97.9%</span> <span class="modal-trigger" data-indicator="Results">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 97.9%;"></span>
+                            </div>
                         </div>
-      </div>
+
+
+                        <div class="indicator-score indicator-score-33">
+                            <div class="top-group">
+                                <span class="indicator-name">Project procurement - Tenders</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 16.2%</span> <span class="modal-trigger" data-indicator="Project procurement - Tenders">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 16.2%;"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="indicator-score indicator-score-34">
+                            <div class="top-group">
+                                <span class="indicator-name">Quality of FOI legislation</span>
+
+                                <div class="group">
+                                    <span class="indicator-num">Score: 12.5%</span> <span class="modal-trigger" data-indicator="Quality of FOI legislation">?</span>
+
+                                    <div class="indicator-modal-content">
+                                        <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero,
+                                        a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent
+                                        commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam</p>
+
+
+                                        <p>Aenean lacinia bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu
+                                        leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a
+                                        pharetra augue.</p>
+
+
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vitae elit libero, a pharetra augue. Lorem ipsum
+                                        dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit
+                                        tempus porttitor.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="bar">
+                                <span class="bar-num" style="width: 12.5%;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-
-<script src="{{ "2018/static/js/single.js" | absolute_url }}?ver={{ site.github.build_revision }}"></script>
