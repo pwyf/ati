@@ -9,10 +9,10 @@ The Directorate-General for Neighbourhood and Enlargement Negotiations (DG NEAR)
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

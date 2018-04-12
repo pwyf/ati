@@ -9,10 +9,10 @@ Development cooperation in Sweden is overseen by the Ministry of Foreign Affairs
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

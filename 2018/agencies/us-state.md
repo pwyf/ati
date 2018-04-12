@@ -9,10 +9,10 @@ The US Department of State is responsible for the implementation of US foreign p
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

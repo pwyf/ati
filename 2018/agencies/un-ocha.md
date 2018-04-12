@@ -9,10 +9,10 @@ The United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

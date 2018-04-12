@@ -9,10 +9,10 @@ The Directorate-General for European Civil Protection and Humanitarian Aid Opera
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

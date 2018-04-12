@@ -111,9 +111,9 @@ profile_data = [{
         'slug': slugify(x[0]),
         'short_name': x[0],
         'name': x[1],
-        'overview': x[2],
-        'analysis': x[3],
-        'recommendations': x[4],
+        'overview': x[2] if x[2] else 'Overview goes here.',
+        'analysis': x[3] if x[3] else 'Analysis goes here.',
+        'recommendations': x[4] if x[4] else 'Recommendations go here.',
     } for x in r]
 
 with open(join(rootpath, 'gen', '2018', 'agency-template.md')) as f:

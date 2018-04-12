@@ -9,10 +9,10 @@ The Global Fund to Fight AIDS, Tuberculosis and Malaria (Global Fund) is a partn
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

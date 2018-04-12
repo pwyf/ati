@@ -9,10 +9,10 @@ The New Zealand Ministry of Foreign Affairs and Trade (MFAT) is responsible for 
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

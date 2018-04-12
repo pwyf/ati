@@ -9,10 +9,10 @@ The Department of Defense works to encourage and enable international partners t
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

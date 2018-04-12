@@ -9,10 +9,10 @@ The UK Foreign & Commonwealth Office (FCO) is responsible for several streams of
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

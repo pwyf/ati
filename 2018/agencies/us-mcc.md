@@ -9,10 +9,10 @@ Created by the US Congress in 2004, the Millennium Challenge Corporation (MCC) i
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

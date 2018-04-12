@@ -9,10 +9,10 @@ The Bill and Melinda Gates Foundation is the largest private foundation in the w
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

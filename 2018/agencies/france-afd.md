@@ -9,10 +9,10 @@ The French Development Agency (AFD) is a public agency central to French develop
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

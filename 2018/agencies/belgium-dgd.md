@@ -9,10 +9,10 @@ The Directorate-General for Development Cooperation and Humanitarian Aid (DGD) i
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

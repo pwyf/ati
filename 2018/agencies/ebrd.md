@@ -9,10 +9,10 @@ The European Bank for Reconstruction and Development (EBRD) is a multilateral de
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

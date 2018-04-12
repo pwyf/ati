@@ -9,10 +9,10 @@ The Ministry of Foreign Affairs (MFA) is responsible for Norway's development co
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

@@ -9,10 +9,10 @@ Having changed its name in 2015, Global Affairs Canada is the largest grantor of
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

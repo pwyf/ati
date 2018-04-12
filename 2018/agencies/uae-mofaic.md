@@ -9,10 +9,10 @@ Responsibility for development assistance in the United Arab Emirates (UAE) was 
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

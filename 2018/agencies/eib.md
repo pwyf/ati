@@ -9,10 +9,10 @@ The European Investment Bank (EIB) is the European Union’s bank, owned by its 
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

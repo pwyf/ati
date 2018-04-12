@@ -9,10 +9,10 @@ Established by the Ministry of Foreign Affairs and Trade, the Korea Internationa
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

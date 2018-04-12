@@ -9,10 +9,10 @@ Based in Geneva, GAVI is the Vaccine Alliance, an international organisation tha
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

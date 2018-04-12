@@ -9,10 +9,10 @@ The Japanese Ministry of Foreign Affairs (MOFA) is responsible for setting Japan
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

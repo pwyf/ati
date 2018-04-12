@@ -9,10 +9,10 @@ China published its first White Paper on its foreign aid policy in 2011 and a se
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

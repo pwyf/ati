@@ -9,10 +9,10 @@ The Ministry for Europe and Foreign Affairs (MEAE) is responsible for setting Fr
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

@@ -10,10 +10,10 @@ The Spanish Agency for International Development Cooperation (AECID) is the exec
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

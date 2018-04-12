@@ -9,10 +9,10 @@ The Ministry of Foreign Affairs of Denmark is responsible for Denmark's developm
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---

@@ -9,10 +9,10 @@ As the Ministry for Economic and Development Cooperation, BMZ, plays a leadershi
 
 ---
 
-
+Analysis goes here.
 
 ---
 
-
+Recommendations go here.
 
 ---
