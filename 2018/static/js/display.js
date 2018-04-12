@@ -81,7 +81,12 @@ $(document).ready(function() {
       var clicked = false;
       // On click of the bar
      $('.bar').click(function() {
-      clicked = true;
+       var slug = $(this).data('slug');
+       if (clicked && clicked === slug) {
+         window.location.href = domain + '/' + slug + '/';
+         return;
+       }
+       clicked = slug;
        // Reset all the other component heights
        $('.component').each(function() {
          $(this).height($(this).data('raw') + '%');
@@ -102,15 +107,6 @@ $(document).ready(function() {
 
        // Add Name
        showLabel($(this));
-
-      var currentURL = window.location.href;
-      if (clicked) {
-       $(this).click(function() {
-        var slug = $(this).data('slug');
-        window.location.href = domain + '/' + slug + '/';
-       })
-     }
-
      })
 
      // Show the label
