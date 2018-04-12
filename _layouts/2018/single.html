@@ -41,7 +41,7 @@ layout: 2018/base
                 <span class="label">Overview</span>
 
                 <div class="overview-content">
-                    {{ sections[0] }}
+                    {{ sections[0] | markdownify }}
                 </div>
             </div>
 
@@ -115,7 +115,7 @@ layout: 2018/base
                                 <span class="label">Analysis</span>
 
                                 <div class="analysis-content">
-                                  {{ sections[1] }}
+                                  {{ sections[1] | markdownify }}
                                 </div>
                             </div>
 
@@ -124,7 +124,7 @@ layout: 2018/base
                                 <span class="label">Recommendations</span>
 
                                 <div class="recommendations-content">
-                                    {{ sections[2] }}
+                                    {{ sections[2] | markdownify }}
                                 </div>
                             </div>
                         </div>
