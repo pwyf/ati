@@ -71,7 +71,7 @@ for x in results:
     if x['survey_ordinal_value'] == '0.0':
         # if there's an ordinal value of 0.0, there shouldn't be a format
         fmt = ''
-    if status == 'Not published':
+    if status == 'Not Published':
         # if status is not published, there shouldn't be a format
         fmt = ''
     if fmt == '':

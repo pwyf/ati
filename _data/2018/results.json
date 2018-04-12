@@ -1522,7 +1522,7 @@
                     "Allocation policy": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Procurement policy": {
@@ -1812,7 +1812,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -1962,7 +1962,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -2210,7 +2210,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -2308,7 +2308,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -2688,7 +2688,7 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -2936,7 +2936,7 @@
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -3022,7 +3022,7 @@
                     "Strategy (country/sector) or Memorandum of Understanding": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Audit": {
@@ -3680,7 +3680,7 @@
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -3704,7 +3704,7 @@
                     "Reviews and evaluations": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Results": {
@@ -3796,7 +3796,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -4044,7 +4044,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -4170,13 +4170,13 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -4194,7 +4194,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -4424,7 +4424,7 @@
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -4448,7 +4448,7 @@
                     "Reviews and evaluations": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Results": {
@@ -4672,7 +4672,7 @@
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -4684,13 +4684,13 @@
                     "Objectives": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -4788,7 +4788,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -4938,7 +4938,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -5036,7 +5036,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -5114,7 +5114,7 @@
                     "Sub-national location": {
                         "score": 0.0,
                         "weight": 0.035,
-                        "format": "Machine readable",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Implementer": {
@@ -5180,19 +5180,19 @@
                     "Objectives": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Results": {
@@ -5284,7 +5284,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -5416,7 +5416,7 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -5434,7 +5434,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -5532,7 +5532,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -5658,7 +5658,7 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
@@ -5780,7 +5780,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -5906,7 +5906,7 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
@@ -6028,7 +6028,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -6154,13 +6154,13 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -6178,7 +6178,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -6190,7 +6190,7 @@
                     "Results": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Website",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -6276,7 +6276,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -6408,7 +6408,7 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -6518,13 +6518,13 @@
                     "Project budget": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Website",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -6674,7 +6674,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -6724,7 +6724,7 @@
                     "Annual report": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Allocation policy": {
@@ -6772,7 +6772,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -6898,13 +6898,13 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -6972,7 +6972,7 @@
                     "Annual report": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Allocation policy": {
@@ -6990,7 +6990,7 @@
                     "Strategy (country/sector) or Memorandum of Understanding": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Audit": {
@@ -7170,13 +7170,13 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Results": {
@@ -7268,7 +7268,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -7418,7 +7418,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -7516,7 +7516,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -7642,7 +7642,7 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
@@ -7666,13 +7666,13 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Results": {
@@ -7722,7 +7722,7 @@
                     "Allocation policy": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Procurement policy": {
@@ -7740,7 +7740,7 @@
                     "Audit": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -7764,7 +7764,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -7818,7 +7818,7 @@
                     "Actual dates": {
                         "score": 0.0,
                         "weight": 0.01,
-                        "format": "Machine readable",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Current status": {
@@ -7890,13 +7890,13 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -7982,13 +7982,13 @@
                     "Strategy (country/sector) or Memorandum of Understanding": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Audit": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -8012,7 +8012,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -8138,7 +8138,7 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
@@ -8162,7 +8162,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -8206,7 +8206,7 @@
                     "Organisation strategy": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Annual report": {
@@ -8218,7 +8218,7 @@
                     "Allocation policy": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Procurement policy": {
@@ -8392,7 +8392,7 @@
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -8410,13 +8410,13 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Results": {
@@ -8508,7 +8508,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -8634,13 +8634,13 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -8658,7 +8658,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -8756,7 +8756,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -8882,7 +8882,7 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
@@ -8906,7 +8906,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -8974,7 +8974,7 @@
                     "Strategy (country/sector) or Memorandum of Understanding": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Audit": {
@@ -9004,7 +9004,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -9246,7 +9246,7 @@
                     "Project budget": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Website",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project budget document": {
@@ -9372,7 +9372,7 @@
                     "Tied aid status": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Website",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Conditions": {
@@ -9452,7 +9452,7 @@
                     "Annual report": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Allocation policy": {
@@ -9500,7 +9500,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -9626,13 +9626,13 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -9644,13 +9644,13 @@
                     "Objectives": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -9748,7 +9748,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -9874,13 +9874,13 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -9892,19 +9892,19 @@
                     "Objectives": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Results": {
@@ -10122,13 +10122,13 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -10244,7 +10244,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -10370,7 +10370,7 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
@@ -10394,7 +10394,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -10438,7 +10438,7 @@
                     "Organisation strategy": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Annual report": {
@@ -10492,7 +10492,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -10618,13 +10618,13 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -10642,7 +10642,7 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
@@ -10710,13 +10710,13 @@
                     "Strategy (country/sector) or Memorandum of Understanding": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Audit": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -10740,7 +10740,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -10866,13 +10866,13 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -10884,19 +10884,19 @@
                     "Objectives": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Results": {
@@ -10940,13 +10940,13 @@
                     "Annual report": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Allocation policy": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Procurement policy": {
@@ -10964,7 +10964,7 @@
                     "Audit": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     }
                 }
@@ -10988,7 +10988,7 @@
                     "Project budget document": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Commitments": {
@@ -11114,7 +11114,7 @@
                     "Conditions": {
                         "score": 0.0,
                         "weight": 0.0333333,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Project procurement": {
@@ -11138,13 +11138,13 @@
                     "Pre-project impact appraisals": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Reviews and evaluations": {
                         "score": 0.0,
                         "weight": 0.05,
-                        "format": "Document",
+                        "format": "",
                         "status": "Not Published"
                     },
                     "Results": {
