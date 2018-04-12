@@ -118,6 +118,7 @@ body {
     display: inline-flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     img {
       width: 15px;
       margin-right: 7.5px;
@@ -160,7 +161,7 @@ header {
     align-items: center;
   }
   .logo {
-    width: 200px;
+    width: 250px;
     display: inline-block;
     @media (max-width: $tablet-small) {
        width: 150px;
@@ -595,6 +596,7 @@ header {
       .comparison-group {
         font-family: 'Roboto';
         font-size: 14px;
+        text-transform: uppercase;
         display: block;
         margin-top: 10px;
         a {
@@ -716,6 +718,15 @@ header {
               }
               &:last-child {
                 margin-right: 0;
+              }
+            }
+            .disclaimer {
+              color: $grey;
+              font-size: 14px;
+              display: inline-block;
+              margin-top: 5px;
+              a {
+                color: $pwyf;
               }
             }
           }
@@ -908,6 +919,9 @@ header {
               margin-top: 0;
             }
           }
+          .more-info {
+
+          }
         }
         .indicator-scores {
           width: 50%;
@@ -927,9 +941,37 @@ header {
             justify-content: space-between;
             align-items: center;
             margin-bottom: 2.5px;
+            font-size: 14px;
+            .indicator-row {
+              width: 100%;
+              margin-bottom: 5px;
+              &:first-child {
+                margin-bottom: 2.5px;
+              }
+              .group, .status, .format {
+                width: 49%;
+                display: inline-block;
+              }
+              .group, .format {
+                text-align: right;
+                vertical-align: top;
+              }
+              .status, .format {
+                color: $grey;
+                span {
+                  color: $dark;
+                  a {
+                    color: $pwyf;
+                    font-weight: 600;
+                    text-decoration: none;
+                  }
+                }
+              }
+            }
             .indicator-name {
               font-size: 14px;
-              max-width: calc(100% - 60px);
+              width: 49%;
+              display: inline-block;
             }
             .indicator-num {
             }
@@ -1227,14 +1269,15 @@ footer {
 // Multiple Pages
 
 .comparison-pages {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
   margin: 40px 0;
-  grid-template-rows: repeat(1, 230px);
   a {
     background: white;
     padding: 30px;
+    flex: 1 1 calc(25% - 30px);
+    margin: 15px;
+    min-height: 230px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1243,6 +1286,12 @@ footer {
     color: $dark;
     text-decoration: none;
     transition: all .2s ease-in;
+    &:nth-child(1), &:nth-child(5) {
+      margin-left: 0;
+    }
+    &:nth-child(4), &:nth-child(8) {
+      margin-right: 0;
+    }
     &:hover {
       background: darken(white, 5%);
       transform: translateY(-2.5px);
