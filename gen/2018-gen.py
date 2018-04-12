@@ -127,8 +127,9 @@ for idx, org in enumerate(orgs.values()):
 with open(join(rootpath, '_data', '2018', 'results.json'), 'w') as f:
     json.dump(orgs, f, indent=4)
 
-donor_profiles_url = 'https://docs.google.com/spreadsheets/d/1LJR7yznASN0VJ4qhnkWFSltDFobN8X4N0mQBiNDOThg/gviz/tq?tqx=out:csv&sheet=Donor%20profiles'
-req = requests.get(donor_profiles_url)
+spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1LJR7yznASN0VJ4qhnkWFSltDFobN8X4N0mQBiNDOThg/gviz/tq?tqx=out:csv&sheet={}'
+
+req = requests.get(spreadsheet_url.format('Donor%20profiles'))
 f = StringIO(req.text)
 r = csv.reader(f)
 next(r)
