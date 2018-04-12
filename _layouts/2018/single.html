@@ -154,6 +154,18 @@ layout: 2018/base
                                         <p>Indicator description goes here</p>
                                     </div>
                                 </div>
+                                <div class="indicator-row">
+                                    <div class="status">
+                                        {% if indicator[1].status != '' %}
+                                        Publication status: <span>{{ indicator[1].status }}</span>
+                                        {% endif %}
+                                    </div>
+                                    <div class="format">
+                                        {% if indicator[1].format != '' %}
+                                        Format: <span><a href="#">{{ indicator[1].format }}</a></span>
+                                        {% endif %}
+                                    </div>
+                                </div>
                             </div>
 
 
