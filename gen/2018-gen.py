@@ -17,6 +17,16 @@ cats = [
     'Performance',
 ]
 
+def tidy_format(fmt):
+    lookup = {
+        'not-applicable': 'Not applicable',
+        'iati': 'IATI',
+        'machine-readable': 'Machine readable',
+        'document': 'Document',
+        'website': 'Website',
+        'pdf': 'PDF',
+    }
+    return lookup.get(fmt, '')
 
 def performance_group(score):
     if score >= 80:
@@ -54,7 +64,7 @@ for x in results:
     weight = float(x['indicator_weight'])
     weighted_sc = float(x['indicator_total_weighted_points'])
     fmt = x['publication_format']
-    status = x['survey_publication_status']
+    status = x['survey_publication_status'].title()
     cat = x['indicator_subcategory_name']
     ind = x['indicator_name']
 
@@ -64,6 +74,8 @@ for x in results:
     if status == 'not published':
         # if status is not published, there shouldn't be a format
         fmt = 'not-applicable'
+
+    fmt = tidy_format(fmt)
 
     orgs[org]['score'] += weighted_sc
     orgs[org]['performance_group'] = performance_group(orgs[org]['score'])
