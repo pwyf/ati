@@ -1,17 +1,12 @@
 ---
 permalink: 2018/gates-foundation/index.html
 slug: gates-foundation
-title: Gates Foundation
+title: The Bill and Melinda Gates Foundation
+short_name: Gates Foundation
+---
+The Bill and Melinda Gates Foundation is the largest private foundation in the world. It provides grants to support initiatives in education, global health and development and community giving in the Pacific Northwest. It became an IATI member in 2013 and published its first IATI data in March 2014.
 ---
 
-Overview for Gates Foundation goes here.
-
 ---
-
-Analysis for Gates Foundation goes here.
-
----
-
-Recommendations for Gates Foundation goes here.
 
 ---

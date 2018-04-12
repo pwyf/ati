@@ -1,17 +1,12 @@
 ---
 permalink: 2018/uae-mofaic/index.html
 slug: uae-mofaic
-title: UAE, MOFAIC
+title: UAE – Ministry of Foreign Affairs and International Cooperation (MOFAIC)
+short_name: UAE, MOFAIC
+---
+Responsibility for development assistance in the United Arab Emirates (UAE) was initially spread across more than forty units. It has undergone significant changes in recent years. The Ministry of Cooperation and International Development merged with the Ministry of Foreign Affairs in February 2016. The newly created Ministry of Foreign Affairs and International Cooperation (MOFAIC) maintains overall responsibility for setting policy, geographical and sectoral priorities, as well as for implementation and assessment of the impact of the country’s foreign aid programmes. At present, the UAE is not an IATI member and does not publish IATI data. 
 ---
 
-Overview for UAE, MOFAIC goes here.
-
 ---
-
-Analysis for UAE, MOFAIC goes here.
-
----
-
-Recommendations for UAE, MOFAIC goes here.
 
 ---
