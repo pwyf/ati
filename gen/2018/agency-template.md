@@ -2,16 +2,11 @@
 permalink: 2018/{slug}/index.html
 slug: {slug}
 title: {name}
+short_name: {short_name}
 ---
-
-Overview for {name} goes here.
-
+{overview}
 ---
-
-Analysis for {name} goes here.
-
+{analysis}
 ---
-
-Recommendations for {name} goes here.
-
+{recommendations}
 ---

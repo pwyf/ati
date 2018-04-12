@@ -45,11 +45,6 @@ orgs = {slugify(x['organisation_name']): {
     'components': OrderedDict(),
 } for x in results}
 
-page_info = [{
-    'name': x['organisation_name'],
-    'slug': slugify(x['organisation_name']),
-} for x in results]
-
 for x in results:
     org = slugify(x['organisation_name'])
     sc = float(x['total_points'])
@@ -104,6 +99,18 @@ for idx, org in enumerate(orgs.values()):
 with open(join(rootpath, '_data', '2018', 'results.json'), 'w') as f:
     json.dump(orgs, f, indent=4)
 
+with open(join(rootpath, '_data', '2018', 'donor-profiles.csv')) as f:
+    r = csv.reader(f)
+    next(r)
+    profile_data = [{
+            'slug': slugify(x[0]),
+            'short_name': x[0],
+            'name': x[1],
+            'overview': x[2],
+            'analysis': x[3],
+            'recommendations': x[4],
+        } for x in r]
+
 with open(join(rootpath, 'gen', '2018', 'agency-template.md')) as f:
     agency_tmpl = f.read()
 
@@ -112,8 +119,7 @@ agencies_path = join(output_path, 'agencies')
 shutil.rmtree(agencies_path, ignore_errors=True)
 makedirs(agencies_path)
 
-for page in page_info:
-    slug = page['slug']
-    txt = agency_tmpl.format(**page)
-    with open(join(agencies_path, slug + '.md'), 'w') as f:
+for profile in profile_data:
+    txt = agency_tmpl.format(**profile)
+    with open(join(agencies_path, profile['slug'] + '.md'), 'w') as f:
         f.write(txt)
