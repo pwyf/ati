@@ -74,6 +74,9 @@ for x in results:
     if status == 'Not published':
         # if status is not published, there shouldn't be a format
         fmt = ''
+    if fmt == '':
+        # if there's no format, status should be not published
+        status = 'Not Published'
 
     fmt = tidy_format(fmt)
 
