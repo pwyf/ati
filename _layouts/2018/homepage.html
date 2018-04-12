@@ -135,7 +135,7 @@ layout: 2018/base
                         <td class="cell-2"><a href="/2018/{{ org_tuple[0] }}/">{{ org.name }}</a></td>
                         <td class="cell-3">
                             <div class="hori-bar {{ org.performance_group | downcase | replace:" ","-" }}">
-                                <span class="raw-score">{{ org.score | round }} / 100</span>
+                                <span class="raw-score">{{ org.score | round:1 }} / 100</span>
 
                                 <div class="fill" style="width:{{ org.score }}%">
                                 </div>
