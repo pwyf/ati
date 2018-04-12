@@ -40,7 +40,7 @@ layout: 2018/base
                 <div class="graph">
                     {% for org_tuple in site.data['2018'].results %}
                     {% assign org = org_tuple[1] %}
-                    <div class="bar {{ org.performance_group | downcase | replace:" ","-" }}" data-agency="{{ org.name }}" data-index="{{ org.score | round }}" data-slug="{{ org_tuple[0] }}">
+                    <div class="bar {{ org.performance_group | downcase | replace:" ","-" }}" data-agency="{{ org.name }}" data-index="{{ org.score | round:1 }}" data-slug="{{ org_tuple[0] }}">
                         {% for component in org.components %}
                         {% if component[1].weighted_score > 0 %}
                         <div class="component component-{{ forloop.index }}" data-label="{{ component[0] }}" data-raw="{{ component[1].weighted_score }}" style="height: {{ component[1].weighted_score }}%;"></div>
@@ -137,7 +137,7 @@ layout: 2018/base
                             <div class="hori-bar {{ org.performance_group | downcase | replace:" ","-" }}">
                                 <span class="raw-score">{{ org.score | round }} / 100</span>
 
-                                <div class="fill" style="width:{{ org.score | round }}%">
+                                <div class="fill" style="width:{{ org.score }}%">
                                 </div>
                             </div>
                         </td>

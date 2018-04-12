@@ -50,17 +50,17 @@ layout: 2018/base
                 <div class="summary-card">
                     <div class="top-info">
                         <div class="score">
-                            <span class="light">Score:</span> <span class="target">93.2</span>
+                            <span class="light">Score:</span> <span class="target">{{ results.score | round:1 }}</span>
                         </div>
 
 
                         <div class="position">
-                            <span class="light">Position:</span> <span class="target">2</span> / 45
+                            <span class="light">Position:</span> <span class="target">{{ results.rank }}</span> / {{ site.data['2018'].results | size }}
                         </div>
 
 
                         <div class="rank">
-                            <span class="score increase very-good">Very good</span>
+                            <span class="score same {{ results.performance_group | downcase | replace:" ","-" }}">{{ results.performance_group }}</span>
                         </div>
 
 
@@ -84,31 +84,12 @@ layout: 2018/base
 
                     <div class="card-content">
                         <div class="side-components">
-                            <div class="component component-1">
-                                <span class="light">Organisational planning and commitments</span> <span class="score">11.9 <span class="lighter">/ 15</span></span>
+                            {% for component in results.components %}
+                            <div class="component component-{{ forloop.index }}">
+                                <span class="light">{{ component[0] }}</span> <span class="score">{{ component[1].weighted_score | round:1 }} <span class="lighter">/ {{ component[1].total_weight | times:100 | round }}</span></span>
                             </div>
-
-
-                            <div class="component component-2">
-                                <span class="light">Finance and budgets</span> <span class="score">22.5 <span class="lighter">/ 25</span></span>
-                            </div>
-
-
-                            <div class="component component-3">
-                                <span class="light">Project attributes</span> <span class="score">19.9 <span class="lighter">/ 20</span></span>
-                            </div>
-
-
-                            <div class="component component-4">
-                                <span class="light">Joining-up development data</span> <span class="score">19.8 <span class="lighter">/ 20</span></span>
-                            </div>
-
-
-                            <div class="component component-5">
-                                <span class="light">Performance</span> <span class="score">19 <span class="lighter">/ 20</span></span>
-                            </div>
+                            {% endfor %}
                         </div>
-
 
                         <div class="custom-content">
                             <div class="analysis">
