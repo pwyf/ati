@@ -206,7 +206,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 200.0,
+                        "score": 100.0,
                         "weight": 0.03333333,
                         "format": "IATI",
                         "status": ""
@@ -454,7 +454,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 149.511002445,
+                        "score": 75.05834639005354,
                         "weight": 0.03333333,
                         "format": "IATI",
                         "status": ""
@@ -702,7 +702,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 125.7454545455,
+                        "score": 64.6909096363796,
                         "weight": 0.03333333,
                         "format": "IATI",
                         "status": ""
@@ -950,7 +950,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 139.4797687861,
+                        "score": 63.742772767341876,
                         "weight": 0.03333333,
                         "format": "IATI",
                         "status": ""
@@ -1198,7 +1198,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 145.0,
+                        "score": 83.75000337500033,
                         "weight": 0.03333333,
                         "format": "IATI",
                         "status": ""
@@ -1446,7 +1446,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 190.0,
+                        "score": 94.99999999999999,
                         "weight": 0.03333333,
                         "format": "IATI",
                         "status": ""
@@ -1694,7 +1694,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 133.9506172839,
+                        "score": 69.8633165630272,
                         "weight": 0.03333333,
                         "format": "IATI",
                         "status": ""
@@ -1942,7 +1942,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 150.0,
+                        "score": 87.50000375000036,
                         "weight": 0.03333333,
                         "format": "IATI",
                         "status": ""
@@ -2190,7 +2190,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 100.0,
+                        "score": 50.0,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Always"
@@ -2438,7 +2438,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 37.500003750000374,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Always"
@@ -2934,7 +2934,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 12.499996249999624,
                         "weight": 0.03333333,
                         "format": "",
                         "status": "Not Published"
@@ -3182,7 +3182,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 149.8697916667,
+                        "score": 87.40234749025974,
                         "weight": 0.03333333,
                         "format": "IATI",
                         "status": ""
@@ -3430,7 +3430,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 37.500003750000374,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Always"
@@ -3678,7 +3678,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 12.499996249999624,
                         "weight": 0.03333333,
                         "format": "",
                         "status": "Not Published"
@@ -3926,7 +3926,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 100.44412949939999,
+                        "score": 50.11103234154028,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Always"
@@ -4422,7 +4422,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 12.499996249999624,
                         "weight": 0.03333333,
                         "format": "",
                         "status": "Not Published"
@@ -4670,7 +4670,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 12.499996249999624,
                         "weight": 0.03333333,
                         "format": "",
                         "status": "Not Published"
@@ -4918,7 +4918,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 100.0,
+                        "score": 50.0,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Always"
@@ -5166,7 +5166,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 100.0,
+                        "score": 50.0,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Always"
@@ -5662,7 +5662,7 @@
                         "status": "Not Published"
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 12.499996249999624,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Sometimes"
@@ -5910,7 +5910,7 @@
                         "status": "Not Published"
                     },
                     "Project procurement": {
-                        "score": 100.0,
+                        "score": 50.0,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Always"
@@ -6158,7 +6158,7 @@
                         "status": "Not Published"
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 12.499996249999624,
                         "weight": 0.03333333,
                         "format": "",
                         "status": "Not Published"
@@ -6902,7 +6902,7 @@
                         "status": "Not Published"
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 12.499996249999624,
                         "weight": 0.03333333,
                         "format": "",
                         "status": "Not Published"
@@ -7150,7 +7150,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 37.500003750000374,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Always"
@@ -7398,7 +7398,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 100.0,
+                        "score": 50.0,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Always"
@@ -7646,7 +7646,7 @@
                         "status": "Not Published"
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 12.499996249999624,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Sometimes"
@@ -8390,7 +8390,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 12.499996249999624,
                         "weight": 0.03333333,
                         "format": "",
                         "status": "Not Published"
@@ -8886,7 +8886,7 @@
                         "status": "Not Published"
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 12.499996249999624,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Sometimes"
@@ -9134,7 +9134,7 @@
                         "status": ""
                     },
                     "Project procurement": {
-                        "score": 100.0,
+                        "score": 50.0,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Always"
@@ -9382,7 +9382,7 @@
                         "status": "Sometimes"
                     },
                     "Project procurement": {
-                        "score": 100.0,
+                        "score": 50.0,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Always"
@@ -10374,7 +10374,7 @@
                         "status": "Not Published"
                     },
                     "Project procurement": {
-                        "score": 50.0,
+                        "score": 12.499996249999624,
                         "weight": 0.03333333,
                         "format": "Document",
                         "status": "Sometimes"

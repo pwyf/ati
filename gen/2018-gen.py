@@ -92,21 +92,31 @@ for x in results:
     orgs[org]['components'][cat]['weighted_score'] += weighted_sc
     orgs[org]['components'][cat]['total_weight'] += weight
 
-    if ind.startswith('Project procurement'):
-        ind = 'Project procurement'
-
     if ind not in orgs[org]['components'][cat]['indicators']:
         orgs[org]['components'][cat]['indicators'][ind] = {
-            'score': 0.,
-            'weight': 0.,
+            'score': sc,
+            'weight': weight,
         }
-    orgs[org]['components'][cat]['indicators'][ind]['score'] += sc
-    orgs[org]['components'][cat]['indicators'][ind]['weight'] += weight
-
-    # NB this is incorrect for project procurement!
-    # it will always show the format and status for contracts
     orgs[org]['components'][cat]['indicators'][ind]['format'] = fmt
     orgs[org]['components'][cat]['indicators'][ind]['status'] = status
+
+for org in orgs.values():
+    i = org['components']['Joining-up development data']['indicators']
+    ppt = i['Project procurement - Tenders']
+    ppc = i['Project procurement - Contracts']
+    del org['components']['Joining-up development data']['indicators']['Project procurement - Tenders']
+    del org['components']['Joining-up development data']['indicators']['Project procurement - Contracts']
+    pp_weight = ppt['weight'] + ppc['weight']
+    pp_sc = (ppt['score'] * ppt['weight'] + ppc['score'] * ppc['weight']) / pp_weight
+    # NB this is incorrect!
+    # it will always show the format and status for contracts
+    pp = {
+        'score': pp_sc,
+        'weight': pp_weight,
+        'format': ppc['format'],
+        'status': ppc['status'],
+    }
+    org['components']['Joining-up development data']['indicators']['Project procurement'] = pp
 
 orgs = OrderedDict(
     sorted(orgs.items(), key=lambda x: x[1]['score'], reverse=True))
