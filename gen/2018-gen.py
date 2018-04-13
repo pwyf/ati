@@ -142,6 +142,19 @@ profile_data = [{
         'recommendations': x[4] if x[4] else 'Recommendations go here.',
     } for x in r]
 
+components_path = join(rootpath, '_includes', '2018', 'components')
+shutil.rmtree(components_path, ignore_errors=True)
+makedirs(components_path)
+req = requests.get(spreadsheet_url.format('Component'))
+f = StringIO(req.text)
+r = csv.reader(f)
+next(r)
+components = [(slugify(x[0]), x[1]) for x in r if x[0].strip() != '']
+for slug, description in components:
+    component_path = join(components_path, '{}.md'.format(slug))
+    with open(component_path, 'w') as f:
+        _ = f.write(description)
+
 with open(join(rootpath, 'gen', '2018', 'agency-template.md')) as f:
     agency_tmpl = f.read()
 
