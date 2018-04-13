@@ -138,7 +138,10 @@ layout: 2018/base
                         <h3>Score: <span class="score">{{ component[1].weighted_score | round:1 }} <span class="lighter">/ {{ component[1].total_weight | times:100 | round }}</span></span></h3>
                         <span class="label">About Component</span>
 
-                        <p>Component text goes here</p>
+                        {% assign component_slug = component[0] | downcase | replace: " ","-" %}
+                        {% assign component_path = "2018/components/" | append: component_slug | append: ".md" %}
+                        {% capture component_description %}{% include {{ component_path }} %}{% endcapture %}
+                        {{ component_description | markdownify }}
                     </div>
 
                     <div class="indicator-scores">
