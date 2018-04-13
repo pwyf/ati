@@ -86,11 +86,11 @@ for x in results:
     if cat not in orgs[org]['components']:
         orgs[org]['components'][cat] = {
             'weighted_score': 0.,
-            'total_weight': 0.,
+            'out_of': 0.,
             'indicators': OrderedDict()
         }
     orgs[org]['components'][cat]['weighted_score'] += weighted_sc
-    orgs[org]['components'][cat]['total_weight'] += weight
+    orgs[org]['components'][cat]['out_of'] += weight * 100
 
     if ind not in orgs[org]['components'][cat]['indicators']:
         orgs[org]['components'][cat]['indicators'][ind] = {
@@ -101,6 +101,8 @@ for x in results:
     orgs[org]['components'][cat]['indicators'][ind]['status'] = status
 
 for org in orgs.values():
+    for c in org['components'].keys():
+        org['components'][c]['out_of'] = round(org['components'][c]['out_of'])
     i = org['components']['Joining-up development data']['indicators']
     ppt = i['Project procurement - Tenders']
     ppc = i['Project procurement - Contracts']

@@ -86,7 +86,7 @@ layout: 2018/base
                         <div class="side-components">
                             {% for component in results.components %}
                             <div class="component component-{{ forloop.index }}">
-                                <span class="light">{{ component[0] }}</span> <span class="score">{{ component[1].weighted_score | round:1 }} <span class="lighter">/ {{ component[1].total_weight | times:100 | round }}</span></span>
+                                <span class="light">{{ component[0] }}</span> <span class="score">{{ component[1].weighted_score | round:1 }} <span class="lighter">/ {{ component[1].out_of | round }}</span></span>
                             </div>
                             {% endfor %}
                         </div>
@@ -135,7 +135,7 @@ layout: 2018/base
                     <div class="component-info">
                         <h2 class="component-name">{{ component[0] }}</h2>
 
-                        <h3>Score: <span class="score">{{ component[1].weighted_score | round:1 }} <span class="lighter">/ {{ component[1].total_weight | times:100 | round }}</span></span></h3>
+                        <h3>Score: <span class="score">{{ component[1].weighted_score | round:1 }} <span class="lighter">/ {{ component[1].out_of | round }}</span></span></h3>
                         <span class="label">About Component</span>
 
                         {% assign component_slug = component[0] | downcase | replace: " ","-" %}
