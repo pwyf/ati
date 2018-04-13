@@ -151,7 +151,7 @@ layout: 2018/base
                                 <span class="indicator-name">{{ indicator[0] }}</span>
 
                                 <div class="group">
-                                    <span class="indicator-num">Score: {{ indicator[1].score | round:1 }}%</span> <span class="modal-trigger" data-indicator="{{ indicator[0] }}">?</span>
+                                    <span class="indicator-num">Score: {{ indicator[1].score | times:indicator[1].weight | round:2 }}</span> <span class="modal-trigger" data-indicator="{{ indicator[0] }}">?</span>
 
                                     <div class="indicator-modal-content">
                                         <p>Indicator description goes here</p>
