@@ -3022,8 +3022,8 @@
                     "Strategy (country/sector) or Memorandum of Understanding": {
                         "score": 0.0,
                         "weight": 0.01875,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": "Document",
+                        "status": "Sometimes"
                     },
                     "Audit": {
                         "score": 50.0,
