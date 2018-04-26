@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name="viewport">
 
 	<title>The 2018 Aid Transparency Index</title>
 	<meta content="" property="og:url">
@@ -11,6 +11,7 @@
 	<meta content="The Index 2018" property="og:title">
 	<meta content="Publish What You Fund - The Index 2018 Aid Transparency" property="og:description">
 	<meta content="assets/multi-placeholder.png" property="og:image">
+	<link rel="icon" type="image/png" href="assets/favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Yantramanav:400,500,700,900" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 	</script>
@@ -19,18 +20,22 @@
 	</script>
 	<script src="js/global.js">
 	</script>
+	<script src="js/modernizr-custom.js">
+	</script>
 	<link href="css/global.css" rel="stylesheet">
+	<script src="js/sort.js"></script>
 	<script src="js/display.js">
 	</script><!-- Global site tag (gtag.js) - Google Analytics -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18679634-1">
 	</script>
 	<script>
-	 window.dataLayer = window.dataLayer || [];
-	 function gtag(){dataLayer.push(arguments);}
-	 gtag('js', new Date());
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
 
-	 gtag('config', 'UA-18679634-1');
+	gtag('config', 'UA-18679634-1');
 	</script>
 </head>
 
@@ -52,12 +57,12 @@
 	</div>
 	<script>
 	(function(d, s, id) {
-	   var js, fjs = d.getElementsByTagName(s)[0];
-	   if (d.getElementById(id)) return;
-	   js = d.createElement(s); js.id = id;
-	   js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=222864194434627&autoLogAppEvents=1';
-	   fjs.parentNode.insertBefore(js, fjs);
-	 }(document, 'script', 'facebook-jssdk'));
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=222864194434627&autoLogAppEvents=1';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
 	</script>
 
 	<div class="loading-screen" style="display: none;">
@@ -86,10 +91,10 @@
 
 				<nav class="pull-out-drawer">
 					<span id="close-drawer">
-            <div class="close-drawer-container">
+						<div class="close-drawer-container">
 
-  					</div>
-          </span>
+						</div>
+					</span>
 					<img alt="Publish What You Fund logo" class="logo-invert" src="assets/logo-invert.svg"> <span class=
 					"title">Publish What You Fund Main Menu</span>
 
@@ -304,2766 +309,2785 @@
 
 
 				<p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque
-				ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+					ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
 
 
-				<div class="buttons">
-					<a class="button download index-download" href="#"><img alt="Download Index" src="assets/down-arrow.svg">Download
-					2018 Index</a> <a class="button download us-download" href="#"><img alt="Download US Brief" src=
-					"assets/down-arrow-grey.svg">US BRIEF</a> <a class="button download eu-download" href="#"><img alt=
-					"Download EU Brief" src="assets/down-arrow-grey.svg">EU BRIEF</a>
-				</div>
-
-
-				<div class="graph-front">
-					<div class="group">
-						<div class="sectors">
-							<div class="sector" id="very-good" style="width: 136.297px;">
-								<span>Very Good</span>
-							</div>
-
-
-							<div class="sector" id="good" style="width: 136.297px;">
-								<span>Good</span>
-							</div>
-
-
-							<div class="sector" id="fair" style="width: 279.594px;">
-								<span>Fair</span>
-							</div>
-
-
-							<div class="sector" id="poor" style="width: 88.5313px;">
-								<span>Poor</span>
-							</div>
-
-
-							<div class="sector" id="very-poor" style="width: 40.7657px;">
-								<span>Very Poor</span>
-							</div>
-						</div>
-
-
-						<div class="name-container">
-						</div>
-
-
-						<div class="graph">
-							<div class="bar very-good" data-agency="AsDB" data-index="96" data-slug="asdb">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="13.786416" style="height: 13.7864%;">
-								</div>
-
-
-								<div class="component component-2" data-label="Finance and budgets" data-raw="24.80711538461538" style="height: 24.8071%;">
-								</div>
-
-
-								<div class="component component-3" data-label="Project attributes" data-raw="20" style="height: 20%;">
-								</div>
-
-
-								<div class="component component-4" data-label="Joining-up development data" data-raw="19.98" style="height: 19.98%;">
-								</div>
-
-
-								<div class="component component-5" data-label="Performance" data-raw="17.39355884341566" style="height: 17.3936%;">
+					<div class="buttons">
+						<a class="button download index-download" href="#"><img alt="Download Index" src="assets/down-arrow.svg">Download
+							2018 Index</a> <a class="button download us-download" href="#"><img alt="Download US Brief" src=
+								"assets/down-arrow-grey.svg">US BRIEF</a> <a class="button download eu-download" href="#"><img alt=
+									"Download EU Brief" src="assets/down-arrow-grey.svg">EU BRIEF</a>
 								</div>
-								<span class="label">AsDB</span>
-							</div>
 
 
-							<div class="bar very-good" data-agency="UNICEF" data-index="93.2" data-slug="unicef">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.906603999999998" style="height: 11.9066%;">
-								</div>
+								<div class="graph-front">
+									<div class="group">
+										<div class="sectors">
+											<div class="sector" id="very-good" style="width: 136.297px;">
+												<span>Very Good</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="22.545080352046625" style="height: 22.5451%;">
-								</div>
+											<div class="sector" id="good" style="width: 136.297px;">
+												<span>Good</span>
+											</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="19.920527923211168" style="height: 19.9205%;">
-								</div>
+											<div class="sector" id="fair" style="width: 279.594px;">
+												<span>Fair</span>
+											</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="19.802821335078537" style="height: 19.8028%;">
-								</div>
+											<div class="sector" id="poor" style="width: 88.5313px;">
+												<span>Poor</span>
+											</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="19.016595091093063" style="height: 19.0166%;">
-								</div>
-								<span class="label">UNICEF</span>
-							</div>
+											<div class="sector" id="very-poor" style="width: 40.7657px;">
+												<span>Very Poor</span>
+											</div>
+										</div>
 
 
-							<div class="bar very-good" data-agency="UNDP" data-index="91.4" data-slug="undp">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.520757668874172" style="height: 12.5208%;">
-								</div>
+										<div class="name-container">
+										</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="22.754732337321048" style="height: 22.7547%;">
-								</div>
+										<div class="graph">
+											<div class="bar very-good" data-agency="AsDB" data-index="96" data-slug="asdb">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="13.786416" style="height: 13.7864%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="18.271609099718425" style="height: 18.2716%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="24.80711538461538" style="height: 24.8071%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="19.97906103286385" style="height: 19.9791%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="20" style="height: 20%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="17.88822847422174" style="height: 17.8882%;">
-								</div>
-								<span class="label">UNDP</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="19.98" style="height: 19.98%;">
+												</div>
 
 
-							<div class="bar very-good" data-agency="UK, DFID" data-index="90.6" data-slug="uk-dfid">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="14.626969696969695" style="height: 14.627%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="17.39355884341566" style="height: 17.3936%;">
+												</div>
+												<span class="label">AsDB</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="22.246156240627016" style="height: 22.2462%;">
-								</div>
+											<div class="bar very-good" data-agency="UNICEF" data-index="93.2" data-slug="unicef">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.906603999999998" style="height: 11.9066%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="17.577082940041795" style="height: 17.5771%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="22.545080352046625" style="height: 22.5451%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="18.506497135134044" style="height: 18.5065%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="19.920527923211168" style="height: 19.9205%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="17.687696853097837" style="height: 17.6877%;">
-								</div>
-								<span class="label">UK, DFID</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="19.802821335078537" style="height: 19.8028%;">
+												</div>
 
 
-							<div class="bar very-good" data-agency="IADB" data-index="87.4" data-slug="iadb">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.533207999999998" style="height: 12.5332%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="19.016595091093063" style="height: 19.0166%;">
+												</div>
+												<span class="label">UNICEF</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="18.277250713747037" style="height: 18.2773%;">
-								</div>
+											<div class="bar very-good" data-agency="UNDP" data-index="91.4" data-slug="undp">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.520757668874172" style="height: 12.5208%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="18.358811486377988" style="height: 18.3588%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="22.754732337321048" style="height: 22.7547%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="19.514032563025214" style="height: 19.514%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="18.271609099718425" style="height: 18.2716%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="18.73504580068425" style="height: 18.735%;">
-								</div>
-								<span class="label">IADB</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="19.97906103286385" style="height: 19.9791%;">
+												</div>
 
 
-							<div class="bar very-good" data-agency="GAVI" data-index="85.3" data-slug="gavi">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.415707999999999" style="height: 12.4157%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="17.88822847422174" style="height: 17.8882%;">
+												</div>
+												<span class="label">UNDP</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="20.67739854754116" style="height: 20.6774%;">
-								</div>
+											<div class="bar very-good" data-agency="UK, DFID" data-index="90.6" data-slug="uk-dfid">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="14.626969696969695" style="height: 14.627%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="18.99571156289708" style="height: 18.9957%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="22.246156240627016" style="height: 22.2462%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="18.409968869123254" style="height: 18.41%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="17.577082940041795" style="height: 17.5771%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="14.768742058449808" style="height: 14.7687%;">
-								</div>
-								<span class="label">GAVI</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="18.506497135134044" style="height: 18.5065%;">
+												</div>
 
 
-							<div class="bar very-good" data-agency="Global Fund" data-index="84.7" data-slug="global-fund">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.270784313725489" style="height: 11.2708%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="17.687696853097837" style="height: 17.6877%;">
+												</div>
+												<span class="label">UK, DFID</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="17.490000000000002" style="height: 17.49%;">
-								</div>
+											<div class="bar very-good" data-agency="IADB" data-index="87.4" data-slug="iadb">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.533207999999998" style="height: 12.5332%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="16.357416879795394" style="height: 16.3574%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="18.277250713747037" style="height: 18.2773%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="19.560000000000002" style="height: 19.56%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="18.358811486377988" style="height: 18.3588%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="20" style="height: 20%;">
-								</div>
-								<span class="label">Global Fund</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="19.514032563025214" style="height: 19.514%;">
+												</div>
 
 
-							<div class="bar very-good" data-agency="World Bank, IDA" data-index="83.2" data-slug="world-bank-ida">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.872213756097562" style="height: 11.8722%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="18.73504580068425" style="height: 18.735%;">
+												</div>
+												<span class="label">IADB</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="17.809420583725817" style="height: 17.8094%;">
-								</div>
+											<div class="bar very-good" data-agency="GAVI" data-index="85.3" data-slug="gavi">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.415707999999999" style="height: 12.4157%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="18.59119575045208" style="height: 18.5912%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="20.67739854754116" style="height: 20.6774%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="18.179587025316454" style="height: 18.1796%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="18.99571156289708" style="height: 18.9957%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="16.74546788409235" style="height: 16.7455%;">
-								</div>
-								<span class="label">World Bank, IDA</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="18.409968869123254" style="height: 18.41%;">
+												</div>
 
 
-							<div class="bar very-good" data-agency="AfDB" data-index="81.9" data-slug="afdb">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="13.090182370370371" style="height: 13.0902%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="14.768742058449808" style="height: 14.7687%;">
+												</div>
+												<span class="label">GAVI</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="18.018924572950283" style="height: 18.0189%;">
-								</div>
+											<div class="bar very-good" data-agency="Global Fund" data-index="84.7" data-slug="global-fund">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.270784313725489" style="height: 11.2708%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="18.526751514222518" style="height: 18.5268%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="17.490000000000002" style="height: 17.49%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="17.80393644156544" style="height: 17.8039%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="16.357416879795394" style="height: 16.3574%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="14.466336816794598" style="height: 14.4663%;">
-								</div>
-								<span class="label">AfDB</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="19.560000000000002" style="height: 19.56%;">
+												</div>
 
 
-							<div class="bar good" data-agency="Sweden, MFA-Sida" data-index="75.5" data-slug="sweden-mfa-sida">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.96382608695652" style="height: 12.9638%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="20" style="height: 20%;">
+												</div>
+												<span class="label">Global Fund</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="14.465201574772472" style="height: 14.4652%;">
-								</div>
+											<div class="bar very-good" data-agency="World Bank, IDA" data-index="83.2" data-slug="world-bank-ida">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.872213756097562" style="height: 11.8722%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="17.529768561948227" style="height: 17.5298%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="17.809420583725817" style="height: 17.8094%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="17.866410055774494" style="height: 17.8664%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="18.59119575045208" style="height: 18.5912%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="12.686268662832884" style="height: 12.6863%;">
-								</div>
-								<span class="label">Sweden, MFA-Sida</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="18.179587025316454" style="height: 18.1796%;">
+												</div>
 
 
-							<div class="bar good" data-agency="Canada, DFATD" data-index="75.1" data-slug="canada-dfatd">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.624766441558439" style="height: 12.6248%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="16.74546788409235" style="height: 16.7455%;">
+												</div>
+												<span class="label">World Bank, IDA</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="16.01948061520035" style="height: 16.0195%;">
-								</div>
+											<div class="bar very-good" data-agency="AfDB" data-index="81.9" data-slug="afdb">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="13.090182370370371" style="height: 13.0902%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="19.474135765411823" style="height: 19.4741%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="18.018924572950283" style="height: 18.0189%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="18.31162613981763" style="height: 18.3116%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="18.526751514222518" style="height: 18.5268%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="8.687943262411348" style="height: 8.68794%;">
-								</div>
-								<span class="label">Canada, DFATD</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="17.80393644156544" style="height: 17.8039%;">
+												</div>
 
 
-							<div class="bar good" data-agency="Netherlands, MFA" data-index="73.3" data-slug="netherlands-mfa">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="13.008885135802469" style="height: 13.0089%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="14.466336816794598" style="height: 14.4663%;">
+												</div>
+												<span class="label">AfDB</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="16.415908431186352" style="height: 16.4159%;">
-								</div>
+											<div class="bar good" data-agency="Sweden, MFA-Sida" data-index="75.5" data-slug="sweden-mfa-sida">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.96382608695652" style="height: 12.9638%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="18.646854083418997" style="height: 18.6469%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="14.465201574772472" style="height: 14.4652%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="16.615283277169333" style="height: 16.6153%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="17.529768561948227" style="height: 17.5298%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="8.620307886967522" style="height: 8.62031%;">
-								</div>
-								<span class="label">Netherlands, MFA</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="17.866410055774494" style="height: 17.8664%;">
+												</div>
 
 
-							<div class="bar good" data-agency="US, USAID" data-index="72.4" data-slug="us-usaid">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="13.682691862068967" style="height: 13.6827%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="12.686268662832884" style="height: 12.6863%;">
+												</div>
+												<span class="label">Sweden, MFA-Sida</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="11.379967947187302" style="height: 11.38%;">
-								</div>
+											<div class="bar good" data-agency="Canada, DFATD" data-index="75.1" data-slug="canada-dfatd">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.624766441558439" style="height: 12.6248%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="17.680882546746094" style="height: 17.6809%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="16.01948061520035" style="height: 16.0195%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="17.494901545049967" style="height: 17.4949%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="19.474135765411823" style="height: 19.4741%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="12.14946630503402" style="height: 12.1495%;">
-								</div>
-								<span class="label">US, USAID</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="18.31162613981763" style="height: 18.3116%;">
+												</div>
 
 
-							<div class="bar good" data-agency="EC, ECHO" data-index="71.3" data-slug="ec-echo">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="14.382912621359221" style="height: 14.3829%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="8.687943262411348" style="height: 8.68794%;">
+												</div>
+												<span class="label">Canada, DFATD</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="16.67599939430648" style="height: 16.676%;">
-								</div>
+											<div class="bar good" data-agency="Netherlands, MFA" data-index="73.3" data-slug="netherlands-mfa">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="13.008885135802469" style="height: 13.0089%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="18.22047244094488" style="height: 18.2205%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="16.415908431186352" style="height: 16.4159%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="14.563991520290731" style="height: 14.564%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="18.646854083418997" style="height: 18.6469%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="7.5" style="height: 7.5%;">
-								</div>
-								<span class="label">EC, ECHO</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="16.615283277169333" style="height: 16.6153%;">
+												</div>
 
 
-							<div class="bar good" data-agency="EC, NEAR" data-index="63.9" data-slug="ec-near">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="14.687499999999996" style="height: 14.6875%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="8.620307886967522" style="height: 8.62031%;">
+												</div>
+												<span class="label">Netherlands, MFA</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="14.918952823669407" style="height: 14.919%;">
-								</div>
+											<div class="bar good" data-agency="US, USAID" data-index="72.4" data-slug="us-usaid">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="13.682691862068967" style="height: 13.6827%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="18.220672837345816" style="height: 18.2207%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="11.379967947187302" style="height: 11.38%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="13.56199226792636" style="height: 13.562%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="17.680882546746094" style="height: 17.6809%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="2.5455884695015127" style="height: 2.54559%;">
-								</div>
-								<span class="label">EC, NEAR</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="17.494901545049967" style="height: 17.4949%;">
+												</div>
 
 
-							<div class="bar good" data-agency="US, MCC" data-index="62" data-slug="us-mcc">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.593207999999997" style="height: 11.5932%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="12.14946630503402" style="height: 12.1495%;">
+												</div>
+												<span class="label">US, USAID</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="15.294241935483873" style="height: 15.2942%;">
-								</div>
+											<div class="bar good" data-agency="EC, ECHO" data-index="71.3" data-slug="ec-echo">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="14.382912621359221" style="height: 14.3829%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="17.385485142510614" style="height: 17.3855%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="16.67599939430648" style="height: 16.676%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="4.72286405529954" style="height: 4.72286%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="18.22047244094488" style="height: 18.2205%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="13" style="height: 13%;">
-								</div>
-								<span class="label">US, MCC</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="14.563991520290731" style="height: 14.564%;">
+												</div>
 
 
-							<div class="bar good" data-agency="EC, DEVCO" data-index="62" data-slug="ec-devco">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.77392857142857" style="height: 12.7739%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="7.5" style="height: 7.5%;">
+												</div>
+												<span class="label">EC, ECHO</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="14.97229362367004" style="height: 14.9723%;">
-								</div>
+											<div class="bar good" data-agency="EC, NEAR" data-index="63.9" data-slug="ec-near">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="14.687499999999996" style="height: 14.6875%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="18.29443275807821" style="height: 18.2944%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="14.918952823669407" style="height: 14.919%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="13.376510336662491" style="height: 13.3765%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="18.220672837345816" style="height: 18.2207%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="2.5396825396825395" style="height: 2.53968%;">
-								</div>
-								<span class="label">EC, DEVCO</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="13.56199226792636" style="height: 13.562%;">
+												</div>
 
 
-							<div class="bar good" data-agency="EBRD" data-index="60.7" data-slug="ebrd">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.593207999999999" style="height: 11.5932%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="2.5455884695015127" style="height: 2.54559%;">
+												</div>
+												<span class="label">EC, NEAR</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="7.956856796116504" style="height: 7.95686%;">
-								</div>
+											<div class="bar good" data-agency="US, MCC" data-index="62" data-slug="us-mcc">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.593207999999997" style="height: 11.5932%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="17.404717475728155" style="height: 17.4047%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="15.294241935483873" style="height: 15.2942%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="13.74" style="height: 13.74%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="17.385485142510614" style="height: 17.3855%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="10" style="height: 10%;">
-								</div>
-								<span class="label">EBRD</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="4.72286405529954" style="height: 4.72286%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="Germany, BMZ-GIZ" data-index="59.3" data-slug="germany-bmz-giz">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.955057608247422" style="height: 11.9551%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="13" style="height: 13%;">
+												</div>
+												<span class="label">US, MCC</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="13.380721649484537" style="height: 13.3807%;">
-								</div>
+											<div class="bar good" data-agency="EC, DEVCO" data-index="62" data-slug="ec-devco">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.77392857142857" style="height: 12.7739%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="16.48282910874898" style="height: 16.4828%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="14.97229362367004" style="height: 14.9723%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="17.4825" style="height: 17.4825%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="18.29443275807821" style="height: 18.2944%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
-								<span class="label">Germany, BMZ-GIZ</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="13.376510336662491" style="height: 13.3765%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="EIB" data-index="59.3" data-slug="eib">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.906416" style="height: 11.9064%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="2.5396825396825395" style="height: 2.53968%;">
+												</div>
+												<span class="label">EC, DEVCO</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="8.51136645962733" style="height: 8.51137%;">
-								</div>
+											<div class="bar good" data-agency="EBRD" data-index="60.7" data-slug="ebrd">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.593207999999999" style="height: 11.5932%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="15.133540372670808" style="height: 15.1335%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="7.956856796116504" style="height: 7.95686%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="18.727500000000003" style="height: 18.7275%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="17.404717475728155" style="height: 17.4047%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="5" style="height: 5%;">
-								</div>
-								<span class="label">EIB</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="13.74" style="height: 13.74%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="Switzerland, SDC" data-index="58.8" data-slug="switzerland-sdc">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="10.339811999999998" style="height: 10.3398%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="10" style="height: 10%;">
+												</div>
+												<span class="label">EBRD</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="13.004300847457628" style="height: 13.0043%;">
-								</div>
+											<div class="bar fair" data-agency="Germany, BMZ-GIZ" data-index="59.3" data-slug="germany-bmz-giz">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.955057608247422" style="height: 11.9551%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="17.10040037072998" style="height: 17.1004%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="13.380721649484537" style="height: 13.3807%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="15.807401191286592" style="height: 15.8074%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="16.48282910874898" style="height: 16.4828%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="2.5" style="height: 2.5%;">
-								</div>
-								<span class="label">Switzerland, SDC</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="17.4825" style="height: 17.4825%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="World Bank, IFC" data-index="57.6" data-slug="world-bank-ifc">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.980466064516126" style="height: 12.9805%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
+												<span class="label">Germany, BMZ-GIZ</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="4.8624649221556915" style="height: 4.86246%;">
-								</div>
+											<div class="bar fair" data-agency="EIB" data-index="59.3" data-slug="eib">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.906416" style="height: 11.9064%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="18.850299401197603" style="height: 18.8503%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="8.51136645962733" style="height: 8.51137%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="13.292582335329342" style="height: 13.2926%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="15.133540372670808" style="height: 15.1335%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="7.664046906187625" style="height: 7.66405%;">
-								</div>
-								<span class="label">World Bank, IFC</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="18.727500000000003" style="height: 18.7275%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="Germany, BMZ-KFW" data-index="57.6" data-slug="germany-bmz-kfw">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.977547396226417" style="height: 11.9775%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="5" style="height: 5%;">
+												</div>
+												<span class="label">EIB</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="13.452641509433963" style="height: 13.4526%;">
-								</div>
+											<div class="bar fair" data-agency="Switzerland, SDC" data-index="58.8" data-slug="switzerland-sdc">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="10.339811999999998" style="height: 10.3398%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="16.376404494382022" style="height: 16.3764%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="13.004300847457628" style="height: 13.0043%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="15.8175" style="height: 15.8175%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="17.10040037072998" style="height: 17.1004%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
-								<span class="label">Germany, BMZ-KFW</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="15.807401191286592" style="height: 15.8074%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="Denmark, MFA" data-index="57.5" data-slug="denmark-mfa">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="10.966415999999999" style="height: 10.9664%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="2.5" style="height: 2.5%;">
+												</div>
+												<span class="label">Switzerland, SDC</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="13.177521111893034" style="height: 13.1775%;">
-								</div>
+											<div class="bar fair" data-agency="World Bank, IFC" data-index="57.6" data-slug="world-bank-ifc">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.980466064516126" style="height: 12.9805%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="14.203179470721796" style="height: 14.2032%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="4.8624649221556915" style="height: 4.86246%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="13.71734693877551" style="height: 13.7173%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="18.850299401197603" style="height: 18.8503%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="5.420729186390391" style="height: 5.42073%;">
-								</div>
-								<span class="label">Denmark, MFA</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="13.292582335329342" style="height: 13.2926%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="US, State" data-index="56.1" data-slug="us-state">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.509410531645567" style="height: 12.5094%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="7.664046906187625" style="height: 7.66405%;">
+												</div>
+												<span class="label">World Bank, IFC</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="11.102719789605999" style="height: 11.1027%;">
-								</div>
+											<div class="bar fair" data-agency="Germany, BMZ-KFW" data-index="57.6" data-slug="germany-bmz-kfw">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="11.977547396226417" style="height: 11.9775%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="16.68280573142286" style="height: 16.6828%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="13.452641509433963" style="height: 13.4526%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="15.817500000000003" style="height: 15.8175%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="16.376404494382022" style="height: 16.3764%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
-								<span class="label">US, State</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="15.8175" style="height: 15.8175%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="Gates Foundation" data-index="54.8" data-slug="gates-foundation">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="9.399812" style="height: 9.39981%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
+												<span class="label">Germany, BMZ-KFW</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="12.28098880597015" style="height: 12.281%;">
-								</div>
+											<div class="bar fair" data-agency="Denmark, MFA" data-index="57.5" data-slug="denmark-mfa">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="10.966415999999999" style="height: 10.9664%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="15" style="height: 15%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="13.177521111893034" style="height: 13.1775%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="10.620000000000001" style="height: 10.62%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="14.203179470721796" style="height: 14.2032%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="7.5" style="height: 7.5%;">
-								</div>
-								<span class="label">Gates Foundation</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="13.71734693877551" style="height: 13.7173%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="Australia, DFAT" data-index="54.4" data-slug="australia-dfat">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="6.893207999999999" style="height: 6.89321%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="5.420729186390391" style="height: 5.42073%;">
+												</div>
+												<span class="label">Denmark, MFA</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="14.315641493989073" style="height: 14.3156%;">
-								</div>
+											<div class="bar fair" data-agency="US, State" data-index="56.1" data-slug="us-state">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.509410531645567" style="height: 12.5094%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="15.674127906976743" style="height: 15.6741%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="11.102719789605999" style="height: 11.1027%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="17.482500000000005" style="height: 17.4825%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="16.68280573142286" style="height: 16.6828%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
-								<span class="label">Australia, DFAT</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="15.817500000000003" style="height: 15.8175%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="US, PEPFAR" data-index="51.5" data-slug="us-pepfar">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.402652444444445" style="height: 12.4027%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
+												<span class="label">US, State</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="11.661125000000002" style="height: 11.6611%;">
-								</div>
+											<div class="bar fair" data-agency="Gates Foundation" data-index="54.8" data-slug="gates-foundation">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="9.399812" style="height: 9.39981%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="14.80106603773585" style="height: 14.8011%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="12.28098880597015" style="height: 12.281%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="12.654000000000002" style="height: 12.654%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="15" style="height: 15%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
-								<span class="label">US, PEPFAR</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="10.620000000000001" style="height: 10.62%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="France, AFD" data-index="51.4" data-slug="france-afd">
-								<div class="component component-1" data-label="Performance" data-raw="4.75" style="height: 4.75%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="7.5" style="height: 7.5%;">
+												</div>
+												<span class="label">Gates Foundation</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Organisational planning and commitments" data-raw="10.797823384615384" style="height: 10.7978%;">
-								</div>
+											<div class="bar fair" data-agency="Australia, DFAT" data-index="54.4" data-slug="australia-dfat">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="6.893207999999999" style="height: 6.89321%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Finance and budgets" data-raw="6.327000000000001" style="height: 6.327%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="14.315641493989073" style="height: 14.3156%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Project attributes" data-raw="16.855489864864865" style="height: 16.8555%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="15.674127906976743" style="height: 15.6741%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Joining-up development data" data-raw="12.654000000000002" style="height: 12.654%;">
-								</div>
-								<span class="label">France, AFD</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="17.482500000000005" style="height: 17.4825%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="Italy, MAE" data-index="51" data-slug="italy-mae">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="8.773207999999997" style="height: 8.77321%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
+												<span class="label">Australia, DFAT</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="9.331172045680239" style="height: 9.33117%;">
-								</div>
+											<div class="bar fair" data-agency="US, PEPFAR" data-index="51.5" data-slug="us-pepfar">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.402652444444445" style="height: 12.4027%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="13.182804786210358" style="height: 13.1828%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="11.661125000000002" style="height: 11.6611%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="12.474609235352533" style="height: 12.4746%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="14.80106603773585" style="height: 14.8011%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="7.240823412698413" style="height: 7.24082%;">
-								</div>
-								<span class="label">Italy, MAE</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="12.654000000000002" style="height: 12.654%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="Finland, MFA" data-index="49.7" data-slug="finland-mfa">
-								<div class="component component-1" data-label="Finance and budgets" data-raw="15.594429514174694" style="height: 15.5944%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
+												<span class="label">US, PEPFAR</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Project attributes" data-raw="15.118730515790544" style="height: 15.1187%;">
-								</div>
+											<div class="bar fair" data-agency="France, AFD" data-index="51.4" data-slug="france-afd">
+												<div class="component component-1" data-label="Performance" data-raw="4.75" style="height: 4.75%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Joining-up development data" data-raw="12.364168373493976" style="height: 12.3642%;">
-								</div>
+												<div class="component component-2" data-label="Organisational planning and commitments" data-raw="10.797823384615384" style="height: 10.7978%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
+												<div class="component component-3" data-label="Finance and budgets" data-raw="6.327000000000001" style="height: 6.327%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Organisational planning and commitments" data-raw="6.579999999999999" style="height: 6.58%;">
-								</div>
-								<span class="label">Finland, MFA</span>
-							</div>
+												<div class="component component-4" data-label="Project attributes" data-raw="16.855489864864865" style="height: 16.8555%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="France, MEAE" data-index="48.8" data-slug="france-meae">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="9.757969904761904" style="height: 9.75797%;">
-								</div>
+												<div class="component component-5" data-label="Joining-up development data" data-raw="12.654000000000002" style="height: 12.654%;">
+												</div>
+												<span class="label">France, AFD</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="7.427224306748465" style="height: 7.42722%;">
-								</div>
+											<div class="bar fair" data-agency="Italy, MAE" data-index="51" data-slug="italy-mae">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="8.773207999999997" style="height: 8.77321%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="18.305278164198604" style="height: 18.3053%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="9.331172045680239" style="height: 9.33117%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="13.32" style="height: 13.32%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="13.182804786210358" style="height: 13.1828%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
-								<span class="label">France, MEAE</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="12.474609235352533" style="height: 12.4746%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="US, Defense" data-index="46.1" data-slug="us-defense">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="8.773208" style="height: 8.77321%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="7.240823412698413" style="height: 7.24082%;">
+												</div>
+												<span class="label">Italy, MAE</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="4.827890853658536" style="height: 4.82789%;">
-								</div>
+											<div class="bar fair" data-agency="Finland, MFA" data-index="49.7" data-slug="finland-mfa">
+												<div class="component component-1" data-label="Finance and budgets" data-raw="15.594429514174694" style="height: 15.5944%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="16.681722560975608" style="height: 16.6817%;">
-								</div>
+												<div class="component component-2" data-label="Project attributes" data-raw="15.118730515790544" style="height: 15.1187%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="15.817499999999994" style="height: 15.8175%;">
-								</div>
+												<div class="component component-3" data-label="Joining-up development data" data-raw="12.364168373493976" style="height: 12.3642%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
-								<span class="label">US, Defense</span>
-							</div>
+												<div class="component component-4" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="Belgium, DGCD" data-index="41.8" data-slug="belgium-dgcd">
-								<div class="component component-1" data-label="Finance and budgets" data-raw="5.04257142857143" style="height: 5.04257%;">
-								</div>
+												<div class="component component-5" data-label="Organisational planning and commitments" data-raw="6.579999999999999" style="height: 6.58%;">
+												</div>
+												<span class="label">Finland, MFA</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Project attributes" data-raw="15.18995930783818" style="height: 15.19%;">
-								</div>
+											<div class="bar fair" data-agency="France, MEAE" data-index="48.8" data-slug="france-meae">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="9.757969904761904" style="height: 9.75797%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Joining-up development data" data-raw="16.224120535714288" style="height: 16.2241%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="7.427224306748465" style="height: 7.42722%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="18.305278164198604" style="height: 18.3053%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Organisational planning and commitments" data-raw="5.326604" style="height: 5.3266%;">
-								</div>
-								<span class="label">Belgium, DGCD</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="13.32" style="height: 13.32%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="Japan, JICA" data-index="40.8" data-slug="japan-jica">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="10.653208" style="height: 10.6532%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
+												<span class="label">France, MEAE</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="4.822073302507917" style="height: 4.82207%;">
-								</div>
+											<div class="bar fair" data-agency="US, Defense" data-index="46.1" data-slug="us-defense">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="8.773208" style="height: 8.77321%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="14.27167551520197" style="height: 14.2717%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="4.827890853658536" style="height: 4.82789%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="11.020928469115947" style="height: 11.0209%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="16.681722560975608" style="height: 16.6817%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
-								<span class="label">Japan, JICA</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="15.817499999999994" style="height: 15.8175%;">
+												</div>
 
 
-							<div class="bar fair" data-agency="Ireland, IrishAid" data-index="40.6" data-slug="ireland-irishaid">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.293009708737863" style="height: 12.293%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
+												<span class="label">US, Defense</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="7.112839805825242" style="height: 7.11284%;">
-								</div>
+											<div class="bar fair" data-agency="Belgium, DGCD" data-index="41.8" data-slug="belgium-dgcd">
+												<div class="component component-1" data-label="Finance and budgets" data-raw="5.04257142857143" style="height: 5.04257%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="11.22599212359891" style="height: 11.226%;">
-								</div>
+												<div class="component component-2" data-label="Project attributes" data-raw="15.18995930783818" style="height: 15.19%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="9.99" style="height: 9.99%;">
-								</div>
+												<div class="component component-3" data-label="Joining-up development data" data-raw="16.224120535714288" style="height: 16.2241%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
-								<span class="label">Ireland, IrishAid</span>
-							</div>
+												<div class="component component-4" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
 
 
-							<div class="bar poor" data-agency="Spain, MAEC-AECID" data-index="38.7" data-slug="spain-maec-aecid">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="10.837521725490195" style="height: 10.8375%;">
-								</div>
+												<div class="component component-5" data-label="Organisational planning and commitments" data-raw="5.326604" style="height: 5.3266%;">
+												</div>
+												<span class="label">Belgium, DGCD</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="4.928679831932772" style="height: 4.92868%;">
-								</div>
+											<div class="bar fair" data-agency="Japan, JICA" data-index="40.8" data-slug="japan-jica">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="10.653208" style="height: 10.6532%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="13.391760713972616" style="height: 13.3918%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="4.822073302507917" style="height: 4.82207%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="9.524359663865544" style="height: 9.52436%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="14.27167551520197" style="height: 14.2717%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
-								<span class="label">Spain, MAEC-AECID</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="11.020928469115947" style="height: 11.0209%;">
+												</div>
 
 
-							<div class="bar poor" data-agency="Norway, MFA" data-index="35.8" data-slug="norway-mfa">
-								<div class="component component-1" data-label="Finance and budgets" data-raw="7.84003381858538" style="height: 7.84003%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
+												<span class="label">Japan, JICA</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Project attributes" data-raw="11.054408316069843" style="height: 11.0544%;">
-								</div>
+											<div class="bar fair" data-agency="Ireland, IrishAid" data-index="40.6" data-slug="ireland-irishaid">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="12.293009708737863" style="height: 12.293%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Joining-up development data" data-raw="9.976203018644568" style="height: 9.9762%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="7.112839805825242" style="height: 7.11284%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="11.22599212359891" style="height: 11.226%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Organisational planning and commitments" data-raw="6.893208" style="height: 6.89321%;">
-								</div>
-								<span class="label">Norway, MFA</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="9.99" style="height: 9.99%;">
+												</div>
 
 
-							<div class="bar poor" data-agency="Korea, KOICA" data-index="31.2" data-slug="korea-koica">
-								<div class="component component-1" data-label="Finance and budgets" data-raw="4.755246247654783" style="height: 4.75525%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
+												<span class="label">Ireland, IrishAid</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Project attributes" data-raw="11.91596369606004" style="height: 11.916%;">
-								</div>
+											<div class="bar poor" data-agency="Spain, MAEC-AECID" data-index="38.7" data-slug="spain-maec-aecid">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="10.837521725490195" style="height: 10.8375%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Joining-up development data" data-raw="7.9125" style="height: 7.9125%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="4.928679831932772" style="height: 4.92868%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="13.391760713972616" style="height: 13.3918%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Organisational planning and commitments" data-raw="6.579811999999999" style="height: 6.57981%;">
-								</div>
-								<span class="label">Korea, KOICA</span>
-							</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="9.524359663865544" style="height: 9.52436%;">
+												</div>
 
 
-							<div class="bar poor" data-agency="UN OCHA" data-index="31" data-slug="un-ocha">
-								<div class="component component-1" data-label="Finance and budgets" data-raw="4.07925" style="height: 4.07925%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
+												<span class="label">Spain, MAEC-AECID</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Project attributes" data-raw="14.040805288461538" style="height: 14.0408%;">
-								</div>
+											<div class="bar poor" data-agency="Norway, MFA" data-index="35.8" data-slug="norway-mfa">
+												<div class="component component-1" data-label="Finance and budgets" data-raw="7.84003381858538" style="height: 7.84003%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Joining-up development data" data-raw="2.828498798076924" style="height: 2.8285%;">
-								</div>
+												<div class="component component-2" data-label="Project attributes" data-raw="11.054408316069843" style="height: 11.0544%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Organisational planning and commitments" data-raw="5.013208" style="height: 5.01321%;">
-								</div>
+												<div class="component component-3" data-label="Joining-up development data" data-raw="9.976203018644568" style="height: 9.9762%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="5" style="height: 5%;">
-								</div>
-								<span class="label">UN OCHA</span>
-							</div>
+												<div class="component component-4" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
 
 
-							<div class="bar poor" data-agency="New Zealand, MFAT" data-index="30.7" data-slug="new-zealand-mfat">
-								<div class="component component-1" data-label="Finance and budgets" data-raw="4.728376285714285" style="height: 4.72838%;">
-								</div>
+												<div class="component component-5" data-label="Organisational planning and commitments" data-raw="6.893208" style="height: 6.89321%;">
+												</div>
+												<span class="label">Norway, MFA</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Project attributes" data-raw="9.745777027027028" style="height: 9.74578%;">
-								</div>
+											<div class="bar poor" data-agency="Korea, KOICA" data-index="31.2" data-slug="korea-koica">
+												<div class="component component-1" data-label="Finance and budgets" data-raw="4.755246247654783" style="height: 4.75525%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Joining-up development data" data-raw="9.603000000000002" style="height: 9.603%;">
-								</div>
+												<div class="component component-2" data-label="Project attributes" data-raw="11.91596369606004" style="height: 11.916%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
+												<div class="component component-3" data-label="Joining-up development data" data-raw="7.9125" style="height: 7.9125%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Organisational planning and commitments" data-raw="6.579999999999999" style="height: 6.58%;">
-								</div>
-								<span class="label">New Zealand, MFAT</span>
-							</div>
+												<div class="component component-4" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
 
 
-							<div class="bar poor" data-agency="UK, FCO" data-index="29" data-slug="uk-fco">
-								<div class="component component-1" data-label="Finance and budgets" data-raw="4.144762286484867" style="height: 4.14476%;">
-								</div>
+												<div class="component component-5" data-label="Organisational planning and commitments" data-raw="6.579811999999999" style="height: 6.57981%;">
+												</div>
+												<span class="label">Korea, KOICA</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Project attributes" data-raw="11.087325816601737" style="height: 11.0873%;">
-								</div>
+											<div class="bar poor" data-agency="UN OCHA" data-index="31" data-slug="un-ocha">
+												<div class="component component-1" data-label="Finance and budgets" data-raw="4.07925" style="height: 4.07925%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Joining-up development data" data-raw="9.11446546299071" style="height: 9.11447%;">
-								</div>
+												<div class="component component-2" data-label="Project attributes" data-raw="14.040805288461538" style="height: 14.0408%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
+												<div class="component component-3" data-label="Joining-up development data" data-raw="2.828498798076924" style="height: 2.8285%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Organisational planning and commitments" data-raw="4.699999999999999" style="height: 4.7%;">
-								</div>
-								<span class="label">UK, FCO</span>
-							</div>
+												<div class="component component-4" data-label="Organisational planning and commitments" data-raw="5.013208" style="height: 5.01321%;">
+												</div>
 
 
-							<div class="bar very-poor" data-agency="Japan, MOFA" data-index="9.3" data-slug="japan-mofa">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="2.8198119999999998" style="height: 2.81981%;">
-								</div>
+												<div class="component component-5" data-label="Performance" data-raw="5" style="height: 5%;">
+												</div>
+												<span class="label">UN OCHA</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="1.109889" style="height: 1.10989%;">
-								</div>
+											<div class="bar poor" data-agency="New Zealand, MFAT" data-index="30.7" data-slug="new-zealand-mfat">
+												<div class="component component-1" data-label="Finance and budgets" data-raw="4.728376285714285" style="height: 4.72838%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="0.6666" style="height: 0.6666%;">
-								</div>
+												<div class="component component-2" data-label="Project attributes" data-raw="9.745777027027028" style="height: 9.74578%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="2.219778" style="height: 2.21978%;">
-								</div>
+												<div class="component component-3" data-label="Joining-up development data" data-raw="9.603000000000002" style="height: 9.603%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="2.5" style="height: 2.5%;">
-								</div>
-								<span class="label">Japan, MOFA</span>
-							</div>
+												<div class="component component-4" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
 
 
-							<div class="bar very-poor" data-agency="UAE, Ministry of Foreign Affairs" data-index="1.3" data-slug="uae-ministry-of-foreign-affairs">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="0.94" style="height: 0.94%;">
-								</div>
+												<div class="component component-5" data-label="Organisational planning and commitments" data-raw="6.579999999999999" style="height: 6.58%;">
+												</div>
+												<span class="label">New Zealand, MFAT</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="0" style="height: 0%;">
-								</div>
+											<div class="bar poor" data-agency="UK, FCO" data-index="29" data-slug="uk-fco">
+												<div class="component component-1" data-label="Finance and budgets" data-raw="4.144762286484867" style="height: 4.14476%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="0.3333" style="height: 0.3333%;">
-								</div>
+												<div class="component component-2" data-label="Project attributes" data-raw="11.087325816601737" style="height: 11.0873%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="0" style="height: 0%;">
-								</div>
+												<div class="component component-3" data-label="Joining-up development data" data-raw="9.11446546299071" style="height: 9.11447%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
-								<span class="label">UAE, Ministry of Foreign Affairs</span>
-							</div>
+												<div class="component component-4" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
 
 
-							<div class="bar very-poor" data-agency="China, MOFCOM" data-index="1.3" data-slug="china-mofcom">
-								<div class="component component-1" data-label="Organisational planning and commitments" data-raw="1.2532079999999999" style="height: 1.25321%;">
-								</div>
+												<div class="component component-5" data-label="Organisational planning and commitments" data-raw="4.699999999999999" style="height: 4.7%;">
+												</div>
+												<span class="label">UK, FCO</span>
+											</div>
 
 
-								<div class="component component-2" data-label="Finance and budgets" data-raw="0" style="height: 0%;">
-								</div>
+											<div class="bar very-poor" data-agency="Japan, MOFA" data-index="9.3" data-slug="japan-mofa">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="2.8198119999999998" style="height: 2.81981%;">
+												</div>
 
 
-								<div class="component component-3" data-label="Project attributes" data-raw="0" style="height: 0%;">
-								</div>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="1.109889" style="height: 1.10989%;">
+												</div>
 
 
-								<div class="component component-4" data-label="Joining-up development data" data-raw="0" style="height: 0%;">
-								</div>
+												<div class="component component-3" data-label="Project attributes" data-raw="0.6666" style="height: 0.6666%;">
+												</div>
 
 
-								<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
-								</div>
-								<span class="label">China, MOFCOM</span>
-							</div>
-						</div>
-					</div>
-				</div>
-				<a class="button grey download-img flex-icon" href="assets/results.jpg"><img alt="Download as image" src=
-				"assets/image.svg"> <span>Download results as image</span></a>
-
-				<div class="results-table">
-					<div class="table-buttons">
-						<div class="scroll-margins-container">
-							<div class="compare">
-								<a class="button grey flex-icon" id="compare"><img alt="Compare Agencies" src="assets/compare.svg">
-								<span>Compare Agencies</span></a>
-
-								<div class="float-right">
-									<a class="csv button grey flex-icon" href="assets/results.csv"><img alt="Download CSV" src=
-									"assets/csv.svg"> <span>CSV</span></a> <a class="csv button grey flex-icon" href=
-									"assets/results.xls"><img alt="Download XLS" src="assets/excel.svg">
-									<span>XLS</span></a> <!-- <span id="sort" class="button grey">Sort By</span> -->
-								</div>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="2.219778" style="height: 2.21978%;">
+												</div>
 
 
-								<div class="appear">
-									<div class="SumoSelect sumo_compare" tabindex="0">
-										<select class="SumoUnder" id="compareSel" name="compare" tabindex="-1">
-											<option value="">
-												Select comparison
-											</option>
+												<div class="component component-5" data-label="Performance" data-raw="2.5" style="height: 2.5%;">
+												</div>
+												<span class="label">Japan, MOFA</span>
+											</div>
 
-											<option value="US">
-												US Agencies
-											</option>
 
-											<option value="UN">
-												UN Agencies
-											</option>
+											<div class="bar very-poor" data-agency="UAE, Ministry of Foreign Affairs" data-index="1.3" data-slug="uae-ministry-of-foreign-affairs">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="0.94" style="height: 0.94%;">
+												</div>
 
-											<option value="EU">
-												EU Agencies
-											</option>
 
-											<option value="DFI">
-												DFIs
-											</option>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="0" style="height: 0%;">
+												</div>
 
-											<option value="BILATERAL">
-												Bilateral Agencies
-											</option>
 
-											<option value="custom">
-												Custom
-											</option>
-										</select>
+												<div class="component component-3" data-label="Project attributes" data-raw="0.3333" style="height: 0.3333%;">
+												</div>
 
 
+												<div class="component component-4" data-label="Joining-up development data" data-raw="0" style="height: 0%;">
+												</div>
 
 
-										<div class="optWrapper">
-											<ul class="options">
-												<li class="opt selected"><label>Select comparison</label>
-												</li>
+												<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
+												<span class="label">UAE, Ministry of Foreign Affairs</span>
+											</div>
 
 
-												<li class="opt"><label>US Agencies</label>
-												</li>
+											<div class="bar very-poor" data-agency="China, MOFCOM" data-index="1.3" data-slug="china-mofcom">
+												<div class="component component-1" data-label="Organisational planning and commitments" data-raw="1.2532079999999999" style="height: 1.25321%;">
+												</div>
 
 
-												<li class="opt"><label>UN Agencies</label>
-												</li>
+												<div class="component component-2" data-label="Finance and budgets" data-raw="0" style="height: 0%;">
+												</div>
 
 
-												<li class="opt"><label>EU Agencies</label>
-												</li>
+												<div class="component component-3" data-label="Project attributes" data-raw="0" style="height: 0%;">
+												</div>
 
 
-												<li class="opt"><label>DFIs</label>
-												</li>
+												<div class="component component-4" data-label="Joining-up development data" data-raw="0" style="height: 0%;">
+												</div>
 
 
-												<li class="opt"><label>Custom</label>
-												</li>
-											</ul>
+												<div class="component component-5" data-label="Performance" data-raw="0" style="height: 0%;">
+												</div>
+												<span class="label">China, MOFCOM</span>
+											</div>
 										</div>
 									</div>
-									<span class="button" id="done">Done</span> <span class="button grey" id="cancel">Cancel</span>
 								</div>
-							</div>
-						</div>
-					</div>
+								<a class="button grey download-img flex-icon" href="assets/results.jpg"><img alt="Download as image" src=
+									"assets/image.svg"> <span>Download results as image</span></a>
+
+									<div class="results-table">
+										<div class="table-buttons">
+											<div class="scroll-margins-container">
+												<div class="compare">
+													<a class="button grey flex-icon" id="compare"><img alt="Compare Agencies" src="assets/compare.svg">
+														<span>Compare Agencies</span></a>
+														<div class="appear">
+															<div class="SumoSelect sumo_compare" tabindex="0">
+																<select class="SumoUnder" id="compareSel" name="compare" tabindex="-1">
+																	<option value="">
+																		Select comparison
+																	</option>
+
+																	<option value="BILATERAL">
+																		Bilateral Agencies
+																	</option>
+
+																	<option value="DFI">
+																		Development Finance
+																	</option>
+
+																	<option value="EU">
+																		European Union
+																	</option>
+
+																	<option value="UN">
+																		United Nations
+																	</option>
+
+																	<option value="US">
+																		United States
+																	</option>
+
+																	<option value="custom">
+																		Custom
+																	</option>
+																</select>
 
 
-					<div class="fixed-container">
-					</div>
 
 
-					<table class="" id="results">
-						<thead>
-							<tr class="headers">
-								<th class="cell-0" style="width: 82.5781px;">Compare</th>
-
-								<th class="cell-1" style="width: 120px;">Rank</th>
-
-								<th class="cell-2" style="width: 120px;">Name</th>
-
-								<th class="cell-3 sorttable_nosort" style="width: 120px;">Score</th>
-
-								<th class="cell-performance cell-performance-4" style="width: 120px;">Organisational planning and commitments / 15</th>
-
-								<th class="cell-performance cell-performance-5" style="width: 120px;">Finance and budgets / 25</th>
-
-								<th class="cell-performance cell-performance-6" style="width: 120px;">Project attributes / 20</th>
-
-								<th class="cell-performance cell-performance-7" style="width: 120px;">Joining-up development data / 20</th>
-
-								<th class="cell-performance cell-performance-8" style="width: 120px;">Performance / 20</th>
-
-								<th class="cell-5 sorttable_nosort" style="width: 120px;">Category</th>
-							</tr>
-						</thead>
+																<div class="optWrapper">
+																	<ul class="options">
+																		<li class="opt selected"><label>Select comparison</label>
+																		</li>
 
 
-						<tbody id="results-rows">
-							<tr class="result-row row-asdb very-good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
+																		<li class="opt"><label>US Agencies</label>
+																		</li>
 
-								<td class="cell-1">1</td>
 
-								<td class="cell-2">
-									<a href="single?agency=asdb">AsDB</a>
-								</td>
+																		<li class="opt"><label>UN Agencies</label>
+																		</li>
 
-								<td class="cell-3">
-									<div class="hori-bar very-good">
-										<span class="raw-score">96 / 100</span>
 
-										<div class="fill" style="width:96%">
+																		<li class="opt"><label>EU Agencies</label>
+																		</li>
+
+
+																		<li class="opt"><label>DFIs</label>
+																		</li>
+
+
+																		<li class="opt"><label>Custom</label>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+															<span class="button" id="done">Done</span> <span class="button grey" id="cancel">Cancel</span>
+														</div>
+
+														<div class="float-right">
+															<a class="csv button grey flex-icon" href="assets/results.csv"><img alt="Download CSV" src=
+																"assets/csv.svg"> <span>CSV</span></a> <a class="csv button grey flex-icon" href=
+																"assets/results.xls"><img alt="Download XLS" src="assets/excel.svg">
+																<span>XLS</span></a> <!-- <span id="sort" class="button grey">Sort By</span> -->
+															</div>
+
+
+
+														</div>
+													</div>
+												</div>
+
+
+												<div class="fixed-container">
+												</div>
+
+												<div class="mobile-scroll">
+													<table class="" id="results">
+														<thead>
+															<tr class="headers">
+																<th class="cell-0" >Compare</th>
+
+																<th class="cell-1" >Rank</th>
+
+																<th class="cell-2" >Name</th>
+
+																<th class="cell-3 sorttable_nosort" >Score</th>
+
+																<th class="cell-performance cell-performance-4" >Organisational planning and commitments / 15</th>
+
+																<th class="cell-performance cell-performance-5" >Finance and budgets / 25</th>
+
+																<th class="cell-performance cell-performance-6" >Project attributes / 20</th>
+
+																<th class="cell-performance cell-performance-7" >Joining-up development data / 20</th>
+
+																<th class="cell-performance cell-performance-8" >Performance / 20</th>
+
+																<th class="cell-5 sorttable_nosort" >Category</th>
+															</tr>
+														</thead>
+
+
+														<tbody id="results-rows">
+															<tr class="result-row row-asdb very-good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">1</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=asdb">AsDB</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar very-good">
+																		<span class="raw-score">96 / 100</span>
+
+																		<div class="fill" style="width:96%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">13.8</td>
+
+																<td class="cell-performance cell-performance-5">24.8</td>
+
+																<td class="cell-performance cell-performance-6">20</td>
+
+																<td class="cell-performance cell-performance-7">20</td>
+
+																<td class="cell-performance cell-performance-8">17.4</td>
+
+																<td class="cell-5"><span class="cat">Very good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-unicef very-good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">2</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=unicef">UNICEF</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar very-good">
+																		<span class="raw-score">93.2 / 100</span>
+
+																		<div class="fill" style="width:93.2%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">11.9</td>
+
+																<td class="cell-performance cell-performance-5">22.5</td>
+
+																<td class="cell-performance cell-performance-6">19.9</td>
+
+																<td class="cell-performance cell-performance-7">19.8</td>
+
+																<td class="cell-performance cell-performance-8">19</td>
+
+																<td class="cell-5"><span class="cat">Very good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-undp very-good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">3</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=undp">UNDP</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar very-good">
+																		<span class="raw-score">91.4 / 100</span>
+
+																		<div class="fill" style="width:91.4%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">12.5</td>
+
+																<td class="cell-performance cell-performance-5">22.8</td>
+
+																<td class="cell-performance cell-performance-6">18.3</td>
+
+																<td class="cell-performance cell-performance-7">20</td>
+
+																<td class="cell-performance cell-performance-8">17.9</td>
+
+																<td class="cell-5"><span class="cat">Very good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-uk-dfid very-good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">4</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=uk-dfid">UK, DFID</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar very-good">
+																		<span class="raw-score">90.6 / 100</span>
+
+																		<div class="fill" style="width:90.6%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">14.6</td>
+
+																<td class="cell-performance cell-performance-5">22.2</td>
+
+																<td class="cell-performance cell-performance-6">17.6</td>
+
+																<td class="cell-performance cell-performance-7">18.5</td>
+
+																<td class="cell-performance cell-performance-8">17.7</td>
+
+																<td class="cell-5"><span class="cat">Very good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-iadb very-good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">5</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=iadb">IADB</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar very-good">
+																		<span class="raw-score">87.4 / 100</span>
+
+																		<div class="fill" style="width:87.4%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">12.5</td>
+
+																<td class="cell-performance cell-performance-5">18.3</td>
+
+																<td class="cell-performance cell-performance-6">18.4</td>
+
+																<td class="cell-performance cell-performance-7">19.5</td>
+
+																<td class="cell-performance cell-performance-8">18.7</td>
+
+																<td class="cell-5"><span class="cat">Very good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-gavi very-good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">6</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=gavi">GAVI</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar very-good">
+																		<span class="raw-score">85.3 / 100</span>
+
+																		<div class="fill" style="width:85.3%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">12.4</td>
+
+																<td class="cell-performance cell-performance-5">20.7</td>
+
+																<td class="cell-performance cell-performance-6">19</td>
+
+																<td class="cell-performance cell-performance-7">18.4</td>
+
+																<td class="cell-performance cell-performance-8">14.8</td>
+
+																<td class="cell-5"><span class="cat">Very good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-global-fund very-good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">7</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=global-fund">Global Fund</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar very-good">
+																		<span class="raw-score">84.7 / 100</span>
+
+																		<div class="fill" style="width:84.7%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">11.3</td>
+
+																<td class="cell-performance cell-performance-5">17.5</td>
+
+																<td class="cell-performance cell-performance-6">16.4</td>
+
+																<td class="cell-performance cell-performance-7">19.6</td>
+
+																<td class="cell-performance cell-performance-8">20</td>
+
+																<td class="cell-5"><span class="cat">Very good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-world-bank-ida very-good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">8</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=world-bank-ida">World Bank, IDA</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar very-good">
+																		<span class="raw-score">83.2 / 100</span>
+
+																		<div class="fill" style="width:83.2%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">11.9</td>
+
+																<td class="cell-performance cell-performance-5">17.8</td>
+
+																<td class="cell-performance cell-performance-6">18.6</td>
+
+																<td class="cell-performance cell-performance-7">18.2</td>
+
+																<td class="cell-performance cell-performance-8">16.7</td>
+
+																<td class="cell-5"><span class="cat">Very good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-afdb very-good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">9</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=afdb">AfDB</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar very-good">
+																		<span class="raw-score">81.9 / 100</span>
+
+																		<div class="fill" style="width:81.9%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">13.1</td>
+
+																<td class="cell-performance cell-performance-5">18</td>
+
+																<td class="cell-performance cell-performance-6">18.5</td>
+
+																<td class="cell-performance cell-performance-7">17.8</td>
+
+																<td class="cell-performance cell-performance-8">14.5</td>
+
+																<td class="cell-5"><span class="cat">Very good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-sweden-mfa-sida good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">10</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=sweden-mfa-sida">Sweden, MFA-Sida</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar good">
+																		<span class="raw-score">75.5 / 100</span>
+
+																		<div class="fill" style="width:75.5%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">13</td>
+
+																<td class="cell-performance cell-performance-5">14.5</td>
+
+																<td class="cell-performance cell-performance-6">17.5</td>
+
+																<td class="cell-performance cell-performance-7">17.9</td>
+
+																<td class="cell-performance cell-performance-8">12.7</td>
+
+																<td class="cell-5"><span class="cat">Good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-canada-dfatd good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">11</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=canada-dfatd">Canada, DFATD</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar good">
+																		<span class="raw-score">75.1 / 100</span>
+
+																		<div class="fill" style="width:75.1%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">12.6</td>
+
+																<td class="cell-performance cell-performance-5">16</td>
+
+																<td class="cell-performance cell-performance-6">19.5</td>
+
+																<td class="cell-performance cell-performance-7">18.3</td>
+
+																<td class="cell-performance cell-performance-8">8.7</td>
+
+																<td class="cell-5"><span class="cat">Good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-netherlands-mfa good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">12</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=netherlands-mfa">Netherlands, MFA</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar good">
+																		<span class="raw-score">73.3 / 100</span>
+
+																		<div class="fill" style="width:73.3%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">13</td>
+
+																<td class="cell-performance cell-performance-5">16.4</td>
+
+																<td class="cell-performance cell-performance-6">18.6</td>
+
+																<td class="cell-performance cell-performance-7">16.6</td>
+
+																<td class="cell-performance cell-performance-8">8.6</td>
+
+																<td class="cell-5"><span class="cat">Good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-us-usaid good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">13</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=us-usaid">US, USAID</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar good">
+																		<span class="raw-score">72.4 / 100</span>
+
+																		<div class="fill" style="width:72.4%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">13.7</td>
+
+																<td class="cell-performance cell-performance-5">11.4</td>
+
+																<td class="cell-performance cell-performance-6">17.7</td>
+
+																<td class="cell-performance cell-performance-7">17.5</td>
+
+																<td class="cell-performance cell-performance-8">12.1</td>
+
+																<td class="cell-5"><span class="cat">Good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-ec-echo good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">14</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=ec-echo">EC, ECHO</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar good">
+																		<span class="raw-score">71.3 / 100</span>
+
+																		<div class="fill" style="width:71.3%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">14.4</td>
+
+																<td class="cell-performance cell-performance-5">16.7</td>
+
+																<td class="cell-performance cell-performance-6">18.2</td>
+
+																<td class="cell-performance cell-performance-7">14.6</td>
+
+																<td class="cell-performance cell-performance-8">7.5</td>
+
+																<td class="cell-5"><span class="cat">Good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-ec-near good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">15</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=ec-near">EC, NEAR</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar good">
+																		<span class="raw-score">63.9 / 100</span>
+
+																		<div class="fill" style="width:63.9%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">14.7</td>
+
+																<td class="cell-performance cell-performance-5">14.9</td>
+
+																<td class="cell-performance cell-performance-6">18.2</td>
+
+																<td class="cell-performance cell-performance-7">13.6</td>
+
+																<td class="cell-performance cell-performance-8">2.5</td>
+
+																<td class="cell-5"><span class="cat">Good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-us-mcc good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">16</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=us-mcc">US, MCC</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar good">
+																		<span class="raw-score">62 / 100</span>
+
+																		<div class="fill" style="width:62%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">11.6</td>
+
+																<td class="cell-performance cell-performance-5">15.3</td>
+
+																<td class="cell-performance cell-performance-6">17.4</td>
+
+																<td class="cell-performance cell-performance-7">4.7</td>
+
+																<td class="cell-performance cell-performance-8">13</td>
+
+																<td class="cell-5"><span class="cat">Good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-ec-devco good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">17</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=ec-devco">EC, DEVCO</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar good">
+																		<span class="raw-score">62 / 100</span>
+
+																		<div class="fill" style="width:62%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">12.8</td>
+
+																<td class="cell-performance cell-performance-5">15</td>
+
+																<td class="cell-performance cell-performance-6">18.3</td>
+
+																<td class="cell-performance cell-performance-7">13.4</td>
+
+																<td class="cell-performance cell-performance-8">2.5</td>
+
+																<td class="cell-5"><span class="cat">Good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-ebrd good">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">18</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=ebrd">EBRD</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar good">
+																		<span class="raw-score">60.7 / 100</span>
+
+																		<div class="fill" style="width:60.7%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">11.6</td>
+
+																<td class="cell-performance cell-performance-5">8</td>
+
+																<td class="cell-performance cell-performance-6">17.4</td>
+
+																<td class="cell-performance cell-performance-7">13.7</td>
+
+																<td class="cell-performance cell-performance-8">10</td>
+
+																<td class="cell-5"><span class="cat">Good</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-germany-bmz-giz fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">19</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=germany-bmz-giz">Germany, BMZ-GIZ</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">59.3 / 100</span>
+
+																		<div class="fill" style="width:59.3%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">12</td>
+
+																<td class="cell-performance cell-performance-5">13.4</td>
+
+																<td class="cell-performance cell-performance-6">16.5</td>
+
+																<td class="cell-performance cell-performance-7">17.5</td>
+
+																<td class="cell-performance cell-performance-8">0</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-eib fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">20</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=eib">EIB</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">59.3 / 100</span>
+
+																		<div class="fill" style="width:59.3%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">11.9</td>
+
+																<td class="cell-performance cell-performance-5">8.5</td>
+
+																<td class="cell-performance cell-performance-6">15.1</td>
+
+																<td class="cell-performance cell-performance-7">18.7</td>
+
+																<td class="cell-performance cell-performance-8">5</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-switzerland-sdc fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">21</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=switzerland-sdc">Switzerland, SDC</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">58.8 / 100</span>
+
+																		<div class="fill" style="width:58.8%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">10.3</td>
+
+																<td class="cell-performance cell-performance-5">13</td>
+
+																<td class="cell-performance cell-performance-6">17.1</td>
+
+																<td class="cell-performance cell-performance-7">15.8</td>
+
+																<td class="cell-performance cell-performance-8">2.5</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-world-bank-ifc fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">22</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=world-bank-ifc">World Bank, IFC</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">57.6 / 100</span>
+
+																		<div class="fill" style="width:57.6%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">13</td>
+
+																<td class="cell-performance cell-performance-5">4.9</td>
+
+																<td class="cell-performance cell-performance-6">18.9</td>
+
+																<td class="cell-performance cell-performance-7">13.3</td>
+
+																<td class="cell-performance cell-performance-8">7.7</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-germany-bmz-kfw fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">23</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=germany-bmz-kfw">Germany, BMZ-KFW</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">57.6 / 100</span>
+
+																		<div class="fill" style="width:57.6%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">12</td>
+
+																<td class="cell-performance cell-performance-5">13.5</td>
+
+																<td class="cell-performance cell-performance-6">16.4</td>
+
+																<td class="cell-performance cell-performance-7">15.8</td>
+
+																<td class="cell-performance cell-performance-8">0</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-denmark-mfa fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">24</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=denmark-mfa">Denmark, MFA</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">57.5 / 100</span>
+
+																		<div class="fill" style="width:57.5%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">11</td>
+
+																<td class="cell-performance cell-performance-5">13.2</td>
+
+																<td class="cell-performance cell-performance-6">14.2</td>
+
+																<td class="cell-performance cell-performance-7">13.7</td>
+
+																<td class="cell-performance cell-performance-8">5.4</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-us-state fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">25</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=us-state">US, State</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">56.1 / 100</span>
+
+																		<div class="fill" style="width:56.1%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">12.5</td>
+
+																<td class="cell-performance cell-performance-5">11.1</td>
+
+																<td class="cell-performance cell-performance-6">16.7</td>
+
+																<td class="cell-performance cell-performance-7">15.8</td>
+
+																<td class="cell-performance cell-performance-8">0</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-gates-foundation fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">26</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=gates-foundation">Gates Foundation</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">54.8 / 100</span>
+
+																		<div class="fill" style="width:54.8%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">9.4</td>
+
+																<td class="cell-performance cell-performance-5">12.3</td>
+
+																<td class="cell-performance cell-performance-6">15</td>
+
+																<td class="cell-performance cell-performance-7">10.6</td>
+
+																<td class="cell-performance cell-performance-8">7.5</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-australia-dfat fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">27</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=australia-dfat">Australia, DFAT</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">54.4 / 100</span>
+
+																		<div class="fill" style="width:54.4%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">6.9</td>
+
+																<td class="cell-performance cell-performance-5">14.3</td>
+
+																<td class="cell-performance cell-performance-6">15.7</td>
+
+																<td class="cell-performance cell-performance-7">17.5</td>
+
+																<td class="cell-performance cell-performance-8">0</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-us-pepfar fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">28</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=us-pepfar">US, PEPFAR</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">51.5 / 100</span>
+
+																		<div class="fill" style="width:51.5%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">12.4</td>
+
+																<td class="cell-performance cell-performance-5">11.7</td>
+
+																<td class="cell-performance cell-performance-6">14.8</td>
+
+																<td class="cell-performance cell-performance-7">12.7</td>
+
+																<td class="cell-performance cell-performance-8">0</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-france-afd fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">29</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=france-afd">France, AFD</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">51.4 / 100</span>
+
+																		<div class="fill" style="width:51.4%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">4.8</td>
+
+																<td class="cell-performance cell-performance-5">10.8</td>
+
+																<td class="cell-performance cell-performance-6">6.3</td>
+
+																<td class="cell-performance cell-performance-7">16.9</td>
+
+																<td class="cell-performance cell-performance-8">12.7</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-italy-mae fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">30</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=italy-mae">Italy, MAE</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">51 / 100</span>
+
+																		<div class="fill" style="width:51%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">8.8</td>
+
+																<td class="cell-performance cell-performance-5">9.3</td>
+
+																<td class="cell-performance cell-performance-6">13.2</td>
+
+																<td class="cell-performance cell-performance-7">12.5</td>
+
+																<td class="cell-performance cell-performance-8">7.2</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-finland-mfa fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">31</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=finland-mfa">Finland, MFA</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">49.7 / 100</span>
+
+																		<div class="fill" style="width:49.7%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">15.6</td>
+
+																<td class="cell-performance cell-performance-5">15.1</td>
+
+																<td class="cell-performance cell-performance-6">12.4</td>
+
+																<td class="cell-performance cell-performance-7">0</td>
+
+																<td class="cell-performance cell-performance-8">6.6</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-france-meae fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">32</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=france-meae">France, MEAE</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">48.8 / 100</span>
+
+																		<div class="fill" style="width:48.8%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">9.8</td>
+
+																<td class="cell-performance cell-performance-5">7.4</td>
+
+																<td class="cell-performance cell-performance-6">18.3</td>
+
+																<td class="cell-performance cell-performance-7">13.3</td>
+
+																<td class="cell-performance cell-performance-8">0</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-us-defense fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">33</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=us-defense">US, Defense</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">46.1 / 100</span>
+
+																		<div class="fill" style="width:46.1%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">8.8</td>
+
+																<td class="cell-performance cell-performance-5">4.8</td>
+
+																<td class="cell-performance cell-performance-6">16.7</td>
+
+																<td class="cell-performance cell-performance-7">15.8</td>
+
+																<td class="cell-performance cell-performance-8">0</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-belgium-dgcd fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">34</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=belgium-dgcd">Belgium, DGCD</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">41.8 / 100</span>
+
+																		<div class="fill" style="width:41.8%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">5</td>
+
+																<td class="cell-performance cell-performance-5">15.2</td>
+
+																<td class="cell-performance cell-performance-6">16.2</td>
+
+																<td class="cell-performance cell-performance-7">0</td>
+
+																<td class="cell-performance cell-performance-8">5.3</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-japan-jica fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">35</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=japan-jica">Japan, JICA</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">40.8 / 100</span>
+
+																		<div class="fill" style="width:40.8%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">10.7</td>
+
+																<td class="cell-performance cell-performance-5">4.8</td>
+
+																<td class="cell-performance cell-performance-6">14.3</td>
+
+																<td class="cell-performance cell-performance-7">11</td>
+
+																<td class="cell-performance cell-performance-8">0</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-ireland-irishaid fair">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">36</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=ireland-irishaid">Ireland, IrishAid</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar fair">
+																		<span class="raw-score">40.6 / 100</span>
+
+																		<div class="fill" style="width:40.6%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">12.3</td>
+
+																<td class="cell-performance cell-performance-5">7.1</td>
+
+																<td class="cell-performance cell-performance-6">11.2</td>
+
+																<td class="cell-performance cell-performance-7">10</td>
+
+																<td class="cell-performance cell-performance-8">0</td>
+
+																<td class="cell-5"><span class="cat">Fair</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-spain-maec-aecid poor">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">37</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=spain-maec-aecid">Spain, MAEC-AECID</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar poor">
+																		<span class="raw-score">38.7 / 100</span>
+
+																		<div class="fill" style="width:38.7%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">10.8</td>
+
+																<td class="cell-performance cell-performance-5">4.9</td>
+
+																<td class="cell-performance cell-performance-6">13.4</td>
+
+																<td class="cell-performance cell-performance-7">9.5</td>
+
+																<td class="cell-performance cell-performance-8">0</td>
+
+																<td class="cell-5"><span class="cat">Poor</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-norway-mfa poor">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">38</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=norway-mfa">Norway, MFA</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar poor">
+																		<span class="raw-score">35.8 / 100</span>
+
+																		<div class="fill" style="width:35.8%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">7.8</td>
+
+																<td class="cell-performance cell-performance-5">11.1</td>
+
+																<td class="cell-performance cell-performance-6">10</td>
+
+																<td class="cell-performance cell-performance-7">0</td>
+
+																<td class="cell-performance cell-performance-8">6.9</td>
+
+																<td class="cell-5"><span class="cat">Poor</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-korea-koica poor">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">39</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=korea-koica">Korea, KOICA</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar poor">
+																		<span class="raw-score">31.2 / 100</span>
+
+																		<div class="fill" style="width:31.2%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">4.8</td>
+
+																<td class="cell-performance cell-performance-5">11.9</td>
+
+																<td class="cell-performance cell-performance-6">7.9</td>
+
+																<td class="cell-performance cell-performance-7">0</td>
+
+																<td class="cell-performance cell-performance-8">6.6</td>
+
+																<td class="cell-5"><span class="cat">Poor</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-un-ocha poor">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">40</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=un-ocha">UN OCHA</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar poor">
+																		<span class="raw-score">31 / 100</span>
+
+																		<div class="fill" style="width:31%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">4.1</td>
+
+																<td class="cell-performance cell-performance-5">14</td>
+
+																<td class="cell-performance cell-performance-6">2.8</td>
+
+																<td class="cell-performance cell-performance-7">5</td>
+
+																<td class="cell-performance cell-performance-8">5</td>
+
+																<td class="cell-5"><span class="cat">Poor</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-new-zealand-mfat poor">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">41</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=new-zealand-mfat">New Zealand, MFAT</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar poor">
+																		<span class="raw-score">30.7 / 100</span>
+
+																		<div class="fill" style="width:30.7%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">4.7</td>
+
+																<td class="cell-performance cell-performance-5">9.7</td>
+
+																<td class="cell-performance cell-performance-6">9.6</td>
+
+																<td class="cell-performance cell-performance-7">0</td>
+
+																<td class="cell-performance cell-performance-8">6.6</td>
+
+																<td class="cell-5"><span class="cat">Poor</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-uk-fco poor">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">42</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=uk-fco">UK, FCO</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar poor">
+																		<span class="raw-score">29 / 100</span>
+
+																		<div class="fill" style="width:29%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">4.1</td>
+
+																<td class="cell-performance cell-performance-5">11.1</td>
+
+																<td class="cell-performance cell-performance-6">9.1</td>
+
+																<td class="cell-performance cell-performance-7">0</td>
+
+																<td class="cell-performance cell-performance-8">4.7</td>
+
+																<td class="cell-5"><span class="cat">Poor</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-japan-mofa very-poor">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">43</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=japan-mofa">Japan, MOFA</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar very-poor">
+																		<span class="raw-score">9.3 / 100</span>
+
+																		<div class="fill" style="width:9.3%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">2.8</td>
+
+																<td class="cell-performance cell-performance-5">1.1</td>
+
+																<td class="cell-performance cell-performance-6">0.7</td>
+
+																<td class="cell-performance cell-performance-7">2.2</td>
+
+																<td class="cell-performance cell-performance-8">2.5</td>
+
+																<td class="cell-5"><span class="cat">Very poor</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-uae-ministry-of-foreign-affairs very-poor">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">44</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=uae-ministry-of-foreign-affairs">UAE, Ministry of Foreign Affairs</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar very-poor">
+																		<span class="raw-score">1.3 / 100</span>
+
+																		<div class="fill" style="width:1.3%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">0.9</td>
+
+																<td class="cell-performance cell-performance-5">0</td>
+
+																<td class="cell-performance cell-performance-6">0.3</td>
+
+																<td class="cell-performance cell-performance-7">0</td>
+
+																<td class="cell-performance cell-performance-8">0</td>
+
+																<td class="cell-5"><span class="cat">Very poor</span>
+																</td>
+															</tr>
+
+
+															<tr class="result-row row-china-mofcom very-poor">
+																<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
+																</td>
+
+																<td class="cell-1">45</td>
+
+																<td class="cell-2">
+																	<a href="single?agency=china-mofcom">China, MOFCOM</a>
+																</td>
+
+																<td class="cell-3">
+																	<div class="hori-bar very-poor">
+																		<span class="raw-score">1.3 / 100</span>
+
+																		<div class="fill" style="width:1.3%">
+																		</div>
+																	</div>
+																</td>
+
+																<td class="cell-performance cell-performance-4">1.3</td>
+
+																<td class="cell-performance cell-performance-5">0</td>
+
+																<td class="cell-performance cell-performance-6">0</td>
+
+																<td class="cell-performance cell-performance-7">0</td>
+
+																<td class="cell-performance cell-performance-8">0</td>
+
+																<td class="cell-5"><span class="cat">Very poor</span>
+																</td>
+															</tr>
+														</tbody>
+
+
+														<tfoot>
+														</tfoot>
+													</table>
+												</div>
+											</div>
 										</div>
 									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">13.8</td>
-
-								<td class="cell-performance cell-performance-5">24.8</td>
-
-								<td class="cell-performance cell-performance-6">20</td>
-
-								<td class="cell-performance cell-performance-7">20</td>
-
-								<td class="cell-performance cell-performance-8">17.4</td>
-
-								<td class="cell-5"><span class="cat">Very good</span>
-								</td>
-							</tr>
 
 
-							<tr class="result-row row-unicef very-good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
+									<footer>
+										<div class="margins-container">
+											<div class="logo">
+												<img alt="Publish What You Fund Logo" src="assets/PWYF.svg"> <a href=
+												"/acknowledgements">Acknowledgements</a>
+											</div>
 
-								<td class="cell-1">2</td>
 
-								<td class="cell-2">
-									<a href="single?agency=unicef">UNICEF</a>
-								</td>
+											<div class="footer-nav">
+												<ul id="menu-footer" class="bottom-nav"><li id="menu-item-8364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8364"><a href="http://www.publishwhatyoufund.org/contact-us/">Contact Us</a></li>
+													<li id="menu-item-8363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8363"><a href="http://www.publishwhatyoufund.org/copyright/">Copyright</a></li>
+													<li id="menu-item-8362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8362"><a href="http://www.publishwhatyoufund.org/privacy-policy/">Privacy Policy</a></li>
+												</ul>						<ul class="et-social-icons">
 
-								<td class="cell-3">
-									<div class="hori-bar very-good">
-										<span class="raw-score">93.2 / 100</span>
+													<a href="http://www.publishwhatyoufund.org/feed/" target="_blank" class="icon fa fa-rss">
+													</a>
 
-										<div class="fill" style="width:93.2%">
+													<a href="https://twitter.com/aidtransparency" target="_blank" class="fa fa-twitter">
+													</a>
+
+													<a href="https://vimeo.com/aidtransparency" target="_blank" class="fa fa-vimeo">
+													</a>
+
+													<a href="https://www.linkedin.com/company/publish-what-you-fund" target="_blank" class="fa fa-linkedin">
+													</a>
+
+
+													<a href="https://www.facebook.com/publishwhatyoufund1/" target="_blank" class="fa fa-facebook">
+													</a>
+
+												</ul>
+
+											</div>
+
+											<div id="footer-bottom">
+												<p>Publish What You Fund, Southbank House, Black Prince Road, London, SE1 7SJ<br>UK Company Registration Number 07676886 (England and Wales); Registered Charity Number 1158362 (England and Wales)</p>
+											</div>
 										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">11.9</td>
-
-								<td class="cell-performance cell-performance-5">22.5</td>
-
-								<td class="cell-performance cell-performance-6">19.9</td>
-
-								<td class="cell-performance cell-performance-7">19.8</td>
-
-								<td class="cell-performance cell-performance-8">19</td>
-
-								<td class="cell-5"><span class="cat">Very good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-undp very-good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">3</td>
-
-								<td class="cell-2">
-									<a href="single?agency=undp">UNDP</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar very-good">
-										<span class="raw-score">91.4 / 100</span>
-
-										<div class="fill" style="width:91.4%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">12.5</td>
-
-								<td class="cell-performance cell-performance-5">22.8</td>
-
-								<td class="cell-performance cell-performance-6">18.3</td>
-
-								<td class="cell-performance cell-performance-7">20</td>
-
-								<td class="cell-performance cell-performance-8">17.9</td>
-
-								<td class="cell-5"><span class="cat">Very good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-uk-dfid very-good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">4</td>
-
-								<td class="cell-2">
-									<a href="single?agency=uk-dfid">UK, DFID</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar very-good">
-										<span class="raw-score">90.6 / 100</span>
-
-										<div class="fill" style="width:90.6%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">14.6</td>
-
-								<td class="cell-performance cell-performance-5">22.2</td>
-
-								<td class="cell-performance cell-performance-6">17.6</td>
-
-								<td class="cell-performance cell-performance-7">18.5</td>
-
-								<td class="cell-performance cell-performance-8">17.7</td>
-
-								<td class="cell-5"><span class="cat">Very good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-iadb very-good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">5</td>
-
-								<td class="cell-2">
-									<a href="single?agency=iadb">IADB</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar very-good">
-										<span class="raw-score">87.4 / 100</span>
-
-										<div class="fill" style="width:87.4%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">12.5</td>
-
-								<td class="cell-performance cell-performance-5">18.3</td>
-
-								<td class="cell-performance cell-performance-6">18.4</td>
-
-								<td class="cell-performance cell-performance-7">19.5</td>
-
-								<td class="cell-performance cell-performance-8">18.7</td>
-
-								<td class="cell-5"><span class="cat">Very good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-gavi very-good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">6</td>
-
-								<td class="cell-2">
-									<a href="single?agency=gavi">GAVI</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar very-good">
-										<span class="raw-score">85.3 / 100</span>
-
-										<div class="fill" style="width:85.3%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">12.4</td>
-
-								<td class="cell-performance cell-performance-5">20.7</td>
-
-								<td class="cell-performance cell-performance-6">19</td>
-
-								<td class="cell-performance cell-performance-7">18.4</td>
-
-								<td class="cell-performance cell-performance-8">14.8</td>
-
-								<td class="cell-5"><span class="cat">Very good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-global-fund very-good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">7</td>
-
-								<td class="cell-2">
-									<a href="single?agency=global-fund">Global Fund</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar very-good">
-										<span class="raw-score">84.7 / 100</span>
-
-										<div class="fill" style="width:84.7%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">11.3</td>
-
-								<td class="cell-performance cell-performance-5">17.5</td>
-
-								<td class="cell-performance cell-performance-6">16.4</td>
-
-								<td class="cell-performance cell-performance-7">19.6</td>
-
-								<td class="cell-performance cell-performance-8">20</td>
-
-								<td class="cell-5"><span class="cat">Very good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-world-bank-ida very-good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">8</td>
-
-								<td class="cell-2">
-									<a href="single?agency=world-bank-ida">World Bank, IDA</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar very-good">
-										<span class="raw-score">83.2 / 100</span>
-
-										<div class="fill" style="width:83.2%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">11.9</td>
-
-								<td class="cell-performance cell-performance-5">17.8</td>
-
-								<td class="cell-performance cell-performance-6">18.6</td>
-
-								<td class="cell-performance cell-performance-7">18.2</td>
-
-								<td class="cell-performance cell-performance-8">16.7</td>
-
-								<td class="cell-5"><span class="cat">Very good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-afdb very-good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">9</td>
-
-								<td class="cell-2">
-									<a href="single?agency=afdb">AfDB</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar very-good">
-										<span class="raw-score">81.9 / 100</span>
-
-										<div class="fill" style="width:81.9%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">13.1</td>
-
-								<td class="cell-performance cell-performance-5">18</td>
-
-								<td class="cell-performance cell-performance-6">18.5</td>
-
-								<td class="cell-performance cell-performance-7">17.8</td>
-
-								<td class="cell-performance cell-performance-8">14.5</td>
-
-								<td class="cell-5"><span class="cat">Very good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-sweden-mfa-sida good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">10</td>
-
-								<td class="cell-2">
-									<a href="single?agency=sweden-mfa-sida">Sweden, MFA-Sida</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar good">
-										<span class="raw-score">75.5 / 100</span>
-
-										<div class="fill" style="width:75.5%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">13</td>
-
-								<td class="cell-performance cell-performance-5">14.5</td>
-
-								<td class="cell-performance cell-performance-6">17.5</td>
-
-								<td class="cell-performance cell-performance-7">17.9</td>
-
-								<td class="cell-performance cell-performance-8">12.7</td>
-
-								<td class="cell-5"><span class="cat">Good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-canada-dfatd good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">11</td>
-
-								<td class="cell-2">
-									<a href="single?agency=canada-dfatd">Canada, DFATD</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar good">
-										<span class="raw-score">75.1 / 100</span>
-
-										<div class="fill" style="width:75.1%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">12.6</td>
-
-								<td class="cell-performance cell-performance-5">16</td>
-
-								<td class="cell-performance cell-performance-6">19.5</td>
-
-								<td class="cell-performance cell-performance-7">18.3</td>
-
-								<td class="cell-performance cell-performance-8">8.7</td>
-
-								<td class="cell-5"><span class="cat">Good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-netherlands-mfa good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">12</td>
-
-								<td class="cell-2">
-									<a href="single?agency=netherlands-mfa">Netherlands, MFA</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar good">
-										<span class="raw-score">73.3 / 100</span>
-
-										<div class="fill" style="width:73.3%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">13</td>
-
-								<td class="cell-performance cell-performance-5">16.4</td>
-
-								<td class="cell-performance cell-performance-6">18.6</td>
-
-								<td class="cell-performance cell-performance-7">16.6</td>
-
-								<td class="cell-performance cell-performance-8">8.6</td>
-
-								<td class="cell-5"><span class="cat">Good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-us-usaid good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">13</td>
-
-								<td class="cell-2">
-									<a href="single?agency=us-usaid">US, USAID</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar good">
-										<span class="raw-score">72.4 / 100</span>
-
-										<div class="fill" style="width:72.4%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">13.7</td>
-
-								<td class="cell-performance cell-performance-5">11.4</td>
-
-								<td class="cell-performance cell-performance-6">17.7</td>
-
-								<td class="cell-performance cell-performance-7">17.5</td>
-
-								<td class="cell-performance cell-performance-8">12.1</td>
-
-								<td class="cell-5"><span class="cat">Good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-ec-echo good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">14</td>
-
-								<td class="cell-2">
-									<a href="single?agency=ec-echo">EC, ECHO</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar good">
-										<span class="raw-score">71.3 / 100</span>
-
-										<div class="fill" style="width:71.3%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">14.4</td>
-
-								<td class="cell-performance cell-performance-5">16.7</td>
-
-								<td class="cell-performance cell-performance-6">18.2</td>
-
-								<td class="cell-performance cell-performance-7">14.6</td>
-
-								<td class="cell-performance cell-performance-8">7.5</td>
-
-								<td class="cell-5"><span class="cat">Good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-ec-near good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">15</td>
-
-								<td class="cell-2">
-									<a href="single?agency=ec-near">EC, NEAR</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar good">
-										<span class="raw-score">63.9 / 100</span>
-
-										<div class="fill" style="width:63.9%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">14.7</td>
-
-								<td class="cell-performance cell-performance-5">14.9</td>
-
-								<td class="cell-performance cell-performance-6">18.2</td>
-
-								<td class="cell-performance cell-performance-7">13.6</td>
-
-								<td class="cell-performance cell-performance-8">2.5</td>
-
-								<td class="cell-5"><span class="cat">Good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-us-mcc good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">16</td>
-
-								<td class="cell-2">
-									<a href="single?agency=us-mcc">US, MCC</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar good">
-										<span class="raw-score">62 / 100</span>
-
-										<div class="fill" style="width:62%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">11.6</td>
-
-								<td class="cell-performance cell-performance-5">15.3</td>
-
-								<td class="cell-performance cell-performance-6">17.4</td>
-
-								<td class="cell-performance cell-performance-7">4.7</td>
-
-								<td class="cell-performance cell-performance-8">13</td>
-
-								<td class="cell-5"><span class="cat">Good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-ec-devco good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">17</td>
-
-								<td class="cell-2">
-									<a href="single?agency=ec-devco">EC, DEVCO</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar good">
-										<span class="raw-score">62 / 100</span>
-
-										<div class="fill" style="width:62%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">12.8</td>
-
-								<td class="cell-performance cell-performance-5">15</td>
-
-								<td class="cell-performance cell-performance-6">18.3</td>
-
-								<td class="cell-performance cell-performance-7">13.4</td>
-
-								<td class="cell-performance cell-performance-8">2.5</td>
-
-								<td class="cell-5"><span class="cat">Good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-ebrd good">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">18</td>
-
-								<td class="cell-2">
-									<a href="single?agency=ebrd">EBRD</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar good">
-										<span class="raw-score">60.7 / 100</span>
-
-										<div class="fill" style="width:60.7%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">11.6</td>
-
-								<td class="cell-performance cell-performance-5">8</td>
-
-								<td class="cell-performance cell-performance-6">17.4</td>
-
-								<td class="cell-performance cell-performance-7">13.7</td>
-
-								<td class="cell-performance cell-performance-8">10</td>
-
-								<td class="cell-5"><span class="cat">Good</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-germany-bmz-giz fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">19</td>
-
-								<td class="cell-2">
-									<a href="single?agency=germany-bmz-giz">Germany, BMZ-GIZ</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">59.3 / 100</span>
-
-										<div class="fill" style="width:59.3%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">12</td>
-
-								<td class="cell-performance cell-performance-5">13.4</td>
-
-								<td class="cell-performance cell-performance-6">16.5</td>
-
-								<td class="cell-performance cell-performance-7">17.5</td>
-
-								<td class="cell-performance cell-performance-8">0</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-eib fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">20</td>
-
-								<td class="cell-2">
-									<a href="single?agency=eib">EIB</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">59.3 / 100</span>
-
-										<div class="fill" style="width:59.3%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">11.9</td>
-
-								<td class="cell-performance cell-performance-5">8.5</td>
-
-								<td class="cell-performance cell-performance-6">15.1</td>
-
-								<td class="cell-performance cell-performance-7">18.7</td>
-
-								<td class="cell-performance cell-performance-8">5</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-switzerland-sdc fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">21</td>
-
-								<td class="cell-2">
-									<a href="single?agency=switzerland-sdc">Switzerland, SDC</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">58.8 / 100</span>
-
-										<div class="fill" style="width:58.8%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">10.3</td>
-
-								<td class="cell-performance cell-performance-5">13</td>
-
-								<td class="cell-performance cell-performance-6">17.1</td>
-
-								<td class="cell-performance cell-performance-7">15.8</td>
-
-								<td class="cell-performance cell-performance-8">2.5</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-world-bank-ifc fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">22</td>
-
-								<td class="cell-2">
-									<a href="single?agency=world-bank-ifc">World Bank, IFC</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">57.6 / 100</span>
-
-										<div class="fill" style="width:57.6%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">13</td>
-
-								<td class="cell-performance cell-performance-5">4.9</td>
-
-								<td class="cell-performance cell-performance-6">18.9</td>
-
-								<td class="cell-performance cell-performance-7">13.3</td>
-
-								<td class="cell-performance cell-performance-8">7.7</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-germany-bmz-kfw fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">23</td>
-
-								<td class="cell-2">
-									<a href="single?agency=germany-bmz-kfw">Germany, BMZ-KFW</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">57.6 / 100</span>
-
-										<div class="fill" style="width:57.6%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">12</td>
-
-								<td class="cell-performance cell-performance-5">13.5</td>
-
-								<td class="cell-performance cell-performance-6">16.4</td>
-
-								<td class="cell-performance cell-performance-7">15.8</td>
-
-								<td class="cell-performance cell-performance-8">0</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-denmark-mfa fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">24</td>
-
-								<td class="cell-2">
-									<a href="single?agency=denmark-mfa">Denmark, MFA</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">57.5 / 100</span>
-
-										<div class="fill" style="width:57.5%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">11</td>
-
-								<td class="cell-performance cell-performance-5">13.2</td>
-
-								<td class="cell-performance cell-performance-6">14.2</td>
-
-								<td class="cell-performance cell-performance-7">13.7</td>
-
-								<td class="cell-performance cell-performance-8">5.4</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-us-state fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">25</td>
-
-								<td class="cell-2">
-									<a href="single?agency=us-state">US, State</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">56.1 / 100</span>
-
-										<div class="fill" style="width:56.1%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">12.5</td>
-
-								<td class="cell-performance cell-performance-5">11.1</td>
-
-								<td class="cell-performance cell-performance-6">16.7</td>
-
-								<td class="cell-performance cell-performance-7">15.8</td>
-
-								<td class="cell-performance cell-performance-8">0</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-gates-foundation fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">26</td>
-
-								<td class="cell-2">
-									<a href="single?agency=gates-foundation">Gates Foundation</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">54.8 / 100</span>
-
-										<div class="fill" style="width:54.8%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">9.4</td>
-
-								<td class="cell-performance cell-performance-5">12.3</td>
-
-								<td class="cell-performance cell-performance-6">15</td>
-
-								<td class="cell-performance cell-performance-7">10.6</td>
-
-								<td class="cell-performance cell-performance-8">7.5</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-australia-dfat fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">27</td>
-
-								<td class="cell-2">
-									<a href="single?agency=australia-dfat">Australia, DFAT</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">54.4 / 100</span>
-
-										<div class="fill" style="width:54.4%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">6.9</td>
-
-								<td class="cell-performance cell-performance-5">14.3</td>
-
-								<td class="cell-performance cell-performance-6">15.7</td>
-
-								<td class="cell-performance cell-performance-7">17.5</td>
-
-								<td class="cell-performance cell-performance-8">0</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-us-pepfar fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">28</td>
-
-								<td class="cell-2">
-									<a href="single?agency=us-pepfar">US, PEPFAR</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">51.5 / 100</span>
-
-										<div class="fill" style="width:51.5%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">12.4</td>
-
-								<td class="cell-performance cell-performance-5">11.7</td>
-
-								<td class="cell-performance cell-performance-6">14.8</td>
-
-								<td class="cell-performance cell-performance-7">12.7</td>
-
-								<td class="cell-performance cell-performance-8">0</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-france-afd fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">29</td>
-
-								<td class="cell-2">
-									<a href="single?agency=france-afd">France, AFD</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">51.4 / 100</span>
-
-										<div class="fill" style="width:51.4%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">4.8</td>
-
-								<td class="cell-performance cell-performance-5">10.8</td>
-
-								<td class="cell-performance cell-performance-6">6.3</td>
-
-								<td class="cell-performance cell-performance-7">16.9</td>
-
-								<td class="cell-performance cell-performance-8">12.7</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-italy-mae fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">30</td>
-
-								<td class="cell-2">
-									<a href="single?agency=italy-mae">Italy, MAE</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">51 / 100</span>
-
-										<div class="fill" style="width:51%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">8.8</td>
-
-								<td class="cell-performance cell-performance-5">9.3</td>
-
-								<td class="cell-performance cell-performance-6">13.2</td>
-
-								<td class="cell-performance cell-performance-7">12.5</td>
-
-								<td class="cell-performance cell-performance-8">7.2</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-finland-mfa fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">31</td>
-
-								<td class="cell-2">
-									<a href="single?agency=finland-mfa">Finland, MFA</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">49.7 / 100</span>
-
-										<div class="fill" style="width:49.7%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">15.6</td>
-
-								<td class="cell-performance cell-performance-5">15.1</td>
-
-								<td class="cell-performance cell-performance-6">12.4</td>
-
-								<td class="cell-performance cell-performance-7">0</td>
-
-								<td class="cell-performance cell-performance-8">6.6</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-france-meae fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">32</td>
-
-								<td class="cell-2">
-									<a href="single?agency=france-meae">France, MEAE</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">48.8 / 100</span>
-
-										<div class="fill" style="width:48.8%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">9.8</td>
-
-								<td class="cell-performance cell-performance-5">7.4</td>
-
-								<td class="cell-performance cell-performance-6">18.3</td>
-
-								<td class="cell-performance cell-performance-7">13.3</td>
-
-								<td class="cell-performance cell-performance-8">0</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-us-defense fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">33</td>
-
-								<td class="cell-2">
-									<a href="single?agency=us-defense">US, Defense</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">46.1 / 100</span>
-
-										<div class="fill" style="width:46.1%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">8.8</td>
-
-								<td class="cell-performance cell-performance-5">4.8</td>
-
-								<td class="cell-performance cell-performance-6">16.7</td>
-
-								<td class="cell-performance cell-performance-7">15.8</td>
-
-								<td class="cell-performance cell-performance-8">0</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-belgium-dgcd fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">34</td>
-
-								<td class="cell-2">
-									<a href="single?agency=belgium-dgcd">Belgium, DGCD</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">41.8 / 100</span>
-
-										<div class="fill" style="width:41.8%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">5</td>
-
-								<td class="cell-performance cell-performance-5">15.2</td>
-
-								<td class="cell-performance cell-performance-6">16.2</td>
-
-								<td class="cell-performance cell-performance-7">0</td>
-
-								<td class="cell-performance cell-performance-8">5.3</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-japan-jica fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">35</td>
-
-								<td class="cell-2">
-									<a href="single?agency=japan-jica">Japan, JICA</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">40.8 / 100</span>
-
-										<div class="fill" style="width:40.8%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">10.7</td>
-
-								<td class="cell-performance cell-performance-5">4.8</td>
-
-								<td class="cell-performance cell-performance-6">14.3</td>
-
-								<td class="cell-performance cell-performance-7">11</td>
-
-								<td class="cell-performance cell-performance-8">0</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-ireland-irishaid fair">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">36</td>
-
-								<td class="cell-2">
-									<a href="single?agency=ireland-irishaid">Ireland, IrishAid</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar fair">
-										<span class="raw-score">40.6 / 100</span>
-
-										<div class="fill" style="width:40.6%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">12.3</td>
-
-								<td class="cell-performance cell-performance-5">7.1</td>
-
-								<td class="cell-performance cell-performance-6">11.2</td>
-
-								<td class="cell-performance cell-performance-7">10</td>
-
-								<td class="cell-performance cell-performance-8">0</td>
-
-								<td class="cell-5"><span class="cat">Fair</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-spain-maec-aecid poor">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">37</td>
-
-								<td class="cell-2">
-									<a href="single?agency=spain-maec-aecid">Spain, MAEC-AECID</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar poor">
-										<span class="raw-score">38.7 / 100</span>
-
-										<div class="fill" style="width:38.7%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">10.8</td>
-
-								<td class="cell-performance cell-performance-5">4.9</td>
-
-								<td class="cell-performance cell-performance-6">13.4</td>
-
-								<td class="cell-performance cell-performance-7">9.5</td>
-
-								<td class="cell-performance cell-performance-8">0</td>
-
-								<td class="cell-5"><span class="cat">Poor</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-norway-mfa poor">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">38</td>
-
-								<td class="cell-2">
-									<a href="single?agency=norway-mfa">Norway, MFA</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar poor">
-										<span class="raw-score">35.8 / 100</span>
-
-										<div class="fill" style="width:35.8%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">7.8</td>
-
-								<td class="cell-performance cell-performance-5">11.1</td>
-
-								<td class="cell-performance cell-performance-6">10</td>
-
-								<td class="cell-performance cell-performance-7">0</td>
-
-								<td class="cell-performance cell-performance-8">6.9</td>
-
-								<td class="cell-5"><span class="cat">Poor</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-korea-koica poor">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">39</td>
-
-								<td class="cell-2">
-									<a href="single?agency=korea-koica">Korea, KOICA</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar poor">
-										<span class="raw-score">31.2 / 100</span>
-
-										<div class="fill" style="width:31.2%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">4.8</td>
-
-								<td class="cell-performance cell-performance-5">11.9</td>
-
-								<td class="cell-performance cell-performance-6">7.9</td>
-
-								<td class="cell-performance cell-performance-7">0</td>
-
-								<td class="cell-performance cell-performance-8">6.6</td>
-
-								<td class="cell-5"><span class="cat">Poor</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-un-ocha poor">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">40</td>
-
-								<td class="cell-2">
-									<a href="single?agency=un-ocha">UN OCHA</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar poor">
-										<span class="raw-score">31 / 100</span>
-
-										<div class="fill" style="width:31%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">4.1</td>
-
-								<td class="cell-performance cell-performance-5">14</td>
-
-								<td class="cell-performance cell-performance-6">2.8</td>
-
-								<td class="cell-performance cell-performance-7">5</td>
-
-								<td class="cell-performance cell-performance-8">5</td>
-
-								<td class="cell-5"><span class="cat">Poor</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-new-zealand-mfat poor">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">41</td>
-
-								<td class="cell-2">
-									<a href="single?agency=new-zealand-mfat">New Zealand, MFAT</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar poor">
-										<span class="raw-score">30.7 / 100</span>
-
-										<div class="fill" style="width:30.7%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">4.7</td>
-
-								<td class="cell-performance cell-performance-5">9.7</td>
-
-								<td class="cell-performance cell-performance-6">9.6</td>
-
-								<td class="cell-performance cell-performance-7">0</td>
-
-								<td class="cell-performance cell-performance-8">6.6</td>
-
-								<td class="cell-5"><span class="cat">Poor</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-uk-fco poor">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">42</td>
-
-								<td class="cell-2">
-									<a href="single?agency=uk-fco">UK, FCO</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar poor">
-										<span class="raw-score">29 / 100</span>
-
-										<div class="fill" style="width:29%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">4.1</td>
-
-								<td class="cell-performance cell-performance-5">11.1</td>
-
-								<td class="cell-performance cell-performance-6">9.1</td>
-
-								<td class="cell-performance cell-performance-7">0</td>
-
-								<td class="cell-performance cell-performance-8">4.7</td>
-
-								<td class="cell-5"><span class="cat">Poor</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-japan-mofa very-poor">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">43</td>
-
-								<td class="cell-2">
-									<a href="single?agency=japan-mofa">Japan, MOFA</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar very-poor">
-										<span class="raw-score">9.3 / 100</span>
-
-										<div class="fill" style="width:9.3%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">2.8</td>
-
-								<td class="cell-performance cell-performance-5">1.1</td>
-
-								<td class="cell-performance cell-performance-6">0.7</td>
-
-								<td class="cell-performance cell-performance-7">2.2</td>
-
-								<td class="cell-performance cell-performance-8">2.5</td>
-
-								<td class="cell-5"><span class="cat">Very poor</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-uae-ministry-of-foreign-affairs very-poor">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">44</td>
-
-								<td class="cell-2">
-									<a href="single?agency=uae-ministry-of-foreign-affairs">UAE, Ministry of Foreign Affairs</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar very-poor">
-										<span class="raw-score">1.3 / 100</span>
-
-										<div class="fill" style="width:1.3%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">0.9</td>
-
-								<td class="cell-performance cell-performance-5">0</td>
-
-								<td class="cell-performance cell-performance-6">0.3</td>
-
-								<td class="cell-performance cell-performance-7">0</td>
-
-								<td class="cell-performance cell-performance-8">0</td>
-
-								<td class="cell-5"><span class="cat">Very poor</span>
-								</td>
-							</tr>
-
-
-							<tr class="result-row row-china-mofcom very-poor">
-								<td class="cell-0"><input class="checkbox" name="compare" type="checkbox">
-								</td>
-
-								<td class="cell-1">45</td>
-
-								<td class="cell-2">
-									<a href="single?agency=china-mofcom">China, MOFCOM</a>
-								</td>
-
-								<td class="cell-3">
-									<div class="hori-bar very-poor">
-										<span class="raw-score">1.3 / 100</span>
-
-										<div class="fill" style="width:1.3%">
-										</div>
-									</div>
-								</td>
-
-								<td class="cell-performance cell-performance-4">1.3</td>
-
-								<td class="cell-performance cell-performance-5">0</td>
-
-								<td class="cell-performance cell-performance-6">0</td>
-
-								<td class="cell-performance cell-performance-7">0</td>
-
-								<td class="cell-performance cell-performance-8">0</td>
-
-								<td class="cell-5"><span class="cat">Very poor</span>
-								</td>
-							</tr>
-						</tbody>
-
-
-						<tfoot>
-						</tfoot>
-					</table>
-				</div>
-			</div>
-		</div>
-
-
-		<footer>
-			<div class="margins-container">
-				<div class="logo">
-					<img alt="Publish What You Fund Logo" src="assets/PWYF.svg"> <a href=
-					"/acknowledgements">Acknowledgements</a>
-				</div>
-
-
-				<div class="terms">
-					<div class="social">
-						<a class="facebook" href="" target="_blank"><img alt="" src="assets/facebook-min.svg"></a> <a class="twitter"
-						href="" target="_blank"><img alt="" src="assets/twitter-min.svg"></a>
-					</div>
-
-
-					<p>© Publish What you Fund 2018.</p>
-
-
-					<p>Company Registration No. 7676886 (England &amp; Wales)</p>
-				</div>
-			</div>
-		</footer>
-	</div>
-</body>
-</html>
+									</footer>
+								</div>
+							</body>
+							</html>
