@@ -129,7 +129,9 @@ for idx, org in enumerate(orgs.values()):
 with open(join(rootpath, '_data', '2018', 'results.json'), 'w') as f:
     json.dump(orgs, f, indent=4)
 
-spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1LJR7yznASN0VJ4qhnkWFSltDFobN8X4N0mQBiNDOThg/gviz/tq?tqx=out:csv&sheet={}'
+spreadsheet_url = 'https://docs.google.com/spreadsheets/' + \
+                  'd/1LJR7yznASN0VJ4qhnkWFSltDFobN8X4N0mQBiNDOThg/' + \
+                  'gviz/tq?tqx=out:csv&sheet={}'
 
 req = requests.get(spreadsheet_url.format('Donor%20profiles'))
 f = StringIO(req.text)
@@ -138,10 +140,11 @@ next(r)
 profile_data = [{
         'slug': slugify(x[0]),
         'short_name': x[0],
-        'name': x[1],
-        'overview': x[2] if x[2] else 'Overview goes here.',
-        'analysis': x[3] if x[3] else 'Analysis goes here.',
-        'recommendations': x[4] if x[4] else 'Recommendations go here.',
+        'lang': x[1],
+        'name': x[2],
+        'overview': x[3] if x[3] else 'Overview goes here.',
+        'analysis': x[4] if x[4] else 'Analysis goes here.',
+        'recommendations': x[5] if x[5] else 'Recommendations go here.',
     } for x in r]
 
 components_path = join(rootpath, '_includes', '2018', 'components')
@@ -165,6 +168,9 @@ shutil.rmtree(agencies_path, ignore_errors=True)
 makedirs(agencies_path)
 
 for profile in profile_data:
+    if profile['lang'] != 'EN':
+        # TODO
+        continue
     txt = agency_tmpl.format(**profile)
     with open(join(agencies_path, profile['slug'] + '.md'), 'w') as f:
         _ = f.write(txt)
