@@ -9,7 +9,18 @@ The Directorate-General for International Cooperation and Development (DG DEVCO)
 
 ---
 
-Analysis goes here.
+EC, DEVCO remains in the good category but is the least performing of the three EC agencies. 
+EC, DEVCO publishes to the IATI registry on a monthly basis. 
+
+EC, DEVCO scores high on all indicators of the project attributes component except implementer and sub-national location. These indicators are published in an IATI format but implementer receives a moderate and sub-national location a low score. 
+
+All organisational planning indicators are published in an IATI format. But the allocation policy provided does not meet the definition. An alternative document containing the required information can be found on DEVCO’s website. 
+Except for project budget documents, which are not available at all, all indicators of the finance and budget component are published in a comparable format. The majority of indicators receive high scores with the exception of disaggregated budget and project budget which score moderately. 
+
+EC, DEVCO performs well on basic joined-up development data indicators such as aid type, flow type, finance type and tied aid status. Tenders are published in an IATI format but the documents are not up to date. Some tenders are published in other formats but this is not done consistently. Conditions and contracts are neither published in IATI nor being made available elsewhere.
+
+EC, DEVCO scores well below the overall average for the performance component. Although they have started publishing results data in IATI, scores remain low. DEVCO scores on no other indicators of the performance component. While objectives as well as reviews and evaluations are sometimes being made available, pre-project impact appraisals are not published at all. 
+
 
 ---
 

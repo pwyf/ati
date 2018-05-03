@@ -9,7 +9,20 @@ The Department for Development Policy sits within the Ministry of Foreign Affair
 
 ---
 
-Analysis goes here.
+Finland has improved their transparency level, rising from the poor category in 2016 into the fair category.
+
+Finland has improved the timeliness of their data, now publishing quarterly. 
+
+Finland is doing well on organisational planning indicators, providing all but country strategies in IATI. Yet these are consistently published in other formats. 
+
+Except contact details, all indicators of the project attributes component are published in IATI format. Good scores are achieved for unique ID, titles and sector. The sub-national locations provided in IATI do not contain the required information and are inconsistently published in other formats. 
+
+Within the joined-up development data component, conditions, tenders and contracts are not published in IATI. While tenders are consistently published in other formats, conditions and contracts are not published at all. 
+
+All indicators of the finance and budgets component are provided in a comparable format but project budget documents, which are not published at all. Finland scores full points for total organisation budget but fails to achieve very high scores for any other finance and budget indicators. Whereas scores are good for disbursement and expenditures as well as commitments, low scores are given for capital spend and project budgets.
+
+Finland does not score on any of the performance indicators. While objectives as well as reviews and evaluations are published sometimes, results and pre-project impact appraisals are not being made available at all. 
+
 
 ---
 

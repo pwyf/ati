@@ -9,7 +9,7 @@ The Asian Development Bank (AsDB) provides non-concessional loans, equity invest
 
 ---
 
-Analysis goes here.
+- should mention new disclosure policy / publication in an old version of the standard
 
 ---
 

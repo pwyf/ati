@@ -9,7 +9,12 @@ Responsibility for development assistance in the United Arab Emirates (UAE) was 
 
 ---
 
-Analysis goes here.
+UAE MOFAIC is the second worst performer in this year's index, up from last place in 2016. 
+
+As in 2016, none of the 36 indicators are published to the IATI registry. 
+
+The UAE score on annual report and procurement policy which are both published on MOFAIC’s website. Information on organisation strategy, allocation policy, contact details and tenders are sometimes available. Information for all other indicators is not published at all. 
+
 
 ---
 

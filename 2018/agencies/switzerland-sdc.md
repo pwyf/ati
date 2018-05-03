@@ -9,7 +9,20 @@ The Swiss Agency for Development and Cooperation (SDC) is responsible for the ov
 
 ---
 
-Analysis goes here.
+Switzerland’s progress has stalled and they remain in the middle of the fair category. 
+
+Switzerland, SDC have reduced the frequency at which they publish to the IATI registry, from quarterly in 2016 to every six months. 
+
+SDC are doing well on organisational planning. They score highly and publish all organisational planning indicators in an IATI format, barring audit and country strategies. While the audit is provided in other formats, country strategies are published inconsistently. 
+
+Switzerland makes all project attributes available in a comparable format. However, they do not provide planned start dates and the scores for descriptions and in particular sub-national location are low. 
+
+Apart from the two procurement indicators, contracts and tenders, Switzerland performs well on joined-up development data. Both contracts and tenders are being made available in non-IATI formats but not consistently. 
+
+
+Four out of seven finance and budget indicators are published in a comparable format: commitments, disaggregated budgets, disbursement and expenditures and total organisation budget. The latter is provided for at least three years ahead. No information at all can be found for capital spend, project budget and project budget document. 
+
+No performance indicators are published in IATI and only objectives are consistently provided in other formats. While results as well as reviews and evaluations are sometimes available, pre-project impact appraisals are not provided at all. 
 
 ---
 

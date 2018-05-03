@@ -9,10 +9,25 @@ The United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is
 
 ---
 
-Analysis goes here.
+UN OCHA has not managed to make progress on its aid transparency and remains in the poor category. 
+
+UN OCHA improved the timeliness of their data by publishing monthly data but publishes only 29% of the indicators to IATI. 
+
+All organisational and planning indicators are made available by OCHA but not in a comparable format. 
+
+UN OCHA does not score on the two commitment indicators, accessibility and quality of freedom of information legislation, as neither a data portal with current data nor a transparency policy is published. 
+
+Within the joined-up development data component, UN OCHA only scores for aid type. Information about the other indicators in this component, including core key indicators such as contracts and tenders, cannot be found elsewhere. 
+
+Half the project attributes indicators are published in a comparable format and also score highly. But they fail to publish contact details and sub-national location information as well as to provide useful descriptions, resulting in a lower score for this indicator.  
+
+Project budget is the only indicator within the finance and budget component which is published to IATI. No information at all is provided for disbursement and expenditures, capital spend and commitments. The total organisation budget is provided for 1-year ahead in a PDF format but no forward-looking data is provided for disaggregated budgets. 
+
+None of the indicators of the performance component are published in IATI. UN OCHA is the only organisation outside the very good and good category scoring on pre-project impact appraisals. Reviews and evaluations and results information are made available sometimes. 
+
 
 ---
 
-Recommendations go here.
+They do not have an organisation file
 
 ---

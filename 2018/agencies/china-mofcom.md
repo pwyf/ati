@@ -9,10 +9,14 @@ China published its first White Paper on its foreign aid policy in 2011 and a se
 
 ---
 
-Analysis goes here.
+As in previous years, China remains in the very poor category without showing any progress on aid transparency.
+China scores on just one indicator – freedom of information legislation in the organisational planning and commitments category.
+No comprehensive listing of all its projects is publicly available.
+MOFCOM did not respond to requests for feedback on the survey.
+
 
 ---
 
-Recommendations go here.
+In March 2018, China announced the establishment of an international development agency which will report directly to the State Council. The main objectives are to improve cooperation and coordination across agencies involved in China's international development as well as to support China’s Belt and Road initiative. Its main tasks are not only to design aid policies and plans but also to approve, monitor and evaluate projects. 
 
 ---

@@ -9,7 +9,14 @@ Operating in around 170 countries, the United Nations Development Programme (UND
 
 ---
 
-Analysis goes here.
+UNDP has maintained its very good aid transparency level. 
+
+UNDP publishes all indicators in the IATI format on a monthly basis and it scores highly on almost all indicators. 
+
+UNDP is among the top 5 performers for all components of the Index, ranking second for finance and budgets, performance as well as project attributes. 
+
+Project budgets, contracts, tenders, results as well as reviews and evaluations score low compared to the rest of UNDP's data. 
+
 
 ---
 

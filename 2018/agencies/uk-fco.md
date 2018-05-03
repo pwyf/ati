@@ -9,7 +9,21 @@ The UK Foreign & Commonwealth Office (FCO) is responsible for several streams of
 
 ---
 
-Analysis goes here.
+After not being assessed by the 2016 Aid Transparency Index, the UK Foreign and Commonwealth Office is included again in the 2018 Aid Transparency Index. 
+
+Only 53% of the indicators are published in the comparable IATI format and missing information tends not to be published in other formats either. Additionally, their data lacks timeliness as they are publishing less than quarterly. 
+
+With regards to organisational planning indicators, organisation strategy, annual reports and a procurement policy are made available in the FCO’s IATI organisation file but an allocation policy, a current audit and country strategies are missing. A current audit is made available on the website but information about allocation and country strategies are published inconsistently. 
+
+The FCO provides information for all project attributes indicators in the IATI format except for sub-national location which is not published at all.
+
+Four out of the seven indicators for joined-up development data are published in an IATI format, namely aid type, flow type, finance type and tied aid status. However, conditions, tenders and contracts are not published at all. 
+
+The FCO does not provide any information for the performance indicators, neither on IATI nor in other formats. 
+
+Disbursements and expenditures as well as project budgets are published in IATI but data for any of the other finance and budget indicators is not published. Neither is a forward-looking total organisation budget nor are disaggregated budgets being made available. 
+
+
 
 ---
 
