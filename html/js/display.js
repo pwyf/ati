@@ -86,10 +86,11 @@ $(document).ready(function() {
       })
 
       /* Do front end interaction graph bits */
-      var clicked = false;
+       clicked = '';
       // On click of the bar
      $('.bar').click(function() {
-      clicked = true;
+       var slug = $(this).data('slug');
+
        // Reset all the other component heights
        $('.component').each(function() {
          $(this).height($(this).data('raw') + '%');
@@ -112,13 +113,10 @@ $(document).ready(function() {
        showLabel($(this));
 
       var currentURL = window.location.href;
-      if (clicked) {
-       $(this).click(function() {
-        var slug = $(this).data('slug');
+      if (clicked == slug) {
         window.location.href = domain + '/single?agency=' + slug;
-       })
      }
-
+     clicked = slug;
      })
 
      var nameContainerLeft = $('.name-container').offset().left;
@@ -172,7 +170,6 @@ $(document).ready(function() {
 
      // Reset everything
      function reset() {
-       clicked = false;
        $('.name-container').hide();
        $('.bar').show();
        $('.component').each(function() {

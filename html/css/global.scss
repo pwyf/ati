@@ -1650,6 +1650,15 @@ footer {
   #mobile-menu, .menu, .buttons, .button, .back-to-results, .deep-dive, #social {
     display: none!important;
   }
+  .single-container {
+    .single-content {
+      .right-column {
+        .overview {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
   .results-table {
     margin-top: 0;
   }
@@ -1657,6 +1666,7 @@ footer {
     margin-top: 15px!important;
   }
   footer {
+    display: none;
     a {
       display: none;
     }
