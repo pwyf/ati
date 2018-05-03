@@ -11,7 +11,7 @@ $(document).ready(function() {
         case 'custom' :
           $('.result-row').addClass('compare-shown').fadeIn();
           $('.results-table').addClass('compare-active');
-          $('#done').show();
+          $('#done').show().css('display', 'inline-block');
           $('#done').click(function() {
             $(this).text('update');
             $('.result-row').removeClass('compare-shown');
@@ -39,6 +39,9 @@ $(document).ready(function() {
         case 'BILATERAL' :
           compareAgencies(bilateralAgencies);
           break;
+        case '' :
+          resetSelect();
+          break;
       }
       $('#cancel').text('reset');
     });
@@ -46,10 +49,15 @@ $(document).ready(function() {
   })
 
   $('#cancel').click(function() {
+    resetSelect();
+  })
+
+  function resetSelect() {
+    $('select')[0].sumo.selectItem(0);
     $('.appear').removeClass('active');
     $('.results-table').removeClass('compare-active');
     $('.result-row').show();
-  })
+  }
 
 
     var windowHeight = $(window).height();
@@ -78,15 +86,11 @@ $(document).ready(function() {
       })
 
       /* Do front end interaction graph bits */
-      var clicked = false;
+       clicked = '';
       // On click of the bar
      $('.bar').click(function() {
        var slug = $(this).data('slug');
-       if (clicked && clicked === slug) {
-         window.location.href = domain + '/' + slug + '/';
-         return;
-       }
-       clicked = slug;
+
        // Reset all the other component heights
        $('.component').each(function() {
          $(this).height($(this).data('raw') + '%');
@@ -107,8 +111,16 @@ $(document).ready(function() {
 
        // Add Name
        showLabel($(this));
+
+      var currentURL = window.location.href;
+      if (clicked == slug) {
+        window.location.href = domain + '/single?agency=' + slug;
+     }
+     clicked = slug;
      })
 
+     var nameContainerLeft = $('.name-container').offset().left;
+     var windowWidth = $(window).width();
      // Show the label
      $('.bar').hover(function() {
        showLabel($(this));
@@ -118,9 +130,26 @@ $(document).ready(function() {
 
      // Show label function
      function showLabel(bar) {
+       var barLeft = bar.offset().left;
+       var barWidth = bar.width();
+
+       // Shunt left if too far to right
+
+       barTop = bar.offset().top;
        var barClass = bar.attr('class');
-       var barClass = barClass.replace('bar ', '');
-         $('.name-container').html('<span class="name-label ' + barClass + '">' + $(bar).data('agency') + ' - ' + $(bar).data('index') + '</span>').show();
+       barClass = barClass.replace('bar ', '');
+      $('.name-container').html('<span class="name-label ' + barClass + '">' + $(bar).data('agency') + ' - ' + $(bar).data('index') + '</span>').show();
+
+      if (barLeft > (windowWidth - 250)) {
+        var labelWidth = $('.name-label').width();
+        barLeft = barLeft - nameContainerLeft - labelWidth;
+      }
+      else {
+        barLeft = barLeft - nameContainerLeft;
+      }
+
+
+      $('.name-label').css('left', barLeft);
      }
 
      // Range Set
@@ -141,7 +170,6 @@ $(document).ready(function() {
 
      // Reset everything
      function reset() {
-       clicked = false;
        $('.name-container').hide();
        $('.bar').show();
        $('.component').each(function() {
