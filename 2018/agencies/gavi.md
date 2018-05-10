@@ -9,7 +9,12 @@ Based in Geneva, GAVI is the Vaccine Alliance, an international organisation tha
 
 ---
 
-Analysis goes here.
+- GAVI remain in the good category from 2016, retaining 11th position
+- They have increased their frequency of publication, now publishing on at least a monthly basis (previously less than quarterly)
+- Now publish project evaluations and project budgets to IATI
+- However, contracts and tenders are no longer made available
+- Several indicators failed sampling, due to data being insufficiently granular. These were objectives, reviews and evaluations, titles and descriptions.
+- Country strategies/MoUs were also sampled and found to be out of date.
 
 ---
 

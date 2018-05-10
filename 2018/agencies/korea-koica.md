@@ -9,7 +9,7 @@ Established by the Ministry of Foreign Affairs and Trade, the Korea Internationa
 
 ---
 
-Despite having started publishing to IATI, Korea, KOICA has not managed to improve its aid transparency level enough to move out of the poor category.
+Despite having started publishing to IATI, Korea-KOICA remains in the poor category.
 
 Out of 36 indicators, only 10 are available in the comparable IATI format. Additionally, the data lacks timeliness as it is published less than quarterly. 
 
@@ -23,11 +23,11 @@ Three out of seven indicators of the joined-up development data, namely flow dat
 
 None of the performance indicators is published to IATI. While objectives are always published in other formats, other performance indicators, namely reviews and evaluations, results and pre-project impact appraisals are provided for some but not for all projects. 
 
-KOICA does not publish any of the finance and budget indicators to IATI but consistently publishes commitments, capital spend and project budget documents on their website. The total organisation budget as well as disaggregated budgets are forward-looking for two years ahead and are published in a machine-readable format. Data on disbursements and expenditures as well as project budgets are not being made available.
+KOICA does not publish any of the finance and budget indicators to IATI but consistently publishes commitments, capital spend and project budget documents on their website. Data on disbursements and expenditures as well as project budgets are not being made available.
 
 
 ---
 
-Recommendations go here.
+Korea-KOICA should aim for quarterly, if not monthly publication.
 
 ---

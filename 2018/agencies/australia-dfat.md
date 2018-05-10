@@ -9,23 +9,22 @@ In November 2013, AusAID was integrated into the Department of Foreign Affairs a
 
 ---
 
-As in recent years, Australia, DFAT remains in the fair category.
+Australia-DFAT remains in the fair category.
 
-Australia, DFAT has reduced the timeliness of their data, going from publishing quarterly to publishing every six months. 
+On organisational and planning, information is made available on all indicators but only the annual report is published in the IATI standard.
+Within the project attributes component, all indicators are published in the IATI format, barring sub-national location. Sub-national location information is sometimes published in other formats. 
 
-All indicators within the project attributes component receive good scores and are published to IATI, barring sub-national location. Sub-national location information is sometimes published in other formats. 
+Apart from tenders and contracts which are made available on separate websites, all indicators of the joined-up development data component are published to the IATI Registry. 
 
-From the organisational and planning indicators, only the annual report is published in IATI. Organisation strategy, allocation policy, procurement policy, country strategies and audit are always made available in other formats. Australia, DFAT does not have a data portal and scores 0 points for the accessibility indicator. 
+The finance and budget indicators are all published in a comparable format. Project budget documents, however, did not meet the definition of the indicator and could not be found elsewhere. There is also room for improvement in the provision of forward looking budgets as Australia-DFAT provides total organisation budget for one year forward only and scores comparatively low on disaggregated budgets and project budgets. 
 
-Apart from tenders and contracts, all indicators of the joined-up development data component are published in a comparable format and score high. Contracts and tenders are consistently made available in other formats. 
-
-The finance and budget indicators are all published in a comparable format. The project budget documents provided, however, do not meet the definition of the indicator and correct documents are not published in other formats. DFAT scores high for capital spend, commitments as well as disbursements and expenditures but receives less points for disaggregated budgets and project budgets. The total organisation budget is published for one year ahead only. 
-
-DFAT has published all indicators of the performance category in IATI but none of them fulfilled the definition criteria. While objectives, reviews and evaluations as well as results are sometimes published in other formats, pre-project impact appraisals are not made available at all. As none of the performance indicators is published consistently, DFAT receives 0 points for this component. 
+Australia-DFAT does not score at all on performance related information. It published data and documents on all relevant indicators in the IATI format but none of them contained the information as per indicator definition. While objectives, reviews and evaluations as well as results are sometimes published in other formats, pre-project impact appraisals are not made available at all. 
 
 
 ---
 
-Recommendations go here.
+should improve publication of information in open standard
+should work on performance related information
+should ensure wuality of information made available on IATI
 
 ---

@@ -9,19 +9,21 @@ Development cooperation in Sweden is overseen by the Ministry of Foreign Affairs
 
 ---
 
-Sweden failed to maintain its very good transparency levels and dropped from the very good category to the good category. 
+Sweden-SIDA is now in the good category. 
 
-Sweden, SIDA publishes all indicators on a monthly basis in IATI but data for 7 indicators is not up to date and data for one indicator does not contain the required information. 
+Sweden-SIDA publishes on a monthly basis in IATI.
 
-High scores are achieved on all of the project attributes indicators except planned dates and sub-national location which score very low.   
+ While most indicators are published in the IATI Standard, the quality of the information provided needs further improvement as 8 indicators failed to meet the definition of the indicators.
+
+Sweden-SIDA does well on all of the project attributes indicators except planned dates and sub-national location which score comparatively low.   
 
 All organisational planning indicators are published in IATI but the allocation policy, the audit and the country strategies provided are out of date and the procurement policy is not accessible. However, current versions of all these documents can be found on SIDA’s website. 
 
-SIDA is doing well on the basic joined-up development indicators, namely aid type, flow type, finance type, tied aid status and conditions. The contracts and tenders they provide in IATI are out of date. While contracts are published in other formats, tenders are not being made available consistently. 
+SIDA performs well on joined-up development indicators, namely aid type, flow type, finance type, tied aid status and conditions. However, contracts and tenders on IATI were out of date . contracts could be found elsewhere while tenders are not consistently available. 
 
-Financial and budgetary information is provided in a comparable format. Capital spend poses an exception as this indicator is neither published in IATI nor elsewhere. Scores for disbursement and expenditures as well as commitments are high whereas disaggregated budgets, project budgets and project budget documents reach comparatively moderate scores only. Sweden-SIDA’s total organisation budget is only forward-looking for 1 year ahead compared to two years ahead in 2016.
+Financial and budgetary information is provided in a comparable format, apart from capital spend. Sweden does well for disbursement and expenditures as well as commitments.Disaggregated budgets, project budgets and project budget documents are areas where there is room for improvement. 
 
-SIDA scores on all performance indicators but reviews and evaluations. The documents for this indicator in IATI are out of date and current ones are only sometimes published in other formats. The results documents in SIDA’s IATI data are also old but they receive points for their results data. 
+SIDA scores on all performance indicators but reviews and evaluations. The documents for this indicator in IATI are out of date and current ones are only sometimes published in other formats. While available on IATI, objectives, pre-project impact appraisals and results are among the lowest scoring indicators. 
 
 ---
 

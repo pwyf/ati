@@ -10,23 +10,25 @@ The Global Fund to Fight AIDS, Tuberculosis and Malaria (Global Fund) is a partn
 ---
 
 
-After making significant progress in 2016, the Global Fund failed to maintain their very good aid transparency levels and dropped to the good category. 
+The Global Fund is now in the good category. 
 
-On a monthly basis, the Global Fund publishes all indicators in an IATI format, barring tenders and sub-national location. However, for 6 indicators the data is not up to date or does not contain the required information. 
+It publishes on a monthly basis. 
+
+While the Global Fund publishes most indicators in an IATI format, barring tenders and sub-national location. However, there are also issues with the quality of the data as for 6 indicators the data did not meet the definition. 
 
 The Global Fund is among the top five performers for both finance and budgets as well joined-up development data. 
 
-They have started publishing project budget documents to IATI and are among the few organisations to score full points on disbursement and expenditures as well project budget documents. Scores for disaggregated budgets and project budgets, however, are only moderate.
+They have started publishing project budget documents to IATI and are among the few organisations to score full points on disbursement and expenditures as well project budget documents. Scores for disaggregated budgets and project budgets, however, are comparatively low.
 
-They perform very well on all indicators within the joined-up development data component and are among the few organisations to get full points on the contracts indicator. Although being always published on the Global Fund’s website, tenders are not available in a comparable format.
+They perform well on all indicators within the joined-up development data component. Although not available in an open and comparable format, tenders are published on the Global Fund’s website.
 
-For the organisational and planning component, no current documents are provided for annual report, audit and country strategies. The document provided for procurement policy does not meet the definition of the indicator. While a current annual report and a correct procurement policy document are published on Global Fund’s website, country strategies are not provided consistently. 
+Most of the information for the organisational and planning component is available on the organisation's website as the IATI publication is not always up to date. 
 
-The Global Fund scores 0 points for the two commitment indicators. No up-to-date data is provided on Global Fund’s project database and their freedom of information policy is over 10 years old by now. 
+The Global Fund also scores 0 points for the two commitment indicators. No up-to-date data is provided on Global Fund’s project database and their freedom of information policy is over 10 years old. 
 
-The Global Fund scores full points on almost all project attributes indicators but fails to provide useful descriptions and to publish sub-national location information consistently. 
+The Global Fund scores full points on almost all project attributes indicators but faces some basic data quality issues with descriptions. Subnational locations can also be found sometimes only, on the organisation's website.
 
-For the performance indicators, the Global Fund scores full points for objectives and results. However, they do not provide current documents for reviews and evaluations and pre-project appraisal documents do not include the required information. Information on both these indicators is only sometimes provided in other formats. 
+For the performance indicators, the Global Fund does well for objectives and results. However, on IATI, they do not provide current documents for reviews and evaluations and pre-project appraisal documents do not include the required information. Information on both these indicators is only sometimes provided in other formats. 
  
 
 

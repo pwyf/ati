@@ -9,7 +9,13 @@ Having changed its name in 2015, Global Affairs Canada is the largest grantor of
 
 ---
 
-acknowledge subnational location work
+- Canada, Global Affairs remains in the good category
+- It continues to publish on at least a monthly basis
+- Canada, Global Affairs improved the comprehensiveness of its open and comparable publication. Contracts are now published to the IATI Registry, as well as annual report and allocation policy
+- big increase in the number of activities for which results are published to IATI
+- org strategy now NOT published?
+- sampling, evaluations (only one provided, and it is out of date)
+- While Canada don’t provide subnational location information in inline text, we note that they do use gazetteer references to locate activities by administrative regions.
 
 ---
 

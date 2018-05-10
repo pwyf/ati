@@ -9,21 +9,21 @@ The Japan International Cooperation Agency (JICA), Japan’s bilateral aid agenc
 
 ---
 
-After progress in 2016, Japan, JICA has dropped down from the fair category into the poor category again.
+Japan-JICA now is in the poor category.
 
-Japan, JICA publishes on a less than quarterly basis to the IATI registry. 
+Japan-JICA publishes on a less than quarterly basis to the IATI registry. 
 
-JICA scores on all indicators of the joined-up development data component and is the only organisation within the poor category to score on conditions. Contracts and tenders are not published in a comparable format but the information is consistently made available elsewhere. 
+JICA scores on all indicators of the joined-up development data component. Contracts and tenders are not published in a comparable format but the information is consistently made available elsewhere. 
 
 All organisational and planning indicators except country strategies are published to IATI. No current versions of the organisation strategy and allocation policy are provided in the comparable format but up to date documents can be found on the organisation’s website. Country strategies, however, are not published at all. 
-Despite doing well on the majority of the project attributes indicators, the titles and descriptions published in IATI do not meet the definitions, resulting in low scores for these indicators. The sub-national locations provided in the IATI format do not contain the required information. For some projects, they are provided in other formats. 
+Despite doing well on the majority of the project attributes indicators, basic information such as titles and descriptions published in IATI do not meet the definitions, resulting in low scores for these indicators. The sub-national locations provided in the IATI format do not contain the required information either. For some projects, they are provided in other formats. 
 Hardly any budgetary and financial information is being made available. JICA only publishes data on commitments as well as disbursements and expenditures in an IATI format. Information for capital spend, project budgets as well as project budget documents are not available at all. Neither are forward-looking total organisation budgets or disaggregated budgets being provided.
  
-Japan, JICA scores 0 on all performance indicators. Whereas objectives, pre-project impact appraisals and evaluations are sometimes being made available no results are being published. 
+Japan-JICA scores 0 on all performance indicators. Whereas objectives, pre-project impact appraisals and evaluations are sometimes being made available no results are being published. 
 
 
 ---
 
-Recommendations go here.
+Japan-JICA should aim for quarterly, if not monthly publication.
 
 ---

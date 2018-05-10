@@ -9,7 +9,10 @@ The Ministry of Foreign Affairs (MFA) is responsible for Norway's development co
 
 ---
 
-Analysis goes here.
+- Norway, MFA remain in the fair category from 2016, moving from 34th to 35th position
+- They have increased their frequency of publication, now publishing on at least a quarterly basis (previously less than quarterly)
+- Tenders are no longer published
+- Project budgets no longer published to IATI
 
 ---
 

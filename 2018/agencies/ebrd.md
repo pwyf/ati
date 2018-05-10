@@ -9,7 +9,15 @@ The European Bank for Reconstruction and Development (EBRD) is a multilateral de
 
 ---
 
-Analysis goes here.
+- EBRD remain in the fair category from 2016
+- They have increased their frequency of publication, now publishing on at least a monthly basis (previously quarterly)
+- Allocation policy and objectives now published to IATI
+- Project budget now published to IATI for some activities
+- Total budget now available and published to IATI
+- sampling, pre-project impact appraisals (doesn't meet our definition)
+- sampling, titles (titles use acronyms)
+- sampling, country strategies/MoUs (documents out of date / insufficiently granular)
+
 
 ---
 

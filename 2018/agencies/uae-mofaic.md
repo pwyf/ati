@@ -9,7 +9,7 @@ Responsibility for development assistance in the United Arab Emirates (UAE) was 
 
 ---
 
-UAE MOFAIC is the second worst performer in this year's index, up from last place in 2016. 
+UAE-MOFAIC is the second worst performer in this year's index, in the very poor category.
 
 As in 2016, none of the 36 indicators are published to the IATI registry. 
 

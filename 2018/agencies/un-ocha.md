@@ -9,7 +9,7 @@ The United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is
 
 ---
 
-UN OCHA has not managed to make progress on its aid transparency and remains in the poor category. 
+UN OCHA remains in the poor category. 
 
 UN OCHA improved the timeliness of their data by publishing monthly data but publishes only 29% of the indicators to IATI. 
 

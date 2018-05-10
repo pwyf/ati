@@ -9,10 +9,17 @@ The African Development Bank (AfDB) was established to promote regional cooperat
 
 ---
 
-Analysis goes here.
+- AfDB remains again in the very good category this year
+- The Bank improved its frequency of publication from quarterly to monthly
+- The AfDB makes all of the information captured by the Index available in the IATI format - except for conditions data which is not published
+- The Bank also launched a new project portal : http://projectsportal.afdb.org/dataportal/ 
+- There is room for improvement in the publication of performance related information, specifically pre-project impact appraisals, reviews and evaluations and results.
+- While the Bank does comparatively well on Joining up development data, Project procurement contracts remains the lowest scoring indicator.
 
 ---
 
-Recommendations go here.
+Improve on performance 
+harmonise mapafrica and project portal
+private sector operations?
 
 ---

@@ -17,7 +17,7 @@ Japan-MOFA scores on half of the indicators for the organisational planning and 
 
 For the joined-up development data component, Japan-MOFA provides information about finance type and flow type consistently. Information about the aid type and tied aid status can be found for some projects. No information at all is published for conditions nor are contracts and tenders being published. 
 
-Apart from objectives, no information is being made available for any of the other performance indicators. Reviews and evaluations are sometimes published. 
+Apart from objectives, no information is being made available for any of the other performance related indicators. Reviews and evaluations are sometimes published. 
 
 No financial and budgetary information is available but for commitments. Nor is a forward-looking total organisation budget and disaggregated budgets being published. 
 

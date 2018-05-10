@@ -9,15 +9,15 @@ The US Agency for International Development (USAID) is the lead development agen
 
 ---
 
-USAID have made good progress this year, and are included in the good category for the first time, up from fair in every previous year. 
+US-USAID are included in the good category. 
 
 As with all US agencies, data is only published quarterly to the IATI registry. 
 
 USAID does very well on the organisational planning component, scoring full points for organisation strategy, annual report, allocation policy, procurement policy, audit and country strategies. 
 
-All project attributes indicators are published in a comparable format and receive high scores, except sub-national location which scores very low. 
+All project attributes indicators are published in a comparable format and receive high scores. The only notable exception is for sub-national location which is among the lowest scoring indicators. 
 
-High scores are achieved for all of the joined-up development data indicators but the two procurement indicators, contracts and tenders. The number of tenders provided in a comparable format is limited, resulting in a low score for this indicator. The contracts provided in IATI are out of date but current ones are always being made available in other formats. 
+Information on joined-up development data indicators is generally available but for the two procurement indicators, contracts and tenders. While published in the IATI format, tenders scores very low. Contracts provided in the IATI Registry did not meet the definition but could be found in other formats. 
 
 Four out of three finance and budget indicators are published in an IATI format: commitments, disbursements and expenditures, disaggregated budgets and total organisation budget. The score for disaggregated budgets is moderate and the total organisation budget is provided for one year ahead only. Capital spend, project budget and project budget documents are not published. 
 

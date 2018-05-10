@@ -9,7 +9,15 @@ The Inter-American Development Bank (IADB) provides concessional and non-concess
 
 ---
 
-Analysis goes here.
+- IADB remain in the very good category from 2016, retaining 7th position
+- They have increased their frequency of publication, now publishing on at least a monthly basis (previously quarterly)
+- They now provide planned start dates in their IATI data
+- IADB continue to publish conditions, contracts and results data to IATI, but all for a smaller proportion of activities than in 2016
+- Their disaggregated budget score also decreased
+- sampling, reviews and evaluations (doesn't meet our definition)
+- sampling, sub-national locations (not provided)
+- sampling, allocation policy (not accessible)
+
 
 ---
 
