@@ -12,23 +12,24 @@ layout: 2018/base
     </a>
 
     <div class="single-content">
-        <div class="left-column" style="left: 90px; width: 446.641px;">
-            <div class="graph-image">
-              <img src="{{ "2018/static/assets/graph-placeholder.png" | absolute_url }}?ver={{ site.github.build_revision }}" alt="">
-            </div>
+        <div class="left-column">
+            <div class="graph-buttons-container">
+                <div class="graph-image">
+                  <img src="/2018/static/assets/graphs/single/{{ page.slug }}.png" alt="">
+                </div>
 
-
-            <div class="buttons">
-                <a class="download-report button flex-icon" href="#"><img src="{{ "2018/static/assets/down-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download Donor Profile">
-                <span>Download Donor Profile</span></a> <a class="download-report french button flex-icon" href="#"><img alt="Telegerger en Francais" src=
-                "{{ "2018/static/assets/down-arrow-black.svg" | absolute_url }}?ver={{ site.github.build_revision }}"> <span>Telegerger en Francais</span></a>
+                <div class="buttons">
+                    <a class="download-report button flex-icon" href="#"><img src="{{ "2018/static/assets/down-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download Donor Profile">
+                    <span>Download Donor Profile</span></a> <a class="download-report french button flex-icon" href="#"><img alt="Telegerger en Francais" src=
+                    "{{ "2018/static/assets/down-arrow-black.svg" | absolute_url }}?ver={{ site.github.build_revision }}"> <span>Telegerger en Francais</span></a>
+                </div>
             </div>
         </div>
 
 
         <div class="right-column">
             <h1 class="agency-name">{{ page.title }}</h1>
-            <!-- If part of comparison group -->
+            <!-- TODO: If part of comparison group -->
             {% for group in page.groups %}
             <span class="comparison-group">COMPARISON GROUP : <a href="multi-agency?group=un">UN Agencies</a></span>
             {% endfor %}
@@ -60,25 +61,34 @@ layout: 2018/base
 
 
                         <div class="rank">
-                            <span class="score same {{ results.performance_group | downcase | replace:" ","-" }}">{{ results.performance_group }}</span>
+                            <span class="score
+                            {% if results.history %}
+                                {% if results.performance_group != results.history[0].performance_group %}
+                                    {% if results.score > results.history[0].score %}
+                                    increase
+                                    {% else %}
+                                    decrease
+                                    {% endif %}
+                                {% else %}
+                                same
+                                {% endif %}
+                            {% else %}
+                            same
+                            {% endif %}
+                            {{ results.performance_group | downcase | replace:" ","-" }}">{{ results.performance_group }}</span>
                         </div>
 
-
+                        {% if results.history %}
                         <div class="history">
+                            {% for historical_result in results.history %}
                             <div class="year">
-                                2016: <span class="very-good">Very Poor</span>
+                                {{ historical_result.year }}: <span class="{{ historical_result.performance_group | downcase | replace:" ","-" }}">{{ historical_result.performance_group }}</span>
                             </div>
+                            {% endfor %}
 
-
-                            <div class="year">
-                                2015: <span class="good">Good</span>
-                            </div>
-
-
-                            <div class="year">
-                                2014: <span class="fair">Fair</span>
-                            </div>
+                            <span class="disclaimer">Due to a <a href="http://www.publishwhatyoufund.org/the-index/methodology/">methodology change</a> after 2016, rankings are not directly comparable with 2018</span>
                         </div>
+                        {% endif %}
                     </div>
 
 
