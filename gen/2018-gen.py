@@ -58,6 +58,23 @@ orgs = {slugify(x['organisation_name']): {
     'components': OrderedDict(),
 } for x in results}
 
+with open(join(rootpath, '_data', '2018', 'past-results.csv')) as f:
+    r = csv.DictReader(f)
+    past_results = [x for x in r]
+
+for past_result in past_results:
+    slug = slugify(past_result['publisher'])
+    org = orgs.get(slug)
+    if org:
+        if 'history' not in org:
+            org['history'] = []
+        history = {
+            'year': past_result['year'],
+            'score': float(past_result['score']) if past_result['score'] != '' else None,
+            'performance_group': past_result['performance group'],
+        }
+        org['history'].append(history)
+
 for x in results:
     org = slugify(x['organisation_name'])
     sc = float(x['total_points'])
@@ -136,6 +153,7 @@ spreadsheet_url = 'https://docs.google.com/spreadsheets/' + \
 req = requests.get(spreadsheet_url.format('Donor%20profiles'))
 f = StringIO(req.text)
 r = csv.reader(f)
+# skip the header row
 next(r)
 profile_data = [{
         'slug': slugify(x[0]),

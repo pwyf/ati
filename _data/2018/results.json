@@ -244,6 +244,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 84.9,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2014",
+                "score": 83.8,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2013",
+                "score": 57.6,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Very good",
         "rank": 1
     },
@@ -492,6 +509,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 93.3,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2014",
+                "score": 90.6,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2013",
+                "score": 83.4,
+                "performance_group": "Very good"
+            }
+        ],
         "performance_group": "Very good",
         "rank": 2
     },
@@ -740,6 +774,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 88.3,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2014",
+                "score": 88.3,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2013",
+                "score": 83.5,
+                "performance_group": "Very good"
+            }
+        ],
         "performance_group": "Very good",
         "rank": 3
     },
@@ -988,6 +1044,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 80.2,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2014",
+                "score": 74.5,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2013",
+                "score": 63.7,
+                "performance_group": "Good"
+            }
+        ],
         "performance_group": "Very good",
         "rank": 4
     },
@@ -1236,6 +1309,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 89.6,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2014",
+                "score": 86.9,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2013",
+                "score": 88.9,
+                "performance_group": "Very good"
+            }
+        ],
         "performance_group": "Very good",
         "rank": 5
     },
@@ -1484,6 +1579,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 86.1,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2014",
+                "score": 82.3,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2013",
+                "score": 73.8,
+                "performance_group": "Good"
+            }
+        ],
         "performance_group": "Very good",
         "rank": 6
     },
@@ -1732,6 +1844,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 85.6,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2014",
+                "score": 73.9,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2013",
+                "score": 57.1,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Very good",
         "rank": 7
     },
@@ -1980,6 +2109,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 76.3,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2014",
+                "score": 71.7,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2013",
+                "score": 62.6,
+                "performance_group": "Good"
+            }
+        ],
         "performance_group": "Good",
         "rank": 8
     },
@@ -2228,6 +2374,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 89.5,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2014",
+                "score": 64.7,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2013",
+                "score": 44.3,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Good",
         "rank": 9
     },
@@ -2476,6 +2639,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 71.9,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 59.9,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 54.2,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Good",
         "rank": 10
     },
@@ -2724,6 +2909,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 78.0,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2014",
+                "score": 86.8,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2013",
+                "score": 87.3,
+                "performance_group": "Very good"
+            }
+        ],
         "performance_group": "Good",
         "rank": 11
     },
@@ -2972,6 +3174,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 74.1,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2014",
+                "score": 61.8,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2013",
+                "score": 48.1,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Good",
         "rank": 12
     },
@@ -3220,6 +3444,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 86.9,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2014",
+                "score": 73.3,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2013",
+                "score": 70.7,
+                "performance_group": "Good"
+            }
+        ],
         "performance_group": "Good",
         "rank": 13
     },
@@ -3468,6 +3709,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 80.7,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2014",
+                "score": 83.3,
+                "performance_group": "Very good"
+            },
+            {
+                "year": "2013",
+                "score": 60.4,
+                "performance_group": "Good"
+            }
+        ],
         "performance_group": "Good",
         "rank": 14
     },
@@ -3716,6 +3979,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 66.6,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2014",
+                "score": 53.8,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 49.4,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Good",
         "rank": 15
     },
@@ -3964,6 +4249,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 59.1,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2014",
+                "score": 40.3,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 44.3,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Good",
         "rank": 16
     },
@@ -4212,6 +4519,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 68.7,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2014",
+                "score": 68.2,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2013",
+                "score": 52.1,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Good",
         "rank": 17
     },
@@ -4460,6 +4789,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 47.7,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2014",
+                "score": 18.9,
+                "performance_group": "Very poor"
+            },
+            {
+                "year": "2013",
+                "score": 23.4,
+                "performance_group": "Poor"
+            }
+        ],
         "performance_group": "Good",
         "rank": 18
     },
@@ -4708,6 +5059,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 57.6,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 40.7,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 16.1,
+                "performance_group": "Very poor"
+            }
+        ],
         "performance_group": "Good",
         "rank": 19
     },
@@ -4956,6 +5329,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 63.2,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 53.9,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 45.9,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Good",
         "rank": 20
     },
@@ -5204,6 +5599,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 53.9,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 38.8,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2013",
+                "score": 22.1,
+                "performance_group": "Poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 21
     },
@@ -5452,6 +5869,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 59.0,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 50.8,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 43.7,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 22
     },
@@ -5700,6 +6134,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 49.7,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2014",
+                "score": 24.5,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2013",
+                "score": 24.5,
+                "performance_group": "Poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 23
     },
@@ -5948,6 +6404,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 53.5,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 24.6,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2013",
+                "score": 26.6,
+                "performance_group": "Poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 24
     },
@@ -6196,6 +6674,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 38.5,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 46.3,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 23.0,
+                "performance_group": "Poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 25
     },
@@ -6444,6 +6944,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 30.9,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2014",
+                "score": 30.6,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2013",
+                "score": 30.1,
+                "performance_group": "Poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 26
     },
@@ -6692,6 +7209,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 45.4,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 53.8,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 18.1,
+                "performance_group": "Very poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 27
     },
@@ -6940,6 +7474,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 64.7,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2014",
+                "score": 49.6,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 50.7,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 28
     },
@@ -7188,6 +7744,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 46.7,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2014",
+                "score": 30.8,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2013",
+                "score": 33.7,
+                "performance_group": "Poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 29
     },
@@ -7436,6 +8014,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 49.9,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 45.9,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 43.1,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 30
     },
@@ -7684,6 +8279,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 46.0,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 46.6,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 18.1,
+                "performance_group": "Very poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 31
     },
@@ -7932,6 +8544,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 45.2,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 24.7,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2013",
+                "score": 16.3,
+                "performance_group": "Very poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 32
     },
@@ -8180,6 +8814,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 38.0,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2014",
+                "score": 42.4,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 13.3,
+                "performance_group": "Very poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 33
     },
@@ -8428,6 +9079,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 16.0,
+                "performance_group": "Very poor"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Very poor"
+            },
+            {
+                "year": "2014",
+                "score": 15.7,
+                "performance_group": "Very poor"
+            },
+            {
+                "year": "2013",
+                "score": 10.0,
+                "performance_group": "Very poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 34
     },
@@ -8676,6 +9349,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 41.9,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 27.7,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2013",
+                "score": 26.9,
+                "performance_group": "Poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 35
     },
@@ -8924,6 +9614,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 37.0,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2014",
+                "score": 42.5,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 26.7,
+                "performance_group": "Poor"
+            }
+        ],
         "performance_group": "Fair",
         "rank": 36
     },
@@ -9172,6 +9879,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 44.2,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 37.2,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2013",
+                "score": 23.5,
+                "performance_group": "Poor"
+            }
+        ],
         "performance_group": "Poor",
         "rank": 37
     },
@@ -9420,6 +10144,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 26.1,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2014",
+                "score": 36.9,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2013",
+                "score": 27.9,
+                "performance_group": "Poor"
+            }
+        ],
         "performance_group": "Poor",
         "rank": 38
     },
@@ -9668,6 +10409,28 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 46.2,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 50.6,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 17.4,
+                "performance_group": "Very poor"
+            }
+        ],
         "performance_group": "Poor",
         "rank": 39
     },
@@ -9916,6 +10679,18 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2014",
+                "score": 35.8,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2013",
+                "score": 34.7,
+                "performance_group": "Poor"
+            }
+        ],
         "performance_group": "Poor",
         "rank": 40
     },
@@ -10164,6 +10939,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 37.0,
+                "performance_group": "Poor"
+            },
+            {
+                "year": "2014",
+                "score": 41.3,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 41.7,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Poor",
         "rank": 41
     },
@@ -10412,6 +11204,18 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2014",
+                "score": 45.1,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 47.8,
+                "performance_group": "Fair"
+            }
+        ],
         "performance_group": "Poor",
         "rank": 42
     },
@@ -10660,6 +11464,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 14.3,
+                "performance_group": "Very poor"
+            },
+            {
+                "year": "2014",
+                "score": 17.0,
+                "performance_group": "Very poor"
+            },
+            {
+                "year": "2013",
+                "score": 17.2,
+                "performance_group": "Very poor"
+            }
+        ],
         "performance_group": "Very poor",
         "rank": 43
     },
@@ -10908,6 +11729,13 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 0.0,
+                "performance_group": "Very poor"
+            }
+        ],
         "performance_group": "Very poor",
         "rank": 44
     },
@@ -11156,6 +11984,23 @@
                 }
             }
         },
+        "history": [
+            {
+                "year": "2016",
+                "score": 2.2,
+                "performance_group": "Very poor"
+            },
+            {
+                "year": "2014",
+                "score": 2.2,
+                "performance_group": "Very poor"
+            },
+            {
+                "year": "2013",
+                "score": 2.2,
+                "performance_group": "Very poor"
+            }
+        ],
         "performance_group": "Very poor",
         "rank": 45
     }
