@@ -1,0 +1,11 @@
+{% if include.score >= 80 %}
+    very-good
+{% elsif include.score >= 60 %}
+    good
+{% elsif include.score >= 40 %}
+    fair
+{% elsif include.score >= 20 %}
+    poor
+{% else %}
+    very-poor
+{% endif %}

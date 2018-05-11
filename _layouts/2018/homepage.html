@@ -165,7 +165,15 @@ layout: 2018/base
 								</div>
 							</td>
 							{% for component in org.components %}
-							<td class="cell-performance cell-performance-{{ forloop.index }}">{{ component[1].weighted_score | round: 1 }}</td>
+							{% assign comp_score_perc = component[1].weighted_score | divided_by: component[1].out_of | times:100 %}
+							<td class="cell-performance cell-performance-{{ forloop.index }}">
+								<div class="hori-bar {% include 2018/performance_group.html score=comp_score_perc %}">
+									<span class="raw-score">{{ component[1].weighted_score | round: 1 }} / {{ component[1].out_of | round }}</span>
+
+									<div class="fill" style="width:{{ comp_score_perc }}%">
+									</div>
+								</div>
+							</td>
 							{% endfor %}
 							<td class="cell-5">
 								<span class="hide">{{ org.score }}</span>
