@@ -140,13 +140,13 @@ layout: 2018/base
 					<thead>
 						<tr class="headers">
 							<th class="cell-0">Compare</th>
-							<th class="cell-1">Rank</th>
+							<th class="cell-1 sorttable_numeric">Rank</th>
 							<th class="cell-2">Name</th>
-							<th class="cell-3 sorttable_nosort">Score</th>
+							<th class="cell-3 sorttable_numeric">Score</th>
 							{% for component in site.data['2018'].results.first[1].components %}
-							<th class="cell-performance cell-performance-{{ forloop.index }}">{{ component[0] }} / {{ component[1].out_of | round }}</th>
+							<th class="cell-performance cell-performance-{{ forloop.index }} sorttable_numeric">{{ component[0] }} / {{ component[1].out_of | round }}</th>
 							{% endfor %}
-							<th class="cell-5 sorttable_nosort">Category</th>
+							<th class="cell-5 sorttable_numeric">Category</th>
 						</tr>
 					</thead>
 					<tbody id="results-rows">
@@ -167,7 +167,10 @@ layout: 2018/base
 							{% for component in org.components %}
 							<td class="cell-performance cell-performance-{{ forloop.index }}">{{ component[1].weighted_score | round: 1 }}</td>
 							{% endfor %}
-							<td class="cell-5"><span class="cat">{{ org.performance_group }}</span></td>
+							<td class="cell-5">
+								<span class="hide">{{ org.score }}</span>
+								<span class="cat">{{ org.performance_group }}</span>
+							</td>
 						</tr>
 						{% endfor %}
 					</tbody>
