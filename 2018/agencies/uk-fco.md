@@ -9,7 +9,7 @@ The UK Foreign & Commonwealth Office (FCO) is responsible for several streams of
 
 ---
 
-The UK Foreign and Commonwealth Office is in the poor category. 
+The UK Foreign and Commonwealth Office (FCO) is in the poor category. 
 
 Publishes only less than quarterly. 
 
@@ -19,11 +19,11 @@ With regards to organisational planning indicators, organisation strategy, annua
 
 The FCO provides information for all project attributes indicators in the IATI format except for sub-national location which is not published at all.
 
-Four out of the seven indicators for joined-up development data are published in an IATI format, namely aid type, flow type, finance type and tied aid status. However, conditions, tenders and contracts are not published at all. 
+Four out of the seven indicators for joined-up development data are published in the IATI format, namely aid type, flow type, finance type and tied aid status. However, conditions, tenders and contracts are not published at all. 
 
-The FCO does not provide any information for the performance indicators, neither on IATI nor in other formats. 
+The FCO does not provide any information for the performance indicators, neither via the IATI registry nor in other formats. 
 
-Disbursements and expenditures as well as project budgets are published in IATI but data for any of the other finance and budget indicators is not published. Neither is a forward-looking total organisation budget nor are disaggregated budgets being made available. 
+Disbursements and expenditures as well as project budgets are published to IATI but data for any of the other finance and budget indicators is not published. Neither is a forward-looking total organisation budget nor are disaggregated budgets being made available. 
 
 
 

@@ -11,11 +11,11 @@ The French Development Agency (AFD) is a public agency central to French develop
 
 France-AFD remains in the fair category. 
 
-They have improved the timeliness of their data, now publishing quarterly. 
+They have improved the frequncy of their publication, now publishing quarterly compared to less than quarterly in 2016. 
 
-France-AF also published a new transparency policy. 
+France-AFD also published a new transparency policy. 
 
-France-AFD performs well on the majority of the project attributes indicators and is one of three organisations within the fair category to score on sub-national locations.  It fails however to publish actual dates and contact details in IATI. While contact details are sometimes made available, actual dates are not published at all. France-AFD is one of three organisations within the fair category to score on sub-national locations. 
+France-AFD performs well on the majority of the project attributes indicators and is one of three organisations within the fair category to score on sub-national locations.  It fails however to publish actual dates and contact details to IATI. While contact details are sometimes made available, actual dates are not published at all. France-AFD is one of three organisations within the fair category to score on sub-national locations. 
 
 Only one organisational and planning indicator, procurement policy, is available in a comparable format. 
 
@@ -23,7 +23,7 @@ France-AFD scores high for basic joined-up development data, namely aid type, fi
 
 Within the finance and budget component, France-AFD scores only for disbursement and expenditures as well as commitments. Project budgets are sometimes published but no project budget documents or capital spend information is being made available. Neither a forward-looking total organisation budget nor disaggregated budgets are provided.
 
-For the performance component, AFD publishes only objectives in IATI. They do not receive points for any of the other indicators. Pre-project impact appraisals as well as reviews and evaluations are sometimes published whereas results are not being made available at all. 
+For the performance component, AFD publishes only objectives to the IATI registry. They do not receive points for any of the other indicators. Pre-project impact appraisals as well as reviews and evaluations are sometimes published whereas results are not being made available at all. 
 
 
 ---

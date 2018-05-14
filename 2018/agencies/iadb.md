@@ -11,13 +11,11 @@ The Inter-American Development Bank (IADB) provides concessional and non-concess
 
 - IADB remain in the very good category from 2016, retaining 7th position
 - They have increased their frequency of publication, now publishing on at least a monthly basis (previously quarterly)
-- They now provide planned start dates in their IATI data
-- IADB continue to publish conditions, contracts and results data to IATI, but all for a smaller proportion of activities than in 2016
-- Their disaggregated budget score also decreased
-- sampling, reviews and evaluations (doesn't meet our definition)
-- sampling, sub-national locations (not provided)
-- sampling, allocation policy (not accessible)
-
+- Their allocation policies were not accessible, meaning their rank for the organisational planning component was relatively low
+- Project budgets are only sometimes available, and only ever annually, so their finance and budgets component was also weak.
+- Since 2016, they have started providing planned start dates in their IATI data. As such, despite failing sampling for sub-national locations, they still rank high on the project attributes component
+- IADB continue to publish conditions and contracts data in their IATI publications, but for a smaller proportion of activities than in 2016. Similarly, tenders are provided for small proportion of activities.
+- Results data is occasionally provided in their IATI publication. Reviews and evaluations were not deemed to meet the definition for the indicator.
 
 ---
 

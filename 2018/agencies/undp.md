@@ -9,9 +9,9 @@ Operating in around 170 countries, the United Nations Development Programme (UND
 
 ---
 
-UNDP has maintained its very good aid transparency level. 
+The United Nations Development Programme (UNDP) has maintained its very good aid transparency level. 
 
-UNDP publishes on a monthly basis to the IATI Standard.
+UNDP publishes on a monthly basis in the IATI Standard.
 
 UNDP publishes all indicators in the IATI format and performs well on almost all indicators. 
 

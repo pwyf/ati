@@ -9,10 +9,10 @@ China published its first White Paper on its foreign aid policy in 2011 and a se
 
 ---
 
-As in previous years, China-MOFCOM remains in the very poor category, coming last on this year's Index.
-China scores on just one indicator – freedom of information legislation in the organisational planning and commitments category.
+As in previous years, the Chinese Ministry of Commerce (China-MOFCOM) remains in the very poor category, coming last on this year's Index.
+China-MOFCOM scores on just one indicator – freedom of information legislation in the organisational planning and commitments category.
 No comprehensive listing of all its projects is publicly available.
-MOFCOM did not respond to requests for feedback on the survey.
+China-MOFCOM did not respond to requests for feedback on the survey.
 
 
 ---

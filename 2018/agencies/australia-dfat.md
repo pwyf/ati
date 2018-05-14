@@ -9,7 +9,7 @@ In November 2013, AusAID was integrated into the Department of Foreign Affairs a
 
 ---
 
-Australia-DFAT remains in the fair category.
+The Department of Foreign Affairs and Trade of Australia (Australia-DFAT) remains in the fair category.
 
 On organisational and planning, information is made available on all indicators but only the annual report is published in the IATI standard.
 Within the project attributes component, all indicators are published in the IATI format, barring sub-national location. Sub-national location information is sometimes published in other formats. 
@@ -23,8 +23,11 @@ Australia-DFAT does not score at all on performance related information. It publ
 
 ---
 
-should improve publication of information in open standard
-should work on performance related information
-should ensure wuality of information made available on IATI
+Australia-DFAT should improve the comprehensiveness of its publication to the IATI Registry and make more information available in an open and comparable format.
+In particular, it should work towards collecting and publishing performance related information.
+While doing so, it should also ensure the quality of the information made available so that for example, the most up to date documents containing relevant information are made available. 
+Australia-DFAT should improve the comprehensiveness of its publication to the IATI Registry and make more information available in an open and comparable format.
+In particular, it should work towards collecting and publishing performance related information.
+
 
 ---

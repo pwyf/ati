@@ -13,13 +13,13 @@ Germany, BMZ-GIZ remains in the good category, taking the last place within this
 
 They have improved its publication frequency, now publishing monthly to the IATI registry. 
 
-BMZ-GIZ is doing comparatively well on all project attributes indicators expect sub-national location. This indicator is not published in IATI and only sometimes made available in other formats. 
+BMZ-GIZ is doing comparatively well on all project attributes indicators expect sub-national location. This indicator is not published to IATI and only sometimes made available in other formats. 
 
-They perform well on the joined-up development data component, scoring on all indicators. Contracts and tenders are not provided in an IATI format but are consistently published in other formats. 
+They perform well on the joined-up development data component, scoring on all indicators. Contracts and tenders are not provided in the IATI format but are consistently published in other formats. 
 
-GIZ scores above average for the finance and budgets component. They have started publishing project budgets in IATI and are scoring high on commitments, disbursements and expenditures, and disaggregated budgets. However, no information on capital spend nor project budget documents are being made available. 
+GIZ scores above average for the finance and budgets component. They have started publishing project budgets in the IATI standard and are scoring high on commitments, disbursements and expenditures, and disaggregated budgets. However, no information on capital spend nor project budget documents are being made available. 
 
-Within the organisational and planning component, GIZ scores full points for organisation strategy, procurement policy and audit. The annual report and country strategies are published to IATI but they do not contain the required information or are not up to date. Country strategies are not provided consistently. 
+Within the organisational and planning component, GIZ scores full points for organisation strategy, procurement policy and audit. The annual report and country strategies are published in the IATI format but they do not contain the required information or are not up to date. Country strategies are not provided consistently. 
 
 BMZ-GIZ is one of two organisations within the good category which does not score on any of the indicators of the performance components. While results, evaluations and objectives are sometimes published, pre-project impact appraisals are not being made available at all. 
 

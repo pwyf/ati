@@ -12,11 +12,10 @@ The Spanish Agency for International Development Cooperation (AECID) is the exec
 
 - Spain, AECID drops from the fair category in 2016 to the poor category in 2018, slipping from 29th to 39th position.
 - They continue to publish on a less than quarterly basis.
-- transactional data (commitments, disbursements, expenditure) were available for a smaller proportion of activities than in 2016
-- though not on IATI, an annual audit is now published
-- tenders, contracts, project budget documents and conditions no longer available
-- sampling, annual report (out of date)
-- sampling, allocation policy (doesn't meet our definition)
+- Transactional data (commitments, disbursements and expenditure) are available for a smaller proportion of activities than in 2016. Data for other indicators in the finance and budgets component is not available, so Spain rank 41st for this component. In the past, project budget documents were available.
+- For the joining up development data component, Spain no longer publishers data for tenders, contracts or conditions.
+- While Spain scores well for the project attributes component, actual dates are not available, and sub-national locations are rarely available.
+- Spain scores 0 for the performance component. Reviews and evaluations are sometimes provided, but data for other indicators is not published.
 
 ---
 

@@ -11,9 +11,9 @@ The United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is
 
 UN OCHA remains in the poor category. 
 
-UN OCHA improved the timeliness of their data by publishing monthly data but publishes only 29% of the indicators to IATI. 
+UN OCHA improved their publication frequency from less than quarterly in 2016 to monthly.They publish only 29% of the indicators to the IATI registry. 
 
-All organisational and planning indicators are made available by OCHA but not in a comparable format. 
+All organisational and planning indicators are made available by UN OCHA but not in a comparable format. 
 
 UN OCHA does not score on the two commitment indicators, accessibility and quality of freedom of information legislation, as neither a data portal with current data nor a transparency policy is published. 
 
@@ -21,9 +21,9 @@ Within the joined-up development data component, UN OCHA only scores for aid typ
 
 Half the project attributes indicators are published in a comparable format and also score highly. But they fail to publish contact details and sub-national location information as well as to provide useful descriptions, resulting in a lower score for this indicator.  
 
-Project budget is the only indicator within the finance and budget component which is published to IATI. No information at all is provided for disbursement and expenditures, capital spend and commitments. The total organisation budget is provided for 1-year ahead in a PDF format but no forward-looking data is provided for disaggregated budgets. 
+Project budget is the only indicator within the finance and budget component which is published in the IATI format. No information at all is provided for disbursement and expenditures, capital spend and commitments. The total organisation budget is provided for 1-year ahead in a PDF format but no forward-looking data is provided for disaggregated budgets. 
 
-None of the indicators of the performance component are published in IATI. UN OCHA is the only organisation outside the very good and good category scoring on pre-project impact appraisals. Reviews and evaluations and results information are made available sometimes. 
+None of the indicators of the performance component are published to IATI. UN OCHA is the only organisation outside the very good and good category scoring on pre-project impact appraisals. Reviews and evaluations and results information are made available sometimes. 
 
 
 ---

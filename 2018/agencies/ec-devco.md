@@ -14,12 +14,12 @@ EC-DEVCO publishes to the IATI registry on a monthly basis.
 
 EC-DEVCO publishes all indicators of the project attributes component in the IATI format. Implementer and sub-national location however are the lowest scoring indicators. 
 
-All organisational planning indicators are published in an IATI format. But the allocation policy provided does not meet the definition. An alternative document containing the required information can be found on DEVCO’s website. 
+All organisational planning indicators are published in the IATI format. But the allocation policy provided does not meet the definition. An alternative document containing the required information can be found on DEVCO’s website. 
 Except for project budget documents, which are not available at all, all indicators of the finance and budget component are published in a comparable format. The majority of indicators receive high scores with the exception of disaggregated budget and project budget which score moderately. 
 
-EC-DEVCO performs well on basic joined-up development data indicators such as aid type, flow type, finance type and tied aid status. Tenders are published in an IATI format but the documents are not up to date. Some tenders are published in other formats but this is not done consistently. Conditions and contracts are neither published in IATI nor being made available elsewhere.
+EC-DEVCO performs well on basic joined-up development data indicators such as aid type, flow type, finance type and tied aid status. Tenders are published in the IATI format but the documents are not up to date. Some tenders are published in other formats but this is not done consistently. Conditions and contracts are neither published to IATI nor being made available elsewhere.
 
-EC-DEVCO scores below the overall average for the performance component. Although they have started publishing results data in IATI, it is the lowest scoring indicator. DEVCO scores on no other indicators of the performance component. While objectives as well as reviews and evaluations are sometimes being made available, pre-project impact appraisals are not published at all. 
+EC-DEVCO scores below the overall average for the performance component. Although they have started publishing results data to IATI, it is the lowest scoring indicator. DEVCO scores on no other indicators of the performance component. While objectives as well as reviews and evaluations are sometimes being made available, pre-project impact appraisals are not published at all. 
 
 
 ---
