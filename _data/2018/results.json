@@ -2664,6 +2664,276 @@
         "performance_group": "Good",
         "rank": 10
     },
+    "ec-near": {
+        "score": 76.46641365635105,
+        "name": "EC, NEAR",
+        "components": {
+            "Organisational planning and commitments": {
+                "weighted_score": 12.849264705882353,
+                "out_of": 15,
+                "indicators": {
+                    "Quality of FOI legislation": {
+                        "score": 100.0,
+                        "weight": 0.01875,
+                        "format": "Not applicable",
+                        "status": ""
+                    },
+                    "Accessibility": {
+                        "score": 100.0,
+                        "weight": 0.01875,
+                        "format": "Not applicable",
+                        "status": ""
+                    },
+                    "Organisation strategy": {
+                        "score": 100.0,
+                        "weight": 0.01875,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Annual report": {
+                        "score": 100.0,
+                        "weight": 0.01875,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Allocation policy": {
+                        "score": 0.0,
+                        "weight": 0.01875,
+                        "format": "Document",
+                        "status": "Sometimes"
+                    },
+                    "Procurement policy": {
+                        "score": 100.0,
+                        "weight": 0.01875,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Strategy (country/sector) or Memorandum of Understanding": {
+                        "score": 85.2941176471,
+                        "weight": 0.01875,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Audit": {
+                        "score": 100.0,
+                        "weight": 0.01875,
+                        "format": "IATI",
+                        "status": ""
+                    }
+                }
+            },
+            "Finance and budgets": {
+                "weighted_score": 21.114884830175143,
+                "out_of": 25,
+                "indicators": {
+                    "Disaggregated budgets": {
+                        "score": 58.8235294118,
+                        "weight": 0.0416667,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Project budget": {
+                        "score": 76.3701847792,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Project budget document": {
+                        "score": 58.8412340105,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Commitments": {
+                        "score": 100.0,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Disbursements and expenditures": {
+                        "score": 99.7059904447,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Capital spend": {
+                        "score": 100.0,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Total organisation budget": {
+                        "score": 100.0,
+                        "weight": 0.0416667,
+                        "format": "IATI",
+                        "status": ""
+                    }
+                }
+            },
+            "Project attributes": {
+                "weighted_score": 18.520442778028077,
+                "out_of": 20,
+                "indicators": {
+                    "Title": {
+                        "score": 99.8734634852,
+                        "weight": 0.01,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Description": {
+                        "score": 94.510725476,
+                        "weight": 0.01,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Planned dates": {
+                        "score": 98.0266329236,
+                        "weight": 0.01,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Actual dates": {
+                        "score": 98.6426151277,
+                        "weight": 0.01,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Current status": {
+                        "score": 100.0,
+                        "weight": 0.01,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Contact details": {
+                        "score": 100.0,
+                        "weight": 0.01,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Sectors": {
+                        "score": 99.8614123885,
+                        "weight": 0.035,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Sub-national location": {
+                        "score": 60.439491248,
+                        "weight": 0.035,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Implementer": {
+                        "score": 99.9821937322,
+                        "weight": 0.035,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Unique ID": {
+                        "score": 100.0,
+                        "weight": 0.035,
+                        "format": "IATI",
+                        "status": ""
+                    }
+                }
+            },
+            "Joining-up development data": {
+                "weighted_score": 15.467582555000003,
+                "out_of": 20,
+                "indicators": {
+                    "Flow type": {
+                        "score": 99.996969697,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Aid type": {
+                        "score": 99.9878787879,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Finance type": {
+                        "score": 99.9939393939,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Tied aid status": {
+                        "score": 98.6111111111,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Conditions": {
+                        "score": 52.938034188,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Project procurement": {
+                        "score": 12.499996249999624,
+                        "weight": 0.03333333,
+                        "format": "",
+                        "status": "Not Published"
+                    }
+                }
+            },
+            "Performance": {
+                "weighted_score": 8.514238787265484,
+                "out_of": 20,
+                "indicators": {
+                    "Objectives": {
+                        "score": 59.6958855098,
+                        "weight": 0.05,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Pre-project impact appraisals": {
+                        "score": 59.681460272,
+                        "weight": 0.05,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Reviews and evaluations": {
+                        "score": 0.0,
+                        "weight": 0.05,
+                        "format": "Document",
+                        "status": "Sometimes"
+                    },
+                    "Results": {
+                        "score": 50.9074299635,
+                        "weight": 0.05,
+                        "format": "IATI",
+                        "status": ""
+                    }
+                }
+            }
+        },
+        "history": [
+            {
+                "year": "2016",
+                "score": 74.1,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2015",
+                "score": null,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2014",
+                "score": 61.8,
+                "performance_group": "Good"
+            },
+            {
+                "year": "2013",
+                "score": 48.1,
+                "performance_group": "Fair"
+            }
+        ],
+        "performance_group": "Good",
+        "rank": 11
+    },
     "gavi": {
         "score": 75.26426203113279,
         "name": "GAVI",
@@ -2924,276 +3194,6 @@
                 "year": "2013",
                 "score": 87.3,
                 "performance_group": "Very good"
-            }
-        ],
-        "performance_group": "Good",
-        "rank": 11
-    },
-    "ec-near": {
-        "score": 75.16990927239094,
-        "name": "EC, NEAR",
-        "components": {
-            "Organisational planning and commitments": {
-                "weighted_score": 12.849264705882353,
-                "out_of": 15,
-                "indicators": {
-                    "Quality of FOI legislation": {
-                        "score": 100.0,
-                        "weight": 0.01875,
-                        "format": "Not applicable",
-                        "status": ""
-                    },
-                    "Accessibility": {
-                        "score": 100.0,
-                        "weight": 0.01875,
-                        "format": "Not applicable",
-                        "status": ""
-                    },
-                    "Organisation strategy": {
-                        "score": 100.0,
-                        "weight": 0.01875,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Annual report": {
-                        "score": 100.0,
-                        "weight": 0.01875,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Allocation policy": {
-                        "score": 0.0,
-                        "weight": 0.01875,
-                        "format": "Document",
-                        "status": "Sometimes"
-                    },
-                    "Procurement policy": {
-                        "score": 100.0,
-                        "weight": 0.01875,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Strategy (country/sector) or Memorandum of Understanding": {
-                        "score": 85.2941176471,
-                        "weight": 0.01875,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Audit": {
-                        "score": 100.0,
-                        "weight": 0.01875,
-                        "format": "IATI",
-                        "status": ""
-                    }
-                }
-            },
-            "Finance and budgets": {
-                "weighted_score": 21.114884830175143,
-                "out_of": 25,
-                "indicators": {
-                    "Disaggregated budgets": {
-                        "score": 58.8235294118,
-                        "weight": 0.0416667,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Project budget": {
-                        "score": 76.3701847792,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Project budget document": {
-                        "score": 58.8412340105,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Commitments": {
-                        "score": 100.0,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Disbursements and expenditures": {
-                        "score": 99.7059904447,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Capital spend": {
-                        "score": 100.0,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Total organisation budget": {
-                        "score": 100.0,
-                        "weight": 0.0416667,
-                        "format": "IATI",
-                        "status": ""
-                    }
-                }
-            },
-            "Project attributes": {
-                "weighted_score": 17.566732664067963,
-                "out_of": 20,
-                "indicators": {
-                    "Title": {
-                        "score": 99.8734634852,
-                        "weight": 0.01,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Description": {
-                        "score": 94.510725476,
-                        "weight": 0.01,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Planned dates": {
-                        "score": 98.0266329236,
-                        "weight": 0.01,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Actual dates": {
-                        "score": 98.6426151277,
-                        "weight": 0.01,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Current status": {
-                        "score": 100.0,
-                        "weight": 0.01,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Contact details": {
-                        "score": 100.0,
-                        "weight": 0.01,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Sectors": {
-                        "score": 99.8614123885,
-                        "weight": 0.035,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Sub-national location": {
-                        "score": 60.439491248,
-                        "weight": 0.035,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Implementer": {
-                        "score": 72.7333333333,
-                        "weight": 0.035,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Unique ID": {
-                        "score": 100.0,
-                        "weight": 0.035,
-                        "format": "IATI",
-                        "status": ""
-                    }
-                }
-            },
-            "Joining-up development data": {
-                "weighted_score": 15.124788285000003,
-                "out_of": 20,
-                "indicators": {
-                    "Flow type": {
-                        "score": 99.996969697,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Aid type": {
-                        "score": 99.9878787879,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Finance type": {
-                        "score": 99.9939393939,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Tied aid status": {
-                        "score": 88.3272727273,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Conditions": {
-                        "score": 52.938034188,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Project procurement": {
-                        "score": 12.499996249999624,
-                        "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
-                    }
-                }
-            },
-            "Performance": {
-                "weighted_score": 8.514238787265484,
-                "out_of": 20,
-                "indicators": {
-                    "Objectives": {
-                        "score": 59.6958855098,
-                        "weight": 0.05,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Pre-project impact appraisals": {
-                        "score": 59.681460272,
-                        "weight": 0.05,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Reviews and evaluations": {
-                        "score": 0.0,
-                        "weight": 0.05,
-                        "format": "Document",
-                        "status": "Sometimes"
-                    },
-                    "Results": {
-                        "score": 50.9074299635,
-                        "weight": 0.05,
-                        "format": "IATI",
-                        "status": ""
-                    }
-                }
-            }
-        },
-        "history": [
-            {
-                "year": "2016",
-                "score": 74.1,
-                "performance_group": "Good"
-            },
-            {
-                "year": "2015",
-                "score": null,
-                "performance_group": "Good"
-            },
-            {
-                "year": "2014",
-                "score": 61.8,
-                "performance_group": "Good"
-            },
-            {
-                "year": "2013",
-                "score": 48.1,
-                "performance_group": "Fair"
             }
         ],
         "performance_group": "Good",
@@ -5889,6 +5889,271 @@
         "performance_group": "Fair",
         "rank": 22
     },
+    "australia-dfat": {
+        "score": 57.379405100861156,
+        "name": "Australia, DFAT",
+        "components": {
+            "Organisational planning and commitments": {
+                "weighted_score": 7.812374999999999,
+                "out_of": 15,
+                "indicators": {
+                    "Quality of FOI legislation": {
+                        "score": 66.66,
+                        "weight": 0.01875,
+                        "format": "Not applicable",
+                        "status": ""
+                    },
+                    "Accessibility": {
+                        "score": 0.0,
+                        "weight": 0.01875,
+                        "format": "",
+                        "status": "Not Published"
+                    },
+                    "Organisation strategy": {
+                        "score": 50.0,
+                        "weight": 0.01875,
+                        "format": "Document",
+                        "status": "Always"
+                    },
+                    "Annual report": {
+                        "score": 100.0,
+                        "weight": 0.01875,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Allocation policy": {
+                        "score": 50.0,
+                        "weight": 0.01875,
+                        "format": "Document",
+                        "status": "Always"
+                    },
+                    "Procurement policy": {
+                        "score": 50.0,
+                        "weight": 0.01875,
+                        "format": "Document",
+                        "status": "Always"
+                    },
+                    "Strategy (country/sector) or Memorandum of Understanding": {
+                        "score": 50.0,
+                        "weight": 0.01875,
+                        "format": "Document",
+                        "status": "Always"
+                    },
+                    "Audit": {
+                        "score": 50.0,
+                        "weight": 0.01875,
+                        "format": "Document",
+                        "status": "Always"
+                    }
+                }
+            },
+            "Finance and budgets": {
+                "weighted_score": 16.392046100861172,
+                "out_of": 25,
+                "indicators": {
+                    "Disaggregated budgets": {
+                        "score": 53.1862745098,
+                        "weight": 0.0416667,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Project budget": {
+                        "score": 56.9560669456,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Project budget document": {
+                        "score": 0.0,
+                        "weight": 0.0333333,
+                        "format": "",
+                        "status": "Not Published"
+                    },
+                    "Commitments": {
+                        "score": 94.9893617021,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Disbursements and expenditures": {
+                        "score": 95.0,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Capital spend": {
+                        "score": 95.0,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Total organisation budget": {
+                        "score": 66.6666666667,
+                        "weight": 0.0416667,
+                        "format": "IATI",
+                        "status": ""
+                    }
+                }
+            },
+            "Project attributes": {
+                "weighted_score": 15.675,
+                "out_of": 20,
+                "indicators": {
+                    "Title": {
+                        "score": 95.0,
+                        "weight": 0.01,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Description": {
+                        "score": 95.0,
+                        "weight": 0.01,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Planned dates": {
+                        "score": 95.0,
+                        "weight": 0.01,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Actual dates": {
+                        "score": 95.0,
+                        "weight": 0.01,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Current status": {
+                        "score": 95.0,
+                        "weight": 0.01,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Contact details": {
+                        "score": 95.0,
+                        "weight": 0.01,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Sectors": {
+                        "score": 95.0,
+                        "weight": 0.035,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Sub-national location": {
+                        "score": 0.0,
+                        "weight": 0.035,
+                        "format": "Website",
+                        "status": "Sometimes"
+                    },
+                    "Implementer": {
+                        "score": 95.0,
+                        "weight": 0.035,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Unique ID": {
+                        "score": 95.0,
+                        "weight": 0.035,
+                        "format": "IATI",
+                        "status": ""
+                    }
+                }
+            },
+            "Joining-up development data": {
+                "weighted_score": 17.499984,
+                "out_of": 20,
+                "indicators": {
+                    "Flow type": {
+                        "score": 95.0,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Aid type": {
+                        "score": 95.0,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Finance type": {
+                        "score": 95.0,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Tied aid status": {
+                        "score": 95.0,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Conditions": {
+                        "score": 95.0,
+                        "weight": 0.0333333,
+                        "format": "IATI",
+                        "status": ""
+                    },
+                    "Project procurement": {
+                        "score": 50.0,
+                        "weight": 0.03333333,
+                        "format": "Document",
+                        "status": "Always"
+                    }
+                }
+            },
+            "Performance": {
+                "weighted_score": 0.0,
+                "out_of": 20,
+                "indicators": {
+                    "Objectives": {
+                        "score": 0.0,
+                        "weight": 0.05,
+                        "format": "Document",
+                        "status": "Sometimes"
+                    },
+                    "Pre-project impact appraisals": {
+                        "score": 0.0,
+                        "weight": 0.05,
+                        "format": "",
+                        "status": "Not Published"
+                    },
+                    "Reviews and evaluations": {
+                        "score": 0.0,
+                        "weight": 0.05,
+                        "format": "Document",
+                        "status": "Sometimes"
+                    },
+                    "Results": {
+                        "score": 0.0,
+                        "weight": 0.05,
+                        "format": "PDF",
+                        "status": "Sometimes"
+                    }
+                }
+            }
+        },
+        "history": [
+            {
+                "year": "2016",
+                "score": 49.9,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2014",
+                "score": 45.9,
+                "performance_group": "Fair"
+            },
+            {
+                "year": "2013",
+                "score": 43.1,
+                "performance_group": "Fair"
+            }
+        ],
+        "performance_group": "Fair",
+        "rank": 23
+    },
     "ebrd": {
         "score": 57.09838401581989,
         "name": "EBRD",
@@ -6157,7 +6422,7 @@
             }
         ],
         "performance_group": "Fair",
-        "rank": 23
+        "rank": 24
     },
     "eib": {
         "score": 57.08576180998391,
@@ -6427,7 +6692,7 @@
             }
         ],
         "performance_group": "Fair",
-        "rank": 24
+        "rank": 25
     },
     "finland-mfa": {
         "score": 54.14210715477958,
@@ -6697,7 +6962,7 @@
             }
         ],
         "performance_group": "Fair",
-        "rank": 25
+        "rank": 26
     },
     "world-bank-ifc": {
         "score": 52.084837463429544,
@@ -6962,7 +7227,7 @@
             }
         ],
         "performance_group": "Fair",
-        "rank": 26
+        "rank": 27
     },
     "switzerland-sdc": {
         "score": 50.90336546118661,
@@ -7227,7 +7492,7 @@
             }
         ],
         "performance_group": "Fair",
-        "rank": 27
+        "rank": 28
     },
     "denmark-mfa": {
         "score": 49.253339914492784,
@@ -7497,7 +7762,7 @@
             }
         ],
         "performance_group": "Fair",
-        "rank": 28
+        "rank": 29
     },
     "us-defense": {
         "score": 48.912895129268286,
@@ -7764,271 +8029,6 @@
                 "year": "2013",
                 "score": 33.7,
                 "performance_group": "Poor"
-            }
-        ],
-        "performance_group": "Fair",
-        "rank": 29
-    },
-    "australia-dfat": {
-        "score": 48.64318196453071,
-        "name": "Australia, DFAT",
-        "components": {
-            "Organisational planning and commitments": {
-                "weighted_score": 7.812374999999999,
-                "out_of": 15,
-                "indicators": {
-                    "Quality of FOI legislation": {
-                        "score": 66.66,
-                        "weight": 0.01875,
-                        "format": "Not applicable",
-                        "status": ""
-                    },
-                    "Accessibility": {
-                        "score": 0.0,
-                        "weight": 0.01875,
-                        "format": "",
-                        "status": "Not Published"
-                    },
-                    "Organisation strategy": {
-                        "score": 50.0,
-                        "weight": 0.01875,
-                        "format": "Document",
-                        "status": "Always"
-                    },
-                    "Annual report": {
-                        "score": 100.0,
-                        "weight": 0.01875,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Allocation policy": {
-                        "score": 50.0,
-                        "weight": 0.01875,
-                        "format": "Document",
-                        "status": "Always"
-                    },
-                    "Procurement policy": {
-                        "score": 50.0,
-                        "weight": 0.01875,
-                        "format": "Document",
-                        "status": "Always"
-                    },
-                    "Strategy (country/sector) or Memorandum of Understanding": {
-                        "score": 50.0,
-                        "weight": 0.01875,
-                        "format": "Document",
-                        "status": "Always"
-                    },
-                    "Audit": {
-                        "score": 50.0,
-                        "weight": 0.01875,
-                        "format": "Document",
-                        "status": "Always"
-                    }
-                }
-            },
-            "Finance and budgets": {
-                "weighted_score": 14.289152964530714,
-                "out_of": 25,
-                "indicators": {
-                    "Disaggregated budgets": {
-                        "score": 53.1862745098,
-                        "weight": 0.0416667,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Project budget": {
-                        "score": 53.8644816364,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Project budget document": {
-                        "score": 0.0,
-                        "weight": 0.0333333,
-                        "format": "",
-                        "status": "Not Published"
-                    },
-                    "Commitments": {
-                        "score": 74.9940898345,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Disbursements and expenditures": {
-                        "score": 75.0,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Capital spend": {
-                        "score": 75.0,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Total organisation budget": {
-                        "score": 66.6666666667,
-                        "weight": 0.0416667,
-                        "format": "IATI",
-                        "status": ""
-                    }
-                }
-            },
-            "Project attributes": {
-                "weighted_score": 12.375,
-                "out_of": 20,
-                "indicators": {
-                    "Title": {
-                        "score": 75.0,
-                        "weight": 0.01,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Description": {
-                        "score": 75.0,
-                        "weight": 0.01,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Planned dates": {
-                        "score": 75.0,
-                        "weight": 0.01,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Actual dates": {
-                        "score": 75.0,
-                        "weight": 0.01,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Current status": {
-                        "score": 75.0,
-                        "weight": 0.01,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Contact details": {
-                        "score": 75.0,
-                        "weight": 0.01,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Sectors": {
-                        "score": 75.0,
-                        "weight": 0.035,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Sub-national location": {
-                        "score": 0.0,
-                        "weight": 0.035,
-                        "format": "Website",
-                        "status": "Sometimes"
-                    },
-                    "Implementer": {
-                        "score": 75.0,
-                        "weight": 0.035,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Unique ID": {
-                        "score": 75.0,
-                        "weight": 0.035,
-                        "format": "IATI",
-                        "status": ""
-                    }
-                }
-            },
-            "Joining-up development data": {
-                "weighted_score": 14.166654,
-                "out_of": 20,
-                "indicators": {
-                    "Flow type": {
-                        "score": 75.0,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Aid type": {
-                        "score": 75.0,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Finance type": {
-                        "score": 75.0,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Tied aid status": {
-                        "score": 75.0,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Conditions": {
-                        "score": 75.0,
-                        "weight": 0.0333333,
-                        "format": "IATI",
-                        "status": ""
-                    },
-                    "Project procurement": {
-                        "score": 50.0,
-                        "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Always"
-                    }
-                }
-            },
-            "Performance": {
-                "weighted_score": 0.0,
-                "out_of": 20,
-                "indicators": {
-                    "Objectives": {
-                        "score": 0.0,
-                        "weight": 0.05,
-                        "format": "Document",
-                        "status": "Sometimes"
-                    },
-                    "Pre-project impact appraisals": {
-                        "score": 0.0,
-                        "weight": 0.05,
-                        "format": "",
-                        "status": "Not Published"
-                    },
-                    "Reviews and evaluations": {
-                        "score": 0.0,
-                        "weight": 0.05,
-                        "format": "Document",
-                        "status": "Sometimes"
-                    },
-                    "Results": {
-                        "score": 0.0,
-                        "weight": 0.05,
-                        "format": "PDF",
-                        "status": "Sometimes"
-                    }
-                }
-            }
-        },
-        "history": [
-            {
-                "year": "2016",
-                "score": 49.9,
-                "performance_group": "Fair"
-            },
-            {
-                "year": "2014",
-                "score": 45.9,
-                "performance_group": "Fair"
-            },
-            {
-                "year": "2013",
-                "score": 43.1,
-                "performance_group": "Fair"
             }
         ],
         "performance_group": "Fair",
