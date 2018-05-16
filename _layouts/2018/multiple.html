@@ -31,17 +31,25 @@ layout: 2018/base
                 <span class="label">Rankings</span>
                 <div class="summary-card">
                     <div class="multi-rankings">
+                        {% assign prev_performance_group = null %}
+
                         {% for agency in page.agencies %}
                         {% assign agency_data = site.data['2018'].results[agency] %}
-                        <div class="ranking-group">
-                            <div class="rank">
-                                <span class="score {{ agency_data.performance_group | downcase | replace:" ","-" }}">{{ agency_data.performance_group }}</span>
-                            </div>
+                        {% if agency_data.performance_group != prev_performance_group %}
+                            {% if prev_performance_group != null %}
+                                </div>
+                            {% endif %}
+                            <div class="ranking-group">
+                                <div class="rank">
+                                    <span class="score {{ agency_data.performance_group | downcase | replace:" ","-" }}">{{ agency_data.performance_group }}</span>
+                                </div>
+                        {% endif %}
                             <span class="grouped-agency">
                                 <a href="/2018/{{ agency }}/">{{ agency_data.name }}</a> - {{ agency_data.score | times:10 | floor | divided_by:10.0 }}%
                             </span>
-                        </div>
+                        {% assign prev_performance_group = agency_data.performance_group %}
                         {% endfor %}
+                        </div>
                     </div>
                 </div>
             </div>
