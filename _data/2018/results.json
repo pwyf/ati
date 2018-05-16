@@ -7765,7 +7765,7 @@
         "rank": 29
     },
     "us-defense": {
-        "score": 48.912895129268286,
+        "score": 48.6892670804878,
         "name": "US, Defense",
         "components": {
             "Organisational planning and commitments": {
@@ -7871,11 +7871,11 @@
                 }
             },
             "Project attributes": {
-                "weighted_score": 15.343125,
+                "weighted_score": 15.119496951219514,
                 "out_of": 20,
                 "indicators": {
                     "Title": {
-                        "score": 94.7256097561,
+                        "score": 72.362804878,
                         "weight": 0.01,
                         "format": "IATI",
                         "status": ""
