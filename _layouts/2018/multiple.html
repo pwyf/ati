@@ -1,0 +1,50 @@
+---
+layout: 2018/base
+---
+
+<div class="margins-container single-container">
+    <a href="{{ '2018/' | absolute_url }}" class="back-to-results">
+        <img src="{{ "2018/static/assets/left-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Back to results">
+        <span>Back to results</span>
+    </a>
+    <div class="single-content">
+        <div class="left-column">
+            <div class="graph-image">
+                <img src="/2018/static/assets/graphs/multiple/{{ page.name | replace:".md","" }}.png?ver={{ site.github.build_revision }}" alt="">
+            </div>
+            <div class="buttons">
+                <a class="download-report button flex-icon" href="#"><img alt="Download Index" src="{{ "2018/static/assets/down-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}">
+                    <span>Download Donor Brief</span></a>
+            </div>
+        </div>
+        <div class="right-column">
+            <h1 class="agency-name">{{ page.title }}</h1>
+            <div class="mobile-fill"></div>
+
+            <div class="overview multi-group">
+                <span class="label">Overview</span>
+                <div class="overview-content">
+                    {{ content }}
+                </div>
+            </div>
+            <div class="summary multi-group">
+                <span class="label">Rankings</span>
+                <div class="summary-card">
+                    <div class="multi-rankings">
+                        {% for agency in page.agencies %}
+                        {% assign agency_data = site.data['2018'].results[agency] %}
+                        <div class="ranking-group">
+                            <div class="rank">
+                                <span class="score {{ agency_data.performance_group | downcase | replace:" ","-" }}">{{ agency_data.performance_group }}</span>
+                            </div>
+                            <span class="grouped-agency">
+                                <a href="/2018/{{ agency }}/">{{ agency_data.name }}</a> - {{ agency_data.score | times:10 | floor | divided_by:10.0 }}%
+                            </span>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
