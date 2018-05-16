@@ -76,6 +76,8 @@ for past_result in past_results:
         org['history'].append(history)
 
 for x in results:
+    if x['survey_workflow_name'] not in ['', 'pwyffinal']:
+        continue
     org = slugify(x['organisation_name'])
     sc = float(x['total_points'])
     weight = float(x['indicator_weight'])
@@ -117,7 +119,7 @@ for x in results:
     orgs[org]['components'][cat]['indicators'][ind]['format'] = fmt
     orgs[org]['components'][cat]['indicators'][ind]['status'] = status
 
-for org in orgs.values():
+for name, org in orgs.items():
     for c in org['components'].keys():
         org['components'][c]['out_of'] = round(org['components'][c]['out_of'])
     i = org['components']['Joining-up development data']['indicators']
