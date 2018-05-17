@@ -168,7 +168,11 @@ layout: 2018/base
                                     <span class="indicator-num">Score: {{ indicator[1].score | times:indicator[1].weight | times:100 | floor | divided_by:100.0 }}</span> <span class="modal-trigger" data-indicator="{{ indicator[0] }}">?</span>
 
                                     <div class="indicator-modal-content">
-                                        <p>Indicator description goes here</p>
+                                        {%- for i in site.data['2018'].indicators -%}
+                                            {%- if i.description == indicator[0] -%}
+                                                {{ i.longdescription | markdownify }}
+                                            {%- endif -%}
+                                        {%- endfor -%}
                                     </div>
                                 </div>
                                 <div class="indicator-row">
