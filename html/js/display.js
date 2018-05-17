@@ -114,7 +114,7 @@ $(document).ready(function() {
 
       var currentURL = window.location.href;
       if (clicked == slug) {
-        window.location.href = domain + '/' + slug;
+        window.location.href = domain + '/single?agency=' + slug;
      }
      clicked = slug;
      })
