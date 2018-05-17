@@ -827,6 +827,7 @@ header {
           }
           .history {
             .year {
+              text-transform: capitalize;
               display: inline-block;
               margin: 0 5px;
               @include rank-color('color');
