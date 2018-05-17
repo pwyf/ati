@@ -29,9 +29,13 @@ layout: 2018/base
 
         <div class="right-column">
             <h1 class="agency-name">{{ page.title }}</h1>
-            <!-- TODO: If part of comparison group -->
-            {% for group in page.groups %}
-            <span class="comparison-group">COMPARISON GROUP : <a href="multi-agency?group=un">UN Agencies</a></span>
+
+            {% assign multi_agencies = site.pages | where: "layout", "2018/multiple" | sort: 'order' %}
+
+            {% for multi_agency in multi_agencies %}
+                {% if multi_agency.agencies contains page.slug %}
+                    <span class="comparison-group">COMPARISON GROUP : <a href="{{ multi_agency.url }}">{{ multi_agency.title }}</a></span>
+                {% endif %}
             {% endfor %}
 
             <div class="mobile-fill">
