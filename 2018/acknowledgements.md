@@ -1,5 +1,6 @@
 ---
 layout: 2018/page
+permalink: 2018/acknowledgements/index.html
 title: Acknowledgements
 ---
 
