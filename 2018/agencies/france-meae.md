@@ -9,17 +9,17 @@ The Ministry for Europe and Foreign Affairs (MEAE) is responsible for setting Fr
 
 ---
 
-France-MEAE is included in the fair category. 
+The Ministry for Europe and Foreign Affairs of France (France-MEAE) is included in the fair category. 
 
-They have improved the frequency of their publication, going from less than quarterly publications to monthly publications. 
+It has improved the frequency of its publication, going from less than quarterly publications in 2016 to monthly publications. 
 
-France-MEAE publishes all project attributes indicators but contact details in a comparable format and receives high scores for the majority of them. One exception is actual dates which scores very low. 
+None of the organisational and planning indicators is available in a comparable format. Although organisation strategy, annual report and country strategies are published to IATI, all documents were out of date and more up to date documents could only be found on the organisation's website. However, no country strategies nor an audit are published.
 
-None of the organisational and planning indicators is available in a comparable format. Although organisation strategy, annual report and country strategies are published to IATI, all documents were out of date and more up to date documents could be found on the organisation's website. However, no country strategies nor an audit are published.
+Only two indicators of the finance and budgets component, namely commitments and disbursement and expenditures, are published to IATI. While the total organisation budget gives an outlook for at least three years ahead, the disaggregated budgets are one year ahead. These pieces of information are published as PDF documents only. Project budgets, project budget documents and capital spend are not published at all.
+
+France-MEAE publishes all project attributes indicators but contact details in the comparable IATI format and receives high scores for the majority of them. One exception is actual dates which is one of the lowest scoring indicators. 
 
 France-MEAE scores full points for four indicators within the joined-up development data component: aid type, flow type, finance type and tied aid status. Contracts and tenders are sometimes provided in non-comparable and open formats. Conditions are not published at all. 
-
-Only two indicators of the finance and budgets component, namely commitments and disbursement and expenditures, are published to IATI. Project budgets, project budget documents and capital spend are not published at all. While the total organisation budget gives an outlook for at least three years ahead, the disaggregated budgets are for 1-year ahead. 
 
 France-MEAE does not score on any of the performance indicators. While objectives as well as reviews and evaluations are published sometimes, pre-project impact appraisals and results are not being made available. 
 

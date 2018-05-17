@@ -9,7 +9,7 @@ The Inter-American Development Bank (IADB) provides concessional and non-concess
 
 ---
 
-- IADB remain in the very good category from 2016, retaining 7th position
+- The Inter-American Development Bank (IADB) remain in the very good category from 2016, retaining 7th position
 - They have increased their frequency of publication, now publishing on at least a monthly basis (previously quarterly)
 - Their allocation policies were not accessible, meaning their rank for the organisational planning component was relatively low
 - Project budgets are only sometimes available, and only ever annually, so their finance and budgets component was also weak.

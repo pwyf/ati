@@ -10,7 +10,7 @@ The African Development Bank (AfDB) was established to promote regional cooperat
 ---
 
 - The African Development Bank (AfDB) remains in the very good category this year
-- The bank improved its frequency of publication from quarterly to monthly
+- Since the last Index, the bank improved its frequency of publication from quarterly to monthly
 - The AfDB makes all of the information captured by the Index available in the IATI format - except for conditions data, which is not published
 - The bank also launched a new project portal : http://projectsportal.afdb.org/dataportal/ 
 - There is room for improvement in the publication of performance related information, specifically pre-project impact appraisals, reviews and evaluations and results.

@@ -9,22 +9,20 @@ The Directorate-General for European Civil Protection and Humanitarian Aid Opera
 
 ---
 
-EC-ECHO remains in the good category. It has overtaken EC-NEAR and EC-DEVCO and is now leading among the three EC agencies. 
+The Directorate-General for European Civil Protection and Humanitarian Aid of the European Commission (EC-ECHO) remains in the good category. It has overtaken EC-NEAR and EC-DEVCO and is now leading among the three EC agencies. 
 
-It publishes to the IATI registry on a monthly basis.
+EC-ECHO publishes to the IATI Registry on a monthly basis.
 
-EC-ECHO is among the top 5 performers for the organisational planning and commitments as well as the project attributes component. 
+EC-ECHO is among the top five performers for the organisational planning and commitments component. EC-ECHO scores full points on all indicators but country strategies. EC-ECHO’s country strategies in IATI were not up to date. Current versions, however, can be found on its website. 
 
-For the organisational planning and commitments component, ECHO scores full points on all indicators but country strategies. ECHO’s country strategies in IATI are not up to date. Current versions, however, can be found on its website. 
+Capital spend is now published to IATI and EC-ECHO is one of the few organisations to score full points on disbursements and expenditures as well as project budgets. Disaggregated budget, however, is one of the lower scoring indicaotrs. Project budget documents are also provided in the comparable IATI format but did not meet the definition of the indicator as they are not specific to individual activities. This information is not published elsewhere.
 
-Information on project attributes indicators is generally made available although sub-national locations and implementers are the lowest scoring ones. 
+EC-ECHO is further among the top five performers for the project attributes component and does well on all indicators, whereby sub-national location is the lowest scoring project attributes indicator. 
 
-EC-ECHO has started publishing capital spend to IATI and is one of the few organisations to score full points on disbursements and expenditures as well as project budgets. Disaggregated budget is the lowest scoring IATI indicator of the finance and budget component. Project budget documents are also provided in a comparable format but do not meet the definition of the indicator as they are not specific to individual activities. This information is not published elsewhere. 
+EC-ECHO does well on basic joined-up development data indicators such as aid type, finance type, flow type or tied aid status. While made available in the IATI format, tenders were outdated and could only sometimes be found sometimes elsewhere. Contracts are not being made available in the IATI Standard but are conistently made available in other formats. 
 
-EC-ECHO does well on basic joined-up development data indicators such as aid type, finance type, flow type or tied aid status. While made available in the IATI format, tenders were outdated and could only be found sometimes elsewhere. Contracts are not being made available in the IATI standard but are made available in other formats. 
-
-Within the performance component, only objectives and pre-project impact appraisals are published in a comparable format. The pre-project impact appraisal documents provided in the IATI format are out of date while current versions are available elsewhere.  
-Results are not published at all and reviews and evaluations are provided sometimes only.  
+Within the performance component, only objectives and pre-project impact appraisals are published in a comparable format. The pre-project impact appraisal documents provided in the IATI format were out of date but current versions are available elsewhere.  
+Results are not published at all and reviews and evaluations are provided only sometimes.  
 
 
 ---

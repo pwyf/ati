@@ -11,12 +11,15 @@ In November 2013, AusAID was integrated into the Department of Foreign Affairs a
 
 The Department of Foreign Affairs and Trade of Australia (Australia-DFAT) remains in the fair category.
 
-On organisational and planning, information is made available on all indicators but only the annual report is published in the IATI standard.
-Within the project attributes component, all indicators are published in the IATI format, barring sub-national location. Sub-national location information is sometimes published in other formats. 
+Australia-DFAT publishes to the IATI Registry on a quarterly basis. 
+
+On organisational and planning, information is made available on all indicators but only the annual report is published in the IATI Standard.
+
+The finance and budget indicators are all published in the comparable IATI format. Project budget documents, however, did not meet the definition of the indicator and could not be found elsewhere. There is also room for improvement in the provision of forward looking budgets as Australia-DFAT provides total organisation budget for one year forward only and disaggregated budgets and project budgets are two of the lowest scoring indicators. 
+
+Within the project attributes component, all indicators are published in a comparable format, barring sub-national location. Sub-national location information is sometimes published in other formats. 
 
 Apart from tenders and contracts which are made available on separate websites, all indicators of the joined-up development data component are published to the IATI Registry. 
-
-The finance and budget indicators are all published in a comparable format. Project budget documents, however, did not meet the definition of the indicator and could not be found elsewhere. There is also room for improvement in the provision of forward looking budgets as Australia-DFAT provides total organisation budget for one year forward only and scores comparatively low on disaggregated budgets and project budgets. 
 
 Australia-DFAT does not score at all on performance related information. It published data and documents on all relevant indicators in the IATI format but none of them contained the information as per indicator definition. While objectives, reviews and evaluations as well as results are sometimes published in other formats, pre-project impact appraisals are not made available at all. 
 

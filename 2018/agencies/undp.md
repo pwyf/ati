@@ -11,11 +11,11 @@ Operating in around 170 countries, the United Nations Development Programme (UND
 
 The United Nations Development Programme (UNDP) has maintained its very good aid transparency level. 
 
-UNDP publishes on a monthly basis in the IATI Standard.
+UNDP publishes on a monthly basis to the IATI Registry.
 
 UNDP publishes all indicators in the IATI format and performs well on almost all indicators. 
 
-UNDP is among the top 5 performers for all components of the Index, ranking second for finance and budgets, performance as well as project attributes. 
+UNDP is among the top five performers for all components of the Index, ranking second for finance and budgets, performance as well as project attributes. 
 
 Project budgets, contracts, tenders, results as well as reviews and evaluations are the lowest scoring indicators. 
 

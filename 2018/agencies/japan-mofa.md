@@ -9,11 +9,11 @@ The Japanese Ministry of Foreign Affairs (MOFA) is responsible for setting Japan
 
 ---
 
-Japan’s Ministry of Foreign Affairs remains in the very poor category. They are not publishing in the IATI standard and thus none of its data is available in a comparable format. 
+The Japanese Ministry of Foreign Affairs (Japan-MOFA) remains in the very poor category. It is not publishing to the IATI Registry and thus none of its data is available in a comparable format. 
 
-Out of the 36 indicators, information is consistently published for only eight indicators, for 18 indicators some information is available and no information at all is available for 10 indicators. 
+Information is consistently published for only eight indicators, for 10 indicators some information is available and no information at all is available for 16 indicators. 
 
-Japan-MOFA scores on half of the indicators for the organisational planning and commitments components. A current annual report and a procurement policy is published on their website and country strategies, audits and allocation policies are made available but are not up to date. No organisation strategy is provided on Japan-MOFA's website. 
+Japan-MOFA scores on half of the indicators for the organisational planning and commitments components. A current annual report and a procurement policy are published on their website and country strategies, audits and allocation policies are made available but were not up to date. No organisation strategy is provided on Japan-MOFA's website. 
 
 For the joined-up development data component, Japan-MOFA provides information about finance type and flow type consistently. Information about the aid type and tied aid status can be found for some projects. No information at all is published for conditions nor are contracts and tenders being published. 
 

@@ -9,23 +9,28 @@ The US Agency for International Development (USAID) is the lead development agen
 
 ---
 
-The US Agency for International Development (US-USAID) are included in the good category. 
+The United States Agency for International Development (US-USAID) is included in the good category. 
 
-As with all US agencies, data is only published quarterly to the IATI registry. 
+As with all US agencies, data is only published quarterly to the IATI Registry. US-USAID is now publishing directly to IATI rather than via the State Department's "F" Bureau. 
 
-USAID does very well on the organisational planning component, scoring full points for organisation strategy, annual report, allocation policy, procurement policy, audit and country strategies. 
+US-USAID does very well on the organisational planning component, scoring full points for organisation strategy, annual report, allocation policy, procurement policy, audit and country strategies. 
 
-All project attributes indicators are published in a comparable format and receive high scores. The only notable exception is for sub-national location which is among the lowest scoring indicators. 
+Four out of three finance and budget indicators are published in the IATI format: commitments, disbursements and expenditures, disaggregated budgets and total organisation budget. There is room for improvement with regards to the disaggregated budgets indicaotr and the total organisation budget is provided for one year ahead only. While project budgets are sometimes made available, capital spend and project budget documents are not published. 
 
-Information on joined-up development data indicators is generally available but for the two procurement indicators, contracts and tenders. While published in the IATI format, tenders score very low. Contracts provided in the IATI standard did not meet the definition but could be found in other formats. 
+US-USAID performs well on almost all project attributes indicators and all are published in the comparable IATI format. The only notable exception is for sub-national location which is among the lowest scoring indicators. Some probable errors with activity dates and activity statuses were detected. 
 
-Four out of three finance and budget indicators are published in the IATI format: commitments, disbursements and expenditures, disaggregated budgets and total organisation budget. The score for disaggregated budgets is moderate and the total organisation budget is provided for one year ahead only. Capital spend, project budget and project budget documents are not published. 
+Information on joined-up development data indicators is generally available but for the two procurement indicators, contracts and tenders. While published in a comparable format, tenders is one of the lowest scoring indicators. Contracts provided in the IATI Standard were out of date but current ones could be found in other formats. 
 
-Although all performance indicators are published to IATI, scores for all four are low. Objectives and pre-project impact appraisals are provided in the IATI format but for a limited number of projects, leading to low scores. The reviews and evaluations as well as the results provided in the IATI format are out of date or do not meet the definition of the indicator. However, information for both indicators is consistently published in other formats. 
+Although all performance indicators are published to IATI, all four receive relatively low scores. The reviews and evaluations as well as the results provided in the IATI format were out of date or did not meet the definition of the indicator. However, information for both indicators is consistently published in other formats. 
  
 
 ---
 
-Recommendations go here.
+US-USAID should prioritize the implementation of its Development Information Solution (DIS), allowing USAID to coherently consolidate, share, and use the full breath of its aid information.
+
+US-USAID shoud ensure that activity dates as well as activity status are regularly updated and stated correctly. 
+
+US-USAID should prioritise the comprehensive publication of tenders and contracts as well as the publication of reviews and evaluations in a comparable format. 
+
 
 ---

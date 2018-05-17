@@ -9,23 +9,25 @@ The New Zealand Ministry of Foreign Affairs and Trade (MFAT) is responsible for 
 
 ---
 
-New Zealand-MFAT sits at the bottom of the poor category. 
+The New Zealand Ministry of Foreign Affairs and Trade (New Zealand-MFAT) sits at the bottom of the poor category. 
 
-New Zealand currently only publishes to the IATI registry less than quarterly. 
-
-The majority of project attributes indicators is published in the IATI format and score relatively well. However, information about implementers is only provided sometimes on the organisation's website and sub-national locations are not published. 
+New Zealand-MFAT currently only publishes to the IATI Registry less than quarterly. 
 
 None of the organisational planning indicators was published to IATI but all except country strategies are published in other formats. Country strategies documentation are not being made available consistently. 
 
-Within the joined-up development data component, conditions are not published while contracts are sometimes published and tenders are consistently being made available in other formats.
+Two finance and budget indicators, project budget as well as disbursements and expenditures, are published in a comparable format with project budget scoring comparatively low. Capital spend and project budget documents are not being made available whereas commitments can sometimes be found. The total organisation budget and disaggregated budgets are only available one year ahead and in a PDF format. 
 
-Two finance and budget indicators, project budget and disbursements and expenditures, are published in a comparable format with project budget also scoring comparatively low. Capital spend and project budget documents are not being made available whereas commitments can sometimes be found. The total organisation budget and disaggregated budgets is only available one year ahead, and not in a machine-readable format.
+The majority of project attributes indicators is published in the comparable IATI format and New Zealand-MFAT performs relatively well on the majority of them. However, information about implementers is only provided sometimes on the organisation's website and sub-national locations are not published. 
 
-New Zealand does not receive any points for the performance component. While objectives as well as reviews and evaluations are sometimes published, pre-project impact appraisals and results are not provided at all. 
+Within the joined-up development data component, conditions are not published while contracts are sometimes published and tenders are consistently being made available in non-comparable formats. 
+
+New Zealand-MFAT does not receive any points for the performance component. While objectives as well as reviews and evaluations are sometimes published, pre-project impact appraisals and results are not provided at all. 
 
 
 ---
 
 New Zealand-MFAT should aim for quarterly, if not monthly publication.
+
+New Zealand -MFAT does not have an organisation file. 
 
 ---

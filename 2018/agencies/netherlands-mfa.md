@@ -9,18 +9,19 @@ The Ministry of Foreign Affairs (known as Minbuza) is the organisation responsib
 
 ---
 
-The Netherlands-MFA remains in the good category 
-It publishes to the IATI registry monthly.
+The Ministry of Foreign Affairs of the Netherlands (Netherlands-MFA) remains in the good category. 
+ 
+Netherlands-MFA publishes to the IATI Registry monthly.
 
-The Netherlands do generally well on joined-up development data. Only information on procurement, namely tenders and contracts are not made available in the IATI Standard. Tenders are always being made available in other formats. Contracts are not published. 
+Full points are achieved for all organisational planning documentation, with the exception of country strategies which is one of the lowest scoring indicators. 
 
-Full points are achieved for all organisational planning documentation, with the exception of country strategies which score comparatively low. 
+Apart from capital spend, which is not published at all, all finance and budget indicators are provided in the IATI format. However, there is room for improvement for the disaggregated budgets indicator and the project budget documents did not meet the definition of the indicator. The latter are always being made available in other formats. 
 
-All project attributes indicators are published to IATI. However, sub-national location scores low. Both titles and descriptions contain many acronyms and are incomplete, resulting in lower scores for these two indicators.  
+All project attributes indicators are published to IATI. However, sub-national location is one of the lowest scoring indicators and both titles and descriptions contain many acronyms and are incomplete.  
 
-Apart from capital spend, which is not published at all, all finance and budget indicators are provided in the IATI format. However, disaggregated budgets score low and the project budget documents are not meeting the definition of the indicator. The latter are always being made available in other formats. 
+The Netherlands-MFA does generally well on joined-up development data. Only information on procurement, namely tenders and contracts, is not made available in the IATI Standard. Tenders are always being made available in other formats. Contracts are not published. 
 
-Within the performance category, the Netherlands only score on objectives. While results are also published to IATI, they did not meet the definition. Results are not being made available in other formats, neither are reviews and evaluations. Pre-project impact appraisals are sometimes provided. 
+Within the performance category, the Netherlands-MFA only scores on objectives. While results are also published to IATI, they did not meet the definition. Results are not being made available in other formats, neither are reviews and evaluations. Pre-project impact appraisals are sometimes provided. 
 
 ---
 

@@ -9,18 +9,17 @@ The Swiss Agency for Development and Cooperation (SDC) is responsible for the ov
 
 ---
 
-Switzerland-SDC remains in the middle of the fair category. 
+The Swiss Agency for Development and Cooperation (Switzerland-SDC) remains in the fair category. 
 
-Switzerland-SDC have reduced the frequency at which they publish to the IATI registry, from quarterly in 2016 to every six months. 
+Switzerland-SDC has reduced the frequency at which it publishes to the IATI Registry, from quarterly in 2016 to every six months. 
 
-SDC are doing well on organisational planning. They score highly and publish all organisational planning indicators in the IATI format, barring audit and country strategies. While the audit is provided in other formats, country strategies are published inconsistently. 
+Switzerland-SDC are doing well on organisational planning. They publish all organisational planning indicators in the comparable IATI format, barring audit and country strategies. While the audit is provided elsewhere, country strategies are published inconsistently. 
 
-Switzerland makes all project attributes available in a comparable format. However, they do not provide planned start dates and the scores for descriptions and in particular sub-national location are low. 
+Four out of seven finance and budget indicators are published in a comparable format: commitments, disaggregated budgets, disbursement and expenditures and total organisation budget. There is room for improvement on the commitments indicator and no information at all can be found for capital spend, project budget and project budget document. 
 
-Apart from the two procurement indicators, contracts and tenders, Switzerland performs well on joined-up development data. Both contracts and tenders are being made available in non-IATI formats but not consistently. 
+Switzerland-SDC makes all project attributes available in a comparable format. However, they do not provide planned start dates and descriptions as well as sub-national locations are among the lowest scoring indicators. 
 
-
-Four out of seven finance and budget indicators are published in a comparable format: commitments, disaggregated budgets, disbursement and expenditures and total organisation budget. No information at all can be found for capital spend, project budget and project budget document. 
+Apart from the two procurement indicators, contracts and tenders, Switzerland-SDC performs well on joined-up development data. Both contracts and tenders are being made available in non-IATI formats but not consistently. 
 
 No performance indicators are published to IATI and only objectives are consistently provided in other formats. While results as well as reviews and evaluations are sometimes available, pre-project impact appraisals are not provided at all. 
 

@@ -9,23 +9,27 @@ The President's Emergency Plan for AIDS Relief (PEPFAR) is the US government’s
 
 ---
 
-The US President's Emergency Plan for AIDS Relief (US-PEPFAR) is included in the good category.
+The United States President's Emergency Plan for AIDS Relief (US-PEPFAR) is included in the good category.
 
-As with all US agencies, data is only published quarterly to the IATI registry.
+As with all US agencies, data is only published quarterly to the IATI Registry.
 
-PEPFAR performs well on organisational planning indicators as all are published in a comparable format. 
+US-PEPFAR performs well on organisational planning indicators as all are published in the comparable IATI format. 
 
-All project attributes are published to IATI and PEPFAR is doing well on the majority of them. However, some of the basics are missing. The titles provided use many acronyms and the descriptions tend to be incomplete. Sub-national location is also one of the lowest scoring indicators. 
+US-PEPFAR’s performance for the finance and budgets component is mixed. While it does relatively well on capital spend, project budget and project budget documents, disaggregated budgets as well as disbursements and expenditures are areas where there is room for improvement. The total organisation budget is published for the current year only. Commitments are not published to IATI and are only sometimes published in PDFs. This makes US-PEPFAR one of few organisations not to score on commitments. 
 
-US-PEPFAR does well on all joined-up development data indicators but the two procurement indicators, contracts and tenders. Tenders are not published in the IATI format but can be found in other formats. Contracts are not published at all. 
+All project attributes are published to IATI and US-PEPFAR is doing well on the majority of them. However, some of the basics are missing. The titles provided use many acronyms and the descriptions tend to be incomplete. Sub-national location is also one of the lowest scoring indicators. 
 
-US-PEPFAR’s performance for the finance and budgets component is mixed. While it does relatively well on  capital spend, project budget and project budget documents, less information is made available on disaggregated budgets as well as disbursements and expenditures . The total organisation budget is published for the current year only. Commitments are not published to IATI and are only sometimes published in PDFs. This makes PEPFAR one of few organisations not to score on commitments. 
+US-PEPFAR does well on all joined-up development data indicators but the two procurement indicators, contracts and tenders. Tenders are published in the IATI format but the information provided is too general and not specific to individual activities. Tenders are consistently made available in other formats. Contracts are not published at all. 
 
-Within the good category, PEPFAR is one of two organisations to receive 0 points for the performance component. While reviews and evaluations as well as results are sometimes published on the organisation’s website, objectives and pre-project impact appraisals are not published at all
+Within the good category, US-PEPFAR is one of two organisations to receive zero points for the performance component. While reviews and evaluations as well as results are sometimes published on the organisation’s website, objectives and pre-project impact appraisals are not published at all
 
 
 ---
 
-Recommendations go here.
+Given US-PEPFAR’s data driven culture, it would be extremely helpful to join-up its IATI data with other detailed project data, maximizing the usefulness of its data and the analysis that could follow.  
+
+US-PEPFAR should ensure to get the basics, such as titles and descriptions, right. 
+
+US-PEPFAR should prioritise the comprehensive publication of key documents, such as contracts, reviews and evaluations and pre-project impact appraisals. 
 
 ---

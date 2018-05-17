@@ -9,21 +9,21 @@ The International Development Association (IDA) is the concessional lending arm 
 
 ---
 
-The World Bank-IDA has kept up its very good transparency levels but has been overtaken by the Asian Development Bank and the African Development Bank as the best performing development finance institution.
+The World Bank's International Development Association (World Bank-IDA) has kept up its very good transparency levels but has been overtaken by the Asian Development Bank and the African Development Bank as the best performing development finance institution.
 
-WB-IDA publishes on a quarterly basis.
+World Bank-IDA publishes to the IATI Registry on a quarterly basis.
 
-The WB-IDA publishes on most indicators in the IATI format, barring capital spend as well as reviews and evaluations. 
+The World Bank-IDA publishes all indicators in the IATI format, barring capital spend.
 
-The WB-IDA performs well for all organisational and planning indicators.   
+The World Bank-IDA performs well for all organisational and planning indicators.   
 
-They are among the top 5 performers for joined-up development data.
+The World Bank-IDA scores below average within the very good category with regards to finance and budgets. The total organisation budget is provided for one year ahead only and capital spend information is not published to IATI nor in other formats. 
 
-WB-IDA is further among the top 5 performers for the performance component. They have started publishing results data to IATI and also do comparatively well on objectives as well as pre-project impact appraisals. The review and evaluation documents provided in the IATI standard do not meet the definition of the indicator. But documents which meet the requirements are made available in other formats.
+The World Bank-IDA performs well on all project attributes but project titles. The titles provided contain many acronyms making it difficult for external people to use this information. 
 
-The WB-IDA performs well on all project attributes but project titles. The titles provided contain many acronyms making it difficult for external people to use this information. 
+They are among the top five performers for joined-up development data.
 
-The WB-IDA scores below average within the very good category with regards to finance and budgets. Capital spend information is not published to IATI and is not provided in other formats. 
+World Bank-IDA is further among the top five performers for the performance component. It has started publishing results data to IATI and also does comparatively well on objectives as well as pre-project impact appraisals. The review and evaluation documents provided in the IATI Standard did not meet the definition of the indicator. But documents which meet the requirements are made available in other formats.
 
 
 ---
