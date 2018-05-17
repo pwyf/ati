@@ -17,7 +17,7 @@ $(document).ready(function() {
       $('.results-table').removeClass('compare-active');
 
       var compare = $('#compareSel').val();
-      if ($.inArray(compare, comparisonAgencies)) {
+      if (compare in comparisonAgencies) {
         compareAgencies(comparisonAgencies[compare]);
       } else if (compare === 'custom') {
         $('.result-row').addClass('compare-shown').fadeIn();
