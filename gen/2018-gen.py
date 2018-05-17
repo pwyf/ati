@@ -4,6 +4,7 @@ import csv
 import json
 from os.path import dirname, join, realpath
 from os import makedirs
+import re
 import shutil
 
 import requests
@@ -81,9 +82,12 @@ for past_result in past_results:
         }
         org['history'].append(history)
 
+url_re = re.compile(r'(https?://[^\s]+)')
+
 for x in results:
     if x['survey_workflow_name'] not in ['', 'pwyffinal']:
         continue
+    sources = url_re.findall(x['survey_source'])
     org = slugify(x['organisation_name'])
     sc = float(x['total_points'])
     weight = float(x['indicator_weight'])
@@ -123,6 +127,7 @@ for x in results:
             'weight': weight,
         }
     orgs[org]['components'][cat]['indicators'][ind]['format'] = fmt
+    orgs[org]['components'][cat]['indicators'][ind]['sources'] = sources
     orgs[org]['components'][cat]['indicators'][ind]['status'] = status
 
 for name, org in orgs.items():
