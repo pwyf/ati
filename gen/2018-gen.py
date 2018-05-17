@@ -18,6 +18,49 @@ cats = [
 ]
 
 
+# groupings for the homepage table filter
+filter_groupings = [
+    ('Bilateral Donors', [
+        'australia-dfat', 'belgium-dgd', 'canada-global-affairs',
+        'china-mofcom', 'denmark-mfa', 'finland-mfa', 'france-afd',
+        'france-meae', 'germany-bmz-giz', 'germany-bmz-kfw',
+        'ireland-irish-aid', 'italy-aics', 'japan-jica',
+        'japan-mofa', 'korea-koica', 'netherlands-mfa',
+        'new-zealand-mfat', 'norway-mfa', 'spain-aecid',
+        'sweden-sida', 'switzerland-mfa', 'uae-mofaic', 'uk-dfid',
+        'uk-fco', 'us-defense', 'us-mcc', 'us-pepfar', 'us-state',
+        'us-usaid',
+    ]),
+    ('Development Finance', [
+        'afdb', 'asdb', 'ebrd', 'eib', 'iadb', 'world-bank-ida',
+        'world-bank-ifc',
+    ]),
+    ('European Union', [
+        'belgium-dgd', 'denmark-mfa', 'eib', 'ebrd', 'ec-devco', 'ec-echo',
+        'ec-near', 'finland-mfa', 'france-afd', 'france-meae',
+        'germany-bmz-giz', 'germany-bmz-kfw', 'ireland-irish-aid',
+        'italy-aics', 'netherlands-mfa', 'spain-aecid', 'sweden-sida',
+        'uk-dfid', 'uk-fco',
+    ]),
+    ('United Nations', [
+        'un-ocha', 'undp', 'unicef',
+    ]),
+    ('United States', [
+        'us-defense', 'us-mcc', 'us-pepfar', 'us-state', 'us-usaid',
+    ]),
+]
+
+
+# reshape the filter groupings, so the agencies are the keys
+reshaped_groupings = {}
+for grouping_name, agencies in filter_groupings:
+    for agency in agencies:
+        if agency not in reshaped_groupings:
+            reshaped_groupings[agency] = []
+        reshaped_groupings[agency].append(grouping_name)
+filter_groupings = reshaped_groupings
+
+
 def tidy_format(fmt):
     lookup = {
         'not-applicable': 'Not applicable',
@@ -172,6 +215,13 @@ profile_data = [{
         'analysis': x[4] if x[4] else 'Analysis goes here.',
         'recommendations': x[5] if x[5] else 'Recommendations go here.',
     } for x in r]
+
+for profile in profile_data:
+    if profile['slug'] in filter_groupings:
+        g = '\n    - ' + '\n    - '.join(filter_groupings[profile['slug']])
+        profile['groupings'] = g
+    else:
+        profile['groupings'] = ' -'
 
 components_path = join(rootpath, '_includes', '2018', 'components')
 shutil.rmtree(components_path, ignore_errors=True)
