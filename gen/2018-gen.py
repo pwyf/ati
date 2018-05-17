@@ -20,7 +20,7 @@ cats = [
 
 def tidy_format(fmt):
     lookup = {
-        'not-applicable': 'Not applicable',
+        'not-applicable': '',
         'iati': 'IATI',
         'machine-readable': 'Machine readable',
         'document': 'Document',
