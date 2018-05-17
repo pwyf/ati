@@ -2147,9 +2147,9 @@ XM-DAC-7-accessibility,"Netherlands, MFA",XM-DAC-7,1.2498749999999998,accessibil
 47045-project-procurement-contracts,Global Fund,47045,2.4967447916666665,project-procurement-contracts,Project procurement - Contracts,activity,Joining-up development data,activity-Joining-up development data,32,0.025,iati,iati,50,99.8697916667,99.7395833333,49.8697916667,monthly,1.0,1.0,49.8697916667,,,,,,0,,,,
 47045-objectives,Global Fund,47045,4.993489583333333,objectives,Objectives,activity,Performance,activity-Performance,33,0.05,iati,iati,50,99.8697916667,99.7395833333,49.8697916667,monthly,1.0,1.0,49.8697916667,,,,,,0,,,,
 47045-results,Global Fund,47045,4.996744791666667,results,Results,activity,Performance,activity-Performance,36,0.05,iati,iati,50,99.9348958333,99.8697916667,49.9348958333,monthly,1.0,1.0,49.9348958333,,,,,,0,,,,
-47045-impact-appraisals,Global Fund,47045,2.5,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,researcher,,,
+47045-impact-appraisals,Global Fund,47045,2.5,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,researcher,None,None,
 47045-impact-appraisals,Global Fund,47045,2.5,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,donorreview,,,
-47045-impact-appraisals,Global Fund,47045,2.5,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,pwyfreview,,,
+47045-impact-appraisals,Global Fund,47045,2.5,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyfreview,None,None,
 47045-impact-appraisals,Global Fund,47045,2.5,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,cso,,,
 47045-impact-appraisals,Global Fund,47045,0.0,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,document,50.0,0.0,pwyffinal,"https://www.theglobalfund.org/en/portfolio/country/grant/?k=5a7de1d0-b2ef-4773-b157-743bcd3b6aa1&grant=COD-H-CORDAID
 
@@ -2172,7 +2172,7 @@ file:///C:/Users/Elise/Downloads/GF_PD_003_1822ebbb-27f4-465e-b81e-641e25921192.
 https://www.theglobalfund.org/en/portfolio/country/grant/?k=87f96e44-453b-4fef-a988-7ece1925d7ba&grant=COD-M-MOH
 file:///C:/Users/Elise/Downloads/GF_PD_004_c65b6506-d630-4484-8861-e16f57cb5ce9%20(1).pdf",No recent evaluations or reviews/performance reports could be found. ,
 47045-reviews-and-evaluations,Global Fund,47045,2.5,reviews-and-evaluations,Reviews and evaluations,activity,Performance,activity-Performance,35,0.05,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,donorreview,,,
-47045-reviews-and-evaluations,Global Fund,47045,2.5,reviews-and-evaluations,Reviews and evaluations,activity,Performance,activity-Performance,35,0.05,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,pwyfreview,,,
+47045-reviews-and-evaluations,Global Fund,47045,2.5,reviews-and-evaluations,Reviews and evaluations,activity,Performance,activity-Performance,35,0.05,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyfreview,None,None,
 47045-reviews-and-evaluations,Global Fund,47045,2.5,reviews-and-evaluations,Reviews and evaluations,activity,Performance,activity-Performance,35,0.05,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,cso,,,
 47045-reviews-and-evaluations,Global Fund,47045,0.0,reviews-and-evaluations,Reviews and evaluations,activity,Performance,activity-Performance,35,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,document,50.0,0.0,pwyffinal,"https://www.theglobalfund.org/en/portfolio/country/grant/?k=5a7de1d0-b2ef-4773-b157-743bcd3b6aa1&grant=COD-H-CORDAID
 
@@ -2190,15 +2190,15 @@ http://docs.theglobalfund.org/program-documents/GF_PD_004_c65b6506-d630-4484-886
 
 The Grant Performance Reports and Progress Reports provided are usually not up-to-date or do not meet the definition of this indicator. ",1
 47045-reviews-and-evaluations,Global Fund,47045,0.0,reviews-and-evaluations,Reviews and evaluations,activity,Performance,activity-Performance,35,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,,0,,document,50.0,0.0,donorcomments,,,
-47045-annual-report,Global Fund,47045,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,researcher,,,
+47045-annual-report,Global Fund,47045,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,researcher,None,None,
 47045-annual-report,Global Fund,47045,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,donorreview,,,
-47045-annual-report,Global Fund,47045,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,pwyfreview,,,
+47045-annual-report,Global Fund,47045,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyfreview,None,None,
 47045-annual-report,Global Fund,47045,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,cso,,,
 47045-annual-report,Global Fund,47045,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyffinal,https://www.theglobalfund.org/en/archive/annual-reports/,This indicator failed IATI data sampling. Recent annual reports can be found on the organisation's website. ,1
 47045-annual-report,Global Fund,47045,0.0,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,,0,,document,50.0,0.0,donorcomments,,,1
-47045-procurement-policy,Global Fund,47045,0.9375,procurement-policy,Procurement policy,,Organisational planning and commitments,-Organisational planning and commitments,6,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,researcher,,,
+47045-procurement-policy,Global Fund,47045,0.9375,procurement-policy,Procurement policy,,Organisational planning and commitments,-Organisational planning and commitments,6,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,researcher,None,None,
 47045-procurement-policy,Global Fund,47045,0.9375,procurement-policy,Procurement policy,,Organisational planning and commitments,-Organisational planning and commitments,6,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,donorreview,,,
-47045-procurement-policy,Global Fund,47045,0.9375,procurement-policy,Procurement policy,,Organisational planning and commitments,-Organisational planning and commitments,6,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,pwyfreview,,,
+47045-procurement-policy,Global Fund,47045,0.9375,procurement-policy,Procurement policy,,Organisational planning and commitments,-Organisational planning and commitments,6,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyfreview,None,None,
 47045-procurement-policy,Global Fund,47045,0.9375,procurement-policy,Procurement policy,,Organisational planning and commitments,-Organisational planning and commitments,6,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,cso,,,
 47045-procurement-policy,Global Fund,47045,0.9375,procurement-policy,Procurement policy,,Organisational planning and commitments,-Organisational planning and commitments,6,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyffinal,https://www.theglobalfund.org/media/5873/psm_procurementsupplymanagement_guidelines_en.pdf?u=636541321310000000,"This indicator failed IATI data sampling. 
 Relevant updated document could be found on the organisation's website. ",1
@@ -2208,7 +2208,7 @@ Relevant updated document could be found on the organisation's website. ",1
 https://www.theglobalfund.org/en/portfolio/country/list/?loc=CIV&k=ed3fb9ed-a462-4743-b6d3-12b20f363974","The Global Fund invests in HIV/AIDS, Malaria and TB in DRC. Concept notes could be found for TB and Malaria. 
 None could be found for HIV/AIDS despite grants being allocated (see link 2).",
 47045-country-strategy-or-mou,Global Fund,47045,0.9375,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,donorreview,,,
-47045-country-strategy-or-mou,Global Fund,47045,0.9375,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,pwyfreview,,,
+47045-country-strategy-or-mou,Global Fund,47045,0.9375,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyfreview,None,None,
 47045-country-strategy-or-mou,Global Fund,47045,0.9375,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,cso,,,
 47045-country-strategy-or-mou,Global Fund,47045,0.0,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,document,50.0,0.0,pwyffinal,"https://www.theglobalfund.org/en/portfolio/country/?loc=IND&k=7c973abd-19b9-486b-956a-8ddeb7dd3f58
 
@@ -2226,9 +2226,9 @@ Strategies could only be found sometimes.
 
 ",1
 47045-country-strategy-or-mou,Global Fund,47045,0.0,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,,0,,document,50.0,0.0,donorcomments,,,
-47045-audit,Global Fund,47045,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,researcher,,,
+47045-audit,Global Fund,47045,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,researcher,None,None,
 47045-audit,Global Fund,47045,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,donorreview,,,
-47045-audit,Global Fund,47045,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,pwyfreview,,,
+47045-audit,Global Fund,47045,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyfreview,None,None,
 47045-audit,Global Fund,47045,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,cso,,,
 47045-audit,Global Fund,47045,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyffinal,https://www.theglobalfund.org/en/oig/reports/,"This indicator failed IATI data sampling. 
 Country specific and sectoral audits can be found on the organisation's website. ",1
@@ -2236,8 +2236,6 @@ Country specific and sectoral audits can be found on the organisation's website.
 47045-sub-national-location,Global Fund,47045,0.0,sub-national-location,Sub-national location,activity,Project attributes,activity-Project attributes,23,0.035,manual,,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,,0,0.0,researcher,"https://www.theglobalfund.org/en/portfolio/country/list/?loc=IND
 
 https://www.theglobalfund.org/en/portfolio/country/grant/?k=6526559b-a8b6-49db-a8e4-8d95652b5c48&grant=COD-607-G05-T
-
-file:///C:/Users/Elise/Downloads/GF_PD_002_855693b8-8bb6-4cc9-ac5b-37d3426c198d%20(1).pdf
 
 https://www.theglobalfund.org/en/portfolio/country/grant/?k=d1345cda-9faf-4e6d-9cad-9ef3235ed6e0&grant=COD-H-SANRU
 
@@ -2250,8 +2248,6 @@ The strategy section of the grant agreement specifies targeted health zones but 
 
 https://www.theglobalfund.org/en/portfolio/country/grant/?k=6526559b-a8b6-49db-a8e4-8d95652b5c48&grant=COD-607-G05-T
 
-file:///C:/Users/Elise/Downloads/GF_PD_002_855693b8-8bb6-4cc9-ac5b-37d3426c198d%20(1).pdf
-
 https://www.theglobalfund.org/en/portfolio/country/grant/?k=d1345cda-9faf-4e6d-9cad-9ef3235ed6e0&grant=COD-H-SANRU
 
 https://www.theglobalfund.org/en/portfolio/country/grant/?k=87f96e44-453b-4fef-a988-7ece1925d7ba&grant=COD-M-MOH
@@ -2262,8 +2258,6 @@ The strategy section of the grant agreement specifies targeted health zones but 
 47045-sub-national-location,Global Fund,47045,0.0,sub-national-location,Sub-national location,activity,Project attributes,activity-Project attributes,23,0.035,manual,pdf,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,pdf,16.665,0.0,pwyffinal,"https://www.theglobalfund.org/en/portfolio/country/list/?loc=IND
 
 https://www.theglobalfund.org/en/portfolio/country/grant/?k=6526559b-a8b6-49db-a8e4-8d95652b5c48&grant=COD-607-G05-T
-
-file:///C:/Users/Elise/Downloads/GF_PD_002_855693b8-8bb6-4cc9-ac5b-37d3426c198d%20(1).pdf
 
 https://www.theglobalfund.org/en/portfolio/country/grant/?k=d1345cda-9faf-4e6d-9cad-9ef3235ed6e0&grant=COD-H-SANRU
 
@@ -5140,7 +5134,7 @@ DE-2-aid-type,"Germany, BMZ-KFW",DE-2,3.33333,aid-type,Aid type,activity,Joining
 DE-2-finance-type,"Germany, BMZ-KFW",DE-2,3.33333,finance-type,Finance type,activity,Joining-up development data,activity-Joining-up development data,28,0.0333333,iati,iati,50,100.0,100.0,50.0,monthly,1.0,1.0,50.0,,,,,,0,,,,
 DE-2-tied-aid-status,"Germany, BMZ-KFW",DE-2,3.33333,tied-aid-status,Tied aid status,activity,Joining-up development data,activity-Joining-up development data,29,0.0333333,iati,iati,50,100.0,100.0,50.0,monthly,1.0,1.0,50.0,,,,,,0,,,,
 DE-2-conditions,"Germany, BMZ-KFW",DE-2,2.4999975,conditions,Conditions,activity,Joining-up development data,activity-Joining-up development data,30,0.0333333,iati,iati,50,75.0,50.0,25.0,monthly,1.0,1.0,25.0,,,,,,0,,,,
-DE-2-objectives,"Germany, BMZ-KFW",DE-2,0.0,objectives,Objectives,activity,Performance,activity-Performance,33,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,document,50.0,0.0,researcher,"ttps://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
+DE-2-objectives,"Germany, BMZ-KFW",DE-2,0.0,objectives,Objectives,activity,Performance,activity-Performance,33,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,document,50.0,0.0,researcher,"https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
 
 https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-energieintensiven-Sektoren-EESL-II-33548.htm
 
@@ -5170,7 +5164,7 @@ https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Forschungskooperati
 
 https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Integrierter-Wassertransport-Kochi-37465.htm","Objectives as per definition could be found for some but not for all projects. Some descriptions are too short and do not include the detailed description of the activity, the target sector/group and expected outcomes.",1
 DE-2-objectives,"Germany, BMZ-KFW",DE-2,0.0,objectives,Objectives,activity,Performance,activity-Performance,33,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,,0,,document,50.0,0.0,donorcomments,,KfW is currently examining the possibilities to ensure including the objectives for projects more systematically.,1
-DE-2-impact-appraisals,"Germany, BMZ-KFW",DE-2,0.0,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,researcher,"ttps://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
+DE-2-impact-appraisals,"Germany, BMZ-KFW",DE-2,0.0,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,researcher,"https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
 
 https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-energieintensiven-Sektoren-EESL-II-33548.htm
 
@@ -5180,7 +5174,7 @@ https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Forschungskooperati
 
 https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Integrierter-Wassertransport-Kochi-37465.htm",This information could not be found. ,
 DE-2-impact-appraisals,"Germany, BMZ-KFW",DE-2,0.0,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,donorreview,,,
-DE-2-impact-appraisals,"Germany, BMZ-KFW",DE-2,0.0,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,pwyfreview,"ttps://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
+DE-2-impact-appraisals,"Germany, BMZ-KFW",DE-2,0.0,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,pwyfreview,"https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
 
 https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-energieintensiven-Sektoren-EESL-II-33548.htm
 
@@ -5190,7 +5184,7 @@ https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Forschungskooperati
 
 https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Integrierter-Wassertransport-Kochi-37465.htm",This information could not be found. ,
 DE-2-impact-appraisals,"Germany, BMZ-KFW",DE-2,0.0,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,,0,,document,50.0,0.0,cso,,,1
-DE-2-impact-appraisals,"Germany, BMZ-KFW",DE-2,0.0,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,pwyffinal,"ttps://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
+DE-2-impact-appraisals,"Germany, BMZ-KFW",DE-2,0.0,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,pwyffinal,"https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
 
 https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-energieintensiven-Sektoren-EESL-II-33548.htm
 
@@ -5233,9 +5227,9 @@ DE-2-results,"Germany, BMZ-KFW",DE-2,0.0,results,Results,activity,Performance,ac
 https://www.kfw-entwicklungsbank.de/PDF/Evaluierung/Ergebnisse-und-Publikationen/PDF-Dokumente-E-K_EN/Indien_Adivasi_2017_E.pdf","Results can be found in ex poste evaluations which are conducted on a selected sample of projects. Results information for other closed projects does not appear to be available.
 ",1
 DE-2-results,"Germany, BMZ-KFW",DE-2,0.0,results,Results,activity,Performance,activity-Performance,36,0.05,manual,,0,0,0,0,monthly,1.0,1,0,,0,,,0,0,donorcomments,,"It is planned to include the evaluation documents into the BMZ IATI file in a timely manner. Further on BMZ, KfW and GIZ have entailed a process in order to discuss possibilities and challenges to include further results into the IATI file ",1
-DE-2-annual-report,"Germany, BMZ-KFW",DE-2,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,researcher,,,
+DE-2-annual-report,"Germany, BMZ-KFW",DE-2,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,researcher,None,None,
 DE-2-annual-report,"Germany, BMZ-KFW",DE-2,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,donorreview,,,
-DE-2-annual-report,"Germany, BMZ-KFW",DE-2,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,pwyfreview,,,
+DE-2-annual-report,"Germany, BMZ-KFW",DE-2,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyfreview,None,None,
 DE-2-annual-report,"Germany, BMZ-KFW",DE-2,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,cso,,,
 DE-2-annual-report,"Germany, BMZ-KFW",DE-2,0.9375,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyffinal,https://www.kfw-ipex-bank.de/PDF/Presse/Download-Center/2017-05-09-kfw-ipex-bank-annual-report-2016.pdf,"This indicator is published to the IATI standard but failed the manual checks. 
 
@@ -5257,9 +5251,9 @@ DE-2-allocation-policy,"Germany, BMZ-KFW",DE-2,0.9375,allocation-policy,Allocati
 
 http://www.bmz.de/en/publications/type_of_publication/strategies/index.html",Report summarises main policy interests of Germany with regards to development. More detailed documents available per region or theme. ,1
 DE-2-allocation-policy,"Germany, BMZ-KFW",DE-2,0.0,allocation-policy,Allocation policy,,Organisational planning and commitments,-Organisational planning and commitments,5,0.01875,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,,0,,document,50.0,0.0,donorcomments,,,
-DE-2-country-strategy-or-mou,"Germany, BMZ-KFW",DE-2,0.9375,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,researcher,,,
+DE-2-country-strategy-or-mou,"Germany, BMZ-KFW",DE-2,0.9375,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,researcher,None,None,
 DE-2-country-strategy-or-mou,"Germany, BMZ-KFW",DE-2,0.9375,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,donorreview,,,
-DE-2-country-strategy-or-mou,"Germany, BMZ-KFW",DE-2,0.9375,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,pwyfreview,,,
+DE-2-country-strategy-or-mou,"Germany, BMZ-KFW",DE-2,0.9375,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyfreview,None,None,
 DE-2-country-strategy-or-mou,"Germany, BMZ-KFW",DE-2,0.9375,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,cso,,,
 DE-2-country-strategy-or-mou,"Germany, BMZ-KFW",DE-2,0.9375,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyffinal,"https://www.kfw-entwicklungsbank.de/Internationale-Finanzierung/KfW-Entwicklungsbank/Weltweite-Pr%C3%A4senz/Asien/Indien/
 
@@ -5273,9 +5267,9 @@ https://www.kfw-entwicklungsbank.de/Internationale-Finanzierung/KfW-Entwicklungs
 
 KFW lists priority areas for all its major recipient countries on its website. Additionally, they link to BMZ's priorities in these countries at the bottom of the page. ",1
 DE-2-country-strategy-or-mou,"Germany, BMZ-KFW",DE-2,0.0,country-strategy-or-mou,Strategy (country/sector) or Memorandum of Understanding,,Organisational planning and commitments,-Organisational planning and commitments,7,0.01875,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,,0,,document,50.0,0.0,donorcomments,,Please note: KfW is financing development cooperation projects on behalf of BMZ. Therefore it is following BMZ´s country/sector strategies without publishing own strategies.,1
-DE-2-audit,"Germany, BMZ-KFW",DE-2,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,researcher,,,
+DE-2-audit,"Germany, BMZ-KFW",DE-2,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,researcher,None,None,
 DE-2-audit,"Germany, BMZ-KFW",DE-2,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,donorreview,,,
-DE-2-audit,"Germany, BMZ-KFW",DE-2,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,pwyfreview,,,
+DE-2-audit,"Germany, BMZ-KFW",DE-2,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyfreview,None,None,
 DE-2-audit,"Germany, BMZ-KFW",DE-2,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,cso,,,
 DE-2-audit,"Germany, BMZ-KFW",DE-2,0.9375,audit,Audit,,Organisational planning and commitments,-Organisational planning and commitments,8,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyffinal,https://www.kfw-ipex-bank.de/PDF/Presse/Download-Center/2017-05-09-kfw-ipex-bank-annual-report-2016.pdf,"This indicator is published to the IATI standard but failed the manual checks.
 
@@ -5346,7 +5340,7 @@ https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Integrierter-Wasser
 
 Any update to the IATI Registry will be taken into account before the end of data collection.",1
 DE-2-capital-spend,"Germany, BMZ-KFW",DE-2,0.0,capital-spend,Capital spend,activity,Finance and budgets,activity-Finance and budgets,15,0.0333333,manual,,0,0,0,0,monthly,1.0,1,0,,0,,,0,0,donorcomments,,The majority of the projects is Investment in capital (construction and/or rehabilitation). Possibilities to make the information available in the IATI file are currently checked. ,1
-DE-2-sub-national-location,"Germany, BMZ-KFW",DE-2,0.0,sub-national-location,Sub-national location,activity,Project attributes,activity-Project attributes,23,0.035,manual,machine-readable,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,machine-readable,50.0,0.0,researcher,"ttps://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
+DE-2-sub-national-location,"Germany, BMZ-KFW",DE-2,0.0,sub-national-location,Sub-national location,activity,Project attributes,activity-Project attributes,23,0.035,manual,machine-readable,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,machine-readable,50.0,0.0,researcher,"https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
 
 https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-energieintensiven-Sektoren-EESL-II-33548.htm
 
@@ -5357,7 +5351,7 @@ https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Forschungskooperati
 https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Integrierter-Wassertransport-Kochi-37465.htm",Information on sub-national location could be found for some projects but not all.,
 DE-2-sub-national-location,"Germany, BMZ-KFW",DE-2,0.0,sub-national-location,Sub-national location,activity,Project attributes,activity-Project attributes,23,0.035,manual,machine-readable,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,machine-readable,50.0,0.0,donorreview,,"So far, there is no systematic collection of sub-national geo data with KfW projects. 
 BMZ, GIZ and KfW have entailed a process in order to discuss possibilities and challenges to collect sub national geo data. ",
-DE-2-sub-national-location,"Germany, BMZ-KFW",DE-2,0.0,sub-national-location,Sub-national location,activity,Project attributes,activity-Project attributes,23,0.035,manual,machine-readable,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,machine-readable,50.0,0.0,pwyfreview,"ttps://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
+DE-2-sub-national-location,"Germany, BMZ-KFW",DE-2,0.0,sub-national-location,Sub-national location,activity,Project attributes,activity-Project attributes,23,0.035,manual,machine-readable,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,machine-readable,50.0,0.0,pwyfreview,"https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
 
 https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-energieintensiven-Sektoren-EESL-II-33548.htm
 
@@ -5369,7 +5363,7 @@ https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Integrierter-Wasser
 
 Any update to information on sub-national location will be taken into account before the end of data collection.",
 DE-2-sub-national-location,"Germany, BMZ-KFW",DE-2,0.0,sub-national-location,Sub-national location,activity,Project attributes,activity-Project attributes,23,0.035,manual,,0,0,0,0,monthly,1.0,1,0,,0,,,0,0,cso,,,1
-DE-2-sub-national-location,"Germany, BMZ-KFW",DE-2,0.0,sub-national-location,Sub-national location,activity,Project attributes,activity-Project attributes,23,0.035,manual,machine-readable,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,machine-readable,50.0,0.0,pwyffinal,"ttps://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
+DE-2-sub-national-location,"Germany, BMZ-KFW",DE-2,0.0,sub-national-location,Sub-national location,activity,Project attributes,activity-Project attributes,23,0.035,manual,machine-readable,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,machine-readable,50.0,0.0,pwyffinal,"https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-oeffentlichen-Gebaeuden-und-Infrastruktur-Phase-II-26217.htm
 
 https://www.kfw-entwicklungsbank.de/ipfz/Projektdatenbank%20/Energieeffizienz-in-energieintensiven-Sektoren-EESL-II-33548.htm
 
@@ -5516,6 +5510,7 @@ US-14-accessibility,"US, PEPFAR",US-14,0,accessibility,Accessibility,commitment,
 https://www.foreignassistance.gov/
 
 ",0
+CA-3-organisation-strategy,"Canada, Global Affairs",CA-3,1.875,organisation-strategy,Organisation strategy,,Organisational planning and commitments,-Organisational planning and commitments,3,0.01875,iati,iati,50,100.0,100.0,50.0,monthly,1.0,1,50.0,,,,,,0,,,,
 CA-3-annual-report,"Canada, Global Affairs",CA-3,1.875,annual-report,Annual report,,Organisational planning and commitments,-Organisational planning and commitments,4,0.01875,iati,iati,50,100.0,100.0,50.0,monthly,1.0,1,50.0,,,,,,0,,,,
 CA-3-allocation-policy,"Canada, Global Affairs",CA-3,1.875,allocation-policy,Allocation policy,,Organisational planning and commitments,-Organisational planning and commitments,5,0.01875,iati,iati,50,100.0,100.0,50.0,monthly,1.0,1,50.0,,,,,,0,,,,
 CA-3-procurement-policy,"Canada, Global Affairs",CA-3,1.875,procurement-policy,Procurement policy,,Organisational planning and commitments,-Organisational planning and commitments,6,0.01875,iati,iati,50,100.0,100.0,50.0,monthly,1.0,1,50.0,,,,,,0,,,,
@@ -5545,35 +5540,6 @@ CA-3-conditions,"Canada, Global Affairs",CA-3,3.33333,conditions,Conditions,acti
 CA-3-project-procurement-contracts,"Canada, Global Affairs",CA-3,2.5,project-procurement-contracts,Project procurement - Contracts,activity,Joining-up development data,activity-Joining-up development data,32,0.025,iati,iati,50,100.0,100.0,50.0,monthly,1.0,1.0,50.0,,,,,,0,,,,
 CA-3-objectives,"Canada, Global Affairs",CA-3,5.0,objectives,Objectives,activity,Performance,activity-Performance,33,0.05,iati,iati,50,100.0,100.0,50.0,monthly,1.0,1.0,50.0,,,,,,0,,,,
 CA-3-results,"Canada, Global Affairs",CA-3,4.954081632653061,results,Results,activity,Performance,activity-Performance,36,0.05,iati,iati,50,99.0816326531,98.1632653061,49.0816326531,monthly,1.0,1.0,49.0816326531,,,,,,0,,,,
-CA-3-project-budget-document,"Canada, Global Affairs",CA-3,0.0,project-budget-document,Project budget document,activity,Finance and budgets,activity-Finance and budgets,12,0.0333333,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,researcher,"http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/Z021052001
-
-http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035091001
-
-http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035464003
-
-http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035464002
-
-http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/D003693001",Project budget documents contain specific budget detailing what the intended spending is for the different lines of the individual project could not be found. ,
-CA-3-project-budget-document,"Canada, Global Affairs",CA-3,0.0,project-budget-document,Project budget document,activity,Finance and budgets,activity-Finance and budgets,12,0.0333333,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,donorreview,,,
-CA-3-project-budget-document,"Canada, Global Affairs",CA-3,0.0,project-budget-document,Project budget document,activity,Finance and budgets,activity-Finance and budgets,12,0.0333333,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,pwyfreview,"http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/Z021052001
-
-http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035091001
-
-http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035464003
-
-http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035464002
-
-http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/D003693001",Project budget documents contain specific budget detailing what the intended spending is for the different lines of the individual project could not be found. ,
-CA-3-project-budget-document,"Canada, Global Affairs",CA-3,0.0,project-budget-document,Project budget document,activity,Finance and budgets,activity-Finance and budgets,12,0.0333333,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,,0,,document,50.0,0.0,cso,,It seems somewhat strange that the format would be indicated in a case where a particular indicator was not present ... I would also suggest copy-editing the comment for clarity.,1
-CA-3-project-budget-document,"Canada, Global Affairs",CA-3,0.0,project-budget-document,Project budget document,activity,Finance and budgets,activity-Finance and budgets,12,0.0333333,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,pwyffinal,"http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/Z021052001
-
-http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035091001
-
-http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035464003
-
-http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035464002
-
-http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/D003693001",Project budget documents detail what the intended spending is for the different lines of the individual activity. This information could not be found. ,1
 CA-3-impact-appraisals,"Canada, Global Affairs",CA-3,0.0,impact-appraisals,Pre-project impact appraisals,activity,Performance,activity-Performance,34,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,researcher,"http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/Z021052001
 
 http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035091001
@@ -5610,13 +5576,35 @@ CA-3-reviews-and-evaluations,"Canada, Global Affairs",CA-3,0.0,reviews-and-evalu
 CA-3-reviews-and-evaluations,"Canada, Global Affairs",CA-3,0.0,reviews-and-evaluations,Reviews and evaluations,activity,Performance,activity-Performance,35,0.05,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,sometimes,0.0,,document,50.0,0.0,pwyffinal,http://international.gc.ca/gac-amc/publications/evaluation/index.aspx?lang=eng,"This indicator is published to the IATI standard but failed sampling. 
 
 The donor confirmed changes in the evaluation plan and clarified that all evaluations produced in 2017 are available. However, as confirmed by the independent reviewer, the evaluations published are mainly synthesis or meta-evaluations. Alternatively, mo mid-term review could be found. ",1
-CA-3-organisation-strategy,"Canada, Global Affairs",CA-3,0.9375,organisation-strategy,Organisation strategy,,Organisational planning and commitments,-Organisational planning and commitments,3,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,researcher,None,None,
-CA-3-organisation-strategy,"Canada, Global Affairs",CA-3,0.9375,organisation-strategy,Organisation strategy,,Organisational planning and commitments,-Organisational planning and commitments,3,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,donorreview,http://international.gc.ca/world-monde/issues_development-enjeux_developpement/priorities-priorites/strategic_papers-documents_strategiques.aspx?lang=eng,This indicator dropped out following an update. The information is available on the organisation's website although it's unclear how forward looking it is. ,
-CA-3-organisation-strategy,"Canada, Global Affairs",CA-3,0.9375,organisation-strategy,Organisation strategy,,Organisational planning and commitments,-Organisational planning and commitments,3,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyfreview,None,None,
-CA-3-organisation-strategy,"Canada, Global Affairs",CA-3,0.9375,organisation-strategy,Organisation strategy,,Organisational planning and commitments,-Organisational planning and commitments,3,0.01875,manual,iati,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,iati,50.0,50.0,cso,,,
-CA-3-organisation-strategy,"Canada, Global Affairs",CA-3,0.9375,organisation-strategy,Organisation strategy,,Organisational planning and commitments,-Organisational planning and commitments,3,0.01875,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyffinal,http://international.gc.ca/gac-amc/publications/plans/dp-pm/dp-pm_1718.aspx?lang=eng,"This indicator is published to the IATI standard but failed the manual checks. 
+CA-3-project-budget-document,"Canada, Global Affairs",CA-3,0.0,project-budget-document,Project budget document,activity,Finance and budgets,activity-Finance and budgets,12,0.0333333,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,researcher,"http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/Z021052001
 
-A departmental plan which includes a section on international development can be found on the organisation's website. ",1
+http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035091001
+
+http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035464003
+
+http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035464002
+
+http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/D003693001",Project budget documents contain specific budget detailing what the intended spending is for the different lines of the individual project could not be found. ,
+CA-3-project-budget-document,"Canada, Global Affairs",CA-3,0.0,project-budget-document,Project budget document,activity,Finance and budgets,activity-Finance and budgets,12,0.0333333,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,donorreview,,,
+CA-3-project-budget-document,"Canada, Global Affairs",CA-3,0.0,project-budget-document,Project budget document,activity,Finance and budgets,activity-Finance and budgets,12,0.0333333,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,pwyfreview,"http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/Z021052001
+
+http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035091001
+
+http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035464003
+
+http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035464002
+
+http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/D003693001",Project budget documents contain specific budget detailing what the intended spending is for the different lines of the individual project could not be found. ,
+CA-3-project-budget-document,"Canada, Global Affairs",CA-3,0.0,project-budget-document,Project budget document,activity,Finance and budgets,activity-Finance and budgets,12,0.0333333,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,,0,,document,50.0,0.0,cso,,It seems somewhat strange that the format would be indicated in a case where a particular indicator was not present ... I would also suggest copy-editing the comment for clarity.,1
+CA-3-project-budget-document,"Canada, Global Affairs",CA-3,0.0,project-budget-document,Project budget document,activity,Finance and budgets,activity-Finance and budgets,12,0.0333333,manual,document,0.0,0.0,0,0,monthly,1.0,1,0,not published,0.0,,document,50.0,0.0,pwyffinal,"http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/Z021052001
+
+http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035091001
+
+http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035464003
+
+http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/A035464002
+
+http://w05.international.gc.ca/projectbrowser-banqueprojets/project-projet/details/D003693001",Project budget documents detail what the intended spending is for the different lines of the individual activity. This information could not be found. ,1
 CA-3-project-procurement-tenders,"Canada, Global Affairs",CA-3,0.4166665,project-procurement-tenders,Project procurement - Tenders,activity,Joining-up development data,activity-Joining-up development data,31,0.00833333,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,researcher,http://open.canada.ca/data/en/dataset/ffd38960-1853-4c19-ba26-e50bea2cb2d5,Tenders and contracts can be downloaded as CSV files. Both datasets contain current information. ,
 CA-3-project-procurement-tenders,"Canada, Global Affairs",CA-3,0.4166665,project-procurement-tenders,Project procurement - Tenders,activity,Joining-up development data,activity-Joining-up development data,31,0.00833333,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,donorreview,,,
 CA-3-project-procurement-tenders,"Canada, Global Affairs",CA-3,0.4166665,project-procurement-tenders,Project procurement - Tenders,activity,Joining-up development data,activity-Joining-up development data,31,0.00833333,manual,document,50.0,50.0,0,0,monthly,1.0,1,0,always,1.0,,document,50.0,50.0,pwyfreview,http://open.canada.ca/data/en/dataset/ffd38960-1853-4c19-ba26-e50bea2cb2d5,Tenders and contracts can be downloaded as CSV files. Both datasets contain current information. ,

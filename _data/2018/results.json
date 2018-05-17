@@ -1865,11 +1865,11 @@
         "rank": 7
     },
     "canada-global-affairs": {
-        "score": 78.71836582504494,
+        "score": 79.65586582504494,
         "name": "Canada, Global Affairs",
         "components": {
             "Organisational planning and commitments": {
-                "weighted_score": 12.754930147058824,
+                "weighted_score": 13.692430147058824,
                 "out_of": 15,
                 "indicators": {
                     "Quality of FOI legislation": {
@@ -1885,10 +1885,10 @@
                         "status": ""
                     },
                     "Organisation strategy": {
-                        "score": 50.0,
+                        "score": 100.0,
                         "weight": 0.01875,
-                        "format": "Document",
-                        "status": "Always"
+                        "format": "IATI",
+                        "status": ""
                     },
                     "Annual report": {
                         "score": 100.0,
