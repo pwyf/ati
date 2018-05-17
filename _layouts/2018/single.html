@@ -34,7 +34,7 @@ layout: 2018/base
 
             {% for multi_agency in multi_agencies %}
                 {% if multi_agency.agencies contains page.slug %}
-                    <span class="comparison-group">COMPARISON GROUP : <a href="{{ multi_agency.url }}">{{ multi_agency.title }}</a></span>
+                    <span class="comparison-group">MULTIPLE AGENCY GROUP : <a href="{{ multi_agency.url }}">{{ multi_agency.title }}</a></span>
                 {% endif %}
             {% endfor %}
 
