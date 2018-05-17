@@ -5,7 +5,6 @@ $(document).ready(function() {
   var dfiAgencies = ['afdb', 'asdb', 'ebrd', 'eib', 'iadb', 'world-bank-ida', 'world-bank-ifc'];
   var unAgencies = ['unicef', 'undp', 'un-ocha'];
   var bilateralAgencies = ['uk-dfid', 'uk-fco', 'sweden-mfa-sida', 'canada-dfatd', 'netherlands-mfa','us-usaid', 'us-mcc', 'us-state', 'us-pepfar', 'us-defense', 'germany-bmz-giz', 'germany-bmz-kfw', 'switzerland-sdc', 'australia-dfat', 'denmark-mfa','france-afd', 'france-meae', 'italy-mae', 'finland-mfa', 'belgium-dgcd', 'japan-jica', 'ireland-irishaid', 'spain-maec-aecid', 'norway-mfa', 'korea-koica', 'new-zealand-mfat', 'uae-ministry-of-foreign-affairs', 'china-mofcom'];
-  var comparisonAgencies = {usAgencies, unAgencies, euAgencies, dfiAgencies};
 
   $('select').SumoSelect();
 
