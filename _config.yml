@@ -1,4 +1,5 @@
 exclude:
+  - html/
   - Gemfile
   - Gemfile.lock
   - vendor/
