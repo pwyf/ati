@@ -1,9 +1,0 @@
-language: ruby
-cache: bundler
-deploy:
-  provider: heroku
-  api_key:
-    secure: EaRC+a86F30rykyAIb9N+0r1FYgE+ZNk8yTQg5sLxak7ttmfcHAZKup272gYLVGxa9jhWhbMpn0eq8hNYDbiY7FsLRyeaMw6O6+65RPrK50OMLY9MzufYw6U/KkT38OIiztjXVcNa6enMY2yylY9XEk/xQ6KbGPscc/hBu8vZKN8yLq32UkMKREfsATiXgVH6LAbmHcziA3jRoEvKM0yGmtyVsDvPu+sdGwciRNWvoNJiSoEyRjVGXUraIy9YJuL0bjmcCvSHVTzTHLO4uHm6fFVJW9Ov+p8odx+2GACYcxLSrWSTLnINdSMnV5gdjyuc9zlW/+SF70OiwN/4NO0mR615idhcV7prrVLg3wSh1Ol+MkoPnP8M7qWeQL8OAa6RZUh54BTagM8eP64keAjRdOTWV+6NfH003BkO7jZ8AnczHqB7b7/XHQTwlCCBxmeV+cQ+noZ3MqmTEaPYuVIQEY3BLpReuRFXwBOI2wCRonnJ0cfDufhJoyeALPniohvPr7k69/J6nSIsDrSeXo7GGMITRxy/mJrFXBY8QQ+Lasq9lNbAuApB34DkR5sMX6AgiuyMQGGKdBpT4y1Gzb7YTUewwy2CDprG6A2E1+/rC9XoZD1iC3ZmHzO6XYF82DBRevud4coik4Z0nXTlPe5LGau2Hni+/4BIXwEgzyoFuc=
-  app: ati-staging
-  on:
-    repo: pwyf/aid-transparency-index
