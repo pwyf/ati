@@ -17,6 +17,7 @@ cats = [
     'Performance',
 ]
 
+
 def tidy_format(fmt):
     lookup = {
         'not-applicable': 'Not applicable',
@@ -27,6 +28,7 @@ def tidy_format(fmt):
         'pdf': 'PDF',
     }
     return lookup.get(fmt, '')
+
 
 def performance_group(score):
     if score >= 80:
@@ -50,7 +52,10 @@ with open(join(rootpath, '_data', '2018', 'source-results.csv')) as f:
     r = csv.DictReader(f)
     results = [x for x in r]
 
-results = sorted(results, key=lambda x: (x['organisation_code'], x['indicator_order']))
+results = sorted(
+    results,
+    key=lambda x: (x['organisation_code'], x['indicator_order'])
+)
 
 orgs = {slugify(x['organisation_name']): {
     'score': 0.,
@@ -68,9 +73,10 @@ for past_result in past_results:
     if org:
         if 'history' not in org:
             org['history'] = []
+        score = float(past_result['score']) if past_result['score'] != '' else None
         history = {
             'year': past_result['year'],
-            'score': float(past_result['score']) if past_result['score'] != '' else None,
+            'score': score,
             'performance_group': past_result['performance group'],
         }
         org['history'].append(history)
