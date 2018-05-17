@@ -1,6 +1,7 @@
 ---
 title: United States
 layout: 2018/multiple
+permalink: 2018/multiple/united-states/index.html
 order: 7
 agencies:
     - us-mcc
