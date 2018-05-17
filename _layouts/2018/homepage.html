@@ -73,25 +73,11 @@ layout: 2018/base
 										Select comparison
 									</option>
 
-									<option value="BILATERAL">
-										Bilateral Agencies
+									{% for filtergrouping in site.data['2018'].filtergroupings %}
+									<option value="{{ filtergrouping[0] }}">
+										{{ filtergrouping[0] }}
 									</option>
-
-									<option value="DFI">
-										Development Finance
-									</option>
-
-									<option value="EU">
-										European Union
-									</option>
-
-									<option value="UN">
-										United Nations
-									</option>
-
-									<option value="US">
-										United States
-									</option>
+									{% endfor %}
 
 									<option value="custom">
 										Custom
@@ -102,14 +88,10 @@ layout: 2018/base
 									<ul class="options">
 										<li class="opt selected"><label>Select comparison</label>
 										</li>
-										<li class="opt"><label>US Agencies</label>
+										{% for filtergrouping in site.data['2018'].filtergroupings %}
+										<li class="opt"><label>{{ filtergrouping[0] }}</label>
 										</li>
-										<li class="opt"><label>UN Agencies</label>
-										</li>
-										<li class="opt"><label>EU Agencies</label>
-										</li>
-										<li class="opt"><label>DFIs</label>
-										</li>
+										{% endfor %}
 										<li class="opt"><label>Custom</label>
 										</li>
 									</ul>

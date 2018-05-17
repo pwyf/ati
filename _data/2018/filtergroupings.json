@@ -1,0 +1,30 @@
+{
+    "Bilateral Donors": [
+        "australia-dfat", "belgium-dgd", "canada-global-affairs",
+        "china-mofcom", "denmark-mfa", "finland-mfa", "france-afd",
+        "france-meae", "germany-bmz-giz", "germany-bmz-kfw",
+        "ireland-irish-aid", "italy-aics", "japan-jica",
+        "japan-mofa", "korea-koica", "netherlands-mfa",
+        "new-zealand-mfat", "norway-mfa", "spain-aecid",
+        "sweden-sida", "switzerland-mfa", "uae-mofaic", "uk-dfid",
+        "uk-fco", "us-defense", "us-mcc", "us-pepfar", "us-state",
+        "us-usaid"
+    ],
+    "Development Finance": [
+        "afdb", "asdb", "ebrd", "eib", "iadb", "world-bank-ida",
+        "world-bank-ifc"
+    ],
+    "European Union": [
+        "belgium-dgd", "denmark-mfa", "eib", "ebrd", "ec-devco", "ec-echo",
+        "ec-near", "finland-mfa", "france-afd", "france-meae",
+        "germany-bmz-giz", "germany-bmz-kfw", "ireland-irish-aid",
+        "italy-aics", "netherlands-mfa", "spain-aecid", "sweden-sida",
+        "uk-dfid", "uk-fco"
+    ],
+    "United Nations": [
+        "un-ocha", "undp", "unicef"
+    ],
+    "United States": [
+        "us-defense", "us-mcc", "us-pepfar", "us-state", "us-usaid"
+    ]
+}

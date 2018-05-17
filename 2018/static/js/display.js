@@ -1,10 +1,12 @@
+---
+---
+
+{% raw %}
 $(document).ready(function() {
   // Comparison Agencies
-  var usAgencies = ['us-usaid', 'us-mcc', 'us-state', 'us-pepfar', 'us-defense'];
-  var euAgencies = ['belgium-dgcd', 'denmark-mfa', 'eib', 'ec-devco', 'ec-echo', 'ec-near', 'finland-mfa', 'france-afd', 'france-meae', 'ireland-irishaid', 'italy-mae', 'netherlands-mfa', 'spain-maec-aecid', 'sweden-mfa-sida', 'uk-dfid', 'uk-fco'];
-  var dfiAgencies = ['afdb', 'asdb', 'ebrd', 'eib', 'iadb', 'world-bank-ida', 'world-bank-ifc'];
-  var unAgencies = ['unicef', 'undp', 'un-ocha'];
-  var bilateralAgencies = ['uk-dfid', 'uk-fco', 'sweden-mfa-sida', 'canada-dfatd', 'netherlands-mfa','us-usaid', 'us-mcc', 'us-state', 'us-pepfar', 'us-defense', 'germany-bmz-giz', 'germany-bmz-kfw', 'switzerland-sdc', 'australia-dfat', 'denmark-mfa','france-afd', 'france-meae', 'italy-mae', 'finland-mfa', 'belgium-dgcd', 'japan-jica', 'ireland-irishaid', 'spain-maec-aecid', 'norway-mfa', 'korea-koica', 'new-zealand-mfat', 'uae-ministry-of-foreign-affairs', 'china-mofcom'];
+  {% endraw %}
+  var comparisonAgencies = {{ site.data['2018'].filtergroupings | jsonify }};
+  {% raw %}
 
   $('select').SumoSelect();
 
@@ -13,42 +15,27 @@ $(document).ready(function() {
     $('#compareSel').on('change', function(event) {
       $('#done').hide();
       $('.results-table').removeClass('compare-active');
+
       var compare = $('#compareSel').val();
-      switch (compare) {
-        case 'custom' :
-          $('.result-row').addClass('compare-shown').fadeIn();
-          $('.results-table').addClass('compare-active');
-          $('#done').show().css('display', 'inline-block');
-          $('#done').click(function() {
-            $(this).text('update');
-            $('.result-row').removeClass('compare-shown');
-            var checked = $('.checkbox:checkbox:checked');
-            $.each(checked, function(i, val) {
-              var thisRow = val.closest('.result-row');
-              $(thisRow).addClass('compare-shown');
-            })
-            $('.result-row').not('.compare-shown').fadeOut();
-            $(this).hide();
-            })
-          break;
-        case 'US' :
-          compareAgencies(usAgencies);
-          break;
-        case 'EU' :
-          compareAgencies(euAgencies);
-          break;
-        case 'UN' :
-          compareAgencies(unAgencies);
-          break;
-        case 'DFI' :
-          compareAgencies(dfiAgencies);
-          break;
-        case 'BILATERAL' :
-          compareAgencies(bilateralAgencies);
-          break;
-        case '' :
-          resetSelect();
-          break;
+      if ($.inArray(compare, comparisonAgencies)) {
+        compareAgencies(comparisonAgencies[compare]);
+      } else if (compare === 'custom') {
+        $('.result-row').addClass('compare-shown').fadeIn();
+        $('.results-table').addClass('compare-active');
+        $('#done').show().css('display', 'inline-block');
+        $('#done').click(function() {
+          $(this).text('update');
+          $('.result-row').removeClass('compare-shown');
+          var checked = $('.checkbox:checkbox:checked');
+          $.each(checked, function(i, val) {
+            var thisRow = val.closest('.result-row');
+            $(thisRow).addClass('compare-shown');
+          })
+          $('.result-row').not('.compare-shown').fadeOut();
+          $(this).hide();
+          })
+      } else if (compare === '') {
+        resetSelect();
       }
       $('#cancel').text('reset');
     });
@@ -222,3 +209,4 @@ function rangeSet() {
     }
   });
 }
+{% endraw %}
