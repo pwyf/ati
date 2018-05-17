@@ -179,7 +179,12 @@ layout: 2018/base
                                     </div>
                                     <div class="format">
                                         {% if indicator[1].format != '' %}
-                                        Format: <span><a href="#">{{ indicator[1].format }}</a></span>
+                                        Format:
+                                            {% if indicator[1].format == 'IATI' %}
+                                            <span>{{ indicator[1].format }}</span>
+                                            {% else %}
+                                            <span><a href="#">{{ indicator[1].format }}</a></span>
+                                            {% endif %}
                                         {% endif %}
                                     </div>
                                 </div>
