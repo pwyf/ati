@@ -29,6 +29,12 @@ The UK-FCO does not provide any information for the performance indicators, neit
 
 ---
 
-UK-FCO should aim for quarterly, if not monthly publication.
+The UK-FCO should aim for quarterly, if not monthly publication.
+
+It should make further improvements to its publication, to include further details on its budgets and finances. 
+
+It should also start publishing performance related information, from objectives to results. 
+
+To demonstrate the impact of transparency on development work, UK-FCO should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level. 
 
 ---

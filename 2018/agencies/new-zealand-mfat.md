@@ -28,6 +28,12 @@ New Zealand-MFAT does not receive any points for the performance component. Whil
 
 New Zealand-MFAT should aim for quarterly, if not monthly publication.
 
-New Zealand -MFAT does not have an organisation file. 
+New Zealand -MFAT shold pblish an organisation file to the IATI Registry and include all relevant strategy and planning indicators
+
+New Zealand should improve its ublication of financial and budgetary data to include forward looking organisation and disaggregated budgets as well as project budget information.
+
+It should also pioritise the publication of performance-related informatio, including pre-project impact appraisals and results. 
+
+To demonstrate the impact of transparency on development work, New Zealand-MFA should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level. 
 
 ---

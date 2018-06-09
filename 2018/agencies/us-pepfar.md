@@ -11,13 +11,13 @@ The President's Emergency Plan for AIDS Relief (PEPFAR) is the US government’s
 
 The United States President's Emergency Plan for AIDS Relief (US-PEPFAR) is included in the good category.
 
-As with all US agencies, data is only published quarterly to the IATI Registry.
+As with all US agencies, data is published quarterly to the IATI Registry.
 
 US-PEPFAR performs well on organisational planning indicators as all are published in the comparable IATI format. 
 
-US-PEPFAR’s performance for the finance and budgets component is mixed. While it does relatively well on capital spend, project budget and project budget documents, disaggregated budgets as well as disbursements and expenditures are areas where there is room for improvement. The total organisation budget is published for the current year only. Commitments are not published to IATI and are only sometimes published in PDFs. This makes US-PEPFAR one of few organisations not to score on commitments. 
+US-PEPFAR’s performance for the finance and budgets component is mixed. While it does relatively well on capital spend, project budget and project budget documents, disaggregated budgets as well as disbursements and expenditures are areas where there is room for improvement. The total organisation budget is published for the current year only. Commitments are not published to the IATI Registry and are only sometimes published in PDFs. This makes US-PEPFAR one of few organisations not to score on commitments. 
 
-All project attributes are published to IATI and US-PEPFAR is doing well on the majority of them. However, some of the basics are missing. The titles provided use many acronyms and the descriptions tend to be incomplete. Sub-national location is also one of the lowest scoring indicators. 
+Information on all project attributes indicator is made avaialable, ostly on the IATI Registry. However, some of the basics are missing. The titles provided use many acronyms and the descriptions tend to be incomplete. Sub-national location is also one of the lowest scoring indicators. 
 
 US-PEPFAR does well on all joined-up development data indicators but the two procurement indicators, contracts and tenders. Tenders are published in the IATI format but the information provided is too general and not specific to individual activities. Tenders are consistently made available in other formats. Contracts are not published at all. 
 
@@ -26,10 +26,12 @@ Within the good category, US-PEPFAR is one of two organisations to receive zero 
 
 ---
 
-Given US-PEPFAR’s data driven culture, it would be extremely helpful to join-up its IATI data with other detailed project data, maximizing the usefulness of its data and the analysis that could follow.  
+ US-PEPFAR should ensure to get the basics right, such as providing complete titles and descriptions. 
 
-US-PEPFAR should ensure to get the basics, such as titles and descriptions, right. 
+US-PEPFAR should work towards including the publication of key documents, such as contracts, reviews and evaluations and pre-project impact appraisals. 
 
-US-PEPFAR should prioritise the comprehensive publication of key documents, such as contracts, reviews and evaluations and pre-project impact appraisals. 
+Given US-PEPFAR’s data driven culture, it should also work towards joining up its IATI data with other detailed project data, maximizing the usefulness of its data and the analysis that could follow.
+
+To demonstrate the impact of transparency on development work, US-PEPFAR should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level. 
 
 ---

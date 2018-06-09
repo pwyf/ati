@@ -9,15 +9,25 @@ The European Bank for Reconstruction and Development (EBRD) is a multilateral de
 
 ---
 
-- The European Bank for Reconstruction and Development (EBRD) remains in the fair category from 2016
-- They have increased their frequency of publication, now publishing on at least a monthly basis (previously quarterly)
-- Allocation policy and objectives are now published to the IATI registry. 
-- Total budgets are now available and published in IATI, and project budgets are also now published in an IATI format for some activities. However, the finance and budgets component is still the one in which EBRD achieves its lowest rank.
-- EBRD perform well on the project attributes component, but their activity titles failed sampling due to heavy use of acronyms
-- Despite a low overall score on the performance component, they actually ranked relatively highly, by virtue of publishing objectives documents for all current activities
+EBRD remains in the 'fair' category. It has increased its frequency of publication, now publishing on at least a monthly basis, up from quarterly in 2016.
+It has improved the comprehensiveness of its publication, adding allocation policy, total and project budgets as well as objectives to the IATI Registry. 
+The Finance and budgets component, however, is still the one in which EBRD achieves its lowest rank, for example, not providing disaggregated budgets and capital spend information.
+EBRD performs well on the Project attributes component, barring sub-national locations, which are available only sometimes. 
+The EBRD also failed on some basic elements of its data such as titles, which include many acronyms that make it difficult for external people to understand. 
+There is also room for improvement in the provision of Performance-related information. The EBRD only scores for objectives as other indicators, such as results, are not consistently available. 
 
 ---
 
-Recommendations go here.
+The EBRD should make improvements to the publication of its financial and budgetary data to include disaggregated budgets and capital spend information. 
+
+It should also consistently share contractual information as well as provide subnational data. 
+
+The EBRD should make sure that basic elements such as titles of projects can be understood by non-experts. 
+
+It should also make further improvements with regards to the provision of performance-related information.
+
+The EBRD should also consider further extending its transparency efforts to all private sector operations and share best practice with other DFIs.
+
+To demonstrate the impact of transparency on development work, the EBRD should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level
 
 ---

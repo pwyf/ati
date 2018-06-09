@@ -9,24 +9,25 @@ The Directorate-General for European Civil Protection and Humanitarian Aid Opera
 
 ---
 
-The Directorate-General for European Civil Protection and Humanitarian Aid of the European Commission (EC-ECHO) remains in the good category. It has overtaken EC-NEAR and EC-DEVCO and is now leading among the three EC agencies. 
+EC-ECHO remains in the 'good' category. It has overtaken EC-NEAR and EC-DEVCO to lead the three EC agencies. It publishes to the IATI Registry on a monthly basis.
 
-EC-ECHO publishes to the IATI Registry on a monthly basis.
+EC-ECHO is among the top five performers for the organisational planning and commitments component. It scores full points on all indicators but current versions of country strategies can be found on its website only. 
 
-EC-ECHO is among the top five performers for the organisational planning and commitments component. EC-ECHO scores full points on all indicators but country strategies. EC-ECHO’s country strategies in IATI were not up to date. Current versions, however, can be found on its website. 
+It does well on providing disbursements and expenditures as well as project budgets data. Disaggregated budget, however, is one of the lower scoring indicators and project budget documents could not be found.
 
-Capital spend is now published to IATI and EC-ECHO is one of the few organisations to score full points on disbursements and expenditures as well as project budgets. Disaggregated budget, however, is one of the lower scoring indicaotrs. Project budget documents are also provided in the comparable IATI format but did not meet the definition of the indicator as they are not specific to individual activities. This information is not published elsewhere.
+EC-ECHO is among the top five performers for the Project attributes component, although it does not provide subnational location coordinates. 
 
-EC-ECHO is further among the top five performers for the project attributes component and does well on all indicators, whereby sub-national location is the lowest scoring project attributes indicator. 
+It does well on basic joining-up development data indicators such as aid type, finance type, flow type or tied aid status. However, no current tenders could be found on the IATI Registry. They could be found sometimes elsewhere. Contracts are not being made available in the IATI Standard but are conistently made available in other formats. 
 
-EC-ECHO does well on basic joined-up development data indicators such as aid type, finance type, flow type or tied aid status. While made available in the IATI format, tenders were outdated and could only sometimes be found sometimes elsewhere. Contracts are not being made available in the IATI Standard but are conistently made available in other formats. 
-
-Within the performance component, only objectives and pre-project impact appraisals are published in a comparable format. The pre-project impact appraisal documents provided in the IATI format were out of date but current versions are available elsewhere.  
-Results are not published at all and reviews and evaluations are provided only sometimes.  
+Within the performance component, only objectives and pre-project impact appraisals are published in a comparable format. The pre-project impact appraisal documents provided in the IATI format were out of date but current versions are available elsewhere. Results are not published at all and reviews and evaluations are provided only sometimes.  
 
 
 ---
 
-Recommendations go here.
+EC-ECHO should prioritise the publication of performance-related information to include reviews and evaluations and results. 
+
+It also should improve its publication of disaggregated budgets and should start publishing sub-national location coordinates.
+
+To demonstrate the impact of transparency on development work, EC-ECHO should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level. 
 
 ---

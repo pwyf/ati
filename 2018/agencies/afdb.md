@@ -9,17 +9,16 @@ The African Development Bank (AfDB) was established to promote regional cooperat
 
 ---
 
-- The African Development Bank (AfDB) remains in the very good category this year
-- Since the last Index, the bank improved its frequency of publication from quarterly to monthly
-- The AfDB makes all of the information captured by the Index available in the IATI format - except for conditions data, which is not published
-- The bank also launched a new project portal : http://projectsportal.afdb.org/dataportal/ 
-- There is room for improvement in the publication of performance related information, specifically pre-project impact appraisals, reviews and evaluations and results.
-- The Bank’s lowest component ranking is for Joining up development data, with Project procurement contracts remaining the lowest scoring indicator.
+The AfDB remains in the 'very good' category in 2018. Since the last Index, the bank improved its frequency of publication from quarterly to monthly.                                                                                                                    It makes all of the information captured by the Index available in the IATI format - except for conditions data, which is not published. It also launched a new project portal: http://projectsportal.afdb.org/dataportal/ 
+The bank’s lowest component ranking is for Joining-up development data, with project procurement contracts remaining the lowest scoring indicator.
+There is room for improvement in the publication of performance-related information, specifically pre-project impact appraisals, reviews and evaluations and results.                                                                        
+
 
 ---
 
-The AfDB should make improvements on the publication of performance related information
-The AfDB should harmonise its portals and the information made available on them so that its project portal and mapafrica can truly be accessible and reliable for interested data users.
-As the portfolio of the Bank diversifies, the AfDB should also consider further extending its transparency efforts to private sector operations and share best practice with other banks and DFIs. 
+The AfDB should make improvements on the publication of performance-related information as well as on contracts.
+The AfDB should consolidate both of its portals - MapAfrica and the project portal - so that users have a unique entry point to discover and use data on the bank's development work.
+As the portfolio of the bank diversifies, the AfDB should also consider further extending its transparency efforts to private sector operations and share best practice with other banks and DFIs. 
+To demonstrate the impact of transparency on development work, the AfDB should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level. 
 
 ---

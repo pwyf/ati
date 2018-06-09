@@ -18,6 +18,8 @@ UAE-MOFAIC scores on annual report and procurement policy which are both publish
 
 ---
 
-Recommendations go here.
+The UAE-MOFAIC should start publishing timely, comprehensive and forward- looking information on its foreign assistance in a comparable and open format.
+
+It should work with its counterpart to povide the full picture of its development work, including on humanitarian aid.
 
 ---

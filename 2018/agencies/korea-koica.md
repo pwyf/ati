@@ -9,7 +9,9 @@ Established by the Ministry of Foreign Affairs and Trade, the Korea Internationa
 
 ---
 
-Despite having started publishing to the IATI Registry, the Korea International Cooperation Agency (Korea-KOICA) remains in the poor category.
+The Korea International Cooperation Agency (Korea-KOICA) is in the poor category.
+
+It started publishing to the IATI Registry for the first time. 
 
 Korea-KOICA publishes less than quarterly and out of 36 indicators, only 10 are available in the comparable IATI format
 
@@ -26,6 +28,12 @@ None of the performance indicators is published to IATI. While objectives are al
 
 ---
 
-Korea-KOICA should aim for quarterly, if not monthly publication.
+Korea-KOICA should improve the frequency of its publication and publish on a quarterly, if not monthly, basis. 
+
+It should improve the comprehensiveness of its IATI publication to include financial and budgetary information in particular. 
+
+It should also prioritise timely and consistent pblication of performance-related information, including reviews and evalations as well as results.
+
+To demonstrate the impact of transparency on development work, Korea-KOICA should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level.
 
 ---

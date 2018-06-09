@@ -11,7 +11,7 @@ Irish Aid is the Irish Government’s programme for overseas development. The pr
 
 Ireland-IrishAid is included in the fair category. 
 
-The frequency of publication is still low as Ireland-IrishAid are publishing less than quarterly. 
+The frequency of publication is still low as Ireland-IrishAid is publishing less than quarterly. 
 
 It publishes 2/3 of the indicators in the IATI format. For the remaining third, apart for tenders which are available on the organisation's website, information is either not available at all or only sometimes.
 
@@ -29,5 +29,11 @@ Ireland-IrishAid does not score on any of the performance indicators. The object
 ---
 
 Ireland-IrishAid should aim for quarterly, if not monthly publication.
+
+Ireland-IrishAid should prioritise the publication of more financial and budgetary data, to include project budget data and commitments in particular. 
+
+It should also make effots to publish timely and comprehensive performance-related information, from objectives to results. 
+
+To demonstrate the impact of transparency on development work, Ireland-IrishAid should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level. 
 
 ---

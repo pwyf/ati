@@ -9,23 +9,26 @@ The Department for Development Policy sits within the Ministry of Foreign Affair
 
 ---
 
-The Ministry of Foreign Affairs of Finland (Finland-MFA) has improved its transparency level, rising from the poor category in 2016 into the fair category.
+Finland-MFA is included in the 'fair' category for the first time. It has improved the frequency of its publication from less than quarterly in 2016 to quarterly. 
 
-Finland-MFA has improved the frequency of their publication from less than quarterly in 2016 to quarterly. 
+Finland-MFA also improved on the publication of Organisational planning indicators. It provides all but country strategies in the IATI Standard but these are consistently published in other formats.  
 
-Finland-MFA also improved on the publication of organisational planning indicators, providing all but country strategies in the IATI Standard. Yet these are consistently published in other formats.  
+All indicators of the Finance and budgets component are provided in the IATI format except project budget documents, which are not published at all. Finland-MFA scores full points for total organisation budget but could improve their data for capital spend and project budgets.
 
-All indicators of the finance and budgets component are provided in the comparable IATI format but project budget documents, which are not published at all. Finland-MFA scores full points for total organisation budget but could improve their data for capital spend and project budgets.
+Except for contact details, all indicators of the Project attributes component are published to IATI. Sub-national locations are provided in the IATI format but did not meet the definition and are inconsistently published in other formats. 
 
-Except for contact details, all indicators of the project attributes component are published in the comparable IATI format. Sub-national locations are provided to IATI but did not meet the definition and are inconsistently published in other formats. 
+Within the Joined-up data component, conditions, tenders and contracts are not published to IATI. While tenders are always published in other formats, conditions and contracts are not published at all. 
 
-Within the joined-up development data component, conditions, tenders and contracts are not published to the IATI Registry. While tenders are always published in other formats, conditions and contracts are not published at all. 
-
-Finland-MFA does not score on any of the performance indicators. While objectives as well as reviews and evaluations are published sometimes, results and pre-project impact appraisals are not being made available at all. 
+Finland-MFA does not score on any of the Performance indicators. While objectives as well as reviews and evaluations are published sometimes, results and pre-project impact appraisals are not available at all. 
 
 
 ---
 
-Recommendations go here.
+Finland-MFA should prioritise the publication of performance related information, starting with pre-project impact appraisals and results. 
+
+It should also work to make contracts and conditions available. 
+
+To demonstrate the impact of transparency on development work, Finaland-MFA should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level
+
 
 ---

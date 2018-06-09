@@ -11,7 +11,7 @@ In January 2016, Italy set up the Agency for Cooperation and Development (AICS).
 
 As they have started publishing to the IATI Registry, the Agency for Cooperation and Development of Italy (Italy-AICS) has made significant progress by moving up from the very poor to the fair category. 
 
-Italy-AICS is now publishing their data on a quarterly basis and they provide 53% of the indicators in the comparable IATI format which is however still below the overall average.  
+Italy-AICS is now publishing data on a quarterly basis.  
 
 None of the organisational and planning indicators score for IATI publication. A current annual report as well as an audit and a procurement policy can be found on the organisation’s website. Country strategies are published inconsistently and no organisation strategy nor an allocation policy are available. 
 
@@ -27,6 +27,12 @@ Italy-AICS does not score on the majority of performance indicators. Objectives 
 
 ---
 
-Recommendations go here.
+Italy-AICS should ensure the quality of its IATI data, in particular that the most up-to-date and relevant documents are provided, especially for organisational strategy and commitment indicators. 
+
+Italy-AICS should also impove the comprehensiveness of its publication by publishing data on all countries where it operates.
+
+Italy-AICS shold prioritise the publication of financial and budgetary information as well as performance-related information. 
+
+To demonstrate the impact of transparency on development work, Italy-AICS should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level.
 
 ---

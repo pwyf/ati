@@ -11,11 +11,11 @@ The United Nations Office for the Coordination of Humanitarian Affairs (OCHA) is
 
 The United Nations Office for the Coordination of Humanitarian Affairs (UN OCHA) remains in the poor category. 
 
-UN OCHA has improved their publication frequency from less than quarterly in 2016 to monthly. UN OCHA publishes only 29% of the indicators to the IATI Registry. 
+UN OCHA has improved their publication frequency from less than quarterly in 2016 to monthly. Hozever, UN OCHA publishes only 29% of the indicators to the IATI Registry. 
 
 All organisational and planning indicators are made available but not in the comparable IATI format. 
 
-UN OCHA does not score on the two commitment indicators, accessibility and quality of freedom of information legislation, as neither a data portal with current data nor a transparency policy is provided. 
+UN OCHA does not score on the two commitment indicators, accessibility and quality of FOI, as neither a data portal with current data nor a transparency policy is provided. 
 
 Project budget is the only indicator within the finance and budget component which is published in the IATI format. While project budget documents are always published in other formats, no information at all is provided for disbursement and expenditures, capital spend and commitments. The total organisation budget is provided for one year ahead in a PDF format but no forward-looking data is made available for disaggregated budgets. 
 
@@ -28,6 +28,12 @@ None of the indicators of the performance component are published to IATI. UN OC
 
 ---
 
-They do not have an organisation file
+UN OCHA should publish a disclosure policy.
+
+UN OCHA should start publishing its organisational information to the IATI Registry. 
+
+It should provide further details on its budgets and finances, as well as consistently publishing performance related information such as results. 
+
+To demonstrate the impact of transparency on development work, UN OCHA should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level. 
 
 ---

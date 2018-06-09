@@ -9,16 +9,22 @@ Based in Geneva, GAVI is the Vaccine Alliance, an international organisation tha
 
 ---
 
-- GAVI, the Vaccine Alliance remains in the good category from 2016, retaining 11th position
-- They have increased their frequency of publication, now publishing on at least a monthly basis (previously less than quarterly)
-- The lack of country strategy documents meant GAVI underperformed on the organisational planning component
-- Since 2016, GAVI have begun publishing project budgets to IATI. They rank 4th overall on the finance and budgets component
-- GAVI also rank 4th on the project attributes component, though their titles and descriptions both failed sampling
-- contracts and tenders are no longer made available, and GAVI underperform on the joining up development data component
-- GAVI also performed poorly on the performance component, with good results data, but few results documents. Objectives documents and evaluations documents were present on IATI, but both failed sampling.
+- GAVI, the Vaccine Alliance remains in the good category from 2016.
+- It has increased its frequency of publication, now publishing on at least a monthly basis (previously less than quarterly)
+- GAVI publishes all but one indicator - country strategies - on organisational planning and commitment. Current country strategies or equivalent documents could be found only sometimes on the organisation's website. 
+- Since 2016, GAVI have begun publishing project budgets to IATI. All finance and budget indicators are now available on the IATI Registry. 
+- GAVI ranks 4th on the project attributes component. However, it is missing some of the basic elements, with titles and descriptions not meeting the definition of the indicator. .
+- Contracts and tenders are no longer made available on the IATI Registry, and cannot be found elsewhere. 
+- GAVI performed poorly on the performance component, with good results data, but few results documents on the IATI Registry. Objectives documents and evaluations documents are only available sometimes on the organisation's website as documents pblished on IATI did not meet the definition of these indicators.
 
 ---
 
-Recommendations go here.
+GAVI should ensure that data and documents published on the IATI Registry are of high quality. That means providing some of the basic elements, such as titles and descriptions of individual projects. 
+
+GAVI should also make its contracts and tenders available. 
+
+It should also prioritise the publication of timely and comprehensive performance-related information, to include objectives, reviews and evaluations, and improve on results. 
+
+To demonstrate the impact of transparency on development work, the GAVI should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level.
 
 ---

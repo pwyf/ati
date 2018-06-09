@@ -13,20 +13,28 @@ The Swedish International Development Cooperation Agency (Sweden-SIDA) is now in
 
 Sweden-SIDA publishes on a monthly basis to the IATI Registry.
 
- While most indicators are published in the IATI Standard, the quality of the information provided needs further improvement as for seven indicators no up to date information was provided. 
+Most of the information captured in the Index is available on the IATI Registry, however for some indiators no updated information could be found. It was however available on the organisation's website in most cases and has be accepted as such. 
 
-All organisational planning indicators are published to IATI but the allocation policy, the audit and the country strategies provided were out of date and the procurement policy was not accessible. However, current versions of all these documents can be found on Sweden-SIDA’s website. 
+All organisational planning indicators are published to the IATI Registry but a number of documents were out of date or could not be accessed. Current versions of all these planning and strategic documents can be found on Sweden-SIDA’s website instead. 
 
-Financial and budgetary information is provided in the comparable IATI format, apart from capital spend. Sweden-SIDA does well for disbursement and expenditures as well as commitments. Disaggregated budgets, project budgets and project budget documents are areas where there is room for improvement. 
+All financial and budgetary information is made available in an open and comparable format, apart from capital spend. Sweden-SIDA does particularly well for disbursement and expenditures as well as commitments. However, there is room for improvement in the provision of forward looking budgets as well as more detailed project budgets. 
 
-Sweden-SIDA does well on all of the project attributes indicators, except planned dates and sub-national location which are two of the lowest scoring indicators.   
+Sweden-SIDA does well on all of the project attributes indicators, except for planned dates and sub-national location which are two of the lowest scoring indicators.   
 
-Sweden-SIDA performs well on joined-up development indicators, namely aid type, flow type, finance type, tied aid status and conditions. However, contracts and tenders published to IATI were out of date. Contracts can consistently be found elsewhere while tenders are not consistently available. 
+Sweden-SIDA performs well on joined-up development indicators, namely aid type, flow type, finance type, tied aid status and conditions. However, no current contracts and tenders could be found on the IATI Registry. Contracts can consistently be found elsewhere while tenders cold be found sometimes. 
 
-Sweden-SIDA scores on all performance indicators but reviews and evaluations. The documents for this indicator in the IATI format were out of date and current ones are only sometimes published in other formats. While available in the IATI format, objectives, pre-project impact appraisals and results are among the lowest scoring indicators. 
+Sweden-SIDA scores on all performance indicators but project reviews and evaluations. Current reviews and evaluations are sometimes published in other formats. While available in the IATI format, objectives, pre-project impact appraisals and results are among the lowest scoring indicators. 
+
+While most indicators are published in the IATI Standard, the quality of the information provided needs further improvement as for seven indicators no up to date information was provided. 
 
 ---
 
-Recommendations go here.
+Sweden-SIDA should ensure that its IATI data is kept up-to-date and made accessible for users, along with other major international donors' data.
+
+Sweden-SIDA should make further improvement to provide forward-looking financial and budgetary information, at the organisation and poject levels. 
+
+It should also make efforts to publish more sub-national location information of its projects as well as other low scoring indicators suh as results and pre-project impact appraisals.
+
+To demonstrate the impact of transparency on development work, Sweden-SIDA should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level. 
 
 ---

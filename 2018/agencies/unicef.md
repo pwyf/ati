@@ -13,7 +13,7 @@ The United Nations Children's Fund (UNICEF) is now included in the good category
 
 UNICEF publishes to the IATI Registry on a monthly basis. 
 
-While all indicators are published in the IATI format, for some, quality issues were noticed as the information provided for example lacked granularity. 
+While all indicators are published in the IATI format, for some, quality issues were noticed as the information provided sometimes lacked granularity. 
 
 UNICEF performs well for all the indicators within the organisational planning component, namely organisation strategy, annual report, allocation policy, audit, procurement policy and country strategies. 
 
@@ -29,6 +29,12 @@ UNICEF receives points for half of the indicators within the performance compone
 
 ---
 
-Recommendations go here.
+UNICEF should ensue that its IATI data provides the most granular information, at the project level. 
+
+It should focus on providing subnational location information on its development projects.
+
+It should also consistently publish updated and detailed pre-project impact appraisals as well as project reviews and evaluations. 
+
+To demonstrate the impact of transparency on development work, UNICEF should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level.
 
 ---

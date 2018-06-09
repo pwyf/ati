@@ -25,6 +25,10 @@ No financial and budgetary information is available but for commitments. Nor is 
 
 ---
 
-Recommendations go here.
+Japan-MOFA should start publishing to the IATI Registry to provide aid information on its projects that is timely, comprehensive and forward-looking.
+
+Japan-MOFA should work with its counterparts in JICA and other Japanese aid providers to ensure that Japan’s publication provides a full picture of all development cooperation activities
+
+To demonstrate the impact of transparency on development work, Japan-MOFA should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level.
 
 ---

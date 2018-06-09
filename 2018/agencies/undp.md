@@ -17,11 +17,13 @@ UNDP publishes all indicators in the IATI format and performs well on almost all
 
 UNDP is among the top five performers for all components of the Index, ranking second for finance and budgets, performance as well as project attributes. 
 
-Project budgets, contracts, tenders, results as well as reviews and evaluations are the lowest scoring indicators. 
+Project budgets, contracts, tenders, results as well as reviews and evaluations are areas where there is still room for improvement. 
 
 
 ---
 
-Recommendations go here.
+UNDP should focus on improving its publication of detailed project budgets, project procurement information, as well as project reviews and evaluations. 
+
+To demonstrate the impact of transparency on development work, UNDP should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level.
 
 ---

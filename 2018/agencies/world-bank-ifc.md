@@ -1,7 +1,7 @@
 ---
 permalink: 2018/world-bank-ifc/index.html
 slug: world-bank-ifc
-title: World Bank -IFC
+title: World Bank -International Finance Corporation (IFC)
 short_name: World Bank, IFC
 ---
 
@@ -13,13 +13,13 @@ Following its first publication to the IATI Registry, the World Bank's Internati
 
 It publishes on a monthly basis to the IATI Registry. 
 
-World Bank-IFC publishes 59% of the indicators to IATI which is still below average. 
+World Bank-IFC publishes 59% of the indicators to IATI which is below average. 
 
 Within the fair category, World Bank-IFC is the organisation which scores highest on the organisational planning and commitments component. All organisational planning indicators are made available in the IATI format apart from allocation policy which is made available elsewhere. 
 
-The World Bank-IFC’s score for the finance and budget component is well below average. Only commitments are published in the IATI format. While project budgets are consistently published in a machine-readable format, no information at all is being made available for project budget documents, disbursement and expenditures and capital spend. The total organisation budget as well as disaggregated budgets are available for one year ahead only.
+The World Bank-IFC’s score for the finance and budget component is below average. Only commitments are published in the IATI format. While project budgets are consistently published in a machine-readable format, no information at all is being made available for project budget documents, disbursement and expenditures and capital spend. The total organisation budget as well as disaggregated budgets are available for one year ahead only.
 
-For the majority of project attributes indicators, the World Bank-IFC performs well. However, they do not provide any information about planned end dates and are not using the standard code list for sectors. The World Bank-IFC publishes sub-national location information to IATI but the information provided did not fulfil the requirements for this indicator. Sub-national locations for World Bank-IFC projects can be found elsewhere but are not published consistently. 
+For the majority of project attributes indicators, the World Bank-IFC performs well. However, they do not provide any information about planned end dates and are not using the standard code list for sectors. The World Bank-IFC publishes sub-national location information to the IATI Registry but the information provided did not fulfil the requirements for this indicator. Sub-national locations for World Bank-IFC projects can be found elsewhere but are not published consistently. 
 
 Performance for the joined-up development data component is mixed. While the World Bank-IFC performs well on aid type, finance type, flow type and tied aid status, information about conditions, contracts and tenders is missing. These indicators are not published to IATI and although conditions information is sometimes available in other formats, contracts and tenders are not being made available at all. 
 
@@ -29,6 +29,14 @@ The World Bank-IFC does not score on any of the performance indicators but objec
 
 ---
 
-Recommendations go here.
+The WB-IFC should ensure that it gets the basics right for its IATI data, for example using existing the standard code list for sectors. 
+
+It should make further improvement to its publication of budgetary and financial data, including providing forward-looking budgets, disbursements and expenditures as well as capital spend.
+
+It should also prioritise the publication of performance-related information, from pre-project impact appraisals to results.
+
+The WB-IFC should share its experience working on improving transparency from the private sectors, with other DFIs. 
+
+To demonstrate the impact of transparency on development work, the World Bank-IFC should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level. 
 
 ---

@@ -9,23 +9,29 @@ The Directorate-General for Development Cooperation and Humanitarian Aid (DGD) i
 
 ---
 
-Belgium's Directorate-General for Development Cooperation and Humanitarian Aid (Belgium-DGD) continues to make progress, raising from the very poor category in 2014 to the good category in 2018. 
+Belgium-DGD continues to make progress, raising from the 'very poor' category in 2014 to the 'good' category in 2018. 
 
-Belgium-DGD has improved the frequency of publication of its data, going from less than quarterly publications in 2016 to monthly publications. 
+It has improved the frequency of its data publication, going from less than quarterly in 2016 to monthly in 2018. 
 
-Four of the organisational planning indicators, namely organisation strategy, annual report, allocation policy and country strategies, are published via Belgium-DGD’s IATI data. There is, however, room for improvement in the quality of the information provided to the IATI Registry. For example, country strategies provided were out of date and current ones could only sometimes be found elsewhere. Despite not being made available in the comparable IATI format, Belgium-DGD’s procurement policy and audit are published consistently in other formats.
+It also set up a new portal with information on its development projects. 
+
+Four of the organisational planning indicators, namely organisation strategy, annual report, allocation policy and country strategies, are published in the IATI Standard. There is, however, room for improvement in the quality of the information provided to the IATI Registry. For example, country strategies were out of date and current ones could only sometimes be found elsewhere. Belgium-DGD’s procurement policy and audit are not available on the IATI Registry but can be found elsewhere.
 
 Belgium-DGD has started publishing project budget documents to the IATI Registry, leaving capital spend and disaggregated budgets as the two indicators within the finance and budget component not published. 
 
-Belgium-DGD performs well on the project attributes component. All indicators are published in the IATI format except sub-national location which is only sometimes published on its website.
+It provides information on all indicators in the project attributes component, except for sub-national locations. This is only sometimes published on its website.
 
-Belgium-DGD performs well for all indicators within the joined-up development data component apart from the procurement indicators, contracts and tenders. While tenders are consistently provided in other formats, contracts are not made available at all. 
+Belgium-DGD performs well for all indicators within the joined-up development data component, apart from the procurement indicators, contracts and tenders. While tenders are consistently provided in other formats, contracts are not made available at all. 
 
-With regards to performance related information, Belgium-DGD does comparatively well on publishing objectives and pre-project impact appraisals in the IATI format. No information, however, is available on reviews and evaluations as well as results.
+With regards to performance-related information, Belgium-DGD publishes objectives and pre-project impact appraisals in the IATI format. No information, however, is available on reviews and evaluations, as well as results.
 
 
 ---
 
-Recommendations go here.
+Belgium-DGD should focus on improving the comprehensiveness of its publication. 
+In particular, it should aim to cover all budgetary and financial indicators, share documents on project procurement and provide sub-national location information. 
+It should also include performance-related information, namely reviews and evaluations, as well as results.
+Belgium-DGD should also ensure high quality of the data published in the IATI Registry so it is kept up-to-date. 
+To demonstrate the impact of transparency on development work, Belgium-DGD should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level. 
 
 ---

@@ -9,23 +9,29 @@ The Directorate-General for International Cooperation and Development (DG DEVCO)
 
 ---
 
-The Directorate-General for International Cooperation and Development of the European Commission (EC-DEVCO) remains in the good category but is the least performing of the three EC agencies. 
+EC-DEVCO remains in the 'good' category but is the lowest performing of the three EC agencies. It publishes to the IATI Registry on a monthly basis. 
 
-EC-DEVCO publishes to the IATI Registry on a monthly basis. 
+All organisational planning indicators are published in the IATI format, barring the allocation policy which is made available on EC-DEVCO’s website. 
 
-All organisational planning indicators are published in the IATI format. But the allocation policy provided did not meet the definition. An alternative document containing the required information can be found on EC-DEVCO’s website. 
+Except for project budget documents, which are not available at all, all indicators of the finance and budget component are published in the IATI Standard. There is, however, room for improvement with regards to the provision of disaggregated budget and project budget data, which score lowest within this component. 
 
-Except for project budget documents, which are not available at all, all indicators of the finance and budget component are published in the comparable IATI format. The majority of indicators receive high scores with the exception of disaggregated budget and project budget which score lowest within this component. 
+EC-DEVCO publishes on all indicators of the project attributes component and makes them available in an open and comparable format to the IATI Registry. Implementer and sub-national location, however, are the lowest scoring indicators within this component. 
 
-EC-DEVCO publishes all indicators of the project attributes component in the comparable IATI format. Implementer and sub-national location, however, are the lowest scoring indicators within this component. 
+It performs well on basic joining-up development data indicators such as aid type, flow type, finance type and tied aid status. However, no current tenders could be found in an IATI format and these are not consistently available elsewhere. Conditions and contracts are neither published to the IATI Registry nor being made available elsewhere.
 
-EC-DEVCO performs well on basic joined-up development data indicators such as aid type, flow type, finance type and tied aid status. Tenders are published in the IATI format but the documents were not up to date. Some tenders are published in other formats but this is not done consistently. Conditions and contracts are neither published to IATI nor being made available elsewhere.
-
-EC-DEVCO scores below the overall average for the performance component. Although results data is now published to IATI, it is one of the lowest scoring indicators. EC-DEVCO scores on no other indicators of the performance component. While objectives as well as reviews and evaluations are sometimes being made available, pre-project impact appraisals are not published at all. 
+EC-DEVCO scores below the overall average for the performance component. Although it started publishing results in the IATI Standard, it remains one of the lowest scoring indicators. It scores on no other indicators of the performance component. While objectives, as well as reviews and evaluations, are sometimes being made available, pre-project impact appraisals are not published at all. 
 
 
 ---
 
-Recommendations go here.
+EC-DEVCO should prioritise the publication of comprehensive performance-related information. This should also include pre-project impact appraisals and reviews and evaluations. 
+
+It should also make improvements on pieces of information that are particularly valued by data users such as sub-national locations and implementers.
+
+Further improvement could also be made at project level to include detailed budgets as well as project procurement information
+
+EC-DEVCO should ensure the quality of its IATI publication, starting by regularly updating activity dates and statuses to reflect its development work on the ground.
+
+To demonstrate the impact of transparency on development work, EC-DEVCO should take responsibility to promote the use of the data they publish, internally to promote coordination and effectiveness; and externally to explore online and in-person feedback loops, including at country level
 
 ---
