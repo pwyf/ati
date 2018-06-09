@@ -33,6 +33,11 @@
 
 	gtag('config', 'UA-18679634-1');
 	</script>
+	{% if page.extra_js %}
+	{% for extra_js in page.extra_js %}
+    <script src="{{ extra_js | absolute_url }}?ver={{ site.github.build_revision }}"></script>
+	{% endfor %}
+	{% endif %}
 </head>
 
 <body>
