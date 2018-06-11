@@ -191,17 +191,17 @@ for slug, description in components:
     with open(component_path, 'w') as f:
         _ = f.write(description)
 
-with open(join(rootpath, 'gen', '2018', 'agency-template.md')) as f:
-    agency_tmpl = f.read()
+# with open(join(rootpath, 'gen', '2018', 'agency-template.md')) as f:
+#     agency_tmpl = f.read()
 
-agencies_path = join(rootpath, '2018', 'agencies')
-shutil.rmtree(agencies_path, ignore_errors=True)
-makedirs(agencies_path)
+# agencies_path = join(rootpath, '2018', 'agencies')
+# shutil.rmtree(agencies_path, ignore_errors=True)
+# makedirs(agencies_path)
 
-for profile in profile_data:
-    if profile['lang'] != 'EN':
-        # TODO
-        continue
-    txt = agency_tmpl.format(**profile)
-    with open(join(agencies_path, profile['slug'] + '.md'), 'w') as f:
-        _ = f.write(txt)
+# for profile in profile_data:
+#     if profile['lang'] != 'EN':
+#         # TODO
+#         continue
+#     txt = agency_tmpl.format(**profile)
+#     with open(join(agencies_path, profile['slug'] + '.md'), 'w') as f:
+#         _ = f.write(txt)
