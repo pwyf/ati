@@ -13,17 +13,20 @@
 	<meta content="{{ "2018/static/assets/multi-placeholder.png" | absolute_url }}?ver={{ site.github.build_revision }}" property="og:image">
 	<link rel="icon" type="image/png" href="{{ "2018/static/assets/favicon.ico" | absolute_url }}?ver={{ site.github.build_revision }}">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Yantramanav:400,500,700,900" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-	</script>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.sumoselect/3.0.2/sumoselect.min.css" rel="stylesheet">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sumoselect/3.0.2/jquery.sumoselect.min.js">
-	</script>
+	<link rel="stylesheet" href="{{ "2018/static/css/global.css" | absolute_url }}?ver={{ site.github.build_revision }}">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	{% if page.extra_css %}
+	{% for extra_css in page.extra_css %}
+	<link rel="stylesheet" href="{{ extra_css | absolute_url }}?ver={{ site.github.build_revision }}">
+	{% endfor %}
+	{% endif %}
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sumoselect/3.0.2/jquery.sumoselect.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="{{ "2018/static/js/global.js" | absolute_url }}?ver={{ site.github.build_revision }}"></script>
 	<script src="{{ "2018/static/js/modernizr-custom.js" | absolute_url }}?ver={{ site.github.build_revision }}"></script>
-	<link rel="stylesheet" href="{{ "2018/static/css/global.css" | absolute_url }}?ver={{ site.github.build_revision }}">
-	</script><!-- Global site tag (gtag.js) - Google Analytics -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18679634-1">
 	</script>
 	<script>
