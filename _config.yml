@@ -17,5 +17,10 @@ defaults:
       extra_js:
         - 2018/static/js/single.js
 
+  - scope:
+      path: 2018/multiple
+    values:
+      layout: 2018/multiple
+
 sass:
   style: compressed
