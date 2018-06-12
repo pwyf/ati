@@ -8,6 +8,9 @@ exclude:
   - 2018/TODO.md
   - README.md
   - 2018/README.md
+  - config.ru
+  - Procfile
+  - static.json
 
 defaults:
   - scope:
