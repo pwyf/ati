@@ -17,13 +17,15 @@ defaults:
       path: 2018/agencies
     values:
       layout: 2018/single
-      extra_js:
-        - 2018/static/js/single.js
+      extra_css:
+        - 2018/static/css/pdf-styles.css
 
   - scope:
       path: 2018/multiple
     values:
       layout: 2018/multiple
+      extra_css:
+        - 2018/static/css/pdf-styles.css
 
 sass:
   style: compressed
