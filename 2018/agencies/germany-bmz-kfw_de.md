@@ -3,7 +3,7 @@ permalink: 2018/de/germany-bmz-kfw/index.html
 slug: germany-bmz-kfw
 title: Deutschland - Bundesministerium für Wirtschaftliche Zusammenarbeit und Entwicklung - KfW (BMZ-KfW)
 short_name: Deutschland, BMZ-KFW
-language: DE
+language: de
 ---
 
 Das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung, BMZ, nimmt eine führende Rolle bei der Gestaltung der deutschen Entwicklungszusammenarbeit ein und ist für die IATI-Veröffentlichung verantwortlich. Die KfW-Entwicklungsbank, die aus einer Mischung von öffentlichen Mitteln und Kapitalmarktmitteln finanziert wird, ist für die Durchführung der finanziellen Zusammenarbeit des BMZ zuständig.. Das BMZ ist seit 2008 IATI-Mitglied und hat im März 2013 erstmals Daten im IATI Standard veröffentlicht.

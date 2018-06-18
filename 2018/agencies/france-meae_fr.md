@@ -3,7 +3,7 @@ permalink: 2018/fr/france-meae/index.html
 slug: france-meae
 title: France - Ministère de l'Europe et des Affaires étrangères (MEAE)
 short_name: France, MEAE
-language: FR
+language: fr
 ---
 
 Le ministère de l'Europe et des Affaires étrangères (MEAE) est chargé de définir la politique de coopération au développement de la France. Le MEAE fournit ou fait des crédits des aides aux projets, des aides budgétaires et une assistance technique. Le MEAE n'est pas membre de l'IITA, mais a publié des données de l'IITA depuis janvier 2014.

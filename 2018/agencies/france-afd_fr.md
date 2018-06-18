@@ -3,7 +3,7 @@ permalink: 2018/fr/france-afd/index.html
 slug: france-afd
 title: France - Agence française de développement (AFD)
 short_name: France, AFD
-language: FR
+language: fr
 ---
 
 L’Agence Française de Développement (AFD) est une agence publique au cœur de la coopération française du développement. Elle travaille pour combattre la pauvreté et favoriser le développement dans les pays du Sud. L'AFD est responsable du financement des projets, des programmes et de la recherche et du renforcement des capacités dans les pays en développement. Elle est supervisée par le ministère français de l'Europe et des Affaires étrangères (MEAE). L’AFD a d’abord publié les données de l’IITA en avril 2015 et est devenue membre de l'IITA en 2016.

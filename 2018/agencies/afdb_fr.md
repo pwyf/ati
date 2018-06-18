@@ -3,7 +3,7 @@ permalink: 2018/fr/afdb/index.html
 slug: afdb
 title: Banque africaine de développement (BAD)
 short_name: BAD
-language: FR
+language: fr
 ---
 
 La Banque africaine de développement (BAD) a été créée pour promouvoir la coopération et l'unité  dans toute la région de l'Afrique. Elle fournit des prêts non concessionnels et concessionnels, des investissements en capitaux, des garanties de prêts, des subventions et une assistance technique aux gouvernements à faibles et moyens revenus et au secteur privé. La BAD est devenue membre de l'IITA en 2011 et a commencé à publier des données au format IITA en juin 2013.

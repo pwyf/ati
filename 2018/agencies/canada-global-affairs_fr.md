@@ -3,7 +3,7 @@ permalink: 2018/fr/canada-global-affairs/index.html
 slug: canada-global-affairs
 title: Canada - Affaires mondiales Canada
 short_name: Canada, Affaires mondiales
-language: FR
+language: fr
 ---
 
 Ayant changé de nom en 2015, les Affaires mondiales Canada sont le principal fournisseur de l’APD canadienne et dirige l’aide au développement bilatérale du Canada. Ses priorités pour 2017-2018 comprennent des engagements d'ouverture et de transparence, en particulier en matière d'évaluation et de présentation de rapports. Le Canada a pris la présidence du G7 en 2018. Affaires mondiales Canada est devenu membre de l'IITA en novembre 2011 et a publié ses premiers ensembles de données trimestrielles en octobre 2012. Affaires mondiales Canada a présidé le conseil d'administration et l'assemblée des membres de l'IITA jusqu'en avril 2018.

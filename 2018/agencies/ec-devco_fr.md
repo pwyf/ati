@@ -3,7 +3,7 @@ permalink: 2018/fr/ec-devco/index.html
 slug: ec-devco
 title: Direction Générale Coopération internationale et développement international de la Commission européenne (DG DEVCO)
 short_name: DG DEVCO
-language: FR
+language: fr
 ---
 
 La DG Coopération internationale et développement international - (DG DEVCO) est responsable de la formulation de la politique de développement de la Commission européenne (CE) et de la mise en œuvre de la coopération au développement de l'Union européenne dans le monde entier. La DG DEVCO gère un certain nombre d'instruments de financement, notamment l'instrument de coopération au développement et l'instrument européen pour la démocratie et les droits de l'homme. La DG est devenue membre de l'IITA en 2008. La DG DEVCO a commencé à publier au formatIITA en octobre 2011 et convoque un groupe de travail interne pour l'amélioration de la publication de l'IITA.

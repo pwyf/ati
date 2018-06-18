@@ -3,7 +3,7 @@ permalink: 2018/fr/belgium-dgd/index.html
 slug: belgium-dgd
 title: Belgique - Direction générale de la coopération au développement et de l'aide humanitaire (DGD)
 short_name: Belgique, DGD
-language: FR
+language: fr
 ---
 
 La Direction générale de la coopération au développement et de l'aide humanitaire (DGD) est chargée de définir la politique de développement de la Belgique et d'allouer son aide. La DGD belge est devenue membre de l’IITA en 2012 et a publié pour la première fois au format de l'IITA en décembre 2014.

@@ -3,7 +3,7 @@ permalink: 2018/fr/ec-near/index.html
 slug: ec-near
 title: Direction générale du voisinage et des négociations d’élargissement de la Commission européenne (DG NEAR)
 short_name: DG NEAR
-language: FR
+language: fr
 ---
 
 La direction générale du voisinage et des négociations d’élargissement de la Commission européenne (DG NEAR) est responsable des politiques d'élargissement de l'Union européenne (UE) et de ses relations avec les pays voisins. Elle gère l’essentiel de l’assistance financière et technique que l’UE donne à ces pays. La Commission européenne est devenue membre de l’IITA en 2008 et la DG NEAR a commencé à publier à l'IITA en septembre 2013.

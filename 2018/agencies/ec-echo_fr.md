@@ -3,7 +3,7 @@ permalink: 2018/fr/ec-echo/index.html
 slug: ec-echo
 title: Direction générale pour la protection civile et les opérations d’aide humanitaire européennes de la Commission européenne (DG ECHO)
 short_name: DG ECHO
-language: FR
+language: fr
 ---
 
 La Direction générale de la protection civile et les opérations d’aide humanitaire européennes de la Commission européenne (DG ECHO) est responsable de la formulation de la politique d’aide humanitaire de la Commission européenne (CE) et de la fourniture de l’aide humanitaire de l’Union européenne à travers ses deux principaux instruments : la protection civile et l'aide humanitaire. La Commission européenne a rejoint l’IITA en 2008 et la DG ECHO a commencé à publier à l'IITA en septembre 2013.

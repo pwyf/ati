@@ -3,7 +3,7 @@ permalink: 2018/de/germany-bmz-giz/index.html
 slug: germany-bmz-giz
 title: Deutschland – Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung - GIZ (BMZ-GIZ)
 short_name: Deutschland, BMZ-GIZ
-language: DE
+language: de
 ---
 
 Das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung, BMZ, nimmt eine führende Rolle bei der Gestaltung der deutschen Entwicklungszusammenarbeit ein und ist für die IATI-Veröffentlichung verantwortlich. Die GIZ ist ein öffentliches Unternehmen und führt den größten Teil der technischen Entwicklungszusammenarbeit des BMZ durch. Das BMZ ist seit 2008 IATI Mitglied und hat im März 2013 erstmals Daten im IATI Standard veröffentlicht.
