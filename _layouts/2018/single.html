@@ -48,10 +48,8 @@ layout: 2018/base
 
             <div class="overview single-group">
                 <span class="label">
-                    {%- if page.language == 'FR' -%}
-                    Description
-                    {%- elsif page.language == 'DE' -%}
-                    Beschreibung
+                    {%- if page.language -%}
+                    {{ site.data['2018'].translations['Overview'][lang] }}
                     {%- else -%}
                     Overview
                     {%- endif -%}
@@ -120,10 +118,8 @@ layout: 2018/base
                         <div class="custom-content">
                             <div class="analysis">
                                 <span class="label">
-                                    {%- if page.language == 'FR' -%}
-                                    Analyse
-                                    {%- elsif page.language == 'DE' -%}
-                                    Analyse
+                                    {%- if page.language -%}
+                                    {{ site.data['2018'].translations['Analysis'][lang] }}
                                     {%- else -%}
                                     Analysis
                                     {%- endif -%}
@@ -137,10 +133,8 @@ layout: 2018/base
 
                             <div class="recommendations">
                                 <span class="label">
-                                    {%- if page.language == 'FR' -%}
-                                    Recommandations
-                                    {%- elsif page.language == 'DE' -%}
-                                    Empfehlungen
+                                    {%- if page.language -%}
+                                    {{ site.data['2018'].translations['Recommendations'][lang] }}
                                     {%- else -%}
                                     Recommendations
                                     {%- endif -%}
