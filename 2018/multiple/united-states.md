@@ -10,7 +10,7 @@ agencies:
     - us-defense
 brief:
     button: Download US Brief
-    url: http://www.publishwhatyoufund.org/reports/2018-US-Brief
+    url: http://www.publishwhatyoufund.org/reports/2018-US-Brief.pdf
 ---
 
 Four US agencies and one initiative are included in the 2018 Aid Transparency Index: the Department of Defense (DOD), the Millennium Challenge Corporation (MCC), the Department of State (State), the United States Agency for International Development (USAID), and the President’s Emergency Fund for AIDS Relief (PEPFAR). The overall results show continued improvement, although at different rates. MCC remains in the ‘very good’ category. The biggest improver in the US is USAID, now in the middle of the ‘good’ category. PEPFAR is also included in the ‘good’ category. State and DOD remain in the ‘fair ‘category. The United States publishes on a quarterly basis.

@@ -8,7 +8,7 @@ agencies:
     - ec-devco
 brief:
     button: Download EU Brief
-    url: http://www.publishwhatyoufund.org/reports/2018-EU-Brief
+    url: http://www.publishwhatyoufund.org/reports/2018-EU-Brief.pdf
 ---
 
 The three EC agencies remain in the ‘good’ category but EC-ECHO is now leading the way, closely followed by EC-NEAR and EC-DEVCO.
