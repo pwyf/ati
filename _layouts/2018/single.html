@@ -49,7 +49,7 @@ layout: 2018/base
             <div class="overview single-group">
                 <span class="label">
                     {%- if page.language -%}
-                    {{ site.data['2018'].translations['Overview'][lang] }}
+                    {{ site.data['2018'].translations['Overview'][page.language] }}
                     {%- else -%}
                     Overview
                     {%- endif -%}
@@ -65,12 +65,24 @@ layout: 2018/base
                 <div class="summary-card">
                     <div class="top-info">
                         <div class="score">
-                            <span class="light">Score:</span> <span class="target">{{ results.score | times:10 | floor | divided_by:10.0 }}</span>
+                            <span class="light">
+                            {%- if page.language -%}
+                            {{ site.data['2018'].translations['Score'][page.language] }}
+                            {%- else -%}
+                            Score
+                            {%- endif -%}
+                            :</span> <span class="target">{{ results.score | times:10 | floor | divided_by:10.0 }}</span>
                         </div>
 
 
                         <div class="position">
-                            <span class="light">Position:</span> <span class="target">{{ results.rank }}</span> / {{ site.data['2018'].results | size }}
+                            <span class="light">
+                            {%- if page.language -%}
+                            {{ site.data['2018'].translations['Position'][page.language] }}
+                            {%- else -%}
+                            Position
+                            {%- endif -%}
+                            :</span> <span class="target">{{ results.rank }}</span> / {{ site.data['2018'].results | size }}
                         </div>
 
 
@@ -89,28 +101,52 @@ layout: 2018/base
                             {% else %}
                             same
                             {% endif %}
-                            {{ results.performance_group | downcase | replace:" ","-" }}">{{ results.performance_group }}</span>
+                            {{ results.performance_group | downcase | replace:" ","-" }}">
+                            {%- if page.language -%}
+                            {{ site.data['2018'].translations[results.performance_group][page.language] }}
+                            {%- else -%}
+                            {{ results.performance_group }}
+                            {%- endif -%}
+                            </span>
                         </div>
 
                         {% if results.history %}
                         <div class="history">
                             {% for historical_result in results.history %}
                             <div class="year">
-                                {{ historical_result.year }}: <span class="{{ historical_result.performance_group | downcase | replace:" ","-" }}">{{ historical_result.performance_group }}</span>
+                                {{ historical_result.year }}: <span class="{{ historical_result.performance_group | downcase | replace:" ","-" }}">
+                                {%- if page.language -%}
+                                {{ site.data['2018'].translations[historical_result.performance_group][page.language] }}
+                                {%- else -%}
+                                {{ historical_result.performance_group }}
+                                {%- endif -%}
+                                </span>
                             </div>
                             {% endfor %}
 
-                            <span class="disclaimer">Due to a <a href="http://www.publishwhatyoufund.org/the-index/methodology/">methodology change</a> after 2016, rankings are not directly comparable with 2018</span>
+                            <span class="disclaimer">
+                                {%- if page.language -%}
+                                {{ site.data['2018'].translations['Due to a methodology change after 2016, results are not directly comparable with 2018'][page.language] }}
+                                {%- else -%}
+                                Due to a <a href="http://www.publishwhatyoufund.org/the-index/methodology/">methodology change</a> after 2016, results are not directly comparable with 2018
+                                {%- endif -%}
+                                </span>
                         </div>
                         {% endif %}
                     </div>
 
-
                     <div class="card-content">
                         <div class="side-components">
                             {% for component in results.components %}
+                            {% assign component_name = component[0] %}
                             <div class="component component-{{ forloop.index }}">
-                                <span class="light">{{ component[0] }}</span> <span class="score">{{ component[1].weighted_score | times:10 | floor | divided_by:10.0 }} <span class="lighter">/ {{ component[1].out_of | round }}</span></span>
+                                <span class="light">
+                                    {%- if page.language -%}
+                                    {{ site.data['2018'].translations[component_name][page.language] }}
+                                    {%- else -%}
+                                    {{ component_name }}
+                                    {%- endif -%}
+                                </span> <span class="score">{{ component[1].weighted_score | times:10 | floor | divided_by:10.0 }} <span class="lighter">/ {{ component[1].out_of | round }}</span></span>
                             </div>
                             {% endfor %}
                         </div>
@@ -119,7 +155,7 @@ layout: 2018/base
                             <div class="analysis">
                                 <span class="label">
                                     {%- if page.language -%}
-                                    {{ site.data['2018'].translations['Analysis'][lang] }}
+                                    {{ site.data['2018'].translations['Analysis'][page.language] }}
                                     {%- else -%}
                                     Analysis
                                     {%- endif -%}
@@ -134,7 +170,7 @@ layout: 2018/base
                             <div class="recommendations">
                                 <span class="label">
                                     {%- if page.language -%}
-                                    {{ site.data['2018'].translations['Recommendations'][lang] }}
+                                    {{ site.data['2018'].translations['Recommendations'][page.language] }}
                                     {%- else -%}
                                     Recommendations
                                     {%- endif -%}
