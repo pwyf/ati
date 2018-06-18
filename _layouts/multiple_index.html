@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+{% assign multiple_agencies = site.pages | where: "layout", "multiple" | sort: 'order' %}
+
+<div class="margins-container single-container">
+    <a href="{{ '/' | absolute_url }}" class="back-to-results">
+        <img src="{{ "static/assets/left-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Back to results">
+        <span>Back to results</span>
+    </a>
+    <h1 class="multiple-title">{{ page.title }}</h1>
+    <p>{{ content }}</p>
+    <div class="comparison-pages">
+        {% for multiple_agency in multiple_agencies %}
+            <a href="{{ multiple_agency.url | absolute_url }}"><h2>{{ multiple_agency.title }}</h2></a>
+        {% endfor %}
+    </div>
+</div>

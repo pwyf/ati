@@ -34,13 +34,13 @@ Static site build for the Aid Transparency Index.
    bundle
    ```
 
-3. Update `_data/2018/source-results.csv` with actual results (exported from the aid transparency tracker)
+3. Update `_data/source-results.csv` with actual results (exported from the aid transparency tracker)
 
 4. Run the following:
 
    ```shell
    $ # generate templates and `results.json`
-   $ python gen/2018-gen.py
+   $ python gen/data-gen.py
    $
    $ # Build static site & start webserver
    $ bundle exec jekyll serve

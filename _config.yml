@@ -1,3 +1,6 @@
+url: http://www.publishwhatyoufund.org
+baseurl: /the-index-wowwowwow/
+
 exclude:
   - html/
   - Gemfile
@@ -5,27 +8,25 @@ exclude:
   - vendor/
   - Rakefile
   - gen/
-  - 2018/TODO.md
   - README.md
-  - 2018/README.md
   - config.ru
   - Procfile
   - static.json
 
 defaults:
   - scope:
-      path: 2018/agencies
+      path: pages/agencies
     values:
-      layout: 2018/single
+      layout: single
       extra_css:
-        - 2018/static/css/pdf-styles.css
+        - static/css/pdf-styles.css
 
   - scope:
-      path: 2018/multiple
+      path: pages/multiple
     values:
-      layout: 2018/multiple
+      layout: multiple
       extra_css:
-        - 2018/static/css/pdf-styles.css
+        - static/css/pdf-styles.css
 
 sass:
   style: compressed

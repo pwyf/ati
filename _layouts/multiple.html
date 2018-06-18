@@ -1,0 +1,60 @@
+---
+layout: base
+---
+
+<div class="margins-container single-container">
+    <a href="{{ '/' | absolute_url }}" class="back-to-results">
+        <img src="{{ "static/assets/left-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Back to results">
+        <span>Back to results</span>
+    </a>
+    <div class="single-content">
+        <div class="left-column">
+            <div class="graph-image">
+                <img src="{{ "static/assets/graphs/multiple/" | absolute_url }}{{ page.name | replace:".md","" }}.png?ver={{ site.github.build_revision }}" alt="">
+            </div>
+            {% if page.brief %}
+            <div class="buttons">
+                <a class="download-report button flex-icon" href="{{ page.brief.url }}"><img alt="{{ page.brief.button }}" src="{{ "static/assets/down-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}">
+                    <span>{{ page.brief.button }}</span></a>
+            </div>
+            {% endif %}
+        </div>
+        <div class="right-column">
+            <h1 class="agency-name">{{ page.title }}</h1>
+            <div class="mobile-fill"></div>
+
+            <div class="overview multi-group">
+                <span class="label">Overview</span>
+                <div class="overview-content">
+                    {{ content }}
+                </div>
+            </div>
+            <div class="summary multi-group">
+                <span class="label">Rankings</span>
+                <div class="summary-card">
+                    <div class="multi-rankings">
+                        {% assign prev_performance_group = null %}
+
+                        {% for agency in page.agencies %}
+                        {% assign agency_data = site.data.results[agency] %}
+                        {% if agency_data.performance_group != prev_performance_group %}
+                            {% if prev_performance_group != null %}
+                                </div>
+                            {% endif %}
+                            <div class="ranking-group">
+                                <div class="rank">
+                                    <span class="score {{ agency_data.performance_group | downcase | replace:" ","-" }}">{{ agency_data.performance_group }}</span>
+                                </div>
+                        {% endif %}
+                            <span class="grouped-agency">
+                                {{ agency_data.rank }}. <a href="{{ agency | absolute_url }}/">{{ agency_data.name }}</a> - {{ agency_data.score | times:10 | floor | divided_by:10.0 }}%
+                            </span>
+                        {% assign prev_performance_group = agency_data.performance_group %}
+                        {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
