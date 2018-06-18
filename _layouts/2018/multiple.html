@@ -47,7 +47,7 @@ layout: 2018/base
                                 </div>
                         {% endif %}
                             <span class="grouped-agency">
-                                <a href="/2018/{{ agency }}/">{{ agency_data.name }}</a> - {{ agency_data.score | times:10 | floor | divided_by:10.0 }}%
+                                {{ agency_data.rank }}. <a href="/2018/{{ agency }}/">{{ agency_data.name }}</a> - {{ agency_data.score | times:10 | floor | divided_by:10.0 }}%
                             </span>
                         {% assign prev_performance_group = agency_data.performance_group %}
                         {% endfor %}
