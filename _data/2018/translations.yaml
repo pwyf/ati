@@ -1,13 +1,13 @@
 Download Donor Profile:
-  fr: Telegerger en Francais
+  fr: Télécharger en français
   de: Herunterladen
 
 Score:
-  fr: "-"
+  fr: Score
   de: erzielte Punktzahl
 
 Position:
-  fr: "-"
+  fr: Position
   de: Position
 
 Very good:
@@ -23,35 +23,35 @@ Fair:
   de: befriedigend
 
 Poor:
-  fr: "-"
+  fr: médiocre
   de: mangelhaft
 
 Very poor:
-  fr: "-"
+  fr: très médiocre
   de: ungenügend
 
-Due to a methodology change after 2016, results are not directly comparable with 2018:
-  fr: "-"
-  de: Da nach 2016 eine neue Indexmethodik angewandt wurde, sind die Ergebnisse des 2018 Index nicht unmittelbar mit früheren Ergebnissen vergleichbar
+Due to a methodology change after 2016, results are not directly comparable with 2018.:
+  fr: En raison d'un changement de méthodologie après 2016, les résultats ne sont pas directement comparables.
+  de: Da nach 2016 eine neue Indexmethodik angewandt wurde, sind die Ergebnisse des 2018 Index nicht unmittelbar mit früheren Ergebnissen vergleichbar.
 
 Organisational planning and commitments:
-  fr: "-"
+  fr: Organisation, planification et engagement
   de: Organisationsplanung und Verpflichtungen
 
 Finance and budgets:
-  fr: "-"
+  fr: Finances et budgets
   de: Finanzen und Budgets
 
 Project attributes:
-  fr: "-"
+  fr: Caractéristiques du projet
   de: Projektattribute
 
 Joining-up development data:
-  fr: "-"
+  fr: Mise en commun des données de développement
   de: Entwicklungsdatenverknüpfung
 
 Performance:
-  fr: "-"
+  fr: Performance
   de: Wirkung
 
 Overview:
