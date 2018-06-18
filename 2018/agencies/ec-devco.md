@@ -3,6 +3,8 @@ permalink: 2018/ec-devco/index.html
 slug: ec-devco
 title: EC – Directorate-General for International Cooperation and Development (EC-DEVCO)
 short_name: EC, DEVCO
+languages:
+    - fr
 ---
 
 The Directorate-General for International Cooperation and Development (EC-DEVCO) is responsible for formulating European Commission (EC) development policy and implementing European Union development cooperation worldwide. EC-DEVCO manages a number of financing instruments, most notably the Development Cooperation Instrument and the European Instrument for Democracy and Human Rights. The EC became an IATI member in 2008. EC-DEVCO began publishing to IATI in October 2011 and convenes an internal EC working group on improving IATI publication.

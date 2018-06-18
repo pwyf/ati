@@ -3,6 +3,8 @@ permalink: 2018/ec-echo/index.html
 slug: ec-echo
 title: EC - Directorate-General for European Civil Protection and Humanitarian Aid Operations (EC-ECHO)
 short_name: EC, ECHO
+languages:
+    - fr
 ---
 
 The Directorate-General for European Civil Protection and Humanitarian Aid Operations (EC-ECHO) is responsible for formulating European Commission (EC) humanitarian aid policy and delivering European Union relief assistance through its two main instruments: civil protection and humanitarian aid. The EC joined IATI in 2008 and EC-ECHO began publishing to IATI in September 2013.
