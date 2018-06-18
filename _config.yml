@@ -8,25 +8,23 @@ exclude:
   - vendor/
   - Rakefile
   - gen/
-  - 2018/TODO.md
   - README.md
-  - 2018/README.md
   - config.ru
   - Procfile
   - static.json
 
 defaults:
   - scope:
-      path: 2018/agencies
+      path: pages/agencies
     values:
-      layout: 2018/single
+      layout: single
       extra_js:
-        - 2018/static/js/single.js
+        - static/js/single.js
 
   - scope:
-      path: 2018/multiple
+      path: pages/multiple
     values:
-      layout: 2018/multiple
+      layout: multiple
 
 sass:
   style: compressed
