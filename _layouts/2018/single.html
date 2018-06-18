@@ -19,7 +19,7 @@ layout: 2018/base
                 </div>
 
                 <div class="buttons">
-                    <a class="download-report button flex-icon" href="#"><img src="{{ "2018/static/assets/down-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download Donor Profile">
+                    <a class="download-report button flex-icon" href="/2018/static/pdfs/{{ page.slug }}.pdf"><img src="{{ "2018/static/assets/down-arrow.svg" | absolute_url }}?ver={{ site.github.build_revision }}" alt="Download Donor Profile">
                     <span>Download Donor Profile</span></a> <a class="download-report french button flex-icon" href="#"><img alt="Telegerger en Francais" src=
                     "{{ "2018/static/assets/down-arrow-black.svg" | absolute_url }}?ver={{ site.github.build_revision }}"> <span>Telegerger en Francais</span></a>
                 </div>
@@ -43,7 +43,15 @@ layout: 2018/base
 
 
             <div class="overview single-group">
-                <span class="label">Overview</span>
+                <span class="label">
+                    {%- if page.language == 'FR' -%}
+                    Description
+                    {%- elsif page.language == 'DE' -%}
+                    Beschreibung
+                    {%- else -%}
+                    Overview
+                    {%- endif -%}
+                </span>
 
                 <div class="overview-content">
                     {{ sections[0] | markdownify }}
@@ -107,7 +115,15 @@ layout: 2018/base
 
                         <div class="custom-content">
                             <div class="analysis">
-                                <span class="label">Analysis</span>
+                                <span class="label">
+                                    {%- if page.language == 'FR' -%}
+                                    Analyse
+                                    {%- elsif page.language == 'DE' -%}
+                                    Analyse
+                                    {%- else -%}
+                                    Analysis
+                                    {%- endif -%}
+                                </span>
 
                                 <div class="analysis-content">
                                   {{ sections[1] | markdownify }}
@@ -116,7 +132,15 @@ layout: 2018/base
 
 
                             <div class="recommendations">
-                                <span class="label">Recommendations</span>
+                                <span class="label">
+                                    {%- if page.language == 'FR' -%}
+                                    Recommandations
+                                    {%- elsif page.language == 'DE' -%}
+                                    Empfehlungen
+                                    {%- else -%}
+                                    Recommendations
+                                    {%- endif -%}
+                                </span>
 
                                 <div class="recommendations-content">
                                     {{ sections[2] | markdownify }}
