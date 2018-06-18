@@ -18,7 +18,7 @@ Tous les documents de planification organisationnelle sont disponibles dans le f
 
 Affaires mondiales Canada publie toutes les informations financières et budgétaires dans la norme l'IITA, à l'exception de documents sur le budget du projet. Des améliorations sont possibles en ce qui concerne les budgets désagrégés, les budgets des projets et les dépenses en capital.
 
-Bien qu’il ne fournisse pas d’informations de localisation régionale dans les lignesde texte, nous notons que comme pour coordonnées de localisation, les activités sont également situées par région. Ceci est rendu possible a l’aide des références de l’index géographique (gazetteer).
+Bien qu’il ne fournisse pas d’informations de localisation régionale dans les lignes de texte, nous notons que comme pour coordonnées de localisation, les activités sont également situées par région. Ceci est rendu possible a l’aide des références de l’index géographique (gazetteer).
 
 Affaires mondiales Canada obtient de bons résultats sur la composante mise en commun des données de développement, finissant au deuxième rang au classement général de cette composante. L’appel d’offres est le seul indicateur qui n’est pas disponible dans la norme l'IITA, mais l'information peut être trouvée ailleurs.
 

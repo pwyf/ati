@@ -33,6 +33,6 @@ Pour la composante performance, l’AFD ne publie que des objectifs sur le regis
  * Elle devrait se concentrer à mettre à jour régulièrement les informations saisies dans la composante planification organisationnelle.
  * Elle devrait améliorer la publication des données financières et budgétaires afin d'inclure des budgets désagrégés et des budgets de projets.
  * Elle devrait davantage progresser dans la publication d’informations relatives à la performance, notamment sur les résultats, les revues de mi-parcours et les évaluations.
- * Pour démontrer l’impact de la transparence sur le travail de développement, l’AFD devrait prendre la responsabilité de promouvoir l’utilisation des données qu’elle publie : au niveau interne, pour promouvoir la coordination et l’efficacité; et au niveau externe, pour explorer les mécanismes de retour d’experience en ligne et en personne y compris au niveau national.
+ * Pour démontrer l’impact de la transparence sur le travail de développement, l’AFD devrait prendre la responsabilité de promouvoir l’utilisation des données qu’elle publie : au niveau interne, pour promouvoir la coordination et l’efficacité; et au niveau externe, pour explorer les mécanismes de retour d’expérience en ligne et en personne y compris au niveau national.
 
 ---

@@ -14,7 +14,7 @@ BMZ-GIZ bleibt weiterhin in der Kategorie „gut“ und rangiert innerhalb diese
 
 Das Veröffentlichungsintervall wurde von vierteljährlich auf monatlich erhöht.
 
-Innerhalb der Organisations- und Planungskomponente punktet BMZ-GIZ in den Bereichen Organisationsstrategie, Beschaffungspolitik und Audits. Der Jahresbericht und die Länderstrategien werden im IATI-Format veröffentlicht, enthalten jedoch nicht die erforderlichen Informationen bzw. sind nicht immer aktuell. Länderstrategien werden nicht umfassend in anderen Formaten bereitgestellt. Die Verteilungspolitik ist auf der Website der Organisation verfügbar.
+Innerhalb der Organisations- und Planungskomponente punktet BMZ-GIZ in den Bereichen Organisationsstrategie, Beschaffungspolitik und Audits. Der Jahresbericht und die Länderstrategien werden im IATI-Format veröffentlicht, enthalten jedoch nicht die erforderlichen Informationen bzw. sind nicht immer aktuell. Länderstrategien werden nicht umfassend in anderen Formaten bereitgestellt. Die Verteilungsstrategie ist auf der Website der Organisation verfügbar.
 
 In den Bereichen Finanzen und Budgets schneidet BMZ-GIZ überdurchschnittlich ab. Die Projektbudgets werden nun im IATI Standard veröffentlicht. BMZ-GIZ erbringt gute Leistungen für die Indikatoren Gesamtbudget, Verpflichtungen, Auslagen und Ausgaben sowie aufgeschlüsselte Budgets. Es werden allerdings keine Projektbudgetdokumente und Informationen über Kapitalausgaben zur Verfügung gestellt.
 

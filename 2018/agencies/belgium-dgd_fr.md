@@ -10,13 +10,13 @@ La Direction générale de la coopération au développement et de l'aide humani
 
 ---
 
-La DGD belge continue de progresser, passant de la catégorie «  médiocre » en 2014 à « assez bien » en 2016 et atteignant la catégorie « bien » en 2018.
+La DGD belge continue de progresser, passant de la catégorie « médiocre » en 2014 à « assez bien » en 2016 et atteignant la catégorie « bien » en 2018.
 
 Elle a amélioré la fréquence de publication de ses données, passant de moins d’une fois par trimestre en 2016 à une fois par mois en 2018.
 
 Elle a également mis en place un nouveau portail mettant à disposition des informations sur ses projets de développement.
 
-Quatre des indicateurs de planification organisationnelle, à savoir la stratégie d’organisation, le rapport annuel, la politique d’allocation et les stratégies par pays, sont publiés dans la norme de l'IITA. Cependant, il est possible d'améliorer la qualité de l'information fournie au registre de l'IITA. Par exemple, les stratégies par pays étaient obsolètes sur l’IITA et cellesactuelles pouvaient être trouvées ailleurs, parfois seulement. La politique d’approvisionnement et l’audit de la DGD belge ne sont pas disponibles dans le registre de l'IITA mais peuvent être consultées ailleurs.
+Quatre des indicateurs de planification organisationnelle, à savoir la stratégie d’organisation, le rapport annuel, la politique d’allocation et les stratégies par pays, sont publiés dans la norme de l'IITA. Cependant, il est possible d'améliorer la qualité de l'information fournie au registre de l'IITA. Par exemple, les stratégies par pays étaient obsolètes sur l’IITA et celles actuelles pouvaient être trouvées ailleurs, parfois seulement. La politique d’approvisionnement et l’audit de la DGD belge ne sont pas disponibles dans le registre de l'IITA mais peuvent être consultées ailleurs.
 
 La DGD belge a commencé à publier les documents budgétaires du projet dans le registre de l’IITA, laissant les dépenses en capital et les budgets désagrégés comme les deux indicateurs de la composante financière et budgétaire non publiés.
 
