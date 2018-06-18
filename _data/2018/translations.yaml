@@ -11,15 +11,15 @@ Position:
   de: Position
 
 Very good:
-  fr: "-"
+  fr: très bien
   de: sehr gut
 
 Good:
-  fr: "-"
+  fr: bien
   de: gut
 
 Fair:
-  fr: Assez bien
+  fr: assez bien
   de: befriedigend
 
 Poor:
