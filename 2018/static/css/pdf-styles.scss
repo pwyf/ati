@@ -47,3 +47,13 @@ footer {
     display: none;
   }
 }
+
+.loading-screen {
+  display: none;
+}
+
+.to-blur {
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
