@@ -1,7 +1,7 @@
 import json
 from os.path import dirname, join, realpath
 from os import system
-import shutil
+from time import sleep
 
 
 rootpath = join(dirname(realpath(__file__)), '..')
@@ -18,10 +18,11 @@ for publisher in j.keys():
     cmd = 'phantomjs {rasterize_path} {url} {pdf_path} A4'.format(
         rasterize_path=rasterize_path, url=url, pdf_path=pdf_path)
     system(cmd)
+    sleep(0.1)
 
 translated = {
     'fr': ['afdb', 'belgium-dgd', 'canada-global-affairs',
-           'ec-devco', 'ec-echo', 'ec-near', 'france-afd'
+           'ec-devco', 'ec-echo', 'ec-near', 'france-afd',
            'france-meae'],
     'de': ['germany-bmz-giz', 'germany-bmz-kfw'],
 }
@@ -36,7 +37,4 @@ for lang, publishers in translated.items():
         cmd = 'phantomjs {rasterize_path} {url} {pdf_path} A4'.format(
             rasterize_path=rasterize_path, url=url, pdf_path=pdf_path)
         system(cmd)
-
-final_output_path = join(rootpath, '2018', 'static', 'pdfs')
-shutil.rmtree(final_output_path)
-shutil.move(pdf_path, final_output_path)
+        sleep(0.1)
