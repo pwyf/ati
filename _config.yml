@@ -11,21 +11,25 @@ exclude:
   - config.ru
   - Procfile
   - static.json
+  - pages/pdf_tmpl
 
 defaults:
   - scope:
-      path: pages/agencies
+      path: pages/pdf_tmpl
     values:
       layout: single
       extra_css:
         - static/css/pdf-styles.css
 
   - scope:
+      path: pages/agencies
+    values:
+      layout: single
+
+  - scope:
       path: pages/multiple
     values:
       layout: multiple
-      extra_css:
-        - static/css/pdf-styles.css
 
 sass:
   style: compressed
