@@ -1,5 +1,5 @@
 ---
-permalink: sweden-sida
+permalink: sweden-sida/
 slug: sweden-sida
 title: Sweden – Swedish International Development Cooperation Agency (SIDA)
 short_name: Sweden, SIDA

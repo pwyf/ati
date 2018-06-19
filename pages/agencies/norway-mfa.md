@@ -1,5 +1,5 @@
 ---
-permalink: norway-mfa
+permalink: norway-mfa/
 slug: norway-mfa
 title: Norway – Ministry of Foreign Affairs (MFA)
 short_name: Norway, MFA

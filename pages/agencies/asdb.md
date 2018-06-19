@@ -1,5 +1,5 @@
 ---
-permalink: asdb
+permalink: asdb/
 slug: asdb
 title: Asian Development Bank (AsDB)
 short_name: AsDB

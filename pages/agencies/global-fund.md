@@ -1,5 +1,5 @@
 ---
-permalink: global-fund
+permalink: global-fund/
 slug: global-fund
 title: The Global Fund to Fight AIDS, Tuberculosis and Malaria (Global Fund)
 short_name: Global Fund

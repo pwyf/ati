@@ -1,5 +1,5 @@
 ---
-permalink: eib
+permalink: eib/
 slug: eib
 title: European Investment Bank (EIB)
 short_name: EIB

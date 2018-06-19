@@ -1,5 +1,5 @@
 ---
-permalink: de/germany-bmz-kfw
+permalink: de/germany-bmz-kfw/
 slug: germany-bmz-kfw
 title: Deutschland - Bundesministerium für Wirtschaftliche Zusammenarbeit und Entwicklung - KfW (BMZ-KfW)
 short_name: Deutschland, BMZ-KFW

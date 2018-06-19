@@ -1,5 +1,5 @@
 ---
-permalink: spain-aecid
+permalink: spain-aecid/
 slug: spain-aecid
 title: Spain – Agency for International Development Cooperation (AECID)
 short_name: Spain, AECID

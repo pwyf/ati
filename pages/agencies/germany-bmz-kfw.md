@@ -1,5 +1,5 @@
 ---
-permalink: germany-bmz-kfw
+permalink: germany-bmz-kfw/
 slug: germany-bmz-kfw
 title: Germany – Federal Ministry for Economic Cooperation and Development - KFW (BMZ-KFW)
 short_name: Germany, BMZ-KFW

@@ -1,5 +1,5 @@
 ---
-permalink: new-zealand-mfat
+permalink: new-zealand-mfat/
 slug: new-zealand-mfat
 title: New Zealand – Ministry of Foreign Affairs and Trade (MFAT)
 short_name: New Zealand, MFAT

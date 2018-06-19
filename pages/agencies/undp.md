@@ -1,5 +1,5 @@
 ---
-permalink: undp
+permalink: undp/
 slug: undp
 title: United Nations Development Programme (UNDP)
 short_name: UNDP

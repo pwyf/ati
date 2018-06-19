@@ -1,5 +1,5 @@
 ---
-permalink: uae-mofaic
+permalink: uae-mofaic/
 slug: uae-mofaic
 title: UAE – Ministry of Foreign Affairs and International Cooperation (MOFAIC)
 short_name: UAE, MOFAIC

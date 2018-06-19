@@ -1,5 +1,5 @@
 ---
-permalink: us-pepfar
+permalink: us-pepfar/
 slug: us-pepfar
 title: US – President's Emergency Plan for AIDS Relief (PEPFAR)
 short_name: US, PEPFAR

@@ -1,6 +1,6 @@
 ---
 title: Germany
-permalink: multiple/germany
+permalink: multiple/germany/
 order: 2
 agencies:
     - germany-bmz-giz

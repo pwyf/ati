@@ -1,6 +1,6 @@
 ---
 title: United Kingdom
-permalink: multiple/united-kingdom
+permalink: multiple/united-kingdom/
 order: 5
 agencies:
     - uk-dfid

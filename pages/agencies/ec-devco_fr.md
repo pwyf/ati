@@ -1,5 +1,5 @@
 ---
-permalink: fr/ec-devco
+permalink: fr/ec-devco/
 slug: ec-devco
 title: Direction Générale Coopération internationale et développement international de la Commission européenne (DG-DEVCO)
 short_name: DG-DEVCO

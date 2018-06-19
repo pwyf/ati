@@ -1,5 +1,5 @@
 ---
-permalink: unicef
+permalink: unicef/
 slug: unicef
 title: United Nations Children's Fund (UNICEF)
 short_name: UNICEF

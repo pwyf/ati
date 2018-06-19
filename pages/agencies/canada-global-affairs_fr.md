@@ -1,5 +1,5 @@
 ---
-permalink: fr/canada-global-affairs
+permalink: fr/canada-global-affairs/
 slug: canada-global-affairs
 title: Canada - Affaires mondiales Canada
 short_name: Canada, Affaires mondiales
