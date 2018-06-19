@@ -2,7 +2,6 @@
 permalink: fr/france-afd/
 slug: france-afd
 title: France - Agence française de développement (AFD)
-short_name: France, AFD
 language: fr
 ---
 

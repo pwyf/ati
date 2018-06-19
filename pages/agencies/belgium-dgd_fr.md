@@ -2,7 +2,6 @@
 permalink: fr/belgium-dgd/
 slug: belgium-dgd
 title: Belgique - Direction générale de la coopération au développement et de l'aide humanitaire (DGD)
-short_name: Belgique, DGD
 language: fr
 ---
 

@@ -2,7 +2,6 @@
 permalink: fr/afdb
 slug: afdb
 title: Banque africaine de développement (BAD)
-short_name: BAD
 language: fr
 ---
 

@@ -2,7 +2,6 @@
 permalink: fr/france-meae/
 slug: france-meae
 title: France - Ministère de l'Europe et des Affaires étrangères (MEAE)
-short_name: France, MEAE
 language: fr
 ---
 

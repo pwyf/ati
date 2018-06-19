@@ -2,7 +2,6 @@
 permalink: fr/ec-echo/
 slug: ec-echo
 title: Direction générale pour la protection civile et les opérations d’aide humanitaire européennes de la Commission européenne (DG-ECHO)
-short_name: DG-ECHO
 language: fr
 ---
 

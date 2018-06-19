@@ -2,7 +2,6 @@
 permalink: fr/ec-near/
 slug: ec-near
 title: Direction générale du voisinage et des négociations d’élargissement de la Commission européenne (DG-NEAR)
-short_name: DG-NEAR
 language: fr
 ---
 
