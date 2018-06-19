@@ -2,6 +2,7 @@ url: http://www.publishwhatyoufund.org
 baseurl: /the-index-wowwow/
 
 exclude:
+  - requirements.txt
   - Gemfile
   - Gemfile.lock
   - vendor/
