@@ -18,7 +18,7 @@ Except for project budget documents, which are not available at all, all indicat
 
 EC-DEVCO publishes on all indicators of the project attributes component and makes them available in an open and comparable format to the IATI Registry. Implementer and sub-national location, however, are the lowest scoring indicators within this component.
 
-It performs well on basic joining-up development data indicators such as aid type, flow type, finance type and tied aid status. However, no current tenders could be found in an IATI format and these are not consistently available elsewhere. Conditions and contracts are neither published to the IATI Registry nor being made available elsewhere.
+It performs well on basic joining-up development data indicators such as aid type, flow type, finance type and tied aid status. However, too few tenders on IATI passed sampling. These could sometimes be found elsewhere on TED, the EU e-tendering website. Following the end of data collection, EC-DEVCO shared a second website (European Commission) where additional current information can be found. Conditions and contracts are neither published to the IATI Registry nor being made available elsewhere.
 
 EC-DEVCO scores below the overall average for the performance component. Although it started publishing results in the IATI Standard, it remains one of the lowest scoring indicators. It scores on no other indicators of the performance component. While objectives, as well as reviews and evaluations, are sometimes being made available, pre-project impact appraisals are not published at all.
 
