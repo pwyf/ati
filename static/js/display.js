@@ -83,7 +83,7 @@ $(document).ready(function() {
        clicked = '';
       // On click of the bar
      $('.bar').click(function() {
-       var slug = $(this).data('slug');
+       var nextURL = $(this).data('url');
 
        // Reset all the other component heights
        $('.component').each(function() {
@@ -106,11 +106,10 @@ $(document).ready(function() {
        // Add Name
        showLabel($(this));
 
-      var currentURL = window.location.href;
-      if (clicked == slug) {
-        window.location.href = domain + '/' + slug;
-     }
-     clicked = slug;
+       if (clicked === nextURL) {
+         window.location.href = nextURL;
+       }
+       clicked = nextURL;
      })
 
      var nameContainerLeft = $('.name-container').offset().left;
