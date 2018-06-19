@@ -80,7 +80,7 @@ $(document).ready(function() {
       })
 
       /* Do front end interaction graph bits */
-       clicked = '';
+       clicked = false;
       // On click of the bar
      $('.bar').click(function() {
        var nextURL = $(this).data('url');
@@ -106,7 +106,7 @@ $(document).ready(function() {
        // Add Name
        showLabel($(this));
 
-       if (clicked === nextURL) {
+       if (clicked && clicked === nextURL) {
          window.location.href = nextURL;
        }
        clicked = nextURL;
@@ -163,6 +163,7 @@ $(document).ready(function() {
 
      // Reset everything
      function reset() {
+       clicked = false;
        $('.name-container').hide();
        $('.bar').show();
        $('.component').each(function() {
