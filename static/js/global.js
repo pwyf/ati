@@ -29,8 +29,6 @@ function urlParam(name) {
     }
   }, 400);
 
-  var componentTotals = [15, 25, 20, 20, 20];
-
 $(document).ready(function() {
 
   // Facebook Share
