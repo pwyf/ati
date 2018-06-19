@@ -2,7 +2,6 @@
 permalink: ec-devco/
 slug: ec-devco
 title: EC – Directorate-General for International Cooperation and Development (EC-DEVCO)
-short_name: EC, DEVCO
 languages:
     - fr
 ---

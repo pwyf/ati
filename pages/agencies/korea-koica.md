@@ -2,7 +2,6 @@
 permalink: korea-koica/
 slug: korea-koica
 title: Korea – International Cooperation Agency (KOICA)
-short_name: Korea, KOICA
 ---
 
 Established by the Ministry of Foreign Affairs and Trade, the Korea International Cooperation Agency (KOICA) is responsible for the effective implementation of Korea's grant aid and technical assistance programmes. Korea-KOICA became an IATI member in January 2016 and first published IATI data in August of the same year.

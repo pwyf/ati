@@ -2,7 +2,6 @@
 permalink: eib/
 slug: eib
 title: European Investment Bank (EIB)
-short_name: EIB
 ---
 
 The European Investment Bank (EIB) is the European Union’s bank, owned by its member states. It works with other EU institutions to support EU policy and provides lending, blended finance and technical advice for investment both within and outside the EU. They became an IATI member in 2013 and started publishing IATI data in September 2014.

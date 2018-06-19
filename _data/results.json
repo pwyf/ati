@@ -607,7 +607,7 @@
     },
     "uk-dfid": {
         "score": 90.93241589246372,
-        "name": "UK, DFID",
+        "name": "UK-DFID",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 14.60820895522388,
@@ -1224,7 +1224,7 @@
     },
     "us-mcc": {
         "score": 87.04563641931468,
-        "name": "US, MCC",
+        "name": "US-MCC",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 13.437375,
@@ -1541,7 +1541,7 @@
     },
     "world-bank-ida": {
         "score": 86.09875965236078,
-        "name": "World Bank, IDA",
+        "name": "World Bank-IDA",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 13.7499375,
@@ -2160,7 +2160,7 @@
     },
     "canada-global-affairs": {
         "score": 79.65586582504494,
-        "name": "Canada, Global Affairs",
+        "name": "Canada-Global Affairs",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 13.692430147058824,
@@ -2808,7 +2808,7 @@
     },
     "ec-echo": {
         "score": 77.56183400208178,
-        "name": "EC, ECHO",
+        "name": "EC-ECHO",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 14.0625,
@@ -3132,7 +3132,7 @@
     },
     "ec-near": {
         "score": 76.46641365635105,
-        "name": "EC, NEAR",
+        "name": "EC-NEAR",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 12.849264705882353,
@@ -4105,7 +4105,7 @@
     },
     "sweden-sida": {
         "score": 71.22050830330694,
-        "name": "Sweden, Sida",
+        "name": "Sweden-Sida",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 11.25,
@@ -4433,7 +4433,7 @@
     },
     "netherlands-mfa": {
         "score": 70.14349832132979,
-        "name": "Netherlands, MFA",
+        "name": "Netherlands-MFA",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 12.974287037037035,
@@ -4766,7 +4766,7 @@
     },
     "us-usaid": {
         "score": 68.78521378953613,
-        "name": "US, USAID",
+        "name": "US-USAID",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 13.749749999999999,
@@ -5085,7 +5085,7 @@
     },
     "ec-devco": {
         "score": 65.87408621674531,
-        "name": "EC, DEVCO",
+        "name": "EC-DEVCO",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 13.725961538461538,
@@ -5407,7 +5407,7 @@
     },
     "belgium-dgd": {
         "score": 63.41899034540346,
-        "name": "Belgium, DGD",
+        "name": "Belgium-DGD",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 7.812374999999999,
@@ -5744,7 +5744,7 @@
     },
     "us-pepfar": {
         "score": 63.400309152568596,
-        "name": "US, PEPFAR",
+        "name": "US-PEPFAR",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 12.369666666666665,
@@ -6059,7 +6059,7 @@
     },
     "germany-bmz-giz": {
         "score": 60.898223799416385,
-        "name": "Germany, BMZ-GIZ",
+        "name": "Germany-BMZ-GIZ",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 9.9999375,
@@ -6394,7 +6394,7 @@
     },
     "us-state": {
         "score": 58.25448268875121,
-        "name": "US, State",
+        "name": "US-State",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 12.499875,
@@ -6723,7 +6723,7 @@
     },
     "germany-bmz-kfw": {
         "score": 57.68100607195875,
-        "name": "Germany, BMZ-KFW",
+        "name": "Germany-BMZ-KFW",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 9.9999375,
@@ -7076,7 +7076,7 @@
     },
     "australia-dfat": {
         "score": 57.379405100861156,
-        "name": "Australia, DFAT",
+        "name": "Australia-DFAT",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 7.812374999999999,
@@ -8126,7 +8126,7 @@
     },
     "finland-mfa": {
         "score": 54.14210715477958,
-        "name": "Finland, MFA",
+        "name": "Finland-MFA",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 12.1875,
@@ -8485,7 +8485,7 @@
     },
     "world-bank-ifc": {
         "score": 52.084837463429544,
-        "name": "World Bank, IFC",
+        "name": "World Bank-IFC",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 12.99886693548387,
@@ -8847,7 +8847,7 @@
     },
     "switzerland-sdc": {
         "score": 50.90336546118661,
-        "name": "Switzerland, SDC",
+        "name": "Switzerland-SDC",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 10.3123125,
@@ -9182,7 +9182,7 @@
     },
     "denmark-mfa": {
         "score": 49.253339914492784,
-        "name": "Denmark, MFA",
+        "name": "Denmark-MFA",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 9.062249999999999,
@@ -9558,7 +9558,7 @@
     },
     "us-defense": {
         "score": 48.6892670804878,
-        "name": "US, Defense",
+        "name": "US-Defense",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 8.749875,
@@ -10231,7 +10231,7 @@
     },
     "france-afd": {
         "score": 46.45855073965183,
-        "name": "France, AFD",
+        "name": "France-AFD",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 7.016920454545454,
@@ -10582,7 +10582,7 @@
     },
     "france-meae": {
         "score": 45.9338335271684,
-        "name": "France, MEAE",
+        "name": "France-MEAE",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 6.874874999999999,
@@ -10935,7 +10935,7 @@
     },
     "italy-aics": {
         "score": 45.571705216678424,
-        "name": "Italy, AICS",
+        "name": "Italy-AICS",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 4.6873125,
@@ -11298,7 +11298,7 @@
     },
     "norway-mfa": {
         "score": 43.32981219885698,
-        "name": "Norway, MFA",
+        "name": "Norway-MFA",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 6.874874999999999,
@@ -11679,7 +11679,7 @@
     },
     "ireland-irish-aid": {
         "score": 41.985538514513415,
-        "name": "Ireland, Irish Aid",
+        "name": "Ireland-Irish Aid",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 12.274709302325581,
@@ -12013,7 +12013,7 @@
     },
     "japan-jica": {
         "score": 38.804608270928114,
-        "name": "Japan, JICA",
+        "name": "Japan-JICA",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 9.3748125,
@@ -12369,7 +12369,7 @@
     },
     "korea-koica": {
         "score": 36.95046520958545,
-        "name": "Korea, KOICA",
+        "name": "Korea-KOICA",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 8.1249375,
@@ -12750,7 +12750,7 @@
     },
     "spain-aecid": {
         "score": 35.09427517465987,
-        "name": "Spain, AECID",
+        "name": "Spain-AECID",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 8.072275990099008,
@@ -13071,7 +13071,7 @@
     },
     "uk-fco": {
         "score": 34.31742575654269,
-        "name": "UK, FCO",
+        "name": "UK-FCO",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 8.4375,
@@ -13739,7 +13739,7 @@
     },
     "new-zealand-mfat": {
         "score": 31.071064704923852,
-        "name": "New Zealand, MFAT",
+        "name": "New Zealand-MFAT",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 6.5625,
@@ -14081,7 +14081,7 @@
     },
     "japan-mofa": {
         "score": 10.249409167,
-        "name": "Japan, MOFA",
+        "name": "Japan-MOFA",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 3.7498125,
@@ -14463,7 +14463,7 @@
     },
     "uae-mofaic": {
         "score": 1.875,
-        "name": "UAE, MOFAIC",
+        "name": "UAE-MOFAIC",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 1.875,
@@ -14777,7 +14777,7 @@
     },
     "china-mofcom": {
         "score": 1.2498749999999998,
-        "name": "China, MOFCOM",
+        "name": "China-MOFCOM",
         "components": {
             "Organisational planning and commitments": {
                 "weighted_score": 1.2498749999999998,

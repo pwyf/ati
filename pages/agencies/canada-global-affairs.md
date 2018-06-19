@@ -2,7 +2,6 @@
 permalink: canada-global-affairs/
 slug: canada-global-affairs
 title: Canada – Global Affairs Canada
-short_name: Canada, Global Affairs
 languages:
     - fr
 ---

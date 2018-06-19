@@ -2,7 +2,6 @@
 permalink: germany-bmz-giz/
 slug: germany-bmz-giz
 title: Germany – Federal Ministry for Economic Cooperation and Development - GIZ (BMZ-GIZ)
-short_name: Germany, BMZ-GIZ
 languages:
     - de
 ---
