@@ -44,30 +44,14 @@
 </head>
 
 <body>
-	<div class="fb_reset" id="fb-root">
-		<div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
-			<div>
-				<iframe allowfullscreen="true" aria-hidden="true" frameborder="0" id="fb_xdm_frame_https" name="fb_xdm_frame_https" scrolling="no" src=
-				"https://staticxx.facebook.com/connect/xd_arbiter/r/FdM1l_dpErI.js?version=42#channel=f7f26a7dd845bc&amp;origin=https%3A%2F%2Fclearhonestdesign.com" style=
-				"border: none;" tabindex="-1" title="Facebook Cross Domain Communication Frame"></iframe>
-			</div>
-		</div>
-
-
-		<div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
-			<div>
-			</div>
-		</div>
-	</div>
-	<script>
-	(function(d, s, id) {
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
 		var js, fjs = d.getElementsByTagName(s)[0];
 		if (d.getElementById(id)) return;
 		js = d.createElement(s); js.id = id;
-		js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.12&appId=222864194434627&autoLogAppEvents=1';
+		js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0&appId=405308629935609&autoLogAppEvents=1';
 		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-	</script>
+	}(document, 'script', 'facebook-jssdk'));</script>
 
 	<div class="loading-screen"></div>
 
