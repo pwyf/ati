@@ -1,5 +1,5 @@
 ---
-permalink: us-mcc
+permalink: us-mcc/
 slug: us-mcc
 title: US – Millennium Challenge Corporation (MCC)
 short_name: US, MCC

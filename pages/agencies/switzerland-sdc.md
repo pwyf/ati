@@ -1,5 +1,5 @@
 ---
-permalink: switzerland-sdc
+permalink: switzerland-sdc/
 slug: switzerland-sdc
 title: Switzerland – Agency for Development and Cooperation (SDC)
 short_name: Switzerland, SDC

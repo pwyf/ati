@@ -1,5 +1,5 @@
 ---
-permalink: finland-mfa
+permalink: finland-mfa/
 slug: finland-mfa
 title: Finland – Ministry of Foreign Affairs (MFA)
 short_name: Finland, MFA

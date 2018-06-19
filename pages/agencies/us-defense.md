@@ -1,5 +1,5 @@
 ---
-permalink: us-defense
+permalink: us-defense/
 slug: us-defense
 title: US – Department of Defense (DOD)
 short_name: US, Defense

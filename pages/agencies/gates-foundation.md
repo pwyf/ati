@@ -1,5 +1,5 @@
 ---
-permalink: gates-foundation
+permalink: gates-foundation/
 slug: gates-foundation
 title: The Bill and Melinda Gates Foundation
 short_name: Gates Foundation

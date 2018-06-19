@@ -1,5 +1,5 @@
 ---
-permalink: china-mofcom
+permalink: china-mofcom/
 slug: china-mofcom
 title: China – Ministry of Commerce (MOFCOM)
 short_name: China, MOFCOM

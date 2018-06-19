@@ -1,6 +1,6 @@
 ---
 title: France
-permalink: multiple/france
+permalink: multiple/france/
 order: 1
 agencies:
     - france-afd

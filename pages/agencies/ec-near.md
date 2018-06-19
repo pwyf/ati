@@ -1,5 +1,5 @@
 ---
-permalink: ec-near
+permalink: ec-near/
 slug: ec-near
 title: EC – Directorate-General for Neighbourhood and Enlargement Negotiations (EC-NEAR)
 short_name: EC, NEAR

@@ -1,5 +1,5 @@
 ---
-permalink: us-usaid
+permalink: us-usaid/
 slug: us-usaid
 title: US – Agency for International Development (USAID)
 short_name: US, USAID
