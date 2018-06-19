@@ -17,7 +17,7 @@ Parmi les agences de la CE, la EC-NEAR est l’agence qui obtient la note la plu
 
 La EC-NEAR rend tous les indicateurs d’attributs de projet disponibles dans la norme l'IITA. Toutefois, la localisation régionale et locale est l’indicateur de notation le plus bas dans cette composante.
 
-Elle obtient de bons résultats sur la composante mise en commun des données de développement concernant les indicateurs de base tels que le type d’aide, le type d’apport, le type de financement et le statut de la condition de l’aide. Cependant, la note de l’indicateur de conditions est l’une des plus basses et les appels d’offre courants ne sont pas publiés de manière consistante dans le format IITA. Elles sont disponibles sur le site Internet de l'organisation. Les contrats ne sont pas du tout publiés.
+Elle obtient de bons résultats sur la composante mise en commun des données de développement concernant les indicateurs de base tels que le type d’aide, le type d’apport, le type de financement et le statut de la condition de l’aide. Cependant, la note de l’indicateur de conditions est l’une des plus basses et trop peu d'appels d'offre courants publiés sur le registre de l'IITA ont été échantillonnés. Elles sont disponibles sur le site Internet de l'organisation. Les contrats ne sont pas du tout publiés.
 
 Trois indicateurs sur quatre dans la composante performance, à savoir les résultats, les études d’impact d’avant-projet et les objectifs sont publiés dans un format comparable, mais ils reçoivent tous des notes relativement faibles. Les revues de mi-parcours et évaluations ne sont pas fournis dans le format de l'IITA et ne sont publiés que parfois dans d'autres formats.
 
