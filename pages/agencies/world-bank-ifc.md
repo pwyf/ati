@@ -1,5 +1,5 @@
 ---
-permalink: world-bank-ifc/
+permalink: world-bank-ifc
 slug: world-bank-ifc
 title: World Bank – International Finance Corporation (IFC)
 short_name: World Bank, IFC

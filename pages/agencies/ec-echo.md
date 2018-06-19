@@ -1,5 +1,5 @@
 ---
-permalink: ec-echo/
+permalink: ec-echo
 slug: ec-echo
 title: EC - Directorate-General for European Civil Protection and Humanitarian Aid Operations (EC-ECHO)
 short_name: EC, ECHO

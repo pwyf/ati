@@ -1,5 +1,5 @@
 ---
-permalink: ireland-irish-aid/
+permalink: ireland-irish-aid
 slug: ireland-irish-aid
 title: Ireland – Irish Aid
 short_name: Ireland, Irish Aid

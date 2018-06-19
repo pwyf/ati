@@ -1,5 +1,5 @@
 ---
-permalink: world-bank-ida/
+permalink: world-bank-ida
 slug: world-bank-ida
 title: World Bank - International Development Association (IDA)
 short_name: World Bank, IDA

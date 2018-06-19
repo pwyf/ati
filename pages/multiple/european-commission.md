@@ -1,6 +1,6 @@
 ---
 title: European Commission
-permalink: multiple/european-commission/
+permalink: multiple/european-commission
 order: 3
 agencies:
     - ec-echo

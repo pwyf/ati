@@ -1,5 +1,5 @@
 ---
-permalink: denmark-mfa/
+permalink: denmark-mfa
 slug: denmark-mfa
 title: Denmark – Ministry of Foreign Affairs (MFA)
 short_name: Denmark, MFA

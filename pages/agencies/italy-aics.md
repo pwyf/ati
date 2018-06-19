@@ -1,5 +1,5 @@
 ---
-permalink: italy-aics/
+permalink: italy-aics
 slug: italy-aics
 title: Italy – Agency for Cooperation and Development (AICS)
 short_name: Italy, AICS

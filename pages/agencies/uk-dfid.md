@@ -1,5 +1,5 @@
 ---
-permalink: uk-dfid/
+permalink: uk-dfid
 slug: uk-dfid
 title: UK – Department for International Development (DFID)
 short_name: UK, DFID

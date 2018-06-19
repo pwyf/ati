@@ -1,5 +1,5 @@
 ---
-permalink: uk-fco/
+permalink: uk-fco
 slug: uk-fco
 title: UK – Foreign & Commonwealth Office (FCO)
 short_name: UK, FCO

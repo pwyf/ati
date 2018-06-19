@@ -1,5 +1,5 @@
 ---
-permalink: ebrd/
+permalink: ebrd
 slug: ebrd
 title: European Bank for Reconstruction and Development (EBRD)
 short_name: EBRD

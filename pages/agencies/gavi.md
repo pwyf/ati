@@ -1,5 +1,5 @@
 ---
-permalink: gavi/
+permalink: gavi
 slug: gavi
 title: GAVI, the Vaccine Alliance
 short_name: GAVI

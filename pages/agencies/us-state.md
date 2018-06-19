@@ -1,5 +1,5 @@
 ---
-permalink: us-state/
+permalink: us-state
 slug: us-state
 title: US – Department of State
 short_name: US, State

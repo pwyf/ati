@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: acknowledgements/
+permalink: acknowledgements
 title: Acknowledgements
 ---
 

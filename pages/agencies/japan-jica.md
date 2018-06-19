@@ -1,5 +1,5 @@
 ---
-permalink: japan-jica/
+permalink: japan-jica
 slug: japan-jica
 title: Japan – International Cooperation Agency (JICA)
 short_name: Japan, JICA

@@ -1,5 +1,5 @@
 ---
-permalink: de/germany-bmz-giz/
+permalink: de/germany-bmz-giz
 slug: germany-bmz-giz
 title: Deutschland – Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung - GIZ (BMZ-GIZ)
 short_name: Deutschland, BMZ-GIZ

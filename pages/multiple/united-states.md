@@ -1,6 +1,6 @@
 ---
 title: United States
-permalink: multiple/united-states/
+permalink: multiple/united-states
 order: 7
 agencies:
     - us-mcc

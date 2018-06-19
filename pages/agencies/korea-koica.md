@@ -1,5 +1,5 @@
 ---
-permalink: korea-koica/
+permalink: korea-koica
 slug: korea-koica
 title: Korea – International Cooperation Agency (KOICA)
 short_name: Korea, KOICA
