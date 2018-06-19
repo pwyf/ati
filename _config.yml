@@ -25,11 +25,15 @@ defaults:
       path: pages/agencies
     values:
       layout: single
+      extra_js:
+        - static/js/single.js
 
   - scope:
       path: pages/multiple
     values:
       layout: multiple
+      extra_js:
+        - static/js/single.js
 
 sass:
   style: compressed
