@@ -159,7 +159,7 @@ For IFIs and DFIs, this includes loan repayment conditions or special terms and 
 For private foundations and humanitarian agencies, statements setting out what the grant can be spent on are accepted.
 
 Templates for general terms and conditions are not accepted for scoring this indicator. If there are no policy, performance or fiduciary conditions associated with an activity, this must be explicitly stated.",30,0,1./30,1
-project-procurement-contracts,Project procurement - Contracts,publication,activity,Joining-up development data,"The individual contract(s) signed with a company, organisation or individual that provides goods and services for the activity. This could be on a procurement section of the organisation’s website, on a separate website or on a central government procurement website.
+project-procurement,Project procurement,publication,activity,Joining-up development data,"The individual contract(s) signed with a company, organisation or individual that provides goods and services for the activity. This could be on a procurement section of the organisation’s website, on a separate website or on a central government procurement website.
 
 Contract documents cannot simply be at the country level. If an activity contract is included in a larger country-level document, it is only accepted if the contract mentions the activity specifically and in detail.
 
@@ -169,14 +169,17 @@ The IATI reference for this indicator is: Contract (document code = A11 or A06).
 
 In cases where organisations consider such information to be commercially sensitive, sections within the contract can be redacted but the reason for the redactions needs to be explicitly stated.
 
-Further details on the methodology for this indicator are available in our Technical paper.",31,0,0.025,1
-project-procurement-tenders,Project procurement - Tenders,publication,activity,Joining-up development data,"Tenders are the individual contracts or proposals that have been put out to invite bids from companies or organisations that want to provide goods and services for an activity. They may be on a separate website, possibly on a central government procurement website.
+Further details on the methodology for this indicator are available in our Technical paper.
+
+---
+
+Tenders are the individual contracts or proposals that have been put out to invite bids from companies or organisations that want to provide goods and services for an activity. They may be on a separate website, possibly on a central government procurement website.
 
 The IATI reference for this indicator is: Tender (document code = A10).
 
 In cases where organisations consider such information to be commercially sensitive, sections within the contract can be redacted but the reason for the redactions needs to be explicitly stated.
 
-Further details on the methodology for this indicator are available in our Technical paper.",32,0,1./120,1
+Further details on the methodology for this indicator are available in our Technical paper.",31,0,0.025,1
 objectives,Objectives,publication,activity,Performance,"The objectives or purposes of the activity are those that the activity intends to achieve.
 
 The IATI reference for this indicator is: Objectives / Purpose of activity (document code = A02) or Description (description type = 2).
