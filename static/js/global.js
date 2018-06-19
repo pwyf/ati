@@ -49,22 +49,6 @@ $(document).ready(function() {
     }, function(response){});
   })
 
-  // Twitter Share
-  var twitterText = 'This is the sharing text to share';
-  twitterText = twitterText.replace(' ', '%20');
-  var twitterLink = 'http://twitter.com/intent/tweet?text=' + twitterText + '&url=' + currentURL;
-  $('#twitter').attr('href', twitterLink);
-  $('meta[property="og:url"]').attr('content', currentURL);
-
-  // Email
-  var emailText = 'Hey, check out Publish What You Fund\'s Index 2018 results here - ' + currentURL;
-  emailText.replace(' ', '%20');
-
-  var emailSubject = 'Publish What You Fund - The Index 2018';
-  emailSubject.replace(' ', '%20');
-  var emailLink = 'mailto:?subject=' + emailSubject + '&body=' + emailText;
-  $('#email').attr('href', emailLink);
-
   // Mobile menu
 
   $('#mobile-menu').click (function(){
