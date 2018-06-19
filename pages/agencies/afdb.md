@@ -2,7 +2,6 @@
 permalink: afdb/
 slug: afdb
 title: African Development Bank (AfDB)
-short_name: AfDB
 languages:
     - fr
 ---

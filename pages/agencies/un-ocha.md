@@ -2,7 +2,6 @@
 permalink: un-ocha/
 slug: un-ocha
 title: United Nations Office for the Coordination of Humanitarian Affairs (UN OCHA)
-short_name: UN OCHA
 ---
 
 The United Nations Office for the Coordination of Humanitarian Affairs (UN OCHA) is responsible for bringing together humanitarian actors to ensure a coherent response to emergencies. UN OCHA operates Specially Designated Contributions to third parties, including Country-Based Pooled Funds and the Central Emergency Response Fund, as well as UN Disaster Assessment and Coordination Mission Accounts. It also manages the Financial Tracking Service, a clearing house of information on international humanitarian funding flows. UN OCHA is not an IATI member by first published to IATI in June 2014.

@@ -2,7 +2,6 @@
 permalink: denmark-mfa/
 slug: denmark-mfa
 title: Denmark – Ministry of Foreign Affairs (MFA)
-short_name: Denmark, MFA
 ---
 
 The Ministry of Foreign Affairs of Denmark is responsible for Denmark's development cooperation to which it refers to as Danida. Denmark became an IATI member in 2008 and started publishing to IATI in March 2012.
