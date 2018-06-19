@@ -11,11 +11,11 @@ exclude:
   - config.ru
   - Procfile
   - static.json
-  - pages/pdf_tmpl
+  - pdf_tmpl
 
 defaults:
   - scope:
-      path: pages/pdf_tmpl
+      path: pdf_tmpl
     values:
       layout: single
       extra_css:
