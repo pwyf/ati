@@ -1,0 +1,59 @@
+---
+---
+
+// PDF Stylesheet
+
+body {
+  background: white;
+}
+
+.comparison-group {
+  display: none !important;
+}
+
+#mobile-menu, .menu, .buttons, .button, .back-to-results, .deep-dive, #social {
+  display: none !important;
+}
+.single-container {
+  .single-content {
+    display: block;
+    margin-top: 0;
+    .graph-image {
+      margin-top: 30px;
+    }
+    .left-column {
+      max-width: 400px;
+    }
+    .right-column {
+      .overview {
+        margin-top: 20px;
+
+        .overview-content {
+          font-size: 14px !important;
+        }
+      }
+    }
+  }
+}
+.results-table {
+  margin-top: 0;
+}
+.agency-name {
+  margin-top: 15px !important;
+}
+footer {
+  display: none;
+  a {
+    display: none;
+  }
+}
+
+.loading-screen {
+  display: none;
+}
+
+.to-blur {
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
