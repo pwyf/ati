@@ -1,6 +1,6 @@
 ---
 title: Japan
-permalink: multiple/japan/
+permalink: multiple/japan
 order: 4
 agencies:
     - japan-jica

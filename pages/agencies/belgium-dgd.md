@@ -1,5 +1,5 @@
 ---
-permalink: belgium-dgd/
+permalink: belgium-dgd
 slug: belgium-dgd
 title: Belgium – Directorate-General for Development Cooperation and Humanitarian Aid (DGD)
 short_name: Belgium, DGD

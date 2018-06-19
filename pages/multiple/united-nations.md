@@ -1,6 +1,6 @@
 ---
 title: United Nations
-permalink: multiple/united-nations/
+permalink: multiple/united-nations
 order: 6
 agencies:
     - undp

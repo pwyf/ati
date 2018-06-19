@@ -1,5 +1,5 @@
 ---
-permalink: un-ocha/
+permalink: un-ocha
 slug: un-ocha
 title: United Nations Office for the Coordination of Humanitarian Affairs (UN OCHA)
 short_name: UN OCHA

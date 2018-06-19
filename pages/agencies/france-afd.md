@@ -1,5 +1,5 @@
 ---
-permalink: france-afd/
+permalink: france-afd
 slug: france-afd
 title: France – French Development Agency (AFD)
 short_name: France, AFD

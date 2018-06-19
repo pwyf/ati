@@ -1,5 +1,5 @@
 ---
-permalink: netherlands-mfa/
+permalink: netherlands-mfa
 slug: netherlands-mfa
 title: Netherlands – Ministry of Foreign Affairs (MFA)
 short_name: Netherlands, MFA

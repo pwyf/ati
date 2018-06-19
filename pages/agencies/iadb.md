@@ -1,5 +1,5 @@
 ---
-permalink: iadb/
+permalink: iadb
 slug: iadb
 title: Inter-American Development Bank (IADB)
 short_name: IADB

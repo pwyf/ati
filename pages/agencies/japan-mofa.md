@@ -1,5 +1,5 @@
 ---
-permalink: japan-mofa/
+permalink: japan-mofa
 slug: japan-mofa
 title: Japan – Ministry of Foreign Affairs (MOFA)
 short_name: Japan, MOFA

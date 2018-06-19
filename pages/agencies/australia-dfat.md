@@ -1,5 +1,5 @@
 ---
-permalink: australia-dfat/
+permalink: australia-dfat
 slug: australia-dfat
 title: Australia – Department of Foreign Affairs and Trade (DFAT)
 short_name: Australia, DFAT

@@ -1,6 +1,6 @@
 ---
 title: World Bank
-permalink: multiple/world-bank/
+permalink: multiple/world-bank
 order: 8
 agencies:
     - world-bank-ida
