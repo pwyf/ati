@@ -18,7 +18,7 @@ Among the EC agencies, EC-NEAR is the agency that receives the highest score on 
 
 EC-NEAR makes all of the project attributes indicators available in the IATI Standard. Sub-national location, however, is the lowest scoring indicator within this component.
 
-It performs generally well on basic joining-up development data indicators such as aid type, finance type, flow type and tied aid status. However, the conditions indicator score is one of the lowest scoring ones and no current tenders could be found in the IATI format. These are available on the organisation’s website. Contracts are not published at all.
+It performs generally well on basic joining-up development data indicators such as aid type, finance type, flow type and tied aid status. However, the conditions indicator score is one of the lowest scoring ones and too few current tenders could be found in the IATI format. These are available on the organisation’s website. Contracts are not published at all.
 
 Three out of four indicators within the performance component, namely results, pre-project impact appraisals and objectives are published in a comparable format but they are all receive relatively low scores. Reviews and evaluations are not provided in the IATI format and are only sometimes published in other formats.
 
