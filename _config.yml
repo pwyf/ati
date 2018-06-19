@@ -1,5 +1,5 @@
 url: http://www.publishwhatyoufund.org
-baseurl: /the-index-wowwowwow/
+baseurl: /the-index-wowwow/
 
 exclude:
   - Gemfile
