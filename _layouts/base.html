@@ -46,7 +46,7 @@
 				if(href && href.substr(-4) !== '.pdf') {
 					return;
 				}
-				if(!href.startsWith('http')) {
+				if(href && !href.startsWith('http')) {
 					href='http://www.publishwhatyoufund.org'+href;
 				}
 				ga('send', 'event', 'document download', href);
