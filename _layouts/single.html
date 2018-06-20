@@ -233,6 +233,46 @@ layout: base
                                         {%- endfor -%}
                                     </div>
                                 </div>
+                                {% if indicator[0] == 'Project procurement' %}
+                                <div class="indicator-row">
+                                    <div class="status">
+                                        {% if indicator[1].status[0] != '' %}
+                                        Tenders publication status: <span>{{ indicator[1].status[0] }}</span>
+                                        {% endif %}
+                                    </div>
+                                    <div class="format">
+                                        {% if indicator[1].format[0] != '' %}
+                                        Format:
+                                            <span>{{ indicator[1].format[0] }}</span>
+                                            {% for source in indicator[1].sources[0] %}
+                                            <span><a target="_blank" href="{{ source }}">[{{ forloop.index }}]</a></span>
+                                            {% if forloop.index >= 2 %}
+                                                {% break %}
+                                            {% endif %}
+                                            {% endfor %}
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                <div class="indicator-row">
+                                    <div class="status">
+                                        {% if indicator[1].status[1] != '' %}
+                                        Contracts publication status: <span>{{ indicator[1].status[1] }}</span>
+                                        {% endif %}
+                                    </div>
+                                    <div class="format">
+                                        {% if indicator[1].format[1] != '' %}
+                                        Format:
+                                            <span>{{ indicator[1].format[1] }}</span>
+                                            {% for source in indicator[1].sources[1] %}
+                                            <span><a target="_blank" href="{{ source }}">[{{ forloop.index }}]</a></span>
+                                            {% if forloop.index >= 2 %}
+                                                {% break %}
+                                            {% endif %}
+                                            {% endfor %}
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                {% else %}
                                 <div class="indicator-row">
                                     <div class="status">
                                         {% if indicator[1].status != '' %}
@@ -252,6 +292,7 @@ layout: base
                                         {% endif %}
                                     </div>
                                 </div>
+                                {% endif %}
                             </div>
 
 

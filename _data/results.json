@@ -242,8 +242,18 @@
                     "Project procurement": {
                         "score": 100.0,
                         "weight": 0.03333333,
-                        "format": "IATI",
-                        "status": ""
+                        "format": [
+                            "IATI",
+                            "IATI"
+                        ],
+                        "sources": [
+                            [],
+                            []
+                        ],
+                        "status": [
+                            "",
+                            ""
+                        ]
                     }
                 }
             },
@@ -545,8 +555,18 @@
                     "Project procurement": {
                         "score": 75.05834639005354,
                         "weight": 0.03333333,
-                        "format": "IATI",
-                        "status": ""
+                        "format": [
+                            "IATI",
+                            "IATI"
+                        ],
+                        "sources": [
+                            [],
+                            []
+                        ],
+                        "status": [
+                            "",
+                            ""
+                        ]
                     }
                 }
             },
@@ -854,8 +874,18 @@
                     "Project procurement": {
                         "score": 64.6909096363796,
                         "weight": 0.03333333,
-                        "format": "IATI",
-                        "status": ""
+                        "format": [
+                            "IATI",
+                            "IATI"
+                        ],
+                        "sources": [
+                            [],
+                            []
+                        ],
+                        "status": [
+                            "",
+                            ""
+                        ]
                     }
                 }
             },
@@ -1162,8 +1192,18 @@
                     "Project procurement": {
                         "score": 63.742772767341876,
                         "weight": 0.03333333,
-                        "format": "IATI",
-                        "status": ""
+                        "format": [
+                            "IATI",
+                            "IATI"
+                        ],
+                        "sources": [
+                            [],
+                            []
+                        ],
+                        "status": [
+                            "",
+                            ""
+                        ]
                     }
                 }
             },
@@ -1472,8 +1512,21 @@
                     "Project procurement": {
                         "score": 83.75000337500033,
                         "weight": 0.03333333,
-                        "format": "IATI",
-                        "status": ""
+                        "format": [
+                            "Document",
+                            "IATI"
+                        ],
+                        "sources": [
+                            [
+                                "https://www.mcc.gov/work-with-us/mcc-partner-countries",
+                                "https://mcc.dgmarket.com/"
+                            ],
+                            []
+                        ],
+                        "status": [
+                            "Always",
+                            ""
+                        ]
                     }
                 }
             },
@@ -1788,8 +1841,18 @@
                     "Project procurement": {
                         "score": 94.99999999999999,
                         "weight": 0.03333333,
-                        "format": "IATI",
-                        "status": ""
+                        "format": [
+                            "IATI",
+                            "IATI"
+                        ],
+                        "sources": [
+                            [],
+                            []
+                        ],
+                        "status": [
+                            "",
+                            ""
+                        ]
                     }
                 }
             },
@@ -2095,8 +2158,18 @@
                     "Project procurement": {
                         "score": 69.8633165630272,
                         "weight": 0.03333333,
-                        "format": "IATI",
-                        "status": ""
+                        "format": [
+                            "IATI",
+                            "IATI"
+                        ],
+                        "sources": [
+                            [],
+                            []
+                        ],
+                        "status": [
+                            "",
+                            ""
+                        ]
                     }
                 }
             },
@@ -2407,8 +2480,20 @@
                     "Project procurement": {
                         "score": 87.50000375000036,
                         "weight": 0.03333333,
-                        "format": "IATI",
-                        "status": ""
+                        "format": [
+                            "Document",
+                            "IATI"
+                        ],
+                        "sources": [
+                            [
+                                "http://open.canada.ca/data/en/dataset/ffd38960-1853-4c19-ba26-e50bea2cb2d5"
+                            ],
+                            []
+                        ],
+                        "status": [
+                            "Always",
+                            ""
+                        ]
                     }
                 }
             },
@@ -2733,8 +2818,22 @@
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Always"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "https://www.ungm.org/Public/Notice"
+                            ],
+                            [
+                                "https://www.ungm.org/Public/ContractAward"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Always"
+                        ]
                     }
                 }
             },
@@ -3058,8 +3157,26 @@
                     "Project procurement": {
                         "score": 37.500003750000374,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Always"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "http://ec.europa.eu/echo/funding-evaluations/public-procurement/calls-for-tender_en",
+                                "http://ec.europa.eu/echo/funding-evaluations/public-procurement/calls-for-tender_en",
+                                "http://ec.europa.eu/echo/funding-evaluations/public-procurement/negotiated-procedures_en"
+                            ],
+                            [
+                                "http://ec.europa.eu/echo/funding-evaluations/funding-humanitarian-aid/grants-and-contributions_en",
+                                "http://ec.europa.eu/echo/funding-evaluations/financing-civil-protection-europe/selected-projects_en",
+                                "https://webgate.ec.europa.eu/hac/"
+                            ]
+                        ],
+                        "status": [
+                            "Sometimes",
+                            "Always"
+                        ]
                     }
                 }
             },
@@ -3376,8 +3493,22 @@
                     "Project procurement": {
                         "score": 12.499996249999624,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "Document",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "https://webgate.ec.europa.eu/europeaid/online-services/index.cfm?do=publi.welcome&nbPubliList=50&orderby=ctr&orderbyad=Asc&searchtype=AS&pgm=&finpub=&ZGEO=35624&debpub=09%2F03%2F2017"
+                            ],
+                            [
+                                "http://ec.europa.eu/budget/fts/index_en.htm"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -3694,8 +3825,18 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "",
+                            ""
+                        ],
+                        "sources": [
+                            [],
+                            []
+                        ],
+                        "status": [
+                            "Not Published",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -4029,8 +4170,21 @@
                     "Project procurement": {
                         "score": 87.40234749025974,
                         "weight": 0.03333333,
-                        "format": "IATI",
-                        "status": ""
+                        "format": [
+                            "Document",
+                            "IATI"
+                        ],
+                        "sources": [
+                            [
+                                "https://www.theglobalfund.org/en/business-opportunities/",
+                                "https://www.theglobalfund.org/en/applying/multicountry-funding/open-for-consultation/"
+                            ],
+                            []
+                        ],
+                        "status": [
+                            "Always",
+                            ""
+                        ]
                     }
                 }
             },
@@ -4363,8 +4517,24 @@
                     "Project procurement": {
                         "score": 37.500003750000374,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Always"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "https://www.kommersannons.se/eLite/Search/Search.aspx?q=sida"
+                            ],
+                            [
+                                "https://www.kommersannons.se/elite/Agreement/PublicAgreements.aspx",
+                                "https://www.kommersannons.se/elite/Agreement/PublicAgreements.aspx",
+                                "https://openaid.se/activity/SE-0-SE-6-5205010801-AFG-43010"
+                            ]
+                        ],
+                        "status": [
+                            "Sometimes",
+                            "Always"
+                        ]
                     }
                 }
             },
@@ -4685,8 +4855,23 @@
                     "Project procurement": {
                         "score": 12.499996249999624,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "Document",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "https://www.tenderned.nl/tenderned-tap/aankondigingen",
+                                "https://www.rijksoverheid.nl/onderwerpen/subsidies-voor-ontwikkelingssamenwerking-en-europa/subsidies-maatschappelijke-organisaties"
+                            ],
+                            [
+                                "https://www.tenderned.nl/tenderned-tap/aankondigingen"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -5013,8 +5198,20 @@
                     "Project procurement": {
                         "score": 50.11103234154028,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Always"
+                        "format": [
+                            "IATI",
+                            "Document"
+                        ],
+                        "sources": [
+                            [],
+                            [
+                                "https://www.usaspending.gov/#/search/3711f5cbc7258b052d57b60bc043415d"
+                            ]
+                        ],
+                        "status": [
+                            "",
+                            "Always"
+                        ]
                     }
                 }
             },
@@ -5333,8 +5530,22 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "Document",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "https://etendering.ted.europa.eu/cft/cft-search.html?text=&caList=53&_caList=1&status=&startDateFrom=&startDateTo=&closingDateFrom=09%2F03%2F2017&closingDateTo=27%2F03%2F2018&_procedureType=1&confirm=Search#"
+                            ],
+                            [
+                                "http://ec.europa.eu/budget/fts/index_en.htm"
+                            ]
+                        ],
+                        "status": [
+                            "Sometimes",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -5672,8 +5883,20 @@
                     "Project procurement": {
                         "score": 12.499996249999624,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "Document",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "https://www.enabel.be/content/enabel-tendershttp://www.publicprocurement.be/fr"
+                            ],
+                            []
+                        ],
+                        "status": [
+                            "Always",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -5985,8 +6208,21 @@
                     "Project procurement": {
                         "score": 12.499996249999624,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "Document",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "https://www.grants.gov/web/grants/search-grants.html",
+                                "https://www.fbo.gov/index?s=opportunity&mode=list&tab=list"
+                            ],
+                            []
+                        ],
+                        "status": [
+                            "Always",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -6318,8 +6554,23 @@
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Always"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "https://webp01.giz.de/sap(cz1TSUQlM2FBTk9OJTNhcDAxYTJfUDAxXzAxJTNhNnhhTEdUNm5KN2tjVmJ4VmxmSm9TM09zU3d1ejJxc21nZ0pqYjZlVC1BVFQ=)/bc/gui/sap/its/zvia",
+                                "https://webp01.giz.de/sap(cz1TSUQlM2FBTk9OJTNhcDAxYTJfUDAxXzAxJTNhNnhhTGRnY3g1Zlh1S290ZGt1TzhiZlN0enZhejJxc1Vnd0lLdXNCTi1BVFQ=)/bc/gui/sap/its/zvia"
+                            ],
+                            [
+                                "https://www.giz.de/en/workingwithgiz/awarded_contracts.html"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Always"
+                        ]
                     }
                 }
             },
@@ -6644,8 +6895,24 @@
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Always"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "https://www.grants.gov/web/grants/search-grants.html"
+                            ],
+                            [
+                                "https://www.fpds.gov/ezsearch/fpdsportal?indexName=awardfull&templateName=1.5.1&s=FPDS.GOV&q=congo++AGENCY_NAME%3A%22department+of+state%22&x=28&y=7",
+                                "https://www.fbo.gov/?s=opportunity&mode=list&tab=searchresults",
+                                "https://www.fpds.gov/ezsearch/fpdsportal?s=FPDSNG.COM&sortBy=SIGNED_DATE&q=state+department+DEPARTMENT_FULL_NAME%3A%22STATE%2C+DEPARTMENT+OF%22&indexName=awardfull&y=0&templateName=1.4.4&x=0&desc=Y"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Always"
+                        ]
                     }
                 }
             },
@@ -6996,8 +7263,22 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "http://www.gtai.de/GTAI/Navigation/EN/Trade/search-kfw-tenders.html?formId=283376&searchTerm=&facets%5Bcountry%5D=INDIEN&zeitraum=Past+year&zeitraumSave=5&zeitraumCustom=1&dateFrom=09.03.2017&dateTo=13.12.2017&searchActionSearch=Search"
+                            ],
+                            [
+                                "https://www.kfw-entwicklungsbank.de/International-financing/KfW-Development-Bank/Publications-Videos/Publication-series/General-publications-guidelines/"
+                            ]
+                        ],
+                        "status": [
+                            "Not Published",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -7337,8 +7618,24 @@
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Always"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "https://www.tenders.gov.au/?event=public.app.list.search&type=appEvent&keyword=papua+new+guinea&KeywordTypeSearch=AllWord&AgencyRef=&agencyStatus=2&AgencyUUID=0ECA5FC9-A4AD-0A3A-97A8DD3FD9D44CB1",
+                                "https://www.tenders.gov.au/?event=public.advancedsearch.CNSONRedirect&type=cnSearchEvent&keyword=papua+new+guinea&KeywordTypeSearch=AllWord&CNID=&dateType=current&dateStart=9-Mar-2017&dateEnd=22-Dec-2017&supplierName=&supplierABN=&valueFrom=&valueTo=&ATMID=&AgencyRefId=&consultancy="
+                            ],
+                            [
+                                "https://www.tenders.gov.au/?event=public.advancedsearch.CNSONRedirect&type=cnSearchEvent&keyword=papua+new+guinea&KeywordTypeSearch=AllWord&CNID=&dateType=current&dateStart=9-Mar-2017&dateEnd=22-Dec-2017&supplierName=&supplierABN=&valueFrom=&valueTo=&ATMID=&AgencyRefId=&consultancy=",
+                                "http://dfat.gov.au/about-us/corporate/Pages/contracts.aspx"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Always"
+                        ]
                     }
                 }
             },
@@ -7687,8 +7984,23 @@
                     "Project procurement": {
                         "score": 12.499996249999624,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Sometimes"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "http://www.ebrd.com/work-with-us/procurement/notices.html?ct2=on&keywordSearch=",
+                                "https://ecepp.ebrd.com/delta/noticeSearchResults.html"
+                            ],
+                            [
+                                "http://www.ebrd.com/work-with-us/procurement/project-procurement/contract-awards-notification.html"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Sometimes"
+                        ]
                     }
                 }
             },
@@ -8043,8 +8355,23 @@
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Always"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "http://www.eib.org/about/procurement/index.htm?year=2017&type=&status=open"
+                            ],
+                            [
+                                "http://www.eib.org/about/procurement/index.htm?year=2017&type=&status=",
+                                "http://ted.europa.eu/udl?uri=TED:NOTICE:256226-2016:TEXT:EN:HTML"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Always"
+                        ]
                     }
                 }
             },
@@ -8397,8 +8724,23 @@
                     "Project procurement": {
                         "score": 12.499996249999624,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "Document",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "http://formin.finland.fi/public/default.aspx?nodeid=15445&contentlan=2&culture=en-US"
+                            ],
+                            [
+                                "http://formin.finland.fi/public/default.aspx?nodeid=34842&contentlan=2&culture=en-US",
+                                "https://www.hankintailmoitukset.fi/fi/notice/search/?_s%5B_sent%5D=1&_s%5Bphrase%5D=&_s%5Bcpv%5D=&_s%5Borganisation%5D=Ulkoministeri%C3%B6&_s%5Bnuts%5D=&_s%5Bpublished_start%5D=&_s%5Bpublished_end%5D="
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -8769,8 +9111,24 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "http://www.worldbank.org/en/about/corporate-procurement",
+                                "http://www.ifc.org/wps/wcm/connect/98d8ae004997936f9b7bffb2b4b33c15/IFCPolicyDisclosureInformation.pdf?MOD=AJPERES"
+                            ],
+                            [
+                                "http://web.worldbank.org/WBSITE/EXTERNAL/PROJECTS/0,,menuPK:51565~pagePK:95864~piPK:95915~theSitePK:40941,00.html",
+                                "http://www.ifc.org/wps/wcm/connect/98d8ae004997936f9b7bffb2b4b33c15/IFCPolicyDisclosureInformation.pdf?MOD=AJPERES"
+                            ]
+                        ],
+                        "status": [
+                            "Not Published",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -9109,8 +9467,24 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Sometimes"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "https://www.simap.ch/shabforms/COMMON/search/searchresult.jsf",
+                                "https://www.simap.ch/shabforms/COMMON/search/projectDetail.jsf"
+                            ],
+                            [
+                                "https://www.simap.ch/shabforms/COMMON/search/searchresult.jsf",
+                                "https://www.simap.ch/shabforms/COMMON/search/projectDetail.jsf"
+                            ]
+                        ],
+                        "status": [
+                            "Sometimes",
+                            "Sometimes"
+                        ]
                     }
                 }
             },
@@ -9468,8 +9842,24 @@
                     "Project procurement": {
                         "score": 12.499996249999624,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "Document",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "http://um.dk/en/about-us/procurement/contracts/long/contract-opportunities/",
+                                "http://um.dk/en/about-us/procurement/contracts/short/contract-opportunitie"
+                            ],
+                            [
+                                "http://um.dk/en/about-us/procurement/contracts/short/contracts-awarded-by-danida/",
+                                "http://um.dk/en/about-us/procurement/contracts/long/"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -9811,8 +10201,25 @@
                     "Project procurement": {
                         "score": 37.500003750000374,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Always"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "https://www.grants.gov/web/grants/search-grants.html",
+                                "https://www.fbo.gov/index?s=opportunity&mode=list&tab=list"
+                            ],
+                            [
+                                "https://www.fpds.gov/ezsearch/fpdsportal?q=tanzania+DEPARTMENT_FULL_NAME%3A%22DEPT+OF+DEFENSE%22&s=FPDS.GOV&templateName=1.5.1&indexName=awardfull&x=13&y=5&sortBy=CONTRACT_FISCAL_YEAR&desc=Y",
+                                "https://www.usaspending.gov/#/search/9341c0086063c96d70dfa5a7d26198ce",
+                                "https://www.defense.gov/News/Contracts/Search/afghanistan/"
+                            ]
+                        ],
+                        "status": [
+                            "Sometimes",
+                            "Always"
+                        ]
                     }
                 }
             },
@@ -10149,8 +10556,22 @@
                     "Project procurement": {
                         "score": 12.499996249999624,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Sometimes"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "https://gcgh.grandchallenges.org/grant-opportunities"
+                            ],
+                            [
+                                "https://www.gatesfoundation.org/How-We-Work/Quick-Links/Grants-Database"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Sometimes"
+                        ]
                     }
                 }
             },
@@ -10505,8 +10926,22 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "Document",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "https://afd.dgmarket.com/tenders/brandedNoticeList.do?buyerId=&referenceNo=&keywords=&locationISO=&fundingAgencyId=&sub=&updatedId=&status=&deepP=&noticeType=&d-446978-s=p&d-446978-p=1&d-446978-n=1&selPageNumber=1"
+                            ],
+                            [
+                                "https://afd.dgmarket.com/tenders/brandedNoticeList.do?buyerId=&referenceNo=&keywords=&locationISO=&fundingAgencyId=&sub=&updatedId=&status=&deepP=&noticeType=&d-446978-s=p&d-446978-p=1&d-446978-n=1&selPageNumber=1"
+                            ]
+                        ],
+                        "status": [
+                            "Sometimes",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -10861,8 +11296,25 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Sometimes"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "https://www.data.gouv.fr/fr/datasets/publication-de-l-article-133-du-code-des-marches-publics-par-le-ministere-des-affaires-etrangeres/",
+                                "https://www.marches-publics.gouv.fr/index.php5?page=entreprise.EntrepriseAdvancedSearch&searchAnnCons=&lang=en",
+                                "https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/action-exterieure-des-collectivites-territoriales/appels-a-projets-et-fonds-en-soutien-a-la-cooperation-decentralisee/appel-a-projets-annuels/article/appel-a-projets-generaliste-2018"
+                            ],
+                            [
+                                "https://www.data.gouv.fr/fr/datasets/publication-de-l-article-133-du-code-des-marches-publics-par-le-ministere-des-affaires-etrangeres/",
+                                "https://www.marches-publics.gouv.fr/index.php5?page=entreprise.EntrepriseAdvancedSearch&searchAnnCons=&lang=en"
+                            ]
+                        ],
+                        "status": [
+                            "Sometimes",
+                            "Sometimes"
+                        ]
                     }
                 }
             },
@@ -11217,8 +11669,21 @@
                     "Project procurement": {
                         "score": 12.499996249999624,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "Document",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "https://www.aics.gov.it/?page_id=10192",
+                                "https://www.aics.gov.it/?page_id=18360"
+                            ],
+                            []
+                        ],
+                        "status": [
+                            "Always",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -11601,8 +12066,23 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "https://doffin.no/en/Notice?query=norad&PageNumber=1&PageSize=10&OrderingType=0&OrderingDirection=1&RegionId=&CountyId=&MunicipalityId=&IsAdvancedSearch=false&location=&NoticeType=2&PublicationType=&IncludeExpired=false&Cpvs=&EpsReferenceNr=&DeadlineFromDate=&DeadlineToDate=&PublishedFromDate=&PublishedToDate=",
+                                "https://www.norad.no/en/front/about-norad/tenders-from-norad/"
+                            ],
+                            [
+                                "https://doffin.no/en/Notice?query=norad&PageNumber=1&PageSize=10&OrderingType=0&OrderingDirection=1&RegionId=&CountyId=&MunicipalityId=&IsAdvancedSearch=false&location=&NoticeType=3&PublicationType=&IncludeExpired=false&Cpvs=&EpsReferenceNr=&DeadlineFromDate=&DeadlineToDate=&PublishedFromDate=&PublishedToDate="
+                            ]
+                        ],
+                        "status": [
+                            "Not Published",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -11943,8 +12423,25 @@
                     "Project procurement": {
                         "score": 12.499996249999624,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Sometimes"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "https://www.irishaid.ie/about-us/procurement-opportunities/",
+                                "https://irl.eu-supply.com/ctm/Supplier/PublicTenders",
+                                "https://www.tendersdirect.co.uk/search/new/keyword_categories.aspx?keywords=department%20foreign%20affairs%20and%20trade"
+                            ],
+                            [
+                                "https://www.irishaid.ie/about-us/procurement-opportunities/",
+                                "https://irl.eu-supply.com/ctm/Supplier/PublicTenders"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Sometimes"
+                        ]
                     }
                 }
             },
@@ -12292,8 +12789,23 @@
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Always"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "https://www.jica.go.jp/chotatsu/domestic/koji2017.html"
+                            ],
+                            [
+                                "https://www.jica.go.jp/announce/result/index.html",
+                                "https://www.jica.go.jp/activities/schemes/grant_aid/state/2014.html"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Always"
+                        ]
                     }
                 }
             },
@@ -12679,8 +13191,22 @@
                     "Project procurement": {
                         "score": 50.0,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Always"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "http://www.oda.go.kr/opo/koco/bsnsPartcptnPrcureInfo.do"
+                            ],
+                            [
+                                "http://www.g2b.go.kr/index.jsp"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Always"
+                        ]
                     }
                 }
             },
@@ -13000,8 +13526,22 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "https://contrataciondelestado.es/wps/portal/!ut/p/b1/jc7NDoIwEATgZ-EJdoBS0mNVKDVGERVsL6YHYzD8XIzPLxqvVPe2yTeZIUsmBGchT8AEnckO7tne3KMdB9e9f8svss72UosYqiozRIsq5SzfxUA0ATOBJF6yel2X_KAVoIt8tTmFCVTE_8tj5iR-5RuyfoIv8E38AM-GbTH2VzITS2eLFOhIpqDedrnQd-ZkELwANMsk3g!!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_AVEQAI930GRPE02BR764FO30G0/act/id=0/p=javax.servlet.include.path_info=QCPjspQCPreasigProcQCPAdminAOCReasigProcPortletAppView.jsp/373982332256/-/"
+                            ],
+                            [
+                                "https://contrataciondelestado.es/wps/portal/!ut/p/b1/jc7NDoIwEATgZ-EJdoBS0mNVKDVGERVsL6YHYzD8XIzPLxqvVPe2yTeZIUsmBGchT8AEnckO7tne3KMdB9e9f8svss72UosYqiozRIsq5SzfxUA0ATOBJF6yel2X_KAVoIt8tTmFCVTE_8tj5iR-5RuyfoIv8E38AM-GbTH2VzITS2eLFOhIpqDedrnQd-ZkELwANMsk3g!!/dl4/d5/L2dBISEvZ0FBIS9nQSEh/pw/Z7_AVEQAI930GRPE02BR764FO30G0/act/id=0/p=javax.servlet.include.path_info=QCPjspQCPreasigProcQCPAdminAOCReasigProcPortletAppView.jsp/373982332256/-/"
+                            ]
+                        ],
+                        "status": [
+                            "Not Published",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -13323,8 +13863,23 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "https://www.gov.uk/government/organisations/foreign-commonwealth-office/about/procurement"
+                            ],
+                            [
+                                "https://www.gov.uk/government/organisations/foreign-commonwealth-office/about/procurement",
+                                "https://www.contractsfinder.service.gov.uk/Search/Results"
+                            ]
+                        ],
+                        "status": [
+                            "Not Published",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -13666,8 +14221,24 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "https://www.un.org/Depts/ptd/contract-awards/343?field_date_3_value%5Bvalue%5D%5Byear%5D=2017&field_date_3_value_1%5Bvalue%5D%5Bmonth%5D=3&field_text_20_2_value=&field_country_tid_selective=1116&field_text_75_2_value=&field_commodity_group_ca_tid_selective=All&items_per_page=10",
+                                "https://www.un.org/Depts/ptd/eoi?field_date_2_value%5Bvalue%5D%5Byear%5D=2017&field_date_2_value_1%5Bvalue%5D%5Bmonth%5D=1&field_commodity_group_eoi_rfi_tid=All&items_per_page=40"
+                            ],
+                            [
+                                "https://www.un.org/Depts/ptd/contract-awards/343?field_date_3_value%5Bvalue%5D%5Byear%5D=2017&field_date_3_value_1%5Bvalue%5D%5Bmonth%5D=3&field_text_20_2_value=&field_country_tid_selective=1116&field_text_75_2_value=&field_commodity_group_ca_tid_selective=All&items_per_page=10",
+                                "https://www.un.org/Depts/ptd/eoi?field_date_2_value%5Bvalue%5D%5Byear%5D=2017&field_date_2_value_1%5Bvalue%5D%5Bmonth%5D=1&field_commodity_group_eoi_rfi_tid=All&items_per_page=40"
+                            ]
+                        ],
+                        "status": [
+                            "Not Published",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -14013,8 +14584,22 @@
                     "Project procurement": {
                         "score": 12.499996249999624,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Sometimes"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "https://www.gets.govt.nz/ExternalTenderSearching.htm?SearchingText=foreign"
+                            ],
+                            [
+                                "https://www.mfat.govt.nz/en/aid-and-development/working-with-us/tender-opportunities/awarded-contracts/"
+                            ]
+                        ],
+                        "status": [
+                            "Always",
+                            "Sometimes"
+                        ]
                     }
                 }
             },
@@ -14390,8 +14975,21 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "http://www3.mofa.go.jp/mofaj/gaiko/oda/display.php?in_anken_name=&in_area_id=1&in_scheme_id=&in_year=2017&in_country_id=167",
+                                "http://www.mofa.go.jp/mofaj/gaiko/oda/data/choutatsu.html"
+                            ],
+                            []
+                        ],
+                        "status": [
+                            "Not Published",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -14725,8 +15323,20 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "",
-                        "status": "Not Published"
+                        "format": [
+                            "Document",
+                            ""
+                        ],
+                        "sources": [
+                            [
+                                "https://www.mof.gov.ae/ar/mservices/pages/tenders.aspx"
+                            ],
+                            []
+                        ],
+                        "status": [
+                            "Sometimes",
+                            "Not Published"
+                        ]
                     }
                 }
             },
@@ -15111,8 +15721,22 @@
                     "Project procurement": {
                         "score": 0.0,
                         "weight": 0.03333333,
-                        "format": "Document",
-                        "status": "Sometimes"
+                        "format": [
+                            "Document",
+                            "Document"
+                        ],
+                        "sources": [
+                            [
+                                "http://file.mofcom.gov.cn/article/gkml/"
+                            ],
+                            [
+                                "http://xzsx.mofcom.gov.cn/advSearch.jhtml?method=solrViewInfo&approvalInfo.ID=21229"
+                            ]
+                        ],
+                        "status": [
+                            "Sometimes",
+                            "Sometimes"
+                        ]
                     }
                 }
             },
