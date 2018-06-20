@@ -140,13 +140,12 @@ for name, org in orgs.items():
     del org['components']['Joining-up development data']['indicators']['Project procurement - Contracts']
     pp_weight = ppt['weight'] + ppc['weight']
     pp_sc = (ppt['score'] * ppt['weight'] + ppc['score'] * ppc['weight']) / pp_weight
-    # NB this is incorrect!
-    # it will always show the format and status for contracts
     pp = {
         'score': pp_sc,
         'weight': pp_weight,
-        'format': ppc['format'],
-        'status': ppc['status'],
+        'format': [ppt['format'], ppc['format']],
+        'sources': [ppt['sources'], ppc['sources']],
+        'status': [ppt['status'], ppc['status']],
     }
     org['components']['Joining-up development data']['indicators']['Project procurement'] = pp
 
