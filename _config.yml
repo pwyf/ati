@@ -1,5 +1,5 @@
 url: http://www.publishwhatyoufund.org
-baseurl: /the-index-wowwow
+baseurl: /the-index/2018
 
 exclude:
   - requirements.txt
