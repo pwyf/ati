@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name="viewport">
+
+    <title>The 2018 Aid Transparency Index</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Yantramanav:400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "static/css/global.css" | absolute_url }}?ver={{ site.github.build_revision }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    {% if page.extra_css %}
+    {% for extra_css in page.extra_css %}
+    <link rel="stylesheet" href="{{ extra_css | absolute_url }}?ver={{ site.github.build_revision }}">
+    {% endfor %}
+    {% endif %}
+</head>
+
+<body>
+    <header>
+        <div class="margins-container">
+            <div class="logo"><img alt="Publish What You Fund Logo" src="{{ "static/assets/pwyf-strap.svg" | absolute_url }}?ver={{ site.github.build_revision }}">
+            </div>
+        </div>
+    </header>
+
+{% assign break_after_analysis = 'belgium-dgd_fr.md ec-devco_fr.md france-afd_fr.md france-afd.md us-usaid.md world-bank-ifc.md' | split: ' ' %}
+{% assign results = site.data.results[page.slug] %}
+{% assign sections = page.content | split: '---' %}
+
+<div class="margins-container single-container">
+    <div class="single-content">
+        <div class="left-column">
+            <div class="graph-buttons-container">
+                <div class="graph-image">
+                  <img src="{{ "static/assets/graphs/single/" | absolute_url }}{{ page.slug }}.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <h1 class="agency-name">{{ page.title }}</h1>
+
+            {% assign multi_agencies = site.pages | where: "layout", "multiple" | sort: 'order' %}
+
+            {% for multi_agency in multi_agencies %}
+                {% if multi_agency.agencies contains page.slug %}
+                    <span class="comparison-group">MULTIPLE AGENCY GROUP : <a href="{{ multi_agency.url | absolute_url }}">{{ multi_agency.title }}</a></span>
+                {% endif %}
+            {% endfor %}
+
+            <div class="overview single-group">
+                <span class="label">
+                    {%- if page.language -%}
+                    {{ site.data.translations['Overview'][page.language] }}
+                    {%- else -%}
+                    Overview
+                    {%- endif -%}
+                </span>
+
+                <div class="overview-content">
+                    {{ sections[0] | markdownify }}
+                </div>
+            </div>
+
+
+            <div class="summary single-group">
+                <div class="summary-card">
+                    <div class="top-info">
+                        <div class="score">
+                            <span class="light">
+                            {%- if page.language -%}
+                            {{ site.data.translations['Score'][page.language] }}
+                            {%- else -%}
+                            Score
+                            {%- endif -%}
+                            :</span> <span class="target">{{ results.score | times:10 | floor | divided_by:10.0 }}</span>
+                        </div>
+
+
+                        <div class="position">
+                            <span class="light">
+                            {%- if page.language -%}
+                            {{ site.data.translations['Position'][page.language] }}
+                            {%- else -%}
+                            Position
+                            {%- endif -%}
+                            :</span> <span class="target">{{ results.rank }}</span> / {{ site.data.results | size }}
+                        </div>
+
+
+                        <div class="rank">
+                            <span class="score
+                            {% if results.history %}
+                                {% if results.performance_group != results.history[0].performance_group %}
+                                    {% if results.score > results.history[0].score %}
+                                    increase
+                                    {% else %}
+                                    decrease
+                                    {% endif %}
+                                {% else %}
+                                same
+                                {% endif %}
+                            {% else %}
+                            same
+                            {% endif %}
+                            {{ results.performance_group | downcase | replace:" ","-" }}">
+                            {%- if page.language -%}
+                            {{ site.data.translations[results.performance_group][page.language] }}
+                            {%- else -%}
+                            {{ results.performance_group }}
+                            {%- endif -%}
+                            </span>
+                        </div>
+
+                        {% if results.history %}
+                        <div class="history">
+                            {% for historical_result in results.history %}
+                            <div class="year">
+                                {{ historical_result.year }}: <span class="{{ historical_result.performance_group | downcase | replace:" ","-" }}">
+                                {%- if page.language -%}
+                                {{ site.data.translations[historical_result.performance_group][page.language] }}
+                                {%- else -%}
+                                {{ historical_result.performance_group }}
+                                {%- endif -%}
+                                </span>
+                            </div>
+                            {% endfor %}
+
+                            <span class="disclaimer">
+                                {%- if page.language -%}
+                                {{ site.data.translations['Due to a methodology change after 2016, results are not directly comparable with 2018.'][page.language] }}
+                                {%- else -%}
+                                Due to a <a href="http://www.publishwhatyoufund.org/the-index/methodology/">methodology change</a> after 2016, results are not directly comparable with 2018.
+                                {%- endif -%}
+                                </span>
+                        </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="card-content">
+                        <div class="side-components">
+                            {% for component in results.components %}
+                            {% assign component_name = component[0] %}
+                            <div class="component component-{{ forloop.index }}">
+                                <span class="light">
+                                    {%- if page.language -%}
+                                    {{ site.data.translations[component_name][page.language] }}
+                                    {%- else -%}
+                                    {{ component_name }}
+                                    {%- endif -%}
+                                </span> <span class="score">{{ component[1].weighted_score | times:10 | floor | divided_by:10.0 }} <span class="lighter">/ {{ component[1].out_of | round }}</span></span>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="custom-content">
+                    <div class="analysis">
+                        <span class="label">
+                            {%- if page.language -%}
+                            {{ site.data.translations['Analysis'][page.language] }}
+                            {%- else -%}
+                            Analysis
+                            {%- endif -%}
+                        </span>
+
+                        <div class="analysis-content">
+                          {{ sections[1] | markdownify }}
+                        </div>
+                    </div>
+
+
+                    <div class="recommendations">
+                        <span class="label">
+                            {%- if page.language -%}
+                            {{ site.data.translations['Recommendations'][page.language] }}
+                            {%- else -%}
+                            Recommendations
+                            {%- endif -%}
+                        </span>
+
+                        <div class="recommendations-content">
+                            {{ sections[2] | markdownify }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -15,9 +15,10 @@ with open(join(rootpath, '_data', 'results.json')) as f:
 
 tmp_output_path = join(rootpath, 'gen', 'out')
 rasterize_path = join(rootpath, 'gen', 'rasterize.js')
+
 for publisher in j.keys():
     print('{} (en)'.format(publisher))
-    url = 'http://localhost:4000/{baseurl}{pub}/index.html'.format(
+    url = 'http://localhost:4000{baseurl}/{pub}/index.html'.format(
         baseurl=config.get('baseurl', ''), pub=publisher)
     pdf_path = join(tmp_output_path, '{pub}.pdf'.format(
         pub=publisher))
@@ -36,7 +37,7 @@ translated = {
 for lang, publishers in translated.items():
     for publisher in publishers:
         print('{} ({})'.format(publisher, lang))
-        url = 'http://localhost:4000/{baseurl}{lang}/{pub}/index.html'.format(
+        url = 'http://localhost:4000{baseurl}/{lang}/{pub}/index.html'.format(
             baseurl=config.get('baseurl', ''), pub=publisher, lang=lang)
         pdf_path = join(tmp_output_path, '{pub}_{lang}.pdf'.format(
             pub=publisher, lang=lang))
