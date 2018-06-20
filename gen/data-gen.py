@@ -159,37 +159,37 @@ for idx, org in enumerate(orgs.values()):
 with open(join(rootpath, '_data', 'results.json'), 'w') as f:
     json.dump(orgs, f, indent=4)
 
-spreadsheet_url = 'https://docs.google.com/spreadsheets/' + \
-                  'd/1LJR7yznASN0VJ4qhnkWFSltDFobN8X4N0mQBiNDOThg/' + \
-                  'gviz/tq?tqx=out:csv&sheet={}'
+# spreadsheet_url = 'https://docs.google.com/spreadsheets/' + \
+#                   'd/1LJR7yznASN0VJ4qhnkWFSltDFobN8X4N0mQBiNDOThg/' + \
+#                   'gviz/tq?tqx=out:csv&sheet={}'
 
-req = requests.get(spreadsheet_url.format('Donor%20profiles'))
-f = StringIO(req.text)
-r = csv.reader(f)
-# skip the header row
-next(r)
-profile_data = [{
-        'slug': slugify(x[0]),
-        'short_name': x[0],
-        'lang': x[1],
-        'name': x[2],
-        'overview': x[3] if x[3] else 'Overview goes here.',
-        'analysis': x[4] if x[4] else 'Analysis goes here.',
-        'recommendations': x[5] if x[5] else 'Recommendations go here.',
-    } for x in r]
+# req = requests.get(spreadsheet_url.format('Donor%20profiles'))
+# f = StringIO(req.text)
+# r = csv.reader(f)
+# # skip the header row
+# next(r)
+# profile_data = [{
+#         'slug': slugify(x[0]),
+#         'short_name': x[0],
+#         'lang': x[1],
+#         'name': x[2],
+#         'overview': x[3] if x[3] else 'Overview goes here.',
+#         'analysis': x[4] if x[4] else 'Analysis goes here.',
+#         'recommendations': x[5] if x[5] else 'Recommendations go here.',
+#     } for x in r]
 
-components_path = join(rootpath, '_includes', 'components')
-shutil.rmtree(components_path, ignore_errors=True)
-makedirs(components_path)
-req = requests.get(spreadsheet_url.format('Component'))
-f = StringIO(req.text)
-r = csv.reader(f)
-next(r)
-components = [(slugify(x[0]), x[1]) for x in r if x[0].strip() != '']
-for slug, description in components:
-    component_path = join(components_path, '{}.md'.format(slug))
-    with open(component_path, 'w') as f:
-        _ = f.write(description)
+# components_path = join(rootpath, '_includes', 'components')
+# shutil.rmtree(components_path, ignore_errors=True)
+# makedirs(components_path)
+# req = requests.get(spreadsheet_url.format('Component'))
+# f = StringIO(req.text)
+# r = csv.reader(f)
+# next(r)
+# components = [(slugify(x[0]), x[1]) for x in r if x[0].strip() != '']
+# for slug, description in components:
+#     component_path = join(components_path, '{}.md'.format(slug))
+#     with open(component_path, 'w') as f:
+#         _ = f.write(description)
 
 # with open(join(rootpath, 'gen', 'tmpl', 'agency-template.md')) as f:
 #     agency_tmpl = f.read()
