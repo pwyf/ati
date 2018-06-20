@@ -1,0 +1,20 @@
+---
+layout: base
+---
+
+        <div class="" id="social">
+            <span class="share">Share</span>
+            <a href="" id="facebook" target="_blank">
+                <img alt="" src="{{ "static/assets/facebook.svg" | absolute_url }}?ver={{ site.github.build_revision }}">
+            </a>
+            <a href="http://twitter.com/intent/tweet?text=Results%20are%20out%20for%20the%20%232018Index%20from%20%40aidtransparency%20-%20see%20how%2045%20global%20donors%20perform%20on%20%23transparency&url={{ page.url | absolute_url }}" id="twitter"
+            target="_blank">
+                <img alt="" src="{{ "static/assets/twitter.svg" | absolute_url }}?ver={{ site.github.build_revision }}">
+            </a>
+            <a href="mailto:?subject=Publish%20What%20You%20Fund%20-%20The%20Index%202018&amp;body=Results%20are%20out%20for%20the%20%232018Index%20from%20%40aidtransparency%20-%20see%20how%2045%20global%20donors%20perform%20on%20%23transparency: {{ page.url | absolute_url }}"
+            id="email">
+                <img alt="" src="{{ "static/assets/mail.svg" | absolute_url }}?ver={{ site.github.build_revision }}">
+            </a>
+        </div>
+
+{{ content }}
