@@ -17,11 +17,11 @@ Innerhalb der Organisations- und Planungskomponente punktet BMZ-GIZ in den Berei
 
 In den Bereichen Finanzen und Budgets schneidet BMZ-GIZ überdurchschnittlich ab. Die Projektbudgets werden nun im IATI Standard veröffentlicht. BMZ-GIZ erbringt gute Leistungen für die Indikatoren Gesamtbudget, Verpflichtungen, Auslagen und Ausgaben sowie aufgeschlüsselte Budgets. Es werden allerdings keine Projektbudgetdokumente und Informationen über Kapitalausgaben zur Verfügung gestellt.
 
-BMZ-GIZ schneidet für alle Projektattributsindikatoren gut ab, subnationaleStandorte ausgenommen. Dieser Indikator wird nicht im IATI Format bereitgestellt und nur gelegentlich in anderen Formaten veröffentlicht.
+BMZ-GIZ schneidet für alle Projektattributsindikatoren gut ab, subnationale Standorte ausgenommen. Dieser Indikator wird nicht im IATI Format bereitgestellt und nur gelegentlich in anderen Formaten veröffentlicht.
 
 BMZ-GIZ punktet für alle Indikatoren im Bereich Entwicklungsdatenverknüpfung. Aufträge und Ausschreibungen werden nicht im IATI-Format bereitgestellt, aber umfassend in anderen Formaten veröffentlicht.
 
-BMZ-GIZ ist eine von zwei Organisationen innerhalb der Kategorie „gut“, die für keinen der Wirkungsindikatoren Punkte erhält. Während Ergebnisse, Zielsetzungen und Evaluationen manchmalveröffentlicht werden, so werden Auswirkungsprüfungen im Projektvorfeld in keiner Weise zur Verfügung gestellt.
+BMZ-GIZ ist eine von zwei Organisationen innerhalb der Kategorie „gut“, die für keinen der Wirkungsindikatoren Punkte erhält. Während Ergebnisse, Zielsetzungen und Evaluationen manchmal veröffentlicht werden, so werden Auswirkungsprüfungen im Projektvorfeld in keiner Weise zur Verfügung gestellt.
 
 ---
 
