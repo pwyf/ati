@@ -171,6 +171,9 @@
                         </div>
                     </div>
 
+                    {% if break_after_analysis contains page.name %}
+                    <div style="page-break-after: always;"></div>
+                    {% endif %}
 
                     <div class="recommendations">
                         <span class="label">
