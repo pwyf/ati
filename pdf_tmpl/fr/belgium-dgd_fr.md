@@ -31,6 +31,6 @@ En ce qui concerne les informations relatives à la performance, la DGD belge pu
  * Elle devrait viser à couvrir tous les indicateurs budgétaires et financiers, à partager des documents sur l’approvisionnement de projets et à fournir des informations de localisation régionale et locale.
  * Elle devrait également inclure des informations relatives à la performance des projets, à savoir des évaluations et revues de mi-parcours, ainsi que des résultats.
  * La DGD belge devrait également veiller à ce que les données publiées dans le registre de l'IITA soient de haute qualité, de sorte qu'elles soient régulièrement mises à jour.
- * Pour démontrer l’impact de la transparence sur le travail de développement, la DGD belge devrait prendre la responsabilité de promouvoir l’utilisation des données qu’elle publie : au niveau interne, pour promouvoir la coordination et l’efficacité; et au niveau externe, pour explorer des mécanismes de retour d’expérience en ligne et en personne y compris au niveau national.
+ * Pour démontrer l’impact de la transparence sur le travail de développement, la DGD belge devrait prendre la responsabilité de promouvoir l’utilisation des données qu’elle publie : au niveau interne, pour promouvoir la coordination et l’efficacité; et au niveau externe, pour explorer des mécanismes de retour d’expérience en ligne et en personne y compris au niveau national.
 
 ---

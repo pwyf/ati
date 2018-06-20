@@ -13,7 +13,7 @@ La EC-NEAR demeure dans la catégorie « bien ». Elle publie mensuellement et
 
 Tous les documents de planification organisationnelle sont fournis dans le registre de l’IITA, à l’exception de sa politique d’allocation, qui est occasionnellement disponible uniquement sur son site Internet.
 
-Parmi les agences de la CE, la EC-NEAR est l’agence qui obtient la note la plus élevée sur la composante finance et budget. C’est la seule agence de la CE à publier les documents budgétaires du projet, bien que la note de cet indicateur soit relativement faible. Elle a également une marge d’amélioration pour ce qui est des données budgétaires du projet et des budgets ventilés.
+Parmi les agences de la CE, la EC-NEAR est l’agence qui obtient la note la plus élevée sur la composante finance et budgets. C’est la seule agence de la CE à publier les documents budgétaires du projet, bien que la note de cet indicateur soit relativement faible. Elle a également une marge d’amélioration pour ce qui est des données budgétaires du projet et des budgets ventilés.
 
 La EC-NEAR rend tous les indicateurs d’attributs de projet disponibles dans la norme l'IITA. Toutefois, la localisation régionale et locale est l’indicateur de notation le plus bas dans cette composante.
 
@@ -27,6 +27,6 @@ Trois indicateurs sur quatre dans la composante performance, à savoir les résu
  * Elle devrait commencer à publier des contrats.
  * La EC-NEAR devrait apporter d’autres améliorations à la publication des données relatives à la localisation régionale et locale.
  * Elle devrait assurer la qualité de ses publications de l’IITA, en commençant par mettre régulièrement à jour les dates et les statuts des activités pour que son travail de développement sur le terrain soit reflété.
- * Pour démontrer l’impact de la transparence sur le travail de développement, la EC-NEAR devrait prendre la responsabilité de promouvoir l’utilisation des données qu’elle publie : au niveau interne, pour promouvoir la coordination et l’efficacité; et au niveau externe, pour explorer les mécanismes de retour d’expérience en ligne et en personne y compris au niveau national.
+ * Pour démontrer l’impact de la transparence sur le travail de développement, la EC-NEAR devrait prendre la responsabilité de promouvoir l’utilisation des données qu’elle publie : au niveau interne, pour promouvoir la coordination et l’efficacité; et au niveau externe, pour explorer les mécanismes de retour d’expérience en ligne et en personne y compris au niveau national.
 
 ---

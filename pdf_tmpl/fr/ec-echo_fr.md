@@ -25,6 +25,6 @@ Dans la composante performance, seuls les objectifs et les études d'impact d'av
 
  * La EC-ECHO devrait donner la priorité à la publication de l’information relative à la performance des projets pour inclure les revues de mi-parcours, évaluations et les résultats.
  * Elle devrait améliorer la publication de ses budgets désagrégés et devrait commencer à publier des coordonnées de localisation régionale et locale.
- * Pour démontrer l’impact de la transparence sur le travail de développement, la EC-ECHO devrait prendre la responsabilité de promouvoir l’utilisation des données qu’elle publie : au niveau interne, pour promouvoir la coordination et l’efficacité; et au niveau extérieur, pour explorer les mécanismes de retour d’expérience en ligne et en personne y compris au niveau national.
+ * Pour démontrer l’impact de la transparence sur le travail de développement, la EC-ECHO devrait prendre la responsabilité de promouvoir l’utilisation des données qu’elle publie : au niveau interne, pour promouvoir la coordination et l’efficacité; et au niveau extérieur, pour explorer les mécanismes de retour d’expérience en ligne et en personne y compris au niveau national.
 
 ---

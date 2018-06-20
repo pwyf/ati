@@ -30,6 +30,6 @@ Le MEAE ne remporte aucun point sur les indicateurs de performance. Bien que les
  * Le MEAE devrait améliorer l’exhaustivité de ses données, en commençant par apporter des améliorations à la publication d’informations budgétaires et financières ainsi qu’à des informations relatives a la performance.
  * Cela devrait inclure au moins des informations sur le budget du projet ainsi que des résultats et une publication complète des revues de mi-parcours ou des évaluations.
  * Le MEAE devrait continuer à fournir des informations sur ses activités de développement sur le portail de données ouvertes de la France et inclure l'ensemble de son portefeuille.
- * Pour démontrer l’impact de la transparence sur le travail de développement, le MEAE devrait prendre la responsabilité de promouvoir l’utilisation des données qu’elle publie : au niveau interne, pour promouvoir la coordination et l’efficacité; et au niveau externe, pour explorer les mécanismes de retouren ligne et en personne y compris au niveau national.
+ * Pour démontrer l’impact de la transparence sur le travail de développement, le MEAE devrait prendre la responsabilité de promouvoir l’utilisation des données qu’elle publie : au niveau interne, pour promouvoir la coordination et l’efficacité; et au niveau externe, pour explorer les mécanismes de retouren ligne et en personne y compris au niveau national.
 
 ---

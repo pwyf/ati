@@ -27,6 +27,6 @@ Des marges d’amélioration sont possibles quant à la publication des informat
 
  * Affaires mondiales Canada devrait donner la priorité à la publication de données financières et budgétaires complètes et inclure les appels d'offres dans leur publication de l'IITA.
  * L’organisme devrait améliorer sa publication pour y inclure les études d'impact d'avant-projet et les évaluations et revues en cours sur des projets individuels.
- * Pour démontrer l’impact de la transparence sur le travail de développement, Affaires mondiales Canada devrait prendre la responsabilité de promouvoir l’utilisation des données qu’il publie : au niveau interne, pour promouvoir la coordination et l’efficacité ; et au niveau externe, pour explorer les mécanismes de retour d’expérience en ligne et en personne y compris au niveau national.
+ * Pour démontrer l’impact de la transparence sur le travail de développement, Affaires mondiales Canada devrait prendre la responsabilité de promouvoir l’utilisation des données qu’il publie : au niveau interne, pour promouvoir la coordination et l’efficacité ; et au niveau externe, pour explorer les mécanismes de retour d’expérience en ligne et en personne y compris au niveau national.
 
 ---
