@@ -3,15 +3,8 @@ baseurl: /the-index-wowwow
 
 exclude:
   - requirements.txt
-  - Gemfile
-  - Gemfile.lock
-  - vendor/
-  - Rakefile
   - gen/
   - README.md
-  - config.ru
-  - Procfile
-  - static.json
   - pdf_tmpl
 
 defaults:
