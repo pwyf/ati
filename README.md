@@ -4,7 +4,7 @@ Static site build for the Aid Transparency Index.
 
 ### Content that can be modified:
 
- * [2018 ATI site content](2018)
+ * [2018 ATI site content](pages)
 
 ### Development stuff (don’t mess with this!):
 
